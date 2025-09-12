@@ -440,7 +440,15 @@ Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analiza
 
 ### 2.3.4. Empathy Mapping
 
+**Empathy Map for Ganadero Indepeniente**
+![EmpathyMapGanaderoIndependiente](assets/chapter-2/EmpathyMapGanaderoIndependiente.png)
+
+**Empathy Map for Empresa Ganadera**
+![EmpathyMapEmpresaGanadera](assets/chapter-2/EmpathyMapEmpresaGanadera.png)
+
 ### 2.3.5. As-is Scenario Mapping
+
+![AsIsScenarioMap](assets/chapter-2/AsIsScenarioMapping.jpg)
 
 ## 2.4. Ubiquitous Language
 
