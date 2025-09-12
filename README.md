@@ -275,6 +275,14 @@ Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, 
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
+| Nombre                   | Descripción | Foto |
+|--------------------------|-------------|------|
+| Jorge Rafael Bravo Gavilano |  |  |
+| Carlos Alberto Gonzalez Custodio |  |  |
+| Bryan Felix Martinez Ramos |  |  |
+| Jack Eddie Roque Tello |  |  |
+| Renzo Cesar Silva Morales | Mi nombre es Renzo Cesar Silva Morales, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos. | <img src="./assets/chapter-1/foto-renzo.jpg" width="350" height="170"> |
+
 ## 1.2. Solution Profile
 
 ### 1.2.1. Antecedentes y problemática
