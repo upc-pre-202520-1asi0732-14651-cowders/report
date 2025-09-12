@@ -404,23 +404,65 @@
 # **Capítulo V: Product Implementation**
 
 ## 5.1. Software Configuration Management
+En esta sección el equipo describe e indica los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia o ruta de descarga de cada uno de los productos de software que se utilizaron por los miembros de equipo para colaborar en el ciclo de vida de los productos digitales.
+
+#### Product UX/UI Design  
+Estas herramientas nos permitieron desarrollar el modelo de nuestro proyecto de manera digital.
+
+- **[Miro](https://miro.com/app/dashboard/)**: Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.  
+- **[Figma](https://www.figma.com/design/)**: Es una herramienta de prototipo web y editor de gráficos vectorial.  
+- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.  
+- **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.  
+
+#### Software Development  
+Es una estructura aplicada al desarrollo de software. Se utilizaron distintas tecnologías para el proceso del desarrollo del proyecto.
+
+- **[Github](https://github.com/)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
+
+-[] Terminar cuando tenga landing page 
+
+#### Software Deployment  
+Tiene la función de examinar el comportamiento del software, asimismo le hace varias pruebas y lo verifica.
+
+- **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.  
+
+-[] Terminar cuando tenga landing page 
 
 ### 5.1.1. Software Development Environment Configuration
 
 ### 5.1.2. Source Code Management
 
 ### 5.1.3. Source Code Style Guide & Conventions
+En esta sección se evidenciarán las convenciones y estilos que se utilizarán en la creación del proyecto. Se van a mencionar las reglas y recomendaciones generales que se tendrán en cuenta para el desarrollo. Todas las nomenclaturas se definirán en inglés.
+
+Las referencias tomadas para estas convenciones incluyen:  
+- [HTML Style Guide and Coding Conventions - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)  
+- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)  
+- [Gherkin Conventions](https://cucumber.io/docs/gherkin/reference/)  
+
+#### **Nomenclatura General**  
+Todos los elementos serán nombrados en inglés, incluyendo variables, funciones, clases, archivos y carpetas.  
+- Se seguirá la convención camelCase para variables y funciones, y PascalCase para clases (según lenguaje).  
+- Se evita el uso de abreviaciones innecesarias para mantener la claridad del código.
+
+#### **Sangría**  
+Se utilizará una indentación de **2 espacios** en los archivos, evitando el uso de la tecla **TAB**, siguiendo lo recomendado por W3Schools. 
 
 ### 5.1.4. Software Deployment Configuration
+Tal como se mencionó anteriormente, la gestión del proyecto se llevará a cabo a través de Github. Asimismo, se utilizará Github Pages para la públicación y el despliegue de la landing page. 
+-[] Terminar cuando tenga landing page 
+
 
 ## 5.2. Product Implementation & Deployment
-
+-[] Terminar 
 ### 5.2.1. Sprint Backlogs
-
+-[] Terminar 
 ### 5.2.2. Implemented Landing Page Evidence
-
+-[] Terminar 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
-
+-[] Terminar 
 ### 5.2.4. Acuerdo de Servicio - SaaS
 
 ### 5.2.5. Implemented Native-Mobile Application Evidence
