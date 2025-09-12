@@ -317,11 +317,29 @@
 
 ## 3.1. To-Be Scenario Mapping
 
+El To-Be Scenario Mapping permite visualizar el escenario ideal de interacción entre el usuario y el sistema, describiendo cómo deberían llevarse a cabo los procesos una vez implementada la solución. Esta técnica ayuda a identificar los cambios esperados en comparación con la situación actual, resaltando mejoras en la experiencia del usuario, la eficiencia operativa y el logro de los objetivos del proyecto. Este mapeo es fundamental para asegurar que el diseño del sistema esté alineado con las necesidades reales de los usuarios y con los objetivos estratégicos de la solución.
+
+<img src="./assets/chapter-3/Scenariomapping.jpg">
+
 ## 3.2. User Stories
 
 ## 3.3. Product Backlog
 
 ## 3.4. Impact Mapping
+
+A continuación presentaremos 3 Business Goals que consideramos importantes en nuestro proyecto:
+
+**Business Goal 1**
+
+<img src="./assets/chapter-3/goal1.png"> 
+
+**Business Goal 2**
+
+<img src="./assets/chapter-3/goal2.png"> 
+
+**Business Goal 3**
+
+<img src="./assets/chapter-3/goal3.png"> 
 
 # **Capítulo IV: Product Design**
 
