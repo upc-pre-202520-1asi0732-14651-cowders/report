@@ -285,6 +285,8 @@ Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, 
 
 ## 1.2. Solution Profile
 
+Moobile es una solución integral de software diseñada específicamente para los ganaderos peruanos, tanto independientes como empresas ganaderas. Esta plataforma ofrece un completo ecosistema de herramientas orientadas a la gestión eficiente y sostenible del ganado, abarcando aspectos clave como el monitoreo de la salud, la nutrición y la reproducción animal. Su propósito es potenciar la productividad del sector ganadero, al tiempo que promueve prácticas responsables y éticas que favorezcan el bienestar animal y el desarrollo sostenible de la ganadería en el Perú.
+
 ### 1.2.1. Antecedentes y problemática
 
 ### 1.2.2. Lean UX Process
