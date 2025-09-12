@@ -265,6 +265,14 @@
 
 ### 1.1.1. Descripción de la Startup
 
+Cowders es una startup liderada por un grupo de estudiantes de la Facultad de Ingeniería de la Universidad Peruana de Ciencias Aplicadas (UPC), orientada al desarrollo de software y soluciones tecnológicas dirigidas a los productores ganaderos independientes y empresas ganaderas. Mediante nuestra plataforma Moobile buscamos ayudarlos a gestionar mejor sus operaciones, optimizar el cuidado de sus animales y evaluar su impacto ambiental y social.
+
+**Misión:**
+Nuestra misión es desarrollar soluciones tecnológicas innovadoras que impulsen la eficiencia, sostenibilidad y bienestar en la producción ganadera.
+
+**Visión:**
+Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, reconocida por transformar digitalmente la industria mediante herramientas que mejoran el bienestar animal y optimizan los procesos productivos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
 
 ## 1.2. Solution Profile
