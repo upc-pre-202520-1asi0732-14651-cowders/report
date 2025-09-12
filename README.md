@@ -418,8 +418,9 @@ Estas herramientas nos permitieron desarrollar el modelo de nuestro proyecto de 
 Es una estructura aplicada al desarrollo de software. Se utilizaron distintas tecnologías para el proceso del desarrollo del proyecto.
 
 - **[Github](https://github.com/)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
-
--[] Terminar cuando tenga landing page 
+- **[HTML](https://www.jetbrains.com/help/webstorm/editing-html-files.html)**: Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Este lenguaje va a ser utilizado en el presente proyecto.  
+- **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
+- **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.  
 
 #### Software Deployment  
 Tiene la función de examinar el comportamiento del software, asimismo le hace varias pruebas y lo verifica.
