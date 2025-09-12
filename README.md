@@ -339,9 +339,65 @@
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
 
+Para competir en el sector ganadero, nuestra estrategia se enfocará en brindar una plataforma que sea accesible, fácil de usar y diseñada específicamente para las necesidades locales de los ganaderos peruanos. A diferencia de soluciones como Agroptima o Control Ganadero, Moobile se distinguirá por su simplicidad y su enfoque en la sostenibilidad y el bienestar animal, facilitando la gestión de la salud, alimentación y reproducción del ganado.
+
+Implementaremos campañas de marketing digital segmentadas, incluyendo redes sociales y colaboraciones con organizaciones locales, para aumentar la visibilidad de la aplicación y educar a los usuarios sobre sus beneficios. Además, ofreceremos planes de suscripción flexibles y asequibles, permitiendo que tanto pequeños productores como grandes empresas puedan optimizar sus operaciones de forma sencilla. Paralelamente, continuaremos mejorando la plataforma de manera constante para responder a las necesidades cambiantes del sector ganadero.
+
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
+
+**Segmento #1: Productores Ganaderos Independientes**
+
+Moobile ha diseñado un conjunto de preguntas específicas para comprender a fondo las necesidades, experiencias y expectativas de los productores ganaderos independientes. El objetivo es apoyarlos en la mejora de la gestión de sus actividades, optimizar el cuidado de sus animales y evaluar tanto su impacto ambiental como social. Mediante una plataforma fácil de usar, Moobile pone a disposición herramientas que incrementan la eficiencia, refuerzan el control de calidad y fortalecen el vínculo con los consumidores, facilitando así las tareas diarias del productor.
+
+**Datos Generales del Entrevistado:**
+
+- Nombre:
+- Edad:
+- Tiempo de experiencia en la ganadería:
+
+**Preguntas de la Entrevista:**
+
+1. ¿Cómo decide la dieta de sus animales y qué factores considera al elegir su alimentación?
+
+   (¿Sigue asesoría veterinaria, experiencia personal o recomendaciones externas?)
+
+1. ¿Qué medidas toma para garantizar la salud y el bienestar de sus animales?
+1. ¿Qué aspectos considera más importantes en la gestión de la salud veterinaria de su ganado?
+1. ¿Lleva algún tipo de registro sobre la salud y el crecimiento de sus animales? ¿Cómo lo hace?
+
+   (¿Utiliza cuadernos, hojas de cálculo, aplicaciones móviles, etc.?)
+
+1. ¿Cuáles son los principales desafíos que enfrenta al administrar su ganadería?
+1. ¿Cómo cree que una aplicación podría ayudarle a resolver esos desafíos?
+1. Si contara con una aplicación para apoyar su trabajo ganadero, ¿qué funciones le serían más útiles?
+1. ¿Qué tipo de información le gustaría tener siempre disponible desde su celular o computadora?
+1. ¿Cómo le gustaría registrar la alimentación y consumo de sus animales dentro de la aplicación?
+1. ¿Qué beneficios espera lograr al implementar una solución como Moobile en su ganadería?
+
+**Segmento #2: Empresas Ganaderas**
+
+Moobile está enfocada en incrementar la eficiencia y sostenibilidad de las empresas ganaderas a gran escala. A través de entrevistas con administradores, hemos identificado sus principales necesidades y las estrategias clave que emplean para una gestión eficiente. Indagamos sobre las herramientas que consideran fundamentales y el tipo de apoyo que esperan para mejorar tanto el bienestar animal como la productividad. Con base en esta información, Moobile ajusta sus soluciones para responder a los desafíos particulares que enfrenta la ganadería corporativa.
+
+**Datos Generales del Entrevistado:**
+
+- Nombre:
+- Edad:
+- Tiempo de experiencia en la ganadería:
+
+**Preguntas de la Entrevista:**
+
+1. ¿Cuántos animales maneja actualmente su empresa y cómo varía esa cantidad durante el año?
+1. Si su empresa tuviera acceso a una plataforma digital para gestión ganadera, ¿qué funciones considera imprescindibles para mejorar la eficiencia?
+1. ¿Cuáles son los mayores retos que enfrentan en la gestión ganadera a gran escala y cómo los abordan hoy en día?
+1. ¿Qué tipo de información o datos son clave para la toma de decisiones en su operación ganadera?
+1. ¿Qué funcionalidades le gustaría tener para facilitar la gestión del personal y la planificación de tareas?
+1. ¿Qué tipo de informes o análisis considera importantes para evaluar el desempeño de su empresa?
+1. ¿Cómo le gustaría interactuar con proveedores y socios comerciales a través de una plataforma como Moobile?
+1. ¿Qué tan importante es que una aplicación como Moobile se adapte a los procesos actuales de su empresa?
+1. ¿Qué aspectos considera que deberían ser completamente personalizables dentro de la plataforma?
+1. ¿Qué mejoras espera obtener al integrar una solución como Moobile en su operación ganadera?
 
 ### 2.2.2. Registro de entrevistas
 
