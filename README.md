@@ -289,6 +289,37 @@ Moobile es una solución integral de software diseñada específicamente para lo
 
 ### 1.2.1. Antecedentes y problemática
 
+El sector agrícola enfrenta importantes desafíos en la gestión eficiente de recursos clave como semillas, fertilizantes y maquinaria. Esta problemática se ve agravada por una comunicación dispersa entre los distintos actores involucrados y por la limitada utilización de herramientas de análisis de datos que permitan una toma de decisiones informada. Como consecuencia, se produce un uso ineficiente de insumos, aumento del desperdicio y periodos prolongados de inactividad en la maquinaria, lo que repercute negativamente en la productividad y sostenibilidad de las unidades agrícolas. Además, la respuesta tardía ante eventos críticos y una planificación deficiente de los cultivos reducen significativamente la eficiencia operativa y la rentabilidad del sector.
+
+#### 5W's y 2H's
+##### What (Qué)
+
+La ganadería en Perú se enfrenta a varios retos importantes en aspectos como el manejo del ganado, su salud, alimentación, reproducción y productividad. No obstante, la ausencia de herramientas tecnológicas apropiadas ha limitado una gestión eficaz. Muchos ganaderos, en especial los de pequeña escala, no cuentan con sistemas que les permitan monitorear de manera precisa a sus animales ni tomar decisiones basadas en datos, lo que afecta negativamente su eficiencia operativa y sus posibilidades de aumentar los ingresos.
+
+##### When (Cuando)
+
+Se trata de un problema persistente. La demanda de una solución tecnológica que facilite la gestión del ganado y mejore la productividad es tanto actual como constante. Es fundamental que los ganaderos dispongan de una plataforma que les brinde acceso a información en tiempo real, con datos actualizados de forma continua sobre la salud, alimentación, reproducción y comercialización del ganado.
+
+##### Where (Dónde)
+
+El problema impacta sobre todo a las regiones rurales y zonas productivas del Perú, donde la mayoría de los ganaderos enfrentan limitaciones en el acceso a servicios veterinarios y tecnología. Aunque la conectividad a internet es escasa en algunas áreas, el aumento del acceso a redes móviles permite que Moobile también funcione en dispositivos móviles, lo que la hace viable incluso en ubicaciones rurales con acceso limitado.
+
+##### Who (Quién)
+
+Los ganaderos peruanos son los principales perjudicados, tanto los productores independientes con pocos animales como las grandes empresas del sector. Los pequeños ganaderos suelen tener recursos limitados, lo que dificulta su acceso a tecnología y servicios veterinarios adecuados. En el caso de las grandes empresas, el reto se centra en gestionar grandes volúmenes de ganado y garantizar el cumplimiento de normas de bienestar animal.
+
+##### Why (Por qué)
+
+La ausencia de herramientas eficaces para una gestión adecuada del ganado ocasiona diversos problemas, como deficiencias en la alimentación, enfermedades que no se detectan ni tratan a tiempo, baja productividad y pérdidas económicas. Tomar decisiones basadas en datos incompletos o incorrectos impacta negativamente tanto en el bienestar animal como en las ganancias de los ganaderos. Moobile pretende dar solución a esta situación ofreciendo una herramienta que permita optimizar las operaciones, mejorar la trazabilidad del ganado y apoyar una toma de decisiones más precisa e informada.
+
+##### How (Cómo)
+
+Moobile ofrece una solución en forma de plataforma web y móvil que incorpora herramientas especializadas para la gestión del ganado. Esta aplicación permite a los usuarios llevar un control detallado de aspectos como la salud, alimentación y reproducción de sus animales, además de generar reportes y recibir alertas sobre eventos relevantes relacionados con su ganado. Gracias al uso de tecnologías modernas en desarrollo web y móvil, la plataforma se ajusta a las condiciones de los ganaderos en áreas rurales, permitiendo el acceso a información en tiempo real desde cualquier dispositivo con conexión a internet.
+
+##### How much (Cuánto)
+
+El desarrollo y mantenimiento de Moobile implicará una inversión en infraestructura tecnológica, el desarrollo de nuevas funcionalidades y la puesta en marcha de un sistema de soporte técnico. No obstante, para los ganaderos, el impacto económico será favorable, ya que la plataforma les ayudará a incrementar su rentabilidad, hacer un uso más eficiente de los recursos y minimizar pérdidas asociadas a una gestión deficiente. Además, Moobile contribuirá a reducir los gastos en servicios veterinarios, al facilitar el acceso a datos oportunos que permitan prevenir enfermedades y aumentar la productividad del ganado.
+
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
