@@ -452,7 +452,26 @@ Se utilizará una indentación de **2 espacios** en los archivos, evitando el us
 
 ### 5.1.4. Software Deployment Configuration
 Tal como se mencionó anteriormente, la gestión del proyecto se llevará a cabo a través de Github. Asimismo, se utilizará Github Pages para la públicación y el despliegue de la landing page. 
--[] Terminar cuando tenga landing page 
+
+El despliegue de la landing page de Moobile fue posible gracias al uso de las siguientes tecnologías:
+  - **Git:** Sistema de control de versiones diseñado para garantizar la eficiencia y compatibilidad, el cual facilitó el trabajo en equipo durante el desarrollo de la Landing Page.
+  - **GitHub:** Plataforma para el desarrollo colaborativo.
+  - **Git Flow:** Herramienta que nos permitió controlar el progreso de cada integrante en el desarrollo de la Landing Page.
+  - **GitHub Pages:** Servicio de GitHub que nos permitió alojar la Landing Page de manera efectiva.
+
+Los pasos realizados fueron los siguientes:
+1) En este caso, nuestro equipo utilizó GitHub Pages como método de despliegue, entonces navegaríamos al repositorio de la página y desde allí procederemos a la opción configurar.
+
+![captura1](Imgs-Software%20Deployment%20Configuration/Captura1.png)
+
+2) Acceder a la opción de GitHub Pages y configurar las opciones para obtener el link de la landing page.
+
+![captura2](Imgs-Software%20Deployment%20Configuration/Captura2.png)
+
+3) Tras realizar el paso anterior, se obtuvo el siguiente link: [https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/). Este nos redirigirá a la landing page desplegada.
+
+![captura3](Imgs-Software%20Deployment%20Configuration/Captura3.png)
+
 
 
 ## 5.2. Product Implementation & Deployment
