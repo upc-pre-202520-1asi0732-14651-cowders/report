@@ -407,6 +407,14 @@ Moobile está enfocada en incrementar la eficiencia y sostenibilidad de las empr
 
 ### 2.3.1. User Personas
 
+Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analizados a partir de las entrevistas realizadas. Se determinó que ambos segmentos debían estar representados por perfiles masculinos. Con base en las respuestas recopiladas, se construyó un perfil que refleja los objetivos, motivaciones y frustraciones más representativas entre los entrevistados. Posteriormente, se llevó a cabo un análisis que permitió identificar los valores y habilidades clave, resumiendo las características más relevantes de cada uno de los segmentos definidos.
+
+**Segmento Ganadero Independiente**
+![UserPersonaGanadero](assets/chapter-2/UserPersonaGanaderoIndependiente.png)
+
+**Segmento Empresa Ganadera**
+![UserPersonaEmpresa](assets/chapter-2/UserPersonaEmpresaGanadera.png)
+
 ### 2.3.2. User Task Matrix
 
 ### 2.3.3. User Journey Mapping
