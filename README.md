@@ -404,6 +404,8 @@
 # **Capítulo V: Product Implementation**
 
 ## 5.1. Software Configuration Management
+
+### 5.1.1. Software Development Environment Configuration.
 En esta sección el equipo describe e indica los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia o ruta de descarga de cada uno de los productos de software que se utilizaron por los miembros de equipo para colaborar en el ciclo de vida de los productos digitales.
 
 #### Product UX/UI Design  
