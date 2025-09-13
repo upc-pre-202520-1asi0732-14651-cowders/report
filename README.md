@@ -429,7 +429,6 @@ Tiene la función de examinar el comportamiento del software, asimismo le hace v
 
 - **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.  
 
-### 5.1.1. Software Development Environment Configuration
 
 ### 5.1.2. Source Code Management
 
