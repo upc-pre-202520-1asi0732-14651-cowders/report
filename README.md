@@ -436,7 +436,7 @@ La gestión del código fuente, también conocida como **SCM** (Source Code Mana
 
 **Landing Page: [LandingPage](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)**
 
-![Repositorios]()
+![Repositorios](Imgs-Source_Code_Management/diagram_branches.png)
 
 En este proyecto,implementaremos **GitFlow** como ña estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que nos permite facilitar el desarrollo. Además, este permite a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenadamente. Con GitFlow, nos guiaremos según un flujo de trabajo definido que incluirá ramas dedicadas para el desarrollo de todo el ciclo de vida del software. Esta metodología nos permitirá mantener un control moderado sobre el proceso del desarrollo, logrando minimizar conflictos y asegurando la integración de funcionalidades de manera efectiva durante las fusiones.
 
@@ -450,6 +450,8 @@ Como se indicó anteriormente, gracias a GitFlow podremos trabajar con **branche
   - **Feature Branches**: Se crean desde develop para trabajar en funciones o mejoras específicas.
   - **Release Branches**: Se derivan de develop cuando el código está listo para preparar una nueva versión.
   - **Hotfix Branches**: Se abren desde main para corregir fallos críticos detectados en producción.
+
+![Repositorios2](Imgs-Source_Code_Management/diagram_branches2.png)
 
 #### Conventional Commits:
 
