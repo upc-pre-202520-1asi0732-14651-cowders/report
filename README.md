@@ -432,6 +432,37 @@ Tiene la función de examinar el comportamiento del software, asimismo le hace v
 
 ### 5.1.2. Source Code Management
 
+La gestión del código fuente, también conocida como **SCM** (Source Code Management), es una práctica de alta importancia en el desarrollo de software. El propósito de este es registrar y llevar el control de las modificaciones que los miembres del equipo realizan en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema nos permite identificar cambios introducidos por cada desarrollador, de esta manera se asegura que todas las contribuciones estén documentadas correctamente. En este caso, utilizaremos  **GitHub** como la plataforma para gestionar las versiones.
+
+**Landing Page: [LandingPage](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)**
+
+![Repositorios]()
+
+En este proyecto,implementaremos **GitFlow** como ña estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que nos permite facilitar el desarrollo. Además, este permite a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenadamente. Con GitFlow, nos guiaremos según un flujo de trabajo definido que incluirá ramas dedicadas para el desarrollo de todo el ciclo de vida del software. Esta metodología nos permitirá mantener un control moderado sobre el proceso del desarrollo, logrando minimizar conflictos y asegurando la integración de funcionalidades de manera efectiva durante las fusiones.
+
+Como se indicó anteriormente, gracias a GitFlow podremos trabajar con **branches** para realizar el desarrollo de manera progresiva. A continuación, se describirán las ramas que emplearemos:
+
+- **Main Branches**: Son las ramas base que ordenan el flujo de trabajo del proyecto. En GitFlow hay dos esenciales:
+  - **Main**: main es la línea de tiempo estable del código y refleja lo que podría ponerse en producción ahora mismo. Solo llegan a main cambios ya verificados y aprobados, por lo que debe mantenerse siempre en un estado confiable.
+  - **Develop**: develop concentra el desarrollo activo. Aquí se integran nuevas funcionalidades y mejoras. Las ramas de feature nacen de develop y, al completarse y probarse, regresan a develop. Cuando develop alcanza un estado sólido para lanzar una versión, se fusiona a main y se abre una release.
+
+- **Support Branches**: Son ramas temporales que facilitan distintas fases del proceso y luego se fusionan o eliminan. Las principales son:
+  - **Feature Branches**: Se crean desde develop para trabajar en funciones o mejoras específicas.
+  - **Release Branches**: Se derivan de develop cuando el código está listo para preparar una nueva versión.
+  - **Hotfix Branches**: Se abren desde main para corregir fallos críticos detectados en producción.
+
+#### Conventional Commits:
+
+La especificación de Conventional Commits es un formato sencillo para escribir mensajes de commit. Define reglas claras que ayudan a mantener un historial de cambios explícito y fácil de entender. Además, se alinea con Semantic Versioning (SemVer), ya que el tipo de commit indica si se añadió una función, se corrigió un error o se introdujeron cambios incompatibles.
+
+- **Estructura:**
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
 En esta sección se evidenciarán las convenciones y estilos que se utilizarán en la creación del proyecto. Se van a mencionar las reglas y recomendaciones generales que se tendrán en cuenta para el desarrollo. Todas las nomenclaturas se definirán en inglés.
 
@@ -473,9 +504,8 @@ Los pasos realizados fueron los siguientes:
 ![captura3](Imgs-Software%20Deployment%20Configuration/Captura3.png)
 
 
-
 ## 5.2. Product Implementation & Deployment
--[] Terminar 
+
 ### 5.2.1. Sprint Backlogs
 -[] Terminar 
 ### 5.2.2. Implemented Landing Page Evidence
