@@ -458,6 +458,7 @@ Como se indicó anteriormente, gracias a GitFlow podremos trabajar con **branche
 La especificación de Conventional Commits es un formato sencillo para escribir mensajes de commit. Define reglas claras que ayudan a mantener un historial de cambios explícito y fácil de entender. Además, se alinea con Semantic Versioning (SemVer), ya que el tipo de commit indica si se añadió una función, se corrigió un error o se introdujeron cambios incompatibles.
 
 - **Estructura:**
+
 <type>[optional scope]: <description>
 
 [optional body]
