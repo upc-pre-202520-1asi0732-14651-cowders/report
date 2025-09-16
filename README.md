@@ -280,7 +280,7 @@ Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, 
 | Jorge Rafael Bravo Gavilano |  |  |
 | Carlos Alberto Gonzalez Custodio |  |  |
 | Bryan Felix Martinez Ramos |  |  |
-| Jack Eddie Roque Tello |  |  |
+| Jack Eddie Roque Tello | Soy estudiante de Ingeniería de Software en la UPC (sexto ciclo), con experiencia en JavaScript, C++, Java y Ruby, además de bases sólidas en algoritmos, estructuras de datos y desarrollo web. Me considero proactivo, responsable y con buenas habilidades interpersonales para el trabajo en equipo. Estoy motivado por aportar mis conocimientos, pensamiento crítico y compromiso a este proyecto, contribuyendo a un ambiente colaborativo para lograr un producto de alto impacto social y tecnológico. | <img src="./assets/chapter-1/foto-jack.jpeg" width="350" height="170"> |
 | Renzo Cesar Silva Morales | Mi nombre es Renzo Cesar Silva Morales, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos. | <img src="./assets/chapter-1/foto-renzo.jpg" width="350" height="170"> |
 
 ## 1.2. Solution Profile
