@@ -387,7 +387,15 @@
 
 ### 4.8.1. Software Architecture Context Diagram
 
+<img src="./assets/chapter-4/d_contexto.jpeg" width="800">
+
+***Figura 4.8.1. Extraído de Visual Paradigm***
+
 ### 4.8.2. Software Architecture Container Diagrams
+
+<img src="./assets/chapter-4/d_contenedores.jpeg">
+
+***Figura 4.8.2. Extraído de Visual Paradigm***
 
 ### 4.8.3. Software Architecture Components Diagrams
 
