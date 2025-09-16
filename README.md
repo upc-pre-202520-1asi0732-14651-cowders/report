@@ -510,8 +510,33 @@ Los pasos realizados fueron los siguientes:
 
 ### 5.2.1. Sprint Backlogs
 -[] Terminar 
+
 ### 5.2.2. Implemented Landing Page Evidence
--[] Terminar 
+
+1) Esta primera parte de la página presenta a Cowders y su propuesta: usar tecnología para ayudar a la ganadería peruana. Arriba se ve el menú para moverse por la web y un botón verde para pedir una demo. El título grande deja claro de qué trata el sitio y, al costado, hay cuatro recuadros que muestran de forma simple qué hace la plataforma: cuida la salud del ganado, mejora la alimentación y productividad, lleva el control reproductivo y promueve la sostenibilidad.
+
+![Hero_Section](Imgs-Implemented_Landing_Page_Evidence/1.png)
+
+2) Aquí se explica, con ejemplos, qué incluye la plataforma “Moobile”. Cada tarjeta cuenta una función concreta: registrar la salud de los animales, planificar raciones y controlar el peso, llevar un historial confiable de ciclos y preñeces, tomar decisiones con datos ambientales, trabajar desde el campo o la oficina con la app, y mantener la información segura. Es una forma clara de ver “qué puedo hacer” si uso el sistema.
+
+![features_Section](Imgs-Implemented_Landing_Page_Evidence/2.png)
+
+3) En esta parte se resumen los beneficios principales para el usuario: trabajar de manera más eficiente, cuidar mejor a los animales y actuar de forma responsable con el ambiente. Justo al lado aparece un recuadro que invita a “agendar diagnóstico”, pensado para que alguien interesado pueda evaluar su situación y recibir recomendaciones prácticas.
+
+![benefits_diagnostic_Section](Imgs-Implemented_Landing_Page_Evidence/3.png)
+
+4) Esta sección muestra que el impacto de la plataforma se puede medir. Divide el contenido en dos: ambiental y social. La idea es que no solo se hable de mejoras, sino que se puedan ver con datos. A la derecha se repite la invitación a pedir un diagnóstico.
+
+![benefits_diagnostic_Section](Imgs-Implemented_Landing_Page_Evidence/4.png)
+
+5) Aquí se cuenta la misión y la visión del proyecto.
+
+![environmental_social_impact_Section](Imgs-Implemented_Landing_Page_Evidence/5.png)
+
+6) Finalmente, está el formulario de contacto. Al lado aparecen el email oficial y la ubicación (Lima, Perú), por si se prefiere escribir directamente. En el pie de página se ve el año, una nota de que el proyecto nació en la UPC y algunos enlaces rápidos para volver a secciones importantes.
+
+![mission_vision_Section](Imgs-Implemented_Landing_Page_Evidence/6.png)
+
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 -[] Terminar 
 ### 5.2.4. Acuerdo de Servicio - SaaS
