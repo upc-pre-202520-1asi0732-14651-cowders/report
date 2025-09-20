@@ -277,7 +277,7 @@ Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, 
 
 | Nombre                   | Descripción | Foto |
 |--------------------------|-------------|------|
-| Jorge Rafael Bravo Gavilano |  |  |
+| Jorge Rafael Bravo Gavilano |Estoy actualmente en el séptimo ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre la ciberseguridad y programación web.| <img src="./assets/chapter-1/Foto_Rafael_Perfil.png" width="350" height="170"> |
 | Carlos Alberto Gonzalez Custodio |  |  |
 | Bryan Felix Martinez Ramos |  |  |
 | Jack Eddie Roque Tello | Soy estudiante de Ingeniería de Software en la UPC (sexto ciclo), con experiencia en JavaScript, C++, Java y Ruby, además de bases sólidas en algoritmos, estructuras de datos y desarrollo web. Me considero proactivo, responsable y con buenas habilidades interpersonales para el trabajo en equipo. Estoy motivado por aportar mis conocimientos, pensamiento crítico y compromiso a este proyecto, contribuyendo a un ambiente colaborativo para lograr un producto de alto impacto social y tecnológico. | <img src="./assets/chapter-1/foto-jack.jpeg" width="350" height="170"> |
