@@ -393,7 +393,7 @@
 
 ### 4.8.2. Software Architecture Container Diagrams
 
-<img src="./assets/chapter-4/d_contenedores.jpeg">
+<img src="./assets/chapter-4/d_contenedores_final.jpeg">
 
 ***Figura 4.8.2. Extraído de Visual Paradigm***
 
