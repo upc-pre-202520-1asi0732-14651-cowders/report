@@ -579,17 +579,31 @@ Los pasos realizados fueron los siguientes:
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
+1) Se muestra el panel inicial de Moobile con una barra superior que incluye el logo, el saludo “Welcome, Oscar!” y el botón Logout; al centro hay un hero con el título “Welcome to Your Dashboard” y un subtítulo introductorio, una tarjeta que invita a usar comandos de voz con el atajo Ctrl/⌘+Shift+V y, debajo, la sección “Account Overview” compuesta por tres tarjetas de métricas en estado cero —Total Bovines, Total Stables y Total Vaccinations— acompañadas de iconografía; en la esquina inferior derecha aparece un botón flotante de micrófono para activar la entrada por voz.
+
 [![image.png](https://i.postimg.cc/9Mt2WTGc/image.png)](https://postimg.cc/HcxRzrZN)
+
+2) Mantiene el encabezado con saludo y el bloque “Account Overview” con las tres métricas, pero añade debajo una fila de tarjetas de acción rápida: “Bovines Management”, “Stables Management” y “Settings”, cada una con breve descripción contextual, un botón principal (Manage Bovines, Manage Stables u Open Settings) y una sugerencia de comando de voz; el diseño prioriza la navegación directa hacia las áreas clave del sistema.
 
 [![image.png](https://i.postimg.cc/1XmQ4tHw/image.png)](https://postimg.cc/62mSmBFp)
 
+3) Presenta primero el estado vacío del módulo de bovinos con el mensaje “No Bovines Registered”, un llamado a la acción “Register Your First Bovine” y un botón superior “+ Add New Bovine”.
+
 [![image.png](https://i.postimg.cc/8k4G9RpH/image.png)](https://postimg.cc/qgNWCCCh)
+
+4) Al proceder, aparece el formulario “Register New Bovine” con campos para nombre, género, fecha de nacimiento, raza, ubicación y estable, además de un cargador de imagen opcional, y ofrece las acciones “Cancel” y “Register Bovine”, todo sobre un fondo verde suave que refuerza la temática de gestión animal.
 
 [![image.png](https://i.postimg.cc/g03FDRt3/image.png)](https://postimg.cc/hJ454JBG)
 
+5) Muestra el estado vacío de establos con la tarjeta “No Stables Registered”, un botón “Create Your First Stable” y el botón superior “+ Add New Stable”.
+
 [![image.png](https://i.postimg.cc/pTxN1T34/image.png)](https://postimg.cc/1gWY89mr)
 
+6) Al crear un establo, se despliega el formulario “Create New Stable” con dos campos esenciales junto a los botones “Cancel” y “Create Stable”, y se complementa con un bloque informativo inferior que explica la gestión de establos y la planificación de capacidad, en una paleta violeta/azulada que diferencia este flujo del de bovinos.
+
 [![image.png](https://i.postimg.cc/gjkCm7zK/image.png)](https://postimg.cc/DJHjcBbW)
+
+7) La pantalla de configuración organiza tres secciones claras: “Profile Settings”, donde se pueden editar el username y el email con un botón de actualización; “Account Status”, que muestra el correo asociado y su estado de verificación; y “Danger Zone”, que concentra la acción irreversible de eliminación de cuenta; el layout mantiene el encabezado con el nombre del usuario y el botón Logout, y emplea tarjetas con sombras sutiles para jerarquizar la información.
 
 [![image.png](https://i.postimg.cc/KvW6hQdn/image.png)](https://postimg.cc/Yh1n1N29)
 
