@@ -439,29 +439,283 @@ En el Perú, el bienestar animal en las empresas ganaderas es a menudo insuficie
 
 ### 2.1.1. Análisis competitivo
 
+<table>
+   <tr>
+      <td align="center" colspan="6">Competitive Analysis Landscaspe</td>
+   </tr>
+   <tr>
+      <td colspan="2">¿Porqué llevar a cabo este análisis?</td><td colspan="4">¿Cómo podemos proporcionar un buen servicio entre los restaurantes y los consumidores de manera que la comunicación entre ambos sea efectiva y agradable?</td>
+   </tr>
+   <tr align="center">
+      <td colspan="2"><td>Moobile</td><td>Control Ganadero</td><td>Agroptima</td><td>App Ganadera</td>
+   </tr>
+   <tr>
+      <td rowspan="2">Perfil</td><td>Overview</td><td> Moobile es una plataforma móvil accesible que optimiza la gestión ganadera con enfoque en sostenibilidad, bienestar animal y eficiencia, adaptada a pequeños y grandes productores. </td><td> Es una aplicación español, británico y brasileño en el sector de la ganadería. </td><td> Agroptima es un sitio web multiplataforma cofundado por la unión europea para los países de España, Francia e Inglaterra </td><td> Es una empresa fundada en Colombia que cuenta con una para la gestión de ganado. </td>
+   </tr>
+   <tr>
+      <td>Ventaja competitiva. ¿Qué valor ofrece a los clientes?</td><td>La plataforma se diferencia al integrar tecnología accesible con enfoque en sostenibilidad y bienestar animal, ofreciendo soluciones prácticas para productores de todos los tamaños. </td><td> es una app para la gestión de vacas y enfocada para móviles </td><td> cuenta con multiplataforma cuenta con algoritmos matemáticos para una mayor gestión del ganado. </td><td> Tiene gran variedad de herramientas y gran cantidad de distribuidores </td>
+   </tr>
+   <tr>
+      <td rowspan="2">Perfil de Marketing</td><td>Mercado Objetivo</td><td> Productores ganaderos, tanto independientes como empresas, que buscan optimizar el cuidado del ganado y mejorar su rentabilidad. </td><td> Para ganaderos españoles, brasileños e ingleses. </td><td> Para ganaderos españoles,franceses e ingleses. </td><td> Para ganaderos colombianos </td>
+   </tr>
+   <tr>
+      <td>Estrategias de Marketing</td><td> Difusión en redes sociales y anuncios pagados </td><td> Estrategia de posicionamiento </td><td> Estrategia de segmentación </td><td> Estrategia </td>
+   </tr>
+   <tr>
+      <td rowspan="3">Perfil de Producto</td><td>Productos & Servicios</td><td> Aplicación móvil con herramientas de gestión de ganado, monitoreo de salud, alimentación y reproducción.
+
+ </td><td> Web app de gestión de ganado. </td><td> Web app de gestión de ganado. </td><td> Web app de gestión de ganado. </td>
+   </tr>
+   <tr>
+      <td>Precios & Costos</td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td>
+   </tr>
+   <tr>
+      <td>Canales de distribución (Web y/o Móvil)</td><td> App </td><td> App </td><td> Web y móvil </td><td> App </td>
+   </tr>
+
+   <tr>
+      <td rowspan="5">Análisis SWOT</td><td>Fortalezas</td><td> Contamos con lo último en tecnología e implementamos lo nuevo en desarrollo para mejorar la productividad del servicio </td><td> Es una app netamente para la gestión de vacas cuenta con buena personalización </td><td> Es famoso por ser bueno en gestión ya que usa algoritmos matemáticos para un mejor cálculo del ganado. </td><td> Su ecosistema está basado en un país de origen conoce muy bien a sus clientes y se adapta a ellos </td>
+   </tr>
+   <tr>
+      <td>Debilidades</td><td> Está en pleno desarrollo puede ser un éxito o fracaso </td><td> Solo es de móvil eso limita que sea multiplataforma </td><td> Solo opera en Europa y se basa en reglas ya establecidas por la unión europea </td><td> Solo es una app y para la zona de Colombia por lo tanto solo está disponible en su país de origen </td>
+   </tr>
+   <tr>
+      <td>Oportunidades</td><td> Puede hacer productivos a los ganaderos y empresas de este rubro mejorando sus tomas de decisiones y eficiencia </td><td> Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios. </td><td> Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios. </td><td> Si eres colombiano estarás contento con la app ya que es de uso nacional. </td>
+   </tr>
+   <tr>
+      <td>Amenazas</td><td> Competencia de otras aplicaciones móviles y el riesgo de cambios regulatorios en la industria ganadera que puedan afectar las operaciones de la plataforma. </td><td> No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla. </td><td> No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla. </td><td> Falta de apoyo económico los gobiernos locales de Colombia no ven viable esta innovación puede llegar a su desaparición </td>
+   </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+
+Para competir en el sector ganadero, nuestra estrategia se enfocará en brindar una plataforma que sea accesible, fácil de usar y diseñada específicamente para las necesidades locales de los ganaderos peruanos. A diferencia de soluciones como Agroptima o Control Ganadero, Moobile se distinguirá por su simplicidad y su enfoque en la sostenibilidad y el bienestar animal, facilitando la gestión de la salud, alimentación y reproducción del ganado.
+
+Implementaremos campañas de marketing digital segmentadas, incluyendo redes sociales y colaboraciones con organizaciones locales, para aumentar la visibilidad de la aplicación y educar a los usuarios sobre sus beneficios. Además, ofreceremos planes de suscripción flexibles y asequibles, permitiendo que tanto pequeños productores como grandes empresas puedan optimizar sus operaciones de forma sencilla. Paralelamente, continuaremos mejorando la plataforma de manera constante para responder a las necesidades cambiantes del sector ganadero.
 
 ## 2.2. Entrevistas
 
 ### 2.2.1. Diseño de entrevistas
 
+**Segmento #1: Productores Ganaderos Independientes**
+
+Moobile ha diseñado un conjunto de preguntas específicas para comprender a fondo las necesidades, experiencias y expectativas de los productores ganaderos independientes. El objetivo es apoyarlos en la mejora de la gestión de sus actividades, optimizar el cuidado de sus animales y evaluar tanto su impacto ambiental como social. Mediante una plataforma fácil de usar, Moobile pone a disposición herramientas que incrementan la eficiencia, refuerzan el control de calidad y fortalecen el vínculo con los consumidores, facilitando así las tareas diarias del productor.
+
+**Datos Generales del Entrevistado:**
+
+- Nombre:
+- Edad:
+- Tiempo de experiencia en la ganadería:
+
+**Preguntas de la Entrevista:**
+
+1. ¿Cómo decide la dieta de sus animales y qué factores considera al elegir su alimentación?
+
+   (¿Sigue asesoría veterinaria, experiencia personal o recomendaciones externas?)
+
+1. ¿Qué medidas toma para garantizar la salud y el bienestar de sus animales?
+1. ¿Qué aspectos considera más importantes en la gestión de la salud veterinaria de su ganado?
+1. ¿Lleva algún tipo de registro sobre la salud y el crecimiento de sus animales? ¿Cómo lo hace?
+
+   (¿Utiliza cuadernos, hojas de cálculo, aplicaciones móviles, etc.?)
+
+1. ¿Cuáles son los principales desafíos que enfrenta al administrar su ganadería?
+1. ¿Cómo cree que una aplicación podría ayudarle a resolver esos desafíos?
+1. Si contara con una aplicación para apoyar su trabajo ganadero, ¿qué funciones le serían más útiles?
+1. ¿Qué tipo de información le gustaría tener siempre disponible desde su celular o computadora?
+1. ¿Cómo le gustaría registrar la alimentación y consumo de sus animales dentro de la aplicación?
+1. ¿Qué beneficios espera lograr al implementar una solución como Moobile en su ganadería?
+
+**Segmento #2: Empresas Ganaderas**
+
+Moobile está enfocada en incrementar la eficiencia y sostenibilidad de las empresas ganaderas a gran escala. A través de entrevistas con administradores, hemos identificado sus principales necesidades y las estrategias clave que emplean para una gestión eficiente. Indagamos sobre las herramientas que consideran fundamentales y el tipo de apoyo que esperan para mejorar tanto el bienestar animal como la productividad. Con base en esta información, Moobile ajusta sus soluciones para responder a los desafíos particulares que enfrenta la ganadería corporativa.
+
+**Datos Generales del Entrevistado:**
+
+- Nombre:
+- Edad:
+- Tiempo de experiencia en la ganadería:
+
+**Preguntas de la Entrevista:**
+
+1. ¿Cuántos animales maneja actualmente su empresa y cómo varía esa cantidad durante el año?
+1. Si su empresa tuviera acceso a una plataforma digital para gestión ganadera, ¿qué funciones considera imprescindibles para mejorar la eficiencia?
+1. ¿Cuáles son los mayores retos que enfrentan en la gestión ganadera a gran escala y cómo los abordan hoy en día?
+1. ¿Qué tipo de información o datos son clave para la toma de decisiones en su operación ganadera?
+1. ¿Qué funcionalidades le gustaría tener para facilitar la gestión del personal y la planificación de tareas?
+1. ¿Qué tipo de informes o análisis considera importantes para evaluar el desempeño de su empresa?
+1. ¿Cómo le gustaría interactuar con proveedores y socios comerciales a través de una plataforma como Moobile?
+1. ¿Qué tan importante es que una aplicación como Moobile se adapte a los procesos actuales de su empresa?
+1. ¿Qué aspectos considera que deberían ser completamente personalizables dentro de la plataforma?
+1. ¿Qué mejoras espera obtener al integrar una solución como Moobile en su operación ganadera?
+
 ### 2.2.2. Registro de entrevistas
 
+Las entrevistas están agrupadas en el siguiente link subido a Microsoft Stream:
+[Link Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
+
+#### Segmento #1: Productores Ganaderos Independientes
+
+Entrevistado: Edo
+Sexo: Masculino
+Edad: 25
+Domicilio: Ica, Peru
+Tiempo de experiencia en la ganadería: 5 años
+Inicio de la entrevista: 00:00
+
+[![image.png](https://i.postimg.cc/Hnks7VLb/image.png)](https://postimg.cc/Q9vr2N1M)
+
+<i>Resumen de la Entrevista:</i>
+Edo es productor ganadero independiente con más de 5 años de experiencia. Explicó que su decisión sobre la alimentación de los animales combina lo que recomienda el veterinario con la disponibilidad y el precio de los alimentos en la zona. Actualmente lleva registros en hojas de Excel, aunque no siempre de manera constante. Entre sus principales retos mencionó la falta de tiempo, el costo elevado de los medicamentos y la dificultad de contar con personal confiable. Considera que una aplicación le sería útil para organizar su calendario de salud y vacunación, obtener reportes de gastos e ingresos y contar con herramientas que le ayuden a optimizar el manejo de su ganadería.
+
+----
+
+Entrevistada: Merly
+Sexo: Femenino
+Edad: 24
+Domicilio: Lima, Peru
+Tiempo de experiencia en la ganadería: 10 años
+Inicio de la entrevista: 04:42
+
+[![image.png](https://i.postimg.cc/vB9SLz4s/image.png)](https://postimg.cc/mzLwT73X)
+
+<i>Resumen de la Entrevista:</i>
+Merly es una productora ganadera independiente con experiencia en el rubro desde su infancia. Señaló que la dieta de sus animales la decide principalmente en base a su experiencia y recomendaciones de otros ganaderos, priorizando lo que ve que funciona en el día a día. Sus registros los lleva en cuadernos, aunque de manera sencilla y no siempre sistemática. Entre sus principales desafíos mencionó el alto costo del alimento, la dificultad para acceder a veterinarios de forma rápida y el control individual de cada animal. Mostró interés en una aplicación que le facilite recordatorios de vacunas, el registro de gastos e ingresos, y una mejor organización general de su ganadería.
+
+----
+
+Entrevistada: Oscar Aranda
+Sexo: Femenino
+Edad: 21
+Domicilio: Lima, Peru
+Tiempo de experiencia en la ganadería: 2 años
+Inicio de la entrevista: 11:20
+
+[![image.png](https://i.postimg.cc/fR8rCy58/image.png)](https://postimg.cc/FYJps9MS)
+
+<i>Resumen de la Entrevista:</i>
+Oscar ayuda a con el ganado a su familia. Deciden la dieta a partir de asesoría veterinaria, con la que cuentan. Para garantizar la salud del ganado llevan un registro en Excel, y considera que los aspectos más importantes son la salud del animal y el pasto. Los principales desafíos que enfrenta es la pérdida de archivos al tener varios registros. Cree que una app podría ayudar a mantener el control de los archiivos y tener la informaciónd de manera directa y rápida. 
+
+#### Segmento #2: Empresas Ganaderas
+
+Entrevistado: Estefano Charalla
+Sexo: Masculino
+Edad: 26
+Domicilio: Cajamarca, Peru
+Tiempo de experiencia en la ganadería: 4 años
+Inicio de la entrevista: 15:35
+
+![Entrevista1](assets/chapter-2/Imgs_Entrevistas/Entrevista1_Segmento2.png)
+
+<i>Resumen de la Entrevista:</i>
+Estefano Charalla, ingeniero ganadero de 26 años con 4 años de experiencia, lidera una empresa con varios miles de cabezas cuyo inventario fluctúa 10–20% al año, lo que exige control por categoría y lote para decidir a tiempo. Actualmente coordina equipos dispersos con Excel, WhatsApp, radios y cuadernos, pero al escalar “cruje”, por lo que ve clave una plataforma que identifique animales con RFID/QR, se conecte a balanzas, gestione sanidad y reproducción con alertas, muestre potreros y rotaciones en mapa, permita costeo fino, funcione offline e integre ERP, frigorífico, laboratorio y sensores. Para tomar decisiones mira GMD, tasa de preñez, mortalidad, costo por kilo y margen por hectárea, además de rotación de potreros, trazabilidad y métricas ESG, y pide órdenes de trabajo con checklists, fotos, geolocalización, firma digital y turnos visibles sin perseguir por chat. También busca cotizar, comprar y recepcionar en un solo lugar, compartiendo solo la información necesaria con socios comerciales mediante mensajería contextual por lote, con tableros diarios, comparativos entre unidades, auditorías para SENASA y reportes ESG listos para clientes o certificadoras. Insiste en una adopción gradual y altamente personalizable (formularios, permisos, tableros, alertas, etapas, calendarios y mapa), esperando 5–10% menos costos operativos, mejoras en preñez y menor mortalidad, junto con trazabilidad de campo a consumidor que fortalezca la confianza y abra mercados.
+
+----
+
+Entrevistada: Rosa Huamán
+Sexo: Femenino
+Edad: 30
+Domicilio: Abancay, Peru
+Tiempo de experiencia en la ganadería: 4 años
+Inicio de la entrevista: 21:20
+
+![Entrevista2](assets/chapter-2/Imgs_Entrevistas/entrevista2_segmento2.jpeg)
+
+<i>Resumen de la Entrevista:</i>
+Rosa Huamán, joven ganadera de 30 años con 4 años de experiencia, lidera una pequeña empresa en Abancay donde maneja unas 30 vacas, además de ovejas y gallinas. Su inventario crece con las crías y disminuye con ventas, lo que requiere un seguimiento cercano. Actualmente gestiona el control de animales, vacunación y alimentación en cuadernos y con recordatorios en el celular, pero reconoce que una plataforma digital sería clave para ordenar costos, registrar sanidad y recibir alertas.
+
+Entre sus principales retos menciona el acceso oportuno a veterinarios y la organización de tareas con el personal limitado que la apoya. Considera fundamentales los datos de costos de alimentación, peso y salud de los animales para decidir el momento de venta y medir la rentabilidad. Pide funcionalidades simples como listas de tareas, reportes de gastos/ganancias y recordatorios personalizables.
+
+Le interesaría interactuar con proveedores y compradores desde la aplicación, simplificando pedidos de alimento, medicinas y ventas. Subraya que la plataforma debe adaptarse a sus procesos actuales, sin complicar la gestión. Rosa espera que una solución como Moobile le ayude a ahorrar tiempo, reducir errores y, sobre todo, garantizar un mejor cuidado de sus animales para crecer de manera ordenada.
+
+----
+
+Entrevistada: Ernesto
+Sexo: Masculino
+Edad: 28
+Domicilio: Ancash, Peru
+Tiempo de experiencia en la ganadería: 5 años
+Inicio de la entrevista: 28:10
+
+[![image.png](https://i.postimg.cc/J7sjgnxs/image.png)](https://postimg.cc/ThXy5TZx)
+
+<i>Resumen de la Entrevista:</i>
+Ernesto es un empresario ganadero independiente con experiencia de 5 años en el rubro. Señaló cuenta con 30 vacas en su empresa, y que varía entre 30 y 50 durante el año, con el pico más alto en invierno. Nos cuenta que información como el recuento de vacunas es sumamente importante para llevar la correcta salud del ganado, por lo que una función así sería se mucha ayuda para su empresa.
+
 ### 2.2.3. Análisis de entrevistas
+
+#### Analisis De Entrevista Segmento 1:
+
+Las entrevistas realizadas a Productores Ganaderos Independientes destacan desafíos comunes en la gestión de sus ganaderías, como la falta de tiempo, el alto costo de los insumos y la dificultad para gestionar los registros manuales. Edo, con más de 5 años de experiencia, combina las recomendaciones veterinarias con la disponibilidad local de alimentos, pero lucha con la falta de personal confiable y el alto costo de los medicamentos. Merly, con experiencia desde su infancia, se basa en su propio conocimiento y consejos de otros ganaderos, pero enfrenta problemas con el acceso a veterinarios y el control individual de cada animal. Oscar, que trabaja con su familia, confía en la asesoría veterinaria y en registros en Excel, pero se ve afectado por la pérdida de archivos. Los tres coincidieron en que una aplicación digital podría ser útil para organizar mejor la salud del ganado, los gastos, los registros y las vacunaciones, optimizando la gestión de su ganadería.
+
+#### Analisis De Entrevista Segmento 2:
+
+Las entrevistas realizadas a empresarios ganaderos destacan la necesidad de optimizar el control y la gestión de inventarios, así como de mejorar el registro de datos clave como la sanidad y la alimentación del ganado. Estefano Charalla, ingeniero ganadero con 4 años de experiencia, lidera una empresa con varios miles de cabezas, lo que le exige un control riguroso por categoría y lote debido a la fluctuación anual del inventario. Actualmente, coordina equipos dispersos utilizando Excel, WhatsApp, radios y cuadernos. Rosa Huamán, quien lidera una pequeña empresa en Abancay con unas 30 vacas, además de ovejas y gallinas, también depende de cuadernos y recordatorios en el celular para gestionar el control de animales, vacunación y alimentación, pero reconoce que una plataforma digital sería clave para organizar costos y registros sanitarios. Por su parte, Ernesto, con 5 años de experiencia y un inventario variable de entre 30 y 50 vacas, destaca la importancia de tener un registro de vacunación eficiente para asegurar la salud del ganado, lo que le haría más fácil su gestión. Los tres empresarios coinciden en que una solución digital podría mejorar la organización, seguimiento y control de sus operaciones ganaderas.
 
 ## 2.3. Needfinding
 
 ### 2.3.1. User Personas
 
+Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analizados a partir de las entrevistas realizadas. Se determinó que ambos segmentos debían estar representados por perfiles masculinos. Con base en las respuestas recopiladas, se construyó un perfil que refleja los objetivos, motivaciones y frustraciones más representativas entre los entrevistados. Posteriormente, se llevó a cabo un análisis que permitió identificar los valores y habilidades clave, resumiendo las características más relevantes de cada uno de los segmentos definidos.
+
+**Segmento Ganadero Independiente**
+![UserPersonaGanadero](assets/chapter-2/UserPersonaGanaderoIndependiente.png)
+
+**Segmento Empresa Ganadera**
+![UserPersonaEmpresa](assets/chapter-2/UserPersonaEmpresaGanadera.png)
+
 ### 2.3.2. User Task Matrix
+
+| Tarea                                       | Ganadero Independiente                       | Empresa Ganadera                          |
+|---------------------------------------------|----------------------------------------------|-------------------------------------------|
+| Registrar nuevos animales                   | Alta (Manualmente con papel y lápiz)        | Alta (Manualmente con registros en cuadernos) |
+| Controlar la alimentación del ganado        | Alta (Registro manual en cuadernos)          | Alta (Registro manual en registros de alimentación) |
+| Programar citas con el veterinario          | Media (Llamadas telefónicas)                | Alta (Agenda manual de citas)             |
+| Gestionar vacunaciones                      | Alta (Registro manual en registros de vacunación) | Alta (Registro manual en cuadernos de vacunación) |
+| Realizar seguimiento del estado de salud    | Alta (Observación manual del ganado)        | Alta (Registro manual de síntomas y signos) |
+| Verificar el pronóstico del tiempo          | Media (Consultando en línea o escuchando el pronóstico) | Alta (Consultando en línea o por radio) |
+| Consultar información sobre razas de ganado| Media (Investigación en línea o en libros)  | Alta (Investigación en línea o en libros) |
+| Mantenimiento de infraestructura y equipos  | Alta (Reparaciones manuales y limpieza)     | Alta (Reparaciones manuales y limpieza)   |
+| Manejo de la reproducción y cría de ganado | Alta (Observación y gestión manual del ciclo reproductivo) | Alta (Observación y gestión manual del ciclo reproductivo) |
+| Registro de movimientos de ganado           | Alta (Registro manual de traslados, compra y venta) | Alta (Registro manual de traslados, compra y venta) |
 
 ### 2.3.3. User Journey Mapping
 
+**Journey Map for Ganadero Indepeniente**
+![JourneyMapGanaderoIndependiente](assets/chapter-2/GanaderoIndependienteJourneyMap.png)
+
+**Journey Map for Empresa Ganadera**
+![JourneyMapEmpresaGanadera](assets/chapter-2/EmpresaGanaderaJourneyMap.png)
+
 ### 2.3.4. Empathy Mapping
+
+**Empathy Map for Ganadero Indepeniente**
+![EmpathyMapGanaderoIndependiente](assets/chapter-2/EmpathyMapGanaderoIndependiente.png)
+
+**Empathy Map for Empresa Ganadera**
+![EmpathyMapEmpresaGanadera](assets/chapter-2/EmpathyMapEmpresaGanadera.png)
 
 ### 2.3.5. As-is Scenario Mapping
 
+![AsIsScenarioMap](assets/chapter-2/AsIsScenarioMapping.jpg)
+
 ## 2.4. Ubiquitous Language
+
+| Palabra                         | Descripción                                                                                                                                                     |
+|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Animal Health (Salud Animal) | Mantener la salud y prevenir enfermedades en el ganado.                                                                                                       |
+| Balanced Feeding (Alimentación Equilibrada) | Proporcionar una dieta equilibrada que cumpla con los requisitos nutricionales específicos de los animales.                                                    |
+| Artificial Insemination (Inseminación Artificial) | Introducir esperma en el tracto reproductivo de una hembra sin necesidad de apareamiento natural.                                                             |
+| Rectal Palpation (Palpación Rectal) | Examen para evaluar la condición reproductiva de una hembra, especialmente en el ganado vacuno.                                                               |
+| Deworming (Desparasitación) | Administrar medicamentos antiparasitarios para controlar y prevenir la infestación de parásitos internos y externos en el ganado.                              |
+| Branding (Marcado) | Identificación de ganado mediante la aplicación de un sello metálico caliente en la piel del animal.                                                          |
+| Weaning (Destete) | Separación gradual de los terneros de sus madres para cesar la lactancia y promover la independencia alimentaria.                                             |
+| Grazing Rotation (Rotación de Pastoreo) | Mover el ganado entre diferentes áreas de pastoreo para optimizar el uso del suelo y prevenir el sobrepastoreo.                                               |
+| Dystocia (Distocia) | Dificultades durante el parto que pueden requerir intervención veterinaria.                                                                                   |
+| Dusting (Aplicación de Polvos) | Aplicación de insecticidas en polvo o en aerosol sobre el pelaje del ganado para controlar infestaciones de insectos y parásitos externos.                    |
+| Campaign (Campaña) | Período durante el cual se llevan a cabo actividades específicas en la gestión de ganadería, con objetivos definidos y metas establecidas.                   |
+| Batch (Lote) | Grupo de animales criados o tratados juntos, que se manejan y monitorean como una unidad durante un período específico de tiempo.                              |
+| Fumigation (Fumigación) | Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno.                |
 
 # **Capítulo III: Requirements Specification**
 
