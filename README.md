@@ -359,11 +359,64 @@ El tono de comunicación de Moobile será directo, respetuoso y accesible, orien
 
 ### 4.1.2. Web Style Guidelines
 
+El diseño web de Moobile se basará en principios de accesibilidad, usabilidad y coherencia visual, con el fin de garantizar una experiencia de usuario clara, intuitiva y uniforme en todo tipo de dispositivos.
+
 ### 4.1.3. Mobile Style Guidelines
+
+La app móvil de Moobile ha sido desarrollada utilizando Flutter, lo que permite mantener una coherencia visual en cuanto a colores, tipografía y componentes gráficos en ambas plataformas: iOS y Android.
+
+La principal diferencia se encuentra en la adaptación a las guías de diseño nativas de cada sistema operativo.
+
+**Tipografía:**
+
+- iOS: Se utiliza SF Pro Display/Text.
+- Android: Se emplea Roboto.
+
+Gracias a Flutter, se establece una jerarquía tipográfica uniforme que se ajusta automáticamente al estilo del sistema operativo correspondiente, garantizando una experiencia visual coherente y optimizada para cada entorno.
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+El diseño de la versión iOS de Moobile se ajustará a las Human Interface Guidelines (HIG) de Apple.
+
+**Colores**  
+Se utilizarán los mismos tonos definidos en la paleta general para mantener la coherencia de marca.
+
+**Componentes UI**
+
+- Barra de navegación inferior con iconos claros y minimalistas.
+
+- Botones con bordes redondeados (de 12 a 16 px), respetando la estética típica de iOS.
+
+- Uso de modal sheets para formularios y confirmaciones.
+
+**Interacciones**
+
+- Gestos nativos como swipe back y pull-to-refresh.
+
+- Animaciones que incorporan efectos de desenfoque y transparencia, creando una sensación de profundidad.
+
+- Respuestas visuales inmediatas en cada interacción para mejorar la experiencia del usuario.
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+El diseño de la versión Android de Moobile se basará en las directrices de Material Design 3 de Google.
+
+**Colores**  
+Mismos definidos en la paleta general.
+
+**Componentes UI**
+Para la versión Android de Moobile, se utilizará BottomNavigationView o NavigationRail en tablets para facilitar la navegación.
+
+Los botones tendrán esquinas redondeadas siguiendo las especificaciones de Material Design 3.
+
+Además, se incorporará un Floating Action Button (FAB) para las acciones principales, como el registro de bovinos o vacunas.
+
+**Interacciones**
+Se implementarán animaciones dinámicas inspiradas en motion design para mejorar la experiencia visual.
+
+La aplicación ofrecerá soporte completo para el modo oscuro (dark mode).
+
+También será compatible con el sistema de personalización de Material You, permitiendo que la interfaz se adapte a los estilos y colores personalizados del usuario.
 
 ## 4.2. Information Architecture
 
