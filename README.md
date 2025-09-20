@@ -357,6 +357,8 @@
 
 ### 4.3.2. Landing Page Mock-up
 
+<img src="images/Landing-mock.png" alt="Landing wireframe" width="600"/>
+
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
