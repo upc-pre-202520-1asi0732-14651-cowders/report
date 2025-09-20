@@ -616,7 +616,7 @@ La última imagen corresponde a la sección “Stables”, donde se visualiza el
 ![Stables](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/3.png)
 
 **Conclusión.**  
-En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico (p. ej., actualización de estado y agregación de objetivos/canales en campañas), y **seguridad aplicada** a través de autenticación en todos los puntos críticos. Esta evidencia satisface el requerimiento 5.2.5 al mostrar una API funcional, organizada y protegida.
+En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico, y **seguridad aplicada**.
 
 ### 5.2.7. RESTful API documentation
 
