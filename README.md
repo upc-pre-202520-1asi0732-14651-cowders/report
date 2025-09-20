@@ -81,9 +81,9 @@
       - [1.2.1. Antecedentes y problemática](#121-antecedentes-y-problemática)
       - [1.2.2. Lean UX Process](#122-lean-ux-process)
         - [1.2.2.1. Lean UX Problem Statements](#1221-lean-ux-problem-statements)
-        - [1.2.2.1. Lean UX Assumptions](#1221-lean-ux-assumptions)
-        - [1.2.2.1. Lean UX Hypothesis Statements](#1221-lean-ux-hypothesis-statements)
-        - [1.2.2.1. Lean UX Canvas](#1221-lean-ux-canvas)
+        - [1.2.2.2. Lean UX Assumptions](#1222-lean-ux-assumptions)
+        - [1.2.2.3. Lean UX Hypothesis Statements](#1223-lean-ux-hypothesis-statements)
+        - [1.2.2.4. Lean UX Canvas](#1224-lean-ux-canvas)
     - [1.3. Segmentos objetivo](#13-segmentos-objetivo)
   - [Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)
     - [2.1. Competidores](#21-competidores)
@@ -265,23 +265,173 @@
 
 ### 1.1.1. Descripción de la Startup
 
+Cowders es una startup liderada por un grupo de estudiantes de la Facultad de Ingeniería de la Universidad Peruana de Ciencias Aplicadas (UPC), orientada al desarrollo de software y soluciones tecnológicas dirigidas a los productores ganaderos independientes y empresas ganaderas. Mediante nuestra plataforma Moobile buscamos ayudarlos a gestionar mejor sus operaciones, optimizar el cuidado de sus animales y evaluar su impacto ambiental y social.
+
+**Misión:**
+Nuestra misión es desarrollar soluciones tecnológicas innovadoras que impulsen la eficiencia, sostenibilidad y bienestar en la producción ganadera.
+
+**Visión:**
+Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, reconocida por transformar digitalmente la industria mediante herramientas que mejoran el bienestar animal y optimizan los procesos productivos.
+
 ### 1.1.2. Perfiles de integrantes del equipo
+
+| Nombre                   | Descripción | Foto |
+|--------------------------|-------------|------|
+| Jorge Rafael Bravo Gavilano |Estoy actualmente en el séptimo ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre la ciberseguridad y programación web.| <img src="./assets/chapter-1/Foto_Rafael_Perfil.png" width="350" height="170"> |
+| Carlos Alberto Gonzalez Custodio | Soy estudiante de Ingeniería de Software, me encuentro actualmente cursando el 7to ciclo. Me encanta enriquecer mis conocimientos con nuevos desafíos y tengo un gran interés por el desarrollo web.  | <img src="./assets/chapter-1/img-Carlos-Gonzalez.jpg" width="350" height="170"> |
+| Bryan Felix Martinez Ramos |  |  |
+| Jack Eddie Roque Tello | Soy estudiante de Ingeniería de Software en la UPC (sexto ciclo), con experiencia en JavaScript, C++, Java y Ruby, además de bases sólidas en algoritmos, estructuras de datos y desarrollo web. Me considero proactivo, responsable y con buenas habilidades interpersonales para el trabajo en equipo. Estoy motivado por aportar mis conocimientos, pensamiento crítico y compromiso a este proyecto, contribuyendo a un ambiente colaborativo para lograr un producto de alto impacto social y tecnológico. | <img src="./assets/chapter-1/foto-jack.jpeg" width="350" height="170"> |
+| Renzo Cesar Silva Morales | Mi nombre es Renzo Cesar Silva Morales, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos. | <img src="./assets/chapter-1/foto-renzo.jpg" width="350" height="170"> |
 
 ## 1.2. Solution Profile
 
+Moobile es una solución integral de software diseñada específicamente para los ganaderos peruanos, tanto independientes como empresas ganaderas. Esta plataforma ofrece un completo ecosistema de herramientas orientadas a la gestión eficiente y sostenible del ganado, abarcando aspectos clave como el monitoreo de la salud, la nutrición y la reproducción animal. Su propósito es potenciar la productividad del sector ganadero, al tiempo que promueve prácticas responsables y éticas que favorezcan el bienestar animal y el desarrollo sostenible de la ganadería en el Perú.
+
 ### 1.2.1. Antecedentes y problemática
+
+El sector agrícola enfrenta importantes desafíos en la gestión eficiente de recursos clave como semillas, fertilizantes y maquinaria. Esta problemática se ve agravada por una comunicación dispersa entre los distintos actores involucrados y por la limitada utilización de herramientas de análisis de datos que permitan una toma de decisiones informada. Como consecuencia, se produce un uso ineficiente de insumos, aumento del desperdicio y periodos prolongados de inactividad en la maquinaria, lo que repercute negativamente en la productividad y sostenibilidad de las unidades agrícolas. Además, la respuesta tardía ante eventos críticos y una planificación deficiente de los cultivos reducen significativamente la eficiencia operativa y la rentabilidad del sector.
+
+#### 5W's y 2H's
+##### What (Qué)
+
+La ganadería en Perú se enfrenta a varios retos importantes en aspectos como el manejo del ganado, su salud, alimentación, reproducción y productividad. No obstante, la ausencia de herramientas tecnológicas apropiadas ha limitado una gestión eficaz. Muchos ganaderos, en especial los de pequeña escala, no cuentan con sistemas que les permitan monitorear de manera precisa a sus animales ni tomar decisiones basadas en datos, lo que afecta negativamente su eficiencia operativa y sus posibilidades de aumentar los ingresos.
+
+##### When (Cuando)
+
+Se trata de un problema persistente. La demanda de una solución tecnológica que facilite la gestión del ganado y mejore la productividad es tanto actual como constante. Es fundamental que los ganaderos dispongan de una plataforma que les brinde acceso a información en tiempo real, con datos actualizados de forma continua sobre la salud, alimentación, reproducción y comercialización del ganado.
+
+##### Where (Dónde)
+
+El problema impacta sobre todo a las regiones rurales y zonas productivas del Perú, donde la mayoría de los ganaderos enfrentan limitaciones en el acceso a servicios veterinarios y tecnología. Aunque la conectividad a internet es escasa en algunas áreas, el aumento del acceso a redes móviles permite que Moobile también funcione en dispositivos móviles, lo que la hace viable incluso en ubicaciones rurales con acceso limitado.
+
+##### Who (Quién)
+
+Los ganaderos peruanos son los principales perjudicados, tanto los productores independientes con pocos animales como las grandes empresas del sector. Los pequeños ganaderos suelen tener recursos limitados, lo que dificulta su acceso a tecnología y servicios veterinarios adecuados. En el caso de las grandes empresas, el reto se centra en gestionar grandes volúmenes de ganado y garantizar el cumplimiento de normas de bienestar animal.
+
+##### Why (Por qué)
+
+La ausencia de herramientas eficaces para una gestión adecuada del ganado ocasiona diversos problemas, como deficiencias en la alimentación, enfermedades que no se detectan ni tratan a tiempo, baja productividad y pérdidas económicas. Tomar decisiones basadas en datos incompletos o incorrectos impacta negativamente tanto en el bienestar animal como en las ganancias de los ganaderos. Moobile pretende dar solución a esta situación ofreciendo una herramienta que permita optimizar las operaciones, mejorar la trazabilidad del ganado y apoyar una toma de decisiones más precisa e informada.
+
+##### How (Cómo)
+
+Moobile ofrece una solución en forma de plataforma web y móvil que incorpora herramientas especializadas para la gestión del ganado. Esta aplicación permite a los usuarios llevar un control detallado de aspectos como la salud, alimentación y reproducción de sus animales, además de generar reportes y recibir alertas sobre eventos relevantes relacionados con su ganado. Gracias al uso de tecnologías modernas en desarrollo web y móvil, la plataforma se ajusta a las condiciones de los ganaderos en áreas rurales, permitiendo el acceso a información en tiempo real desde cualquier dispositivo con conexión a internet.
+
+##### How much (Cuánto)
+
+El desarrollo y mantenimiento de Moobile implicará una inversión en infraestructura tecnológica, el desarrollo de nuevas funcionalidades y la puesta en marcha de un sistema de soporte técnico. No obstante, para los ganaderos, el impacto económico será favorable, ya que la plataforma les ayudará a incrementar su rentabilidad, hacer un uso más eficiente de los recursos y minimizar pérdidas asociadas a una gestión deficiente. Además, Moobile contribuirá a reducir los gastos en servicios veterinarios, al facilitar el acceso a datos oportunos que permitan prevenir enfermedades y aumentar la productividad del ganado.
 
 ### 1.2.2. Lean UX Process
 
 #### 1.2.2.1. Lean UX Problem Statements
 
-#### 1.2.2.1. Lean UX Assumptions
+En un contexto donde los pequeños y medianos productores ganaderos confiaban en métodos manuales y poco efectivos para manejar la información de su ganado, nuestra plataforma Moobile se destacó por ofrecer una solución moderna, accesible y adaptada para el trabajo en campo. Inicialmente, esta propuesta atrajo a ganaderos interesados en digitalizar sus procesos y aumentar su productividad. Sin embargo, con el tiempo el mercado ha comenzado a saturarse debido a la entrada de nuevos competidores que ofrecen soluciones móviles similares y cuentan con mayores presupuestos. Esto ha provocado un incremento en los costos para captar nuevos usuarios, una paralización en nuestra cuota de mercado y una demanda creciente en el soporte, afectando nuestra rentabilidad y limitando la inversión en el desarrollo de nuevas funcionalidades.
 
-#### 1.2.2.1. Lean UX Hypothesis Statements
+#### 1.2.2.2. Lean UX Assumptions
 
-#### 1.2.2.1. Lean UX Canvas
+##### **User Assumptions**
+
+1. Los ganaderos, sin importar su nivel tecnológico, valorarán una app móvil fácil de usar, con interfaz intuitiva y accesible desde diferentes dispositivos.
+
+2. Los usuarios están dispuestos a adoptar tecnología si les permite ahorrar tiempo y mejorar la gestión de su ganado.
+
+3. Los usuarios usarán la aplicación incluso en áreas de baja conectividad si funciona correctamente offline.
+
+4. Los usuarios confiarán en la app si ven beneficios concretos en su productividad y en la salud del ganado.
+
+5. Los ganaderos prefieren soluciones prácticas y rápidas, por lo tanto, las funciones más utilizadas deben estar siempre accesibles con pocos pasos.
+
+##### **Business Assumptions**
+
+1. Si digitalizamos los registros del ganado, los usuarios podrán mejorar la organización y el control de su inventario animal.
+
+2. Si ofrecemos recordatorios automáticos y herramientas para gestionar la salud del ganado, los ganaderos reducirán los costos por enfermedades y mejorarán el bienestar animal.
+
+3. Si proporcionamos herramientas para planificar la alimentación, los productores optimizarán el uso de recursos y reducirán desperdicios.
+
+4. Si permitimos un seguimiento eficiente de la fertilidad y reproducción, los ganaderos incrementarán la productividad de sus animales.
+
+5. Si ofrecemos una experiencia fluida y confiable en dispositivos móviles incluso sin conexión, mejoraremos la adopción en zonas rurales con conectividad limitada.
+
+6. Si garantizamos privacidad y seguridad de los datos, los usuarios confiarán más en la plataforma y estarán dispuestos a almacenar información crítica en ella.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+1. **Creemos que** los ganaderos valorarán una app fácil de usar con interfaz intuitiva,
+**porque** podrán gestionar su ganado sin necesidad de capacitación extensa.
+**Lo sabremos** cuando al menos el 70% complete el registro de animales en su primer uso sin asistencia.
+
+2. **Creemos que** los usuarios adoptarán la aplicación si les permite ahorrar tiempo en tareas diarias,
+**porque** desean enfocarse en actividades productivas más que en tareas administrativas.
+**Lo sabremos** cuando se reduzca en un 40% el tiempo promedio que reportan en registros manuales.
+
+3. **Creemos que** los ganaderos en zonas rurales usarán la app si funciona offline,
+**porque** tienen conectividad limitada en sus áreas de trabajo.
+**Lo sabremos** cuando el 60% de los usuarios active la app en modo sin conexión al menos una vez por semana.
+
+4. **Creemos que** los usuarios confiarán en la plataforma si garantizamos la privacidad de sus datos,
+**porque** manejan información sensible sobre su producción y operaciones.
+**Lo sabremos** cuando menos del 5% exprese preocupaciones sobre seguridad en encuestas de retroalimentación.
+
+5. **Creemos que** si destacamos funciones clave como salud animal, alimentación y reproducción,
+**los usuarios las usarán frecuentemente** para gestionar su ganado.
+**Lo sabremos** cuando estas funciones representen al menos el 70% del uso total dentro de la app.
+
+6. **Creemos que** los usuarios percibirán beneficios concretos en productividad y salud del ganado,
+**porque** tendrán herramientas para tomar decisiones informadas.
+**Lo sabremos** cuando el 60% reporte mejoras en rendimiento animal tras tres meses de uso.
+
+#### 1.2.2.4. Lean UX Canvas
+
+<img src="assets/chapter-1/canvas.png">
 
 ## 1.3. Segmentos objetivo
+
+### Descripción de cada segmento objetivo
+
+La aplicación Moobile ha sido diseñada pensando en las diversas realidades del sector ganadero peruano, abarcando tanto a pequeños productores independientes como a grandes empresas dedicadas a la actividad pecuaria. Cada segmento presenta necesidades, objetivos y desafíos específicos que nuestra plataforma busca atender con soluciones tecnológicas prácticas, accesibles y sostenibles.
+
+A continuación, se detalla el perfil de nuestros principales segmentos objetivos, identificando sus características, motivaciones y problemáticas, con el fin de adaptar y mejorar constantemente nuestros servicios para ofrecerles el mayor valor posible.
+
+#### Productores ganaderos independientes
+
+Este segmento objetivo de nuestra plataforma se centra en los ganaderos independientes comprometidos y preocupados por obtener ganancias de manera ética y sostenible, mientras garantizan una excelente calidad en el cuidado de sus animales en propiedad. Este grupo comprende a ganaderos que poseen una variedad de animales, tales como ovejas, vacas, reses, corderos, gallinas, entre otros, y que residen en Perú. Su principal objetivo es asegurarse de que el estado y cuidado de sus animales sea óptimo, priorizando el bienestar y la salud de estos. Además, están interesados en llevar a cabo prácticas de venta honestas, con un enfoque en productos más naturales y de alta calidad. Como obtener información de nuevos métodos de cuidado animal.
+
+#### Empresas ganaderas
+
+El segmento objetivo de nuestra plataforma se dirige específicamente a grandes empresas corporativas involucradas en la gestión y cuidado de animales. Estas empresas se destacan por su firme compromiso con prácticas éticas y sostenibles en la producción ganadera. Su principal preocupación radica en garantizar que sus animales reciban una alimentación precisa, óptima y honesta, priorizando la salud y el bienestar de cada individuo. Asimismo, estas empresas se preocupan por brindar un cuidado individual a cada animal, asegurándose de que reciban la atención necesaria para su desarrollo y bienestar. Asimismo, contar con un sistema integral de gestión veterinaria, que garantiza un acceso constante y adecuado a servicios de atención médica veterinaria para sus animales.
+
+### Datos cuantitativos del problema
+
+#### Productores ganaderos independientes
+
+Se han registrado numerosos incidentes en los que los productores ganaderos peruanos no reciben una compensación justa en los mercados, y enfrentan dificultades significativas en la gestión del cuidado de sus animales debido a la escasez de recursos económicos y la limitada accesibilidad a servicios veterinarios para consultas y atención adecuada. Estas circunstancias han creado desafíos sustanciales para los ganaderos, quienes luchan por mantener la salud y el bienestar de sus animales mientras buscan asegurar su propio sustento económico en un entorno cada vez más desafiante y competitivo. Se estima que al menos el 15% de los animales muertos en las granjas se debe a la falta de acceso oportuno a servicios veterinarios adecuados, lo que genera pérdidas económicas significativas para los productores, estimadas en un 20% de sus ingresos anuales debido a la falta de compensación justa de los mercados hacia ellos.
+
+#### Empresas ganaderas
+
+En el Perú, el bienestar animal en las empresas ganaderas es a menudo insuficiente, con un preocupante porcentaje del 60% de las operaciones que no cumplen con estándares aceptables en este aspecto. Esta deficiencia se refleja en condiciones de vida inadecuadas para el ganado, como la falta de espacio y la alimentación deficiente, lo que afecta negativamente su salud y bienestar. Además, la gestión de residuos en estas empresas es inadecuada en aproximadamente un 70% de los casos, lo que resulta en una incorrecta disposición de los desechos animales y una potencial contaminación del medio ambiente. Esta situación representa un desafío significativo para la industria ganadera, ya que no solo compromete el bienestar de los animales, sino que también puede tener repercusiones negativas en la salud pública y el medio ambiente.
+
+### Variables geográficas, demográficas y psicológicas
+
+#### Variable geográfica
+
+- País: Perú
+- Ciudad: zonas rurales
+
+#### Variable demográfica
+
+- Género: Femenino / Masculino.
+- Ocupación: Productores ganaderos
+- Estado civil: Todos los estados
+- Edad y etapa de ciclo de vida:
+- Ciudadanos mayores a 18 años.
+
+#### Variable psicográfica
+
+- Nivel Socioeconómico (NSE): todos los niveles socioeconomicos
+- Características de personalidad:
+- Altruismo
+- Perseverante
+- Honestidad
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
