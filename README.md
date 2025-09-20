@@ -578,12 +578,24 @@ Los pasos realizados fueron los siguientes:
 ![mission_vision_Section](Imgs-Implemented_Landing_Page_Evidence/6.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
--[] Terminar 
-### 5.2.4. Acuerdo de Servicio - SaaS
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
+[![image.png](https://i.postimg.cc/9Mt2WTGc/image.png)](https://postimg.cc/HcxRzrZN)
 
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+[![image.png](https://i.postimg.cc/1XmQ4tHw/image.png)](https://postimg.cc/62mSmBFp)
+
+[![image.png](https://i.postimg.cc/8k4G9RpH/image.png)](https://postimg.cc/qgNWCCCh)
+
+[![image.png](https://i.postimg.cc/g03FDRt3/image.png)](https://postimg.cc/hJ454JBG)
+
+[![image.png](https://i.postimg.cc/pTxN1T34/image.png)](https://postimg.cc/1gWY89mr)
+
+[![image.png](https://i.postimg.cc/gjkCm7zK/image.png)](https://postimg.cc/DJHjcBbW)
+
+[![image.png](https://i.postimg.cc/KvW6hQdn/image.png)](https://postimg.cc/Yh1n1N29)
+
+### 5.2.4. Implemented Native-Mobile Application Evidence
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 **1. Staffs.**  
 En esta primera captura se ve la sección “Staffs” del panel Swagger, que agrupa todas las operaciones del recurso de personal bajo el prefijo `/api/v1/staff`. La fila verde indica que es posible **crear** un registro de staff con `POST /staff`. Debajo se muestran varios bloques azules que permiten **listar** a todo el personal (`GET /staff`) y **consultar** un registro puntual (`GET /staff/{id}`). Aparecen también las operaciones para **actualizar** (`PUT /staff/{id}`, en color ámbar) y **eliminar** (`DELETE /staff/{id}`, en rojo) un staff existente. Además, la pantalla evidencia tres búsquedas especializadas: **por campaña** (`GET /staff/search-by-campaign/{campaignId}`), **por estado laboral** (`GET /staff/search-by-employee-status/{employeeStatus}`) y **por nombre** (`GET /staff/search-by-name/{name}`), cada una con su breve descripción al lado derecho. Todos los ítems muestran el candado de seguridad, confirmando que requieren autenticación.
@@ -618,7 +630,8 @@ La última imagen corresponde a la sección “Stables”, donde se visualiza el
 **Conclusión.**  
 En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico, y **seguridad aplicada**.
 
-### 5.2.7. RESTful API documentation
+### 5.2.6. RESTful API documentation
+
 La plataforma expone una **API RESTful** versionada bajo el prefijo `/api/v1`, diseñada para integrarse con aplicaciones web y móviles del ecosistema (p. ej., panel de administración y app de campo). Todas las operaciones utilizan **JSON** como formato de intercambio y fechas en **ISO-8601** (por ejemplo, `2025-09-20T18:36:55.257Z`). Salvo indicación contraria, las peticiones deben incluir el encabezado `Content-Type: application/json` y las respuestas retornan códigos HTTP estándar para indicar éxito o error.
 
 ### Autenticación y control de acceso
@@ -675,8 +688,7 @@ La API está pensada para integrarse con métricas y trazas (latencia por endpoi
 
 > Con este contrato, los equipos cliente (web y móvil) disponen de un **núcleo uniforme y predecible** para operar procesos de inventario bovino, campañas sanitarias, asignación de personal y registro de vacunas, además de capacidades de **entrada por voz** que agilizan el trabajo en campo manteniendo la integridad de los datos.
 
-
-### 5.2.8. Team Collaboration Insights
+### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
 
