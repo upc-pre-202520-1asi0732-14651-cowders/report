@@ -477,7 +477,7 @@ La navegación de Moobile se basa en patrones comunes de apps móviles para redu
 - Menú hamburguesa con opciones complementarias como configuración, soporte y cerrar sesión.
 - Enlaces jerárquicos que permiten ir y volver entre secciones sin perder contexto.
 - Flujos de usuario optimizados: pasos guiados para tareas como registrar un animal.
-- Indicadores visuales (breadcrumbs, estados activos) para mantener claridad sobre la ubicación actual dentro de la app.
+- Indicadores visuales para mantener claridad sobre la ubicación actual dentro de la app.
 
 ## 4.3. Landing Page UI Design
 
@@ -497,21 +497,37 @@ La navegación de Moobile se basa en patrones comunes de apps móviles para redu
 
 ## 4.5. Mobile Applications Prototyping
 
+Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Android e iOS.
+
 ### 4.5.1. Android Mobile Applications Prototyping
 
+[![prototipo.png](https://i.postimg.cc/HLybnWZS/prototipo.png)](https://postimg.cc/1gy8YSZ6)
+
 ### 4.5.2. iOS Mobile Applications Prototyping
+
+[![prototipo.png](https://i.postimg.cc/HLybnWZS/prototipo.png)](https://postimg.cc/1gy8YSZ6)
 
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
 
+[![image.png](https://i.postimg.cc/R0ZVpgfw/image.png)](https://postimg.cc/xXB2cy6d)
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
+[![image.png](https://i.postimg.cc/W1MkcYhK/image.png)](https://postimg.cc/pmLTDZQY)
 
 ### 4.6.3. Web Applications Mock-ups
 
+[![image.png](https://i.postimg.cc/6376tTM3/image.png)](https://postimg.cc/ftNQvWnn)
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
+[![image.png](https://i.postimg.cc/D0JSjB9x/image.png)](https://postimg.cc/RJmCqQVt)
+
 ## 4.7. Web Applications Prototyping
+
+[![image.png](https://i.postimg.cc/2jQRv4LY/image.png)](https://postimg.cc/bdwBfSRV)
 
 ## 4.8. Domain-Driven Software Architecture
 
