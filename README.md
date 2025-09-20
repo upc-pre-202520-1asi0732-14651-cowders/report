@@ -619,6 +619,62 @@ La última imagen corresponde a la sección “Stables”, donde se visualiza el
 En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico, y **seguridad aplicada**.
 
 ### 5.2.7. RESTful API documentation
+La plataforma expone una **API RESTful** versionada bajo el prefijo `/api/v1`, diseñada para integrarse con aplicaciones web y móviles del ecosistema (p. ej., panel de administración y app de campo). Todas las operaciones utilizan **JSON** como formato de intercambio y fechas en **ISO-8601** (por ejemplo, `2025-09-20T18:36:55.257Z`). Salvo indicación contraria, las peticiones deben incluir el encabezado `Content-Type: application/json` y las respuestas retornan códigos HTTP estándar para indicar éxito o error.
+
+### Autenticación y control de acceso
+La capa de administración se gestiona mediante los endpoints:
+- `POST /api/v1/admin/create` — alta de administradores por correo.
+- `POST /api/v1/admin/sign-in` — autenticación con correo y contraseña.
+
+Tras la autenticación, el cliente debe conservar el mecanismo de sesión/ticket que emita el backend (p. ej., token) y remitirlo en cada solicitud protegida según las políticas de la plataforma. Los usuarios finales del sistema se registran con el recurso **users**, que acepta `username`, `password` y `email`, permitiendo separar perfiles operativos (staff/administradores) de credenciales de uso final.
+
+### Convenciones de recursos
+Los recursos principales siguen convenciones REST para operaciones de creación, consulta, actualización y eliminación (CRUD), aunque la implementación exacta de cada verbo puede variar según permisos y flujos del dominio. La API modela entidades del negocio ganadero y sanitario: **Bovines**, **Campaigns**, **Stables**, **Staffs**, **Users** y **Vaccines**, además de un conjunto de **comandos de voz** para ingreso asistido de datos.
+
+### Modelo de datos y validaciones
+
+**Bovines** representa el individuo bovino y concentra metadatos de gestión: `name`, `description`, `startDate`, `endDate`, `status`, `stableId`, y colecciones de `goals` y `channels`. Cada canal contiene `id`, `type` y `details`, habilitando la trazabilidad de comunicaciones o intervenciones asociadas al animal.
+
+**Campaigns** comparte la misma estructura que Bovines (`name`, `description`, `startDate`, `endDate`, `status`, `goals`, `channels`, `stableId`) y se utiliza para planificar y monitorear acciones coordinadas (p. ej., jornadas de sanidad o trazabilidad).
+
+**Stables** define los establos o corrales con `name` y un `limit` de ocupación, insumo clave para reglas de capacidad y asignación.
+
+**Staffs** modela al personal operativo con `name`, `employeeStatus` (estado laboral codificado) y `campaignId` para vincularlo a campañas activas.
+
+**Users** registra credenciales de acceso de usuarios finales (`username`, `password`, `email`).
+
+**Vaccines** registra eventos de vacunación: `id`, `name`, `vaccineType`, `vaccineDate`, `vaccineImg` (evidencia), y `bovineId` para la relación con el individuo.
+
+**Voice Commands** aporta dos endpoints:
+- `POST /api/v1/voice-command/process-audio` — recepción de audio binario/base64.
+- `POST /api/v1/voice-command/parse-text` — JSON con `text`.  
+Ambos transforman insumos de voz o texto libre en estructuras accionables del dominio.
+
+### Flujos típicos
+Un flujo estándar de registro sanitario inicia con la **autenticación** del administrador, la **creación** o **actualización** de un **Bovine** (asignando `stableId` y `status`), la **planificación** de una **Campaign** con `startDate`/`endDate` y canales de comunicación, la **asignación** de **Staffs** a la campaña (`campaignId`), y finalmente el **registro** de **Vaccines** por `bovineId`, incluyendo la evidencia `vaccineImg` y la `vaccineDate`. Alternativamente, el personal puede usar **comandos de voz** para acelerar el ingreso de datos desde campo, enviando audio o texto para su interpretación.
+
+### Errores y respuestas
+La API emplea códigos HTTP convencionales:
+- `201 Created` en altas,
+- `200 OK` en lecturas/actualizaciones,
+- `400 Bad Request` por validaciones fallidas,
+- `401 Unauthorized` si faltan credenciales,
+- `404 Not Found` cuando el recurso no existe,
+- `409 Conflict` ante colisiones de negocio.
+
+Los cuerpos de error devuelven un mensaje descriptivo y, cuando corresponde, detalles de validación por campo para facilitar la corrección por parte del cliente.
+
+### Versionado y compatibilidad
+El prefijo `/api/v1` encapsula cambios controlados. Evoluciones futuras que rompan compatibilidad deberán publicarse bajo un nuevo prefijo (p. ej., `/api/v2`) manteniendo la convivencia temporal de versiones para migraciones seguras. Cambios aditivos (nuevos campos opcionales) se consideran compatibles y no requieren cambio de versión.
+
+### Seguridad y cumplimiento
+Los datos sensibles (credenciales, imágenes de vacunación) deben viajar exclusivamente bajo **TLS**. Se recomienda aplicar políticas de caducidad de tokens, límites de tamaño para `vaccineImg`, y controles de acceso por rol para operaciones críticas (creación de administradores, reasignación de establos, eliminación de historiales). Los registros de auditoría (quién, cuándo y qué cambió) son recomendables para trazabilidad sanitaria y cumplimiento.
+
+### Observabilidad y límites operativos
+La API está pensada para integrarse con métricas y trazas (latencia por endpoint, ratio de error, throughput). En escenarios de alta concurrencia (campañas masivas), es aconsejable emplear **paginación** en listados, **idempotencia** en operaciones de escritura (especialmente en cargas desde voz) y **rate limiting** por cliente para preservar la estabilidad. Los tiempos (`startDate`, `endDate`, `vaccineDate`) deben procesarse en **UTC** y, de ser necesario, adaptarse a la zona horaria del cliente en la presentación.
+
+> Con este contrato, los equipos cliente (web y móvil) disponen de un **núcleo uniforme y predecible** para operar procesos de inventario bovino, campañas sanitarias, asignación de personal y registro de vacunas, además de capacidades de **entrada por voz** que agilizan el trabajo en campo manteniendo la integridad de los datos.
+
 
 ### 5.2.8. Team Collaboration Insights
 
