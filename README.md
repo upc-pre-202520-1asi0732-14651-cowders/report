@@ -400,28 +400,74 @@ Moobile está enfocada en incrementar la eficiencia y sostenibilidad de las empr
 1. ¿Qué mejoras espera obtener al integrar una solución como Moobile en su operación ganadera?
 
 ### 2.2.2. Registro de entrevistas
-# Segmento #1: Productores Ganaderos Independientes
 
-# Segmento #2: Empresas Ganaderas
+Las entrevistas están agrupadas en el siguiente link subido a Microsoft Stream:
+[Link Entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
+
+#### Segmento #1: Productores Ganaderos Independientes
+
+Entrevistado: Edo
+Sexo: Masculino
+Edad: 25
+Domicilio: Ica, Peru
+Tiempo de experiencia en la ganadería: 5 años
+Inicio de la entrevista: 00:00
+
+[![image.png](https://i.postimg.cc/Hnks7VLb/image.png)](https://postimg.cc/Q9vr2N1M)
+
+<i>Resumen de la Entrevista:</i>
+Edo es productor ganadero independiente con más de 5 años de experiencia. Explicó que su decisión sobre la alimentación de los animales combina lo que recomienda el veterinario con la disponibilidad y el precio de los alimentos en la zona. Actualmente lleva registros en hojas de Excel, aunque no siempre de manera constante. Entre sus principales retos mencionó la falta de tiempo, el costo elevado de los medicamentos y la dificultad de contar con personal confiable. Considera que una aplicación le sería útil para organizar su calendario de salud y vacunación, obtener reportes de gastos e ingresos y contar con herramientas que le ayuden a optimizar el manejo de su ganadería.
+
+----
+
+Entrevistada: Merly
+Sexo: Femenino
+Edad: 24
+Domicilio: Lima, Peru
+Tiempo de experiencia en la ganadería: 10 años
+Inicio de la entrevista: 04:42
+
+[![image.png](https://i.postimg.cc/vB9SLz4s/image.png)](https://postimg.cc/mzLwT73X)
+
+<i>Resumen de la Entrevista:</i>
+Merly es una productora ganadera independiente con experiencia en el rubro desde su infancia. Señaló que la dieta de sus animales la decide principalmente en base a su experiencia y recomendaciones de otros ganaderos, priorizando lo que ve que funciona en el día a día. Sus registros los lleva en cuadernos, aunque de manera sencilla y no siempre sistemática. Entre sus principales desafíos mencionó el alto costo del alimento, la dificultad para acceder a veterinarios de forma rápida y el control individual de cada animal. Mostró interés en una aplicación que le facilite recordatorios de vacunas, el registro de gastos e ingresos, y una mejor organización general de su ganadería.
+
+----
+
+Entrevistada: Oscar Aranda
+Sexo: Femenino
+Edad: 21
+Domicilio: Lima, Peru
+Tiempo de experiencia en la ganadería: 2 años
+Inicio de la entrevista: 11:20
+
+[![image.png](https://i.postimg.cc/fR8rCy58/image.png)](https://postimg.cc/FYJps9MS)
+
+<i>Resumen de la Entrevista:</i>
+Oscar ayuda a con el ganado a su familia. Deciden la dieta a partir de asesoría veterinaria, con la que cuentan. Para garantizar la salud del ganado llevan un registro en Excel, y considera que los aspectos más importantes son la salud del animal y el pasto. Los principales desafíos que enfrenta es la pérdida de archivos al tener varios registros. Cree que una app podría ayudar a mantener el control de los archiivos y tener la informaciónd de manera directa y rápida. 
+
+#### Segmento #2: Empresas Ganaderas
+
 Entrevistado: Estefano Charalla
 Sexo: Masculino
 Edad: 26
 Domicilio: Cajamarca, Peru
 Tiempo de experiencia en la ganadería: 4 años
+Inicio de la entrevista: 15:35
 
 ![Entrevista1](assets/chapter-2/Imgs_Entrevistas/Entrevista1_Segmento2.png)
 
 <i>Resumen de la Entrevista:</i>
 Estefano Charalla, ingeniero ganadero de 26 años con 4 años de experiencia, lidera una empresa con varios miles de cabezas cuyo inventario fluctúa 10–20% al año, lo que exige control por categoría y lote para decidir a tiempo. Actualmente coordina equipos dispersos con Excel, WhatsApp, radios y cuadernos, pero al escalar “cruje”, por lo que ve clave una plataforma que identifique animales con RFID/QR, se conecte a balanzas, gestione sanidad y reproducción con alertas, muestre potreros y rotaciones en mapa, permita costeo fino, funcione offline e integre ERP, frigorífico, laboratorio y sensores. Para tomar decisiones mira GMD, tasa de preñez, mortalidad, costo por kilo y margen por hectárea, además de rotación de potreros, trazabilidad y métricas ESG, y pide órdenes de trabajo con checklists, fotos, geolocalización, firma digital y turnos visibles sin perseguir por chat. También busca cotizar, comprar y recepcionar en un solo lugar, compartiendo solo la información necesaria con socios comerciales mediante mensajería contextual por lote, con tableros diarios, comparativos entre unidades, auditorías para SENASA y reportes ESG listos para clientes o certificadoras. Insiste en una adopción gradual y altamente personalizable (formularios, permisos, tableros, alertas, etapas, calendarios y mapa), esperando 5–10% menos costos operativos, mejoras en preñez y menor mortalidad, junto con trazabilidad de campo a consumidor que fortalezca la confianza y abra mercados.
 
-<br>
-<br>
+----
 
-Entrevistado: Rosa Huamán
+Entrevistada: Rosa Huamán
 Sexo: Femenino
 Edad: 30
 Domicilio: Abancay, Peru
 Tiempo de experiencia en la ganadería: 4 años
+Inicio de la entrevista: 21:20
 
 ![Entrevista2](assets/chapter-2/Imgs_Entrevistas/entrevista2_segmento2.jpeg)
 
@@ -432,8 +478,29 @@ Entre sus principales retos menciona el acceso oportuno a veterinarios y la orga
 
 Le interesaría interactuar con proveedores y compradores desde la aplicación, simplificando pedidos de alimento, medicinas y ventas. Subraya que la plataforma debe adaptarse a sus procesos actuales, sin complicar la gestión. Rosa espera que una solución como Moobile le ayude a ahorrar tiempo, reducir errores y, sobre todo, garantizar un mejor cuidado de sus animales para crecer de manera ordenada.
 
+----
+
+Entrevistada: Ernesto
+Sexo: Masculino
+Edad: 28
+Domicilio: Ancash, Peru
+Tiempo de experiencia en la ganadería: 5 años
+Inicio de la entrevista: 28:10
+
+[![image.png](https://i.postimg.cc/J7sjgnxs/image.png)](https://postimg.cc/ThXy5TZx)
+
+<i>Resumen de la Entrevista:</i>
+Ernesto es un empresario ganadero independiente con experiencia de 5 años en el rubro. Señaló cuenta con 30 vacas en su empresa, y que varía entre 30 y 50 durante el año, con el pico más alto en invierno. Nos cuenta que información como el recuento de vacunas es sumamente importante para llevar la correcta salud del ganado, por lo que una función así sería se mucha ayuda para su empresa.
 
 ### 2.2.3. Análisis de entrevistas
+
+#### Analisis De Entrevista Segmento 1:
+
+Las entrevistas realizadas a Productores Ganaderos Independientes destacan desafíos comunes en la gestión de sus ganaderías, como la falta de tiempo, el alto costo de los insumos y la dificultad para gestionar los registros manuales. Edo, con más de 5 años de experiencia, combina las recomendaciones veterinarias con la disponibilidad local de alimentos, pero lucha con la falta de personal confiable y el alto costo de los medicamentos. Merly, con experiencia desde su infancia, se basa en su propio conocimiento y consejos de otros ganaderos, pero enfrenta problemas con el acceso a veterinarios y el control individual de cada animal. Oscar, que trabaja con su familia, confía en la asesoría veterinaria y en registros en Excel, pero se ve afectado por la pérdida de archivos. Los tres coincidieron en que una aplicación digital podría ser útil para organizar mejor la salud del ganado, los gastos, los registros y las vacunaciones, optimizando la gestión de su ganadería.
+
+#### Analisis De Entrevista Segmento 2:
+
+Las entrevistas realizadas a empresarios ganaderos destacan la necesidad de optimizar el control y la gestión de inventarios, así como de mejorar el registro de datos clave como la sanidad y la alimentación del ganado. Estefano Charalla, ingeniero ganadero con 4 años de experiencia, lidera una empresa con varios miles de cabezas, lo que le exige un control riguroso por categoría y lote debido a la fluctuación anual del inventario. Actualmente, coordina equipos dispersos utilizando Excel, WhatsApp, radios y cuadernos. Rosa Huamán, quien lidera una pequeña empresa en Abancay con unas 30 vacas, además de ovejas y gallinas, también depende de cuadernos y recordatorios en el celular para gestionar el control de animales, vacunación y alimentación, pero reconoce que una plataforma digital sería clave para organizar costos y registros sanitarios. Por su parte, Ernesto, con 5 años de experiencia y un inventario variable de entre 30 y 50 vacas, destaca la importancia de tener un registro de vacunación eficiente para asegurar la salud del ganado, lo que le haría más fácil su gestión. Los tres empresarios coinciden en que una solución digital podría mejorar la organización, seguimiento y control de sus operaciones ganaderas.
 
 ## 2.3. Needfinding
 
