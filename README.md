@@ -414,6 +414,21 @@ Tiempo de experiencia en la ganadería: 4 años
 <i>Resumen de la Entrevista:</i>
 Estefano Charalla, ingeniero ganadero de 26 años con 4 años de experiencia, lidera una empresa con varios miles de cabezas cuyo inventario fluctúa 10–20% al año, lo que exige control por categoría y lote para decidir a tiempo. Actualmente coordina equipos dispersos con Excel, WhatsApp, radios y cuadernos, pero al escalar “cruje”, por lo que ve clave una plataforma que identifique animales con RFID/QR, se conecte a balanzas, gestione sanidad y reproducción con alertas, muestre potreros y rotaciones en mapa, permita costeo fino, funcione offline e integre ERP, frigorífico, laboratorio y sensores. Para tomar decisiones mira GMD, tasa de preñez, mortalidad, costo por kilo y margen por hectárea, además de rotación de potreros, trazabilidad y métricas ESG, y pide órdenes de trabajo con checklists, fotos, geolocalización, firma digital y turnos visibles sin perseguir por chat. También busca cotizar, comprar y recepcionar en un solo lugar, compartiendo solo la información necesaria con socios comerciales mediante mensajería contextual por lote, con tableros diarios, comparativos entre unidades, auditorías para SENASA y reportes ESG listos para clientes o certificadoras. Insiste en una adopción gradual y altamente personalizable (formularios, permisos, tableros, alertas, etapas, calendarios y mapa), esperando 5–10% menos costos operativos, mejoras en preñez y menor mortalidad, junto con trazabilidad de campo a consumidor que fortalezca la confianza y abra mercados.
 
+Entrevistado: Rosa Huamán
+Sexo: Femenino
+Edad: 30
+Domicilio: Abancay, Peru
+Tiempo de experiencia en la ganadería: 4 años
+
+![Entrevista2](assets/chapter-2/Imgs_Entrevistas/entrevista2_segmento2.jpeg)
+
+<i>Resumen de la Entrevista:</i>
+Rosa Huamán, joven ganadera de 30 años con 4 años de experiencia, lidera una pequeña empresa en Abancay donde maneja unas 30 vacas, además de ovejas y gallinas. Su inventario crece con las crías y disminuye con ventas, lo que requiere un seguimiento cercano. Actualmente gestiona el control de animales, vacunación y alimentación en cuadernos y con recordatorios en el celular, pero reconoce que una plataforma digital sería clave para ordenar costos, registrar sanidad y recibir alertas.
+
+Entre sus principales retos menciona el acceso oportuno a veterinarios y la organización de tareas con el personal limitado que la apoya. Considera fundamentales los datos de costos de alimentación, peso y salud de los animales para decidir el momento de venta y medir la rentabilidad. Pide funcionalidades simples como listas de tareas, reportes de gastos/ganancias y recordatorios personalizables.
+
+Le interesaría interactuar con proveedores y compradores desde la aplicación, simplificando pedidos de alimento, medicinas y ventas. Subraya que la plataforma debe adaptarse a sus procesos actuales, sin complicar la gestión. Rosa espera que una solución como Moobile le ayude a ahorrar tiempo, reducir errores y, sobre todo, garantizar un mejor cuidado de sus animales para crecer de manera ordenada.
+
 
 ### 2.2.3. Análisis de entrevistas
 
