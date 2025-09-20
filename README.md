@@ -399,6 +399,26 @@
 
 ### 4.8.3. Software Architecture Components Diagrams
 
+<img src="./assets/chapter-4/RanchManagementModule.png">
+
+***Figura 4.8.3.1. Extraído de Plant UML***
+
+<img src="./assets/chapter-4/iam_module.png">
+
+***Figura 4.8.3.2. Extraído de Plant UML***
+
+<img src="./assets/chapter-4/staffadministration_module.png">
+
+***Figura 4.8.3.3. Extraído de Plant UML***
+
+<img src="./assets/chapter-4/CampaignManagement_module.png">
+
+***Figura 4.8.3.4. Extraído de Plant UML***
+
+<img src="./assets/chapter-4/VoiceCommand_module.png">
+
+***Figura 4.8.3.5. Extraído de Plant UML***
+
 ## 4.9. Software Object-Oriented Design
 
 ### 4.9.1. Class Diagrams
