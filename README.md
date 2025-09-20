@@ -585,6 +585,39 @@ Los pasos realizados fueron los siguientes:
 
 ### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
+**1. Staffs.**  
+En esta primera captura se ve la sección “Staffs” del panel Swagger, que agrupa todas las operaciones del recurso de personal bajo el prefijo `/api/v1/staff`. La fila verde indica que es posible **crear** un registro de staff con `POST /staff`. Debajo se muestran varios bloques azules que permiten **listar** a todo el personal (`GET /staff`) y **consultar** un registro puntual (`GET /staff/{id}`). Aparecen también las operaciones para **actualizar** (`PUT /staff/{id}`, en color ámbar) y **eliminar** (`DELETE /staff/{id}`, en rojo) un staff existente. Además, la pantalla evidencia tres búsquedas especializadas: **por campaña** (`GET /staff/search-by-campaign/{campaignId}`), **por estado laboral** (`GET /staff/search-by-employee-status/{employeeStatus}`) y **por nombre** (`GET /staff/search-by-name/{name}`), cada una con su breve descripción al lado derecho. Todos los ítems muestran el candado de seguridad, confirmando que requieren autenticación.
+
+![Staffs](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/4.png)
+
+**2. User Admins y Users.**  
+La segunda imagen presenta dos grupos diferenciados. Arriba, “User Admins” concentra las rutas administrativas bajo `/api/v1/admin`: se observan los endpoints para **crear** administradores (`POST /admin/create`), **iniciar sesión** (`POST /admin/sign-in`), **ver el perfil** (`GET /admin/profile`), **actualizarlo** (`PUT /admin/update-profile`) y **eliminar la propia cuenta** (`DELETE /admin/delete`). También aparecen los listados globales: **todos los admins** (`GET /admin/all`) y **todos los usuarios** (`GET /admin/all-users`) visibles para un administrador. Abajo, el bloque “Users” muestra el flujo del usuario final con `/api/v1/user`: **registro** (`POST /user/sign-up`), **inicio de sesión** (`POST /user/sign-in`), **consulta de su información** (`GET /user/get-info`), **actualización de perfil** (`PUT /user/update-profile`), **eliminación de cuenta** (`DELETE /user/delete-account`) y **acceso al perfil** (`GET /user/profile`). En ambos grupos, el candado confirma que todas las operaciones están protegidas por autenticación.
+
+![Users](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/5.png)
+
+**3. Vaccines y Voice Commands.**  
+La tercera captura reúne dos módulos. En la parte superior, “Vaccines” agrupa el CRUD completo bajo `/api/v1/vaccines`: **creación** (`POST /vaccines`), **listado global** (`GET /vaccines`), **consulta por ID** (`GET /vaccines/{id}`), **actualización** (`PUT /vaccines/{id}`) y **eliminación** (`DELETE /vaccines/{id}`). Se destaca además una ruta específica para **recuperar las vacunas vinculadas a un bovino** (`GET /vaccines/bovine/{bovineId}`), lo que evidencia la relación entre entidades. En la parte inferior aparece “Voice Commands”, con rutas de **procesamiento de audio** (`POST /voice-command/process-audio`) y **prueba de parsing textual** (`POST /voice-command/parse-text`), además de **listado de comandos** del usuario (`GET /voice-command`), **listado paginado** (`GET /voice-command/paginated`), **detalle** (`GET /voice-command/{id}`) y **estadísticas** de uso (`GET /voice-command/statistics`). En todos los casos se muestra el icono de candado, señal de que se exige token.
+
+![Vaccines](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/6.png)
+
+**4. Bovines y Campaigns (vista general).**  
+La cuarta imagen abre con la sección “Bovines”, donde se aprecia la **creación** de bovinos (`POST /api/v1/bovines`), el **listado** general (`GET /bovines`), la **consulta por ID** (`GET /bovines/{id}`), la **actualización** (`PUT /bovines/{id}`) y la **eliminación** (`DELETE /bovines/{id}`). Se incluye además un endpoint para **listar por establo** (`GET /bovines/stable/{stableId}`), lo que confirma la vinculación con el módulo de establos.
+
+![Bovines](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/1.png)
+
+**5. Campaigns (acciones avanzadas).**  
+La quinta captura profundiza en la gestión de campañas mostrando, además del CRUD, **operaciones específicas de negocio**. Se observa un `PATCH /api/v1/campaigns/{id}/update-status` para **cambiar el estado** de la campaña (por ejemplo, planificada, activa o finalizada). También aparecen `PATCH /{id}/add-goal` para **agregar objetivos** medibles y `PATCH /{id}/add-channel` para **incorporar canales** de comunicación o ejecución. Finalmente, se listan los recursos asociados con `GET /{id}/goals` y `GET /{id}/channels`, que permiten **consultar objetivos y canales** vinculados a la campaña. La presencia de los candados indica que estas acciones avanzadas exigen autenticación y, previsiblemente, privilegios administrativos.
+
+![Campaigns](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/2.png)
+
+**6. Stables.**  
+La última imagen corresponde a la sección “Stables”, donde se visualiza el CRUD completo del recurso **establo** bajo `/api/v1/stables`. El bloque verde indica la **creación** (`POST /stables`), seguido por el **listado** (`GET /stables`) y la **consulta individual** (`GET /stables/{id}`). Se incluyen las operaciones de **actualización** (`PUT /stables/{id}`) y **eliminación** (`DELETE /stables/{id}`), junto con una ruta de **búsqueda por nombre** (`GET /stables/name/{name}`) que facilita localizar establos específicos. Cada fila muestra el icono de candado, reafirmando el control de acceso por token.
+
+![Stables](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/3.png)
+
+**Conclusión.**  
+En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico (p. ej., actualización de estado y agregación de objetivos/canales en campañas), y **seguridad aplicada** a través de autenticación en todos los puntos críticos. Esta evidencia satisface el requerimiento 5.2.5 al mostrar una API funcional, organizada y protegida.
+
 ### 5.2.7. RESTful API documentation
 
 ### 5.2.8. Team Collaboration Insights
