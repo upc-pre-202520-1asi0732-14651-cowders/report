@@ -323,7 +323,127 @@ El To-Be Scenario Mapping permite visualizar el escenario ideal de interacción 
 
 ## 3.2. User Stories
 
+Las User Stories representan una herramienta fundamental dentro de las metodologías ágiles para capturar los requerimientos funcionales desde la perspectiva del usuario. Cada historia describe una necesidad concreta, quién la necesita y con qué propósito, facilitando la planificación, priorización y desarrollo iterativo del sistema. Esta técnica garantiza que cada funcionalidad responda a una necesidad real, fomentando un desarrollo orientado al valor y alineado con las expectativas del usuario final.
+
+### Gestión de Establos
+
+**EP01: Como usuario ganadero, deseo gestionar los establos para mantener organizadas las instalaciones donde se alojan los bovinos.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US01          | Creación de Establos       | Como usuario ganadero, deseo crear nuevos establos para organizar adecuadamente los espacios de alojamiento de los bovinos según sus características.        |
+| US02          | Visualización de Establos  | Como usuario ganadero, deseo visualizar la información de todos mis establos para tener un panorama general de las instalaciones disponibles.                |
+| US03          | Edición de Establos        | Como usuario ganadero, deseo editar la información de los establos existentes para mantener actualizados sus datos y características.                        |
+| US04          | Eliminación de Establos    | Como usuario ganadero, deseo eliminar establos que ya no utilizo para mantener organizado mi registro de instalaciones.                                       |
+| US05          | Búsqueda de Establos       | Como usuario ganadero, deseo buscar establos por nombre o capacidad para localizar rápidamente la información que necesito.                 |
+
+----
+
+### Gestión de Bovinos
+
+**EP02: Como usuario ganadero, deseo gestionar la información de mis bovinos para llevar un control detallado del ganado.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US06          | Registro de Bovinos        | Como usuario ganadero, deseo registrar nuevos bovinos en el sistema para mantener un inventario actualizado de mi ganado.                                     |
+| US07          | Visualización de Bovinos   | Como usuario ganadero, deseo visualizar la información completa de mis bovinos para revisar sus datos y estado actual.                                        |
+| US08          | Edición de Bovinos         | Como usuario ganadero, deseo editar la información de los bovinos para actualizar sus datos cuando sea necesario (peso, edad, estado reproductivo, etc.).    |
+| US09          | Eliminación de Bovinos     | Como usuario ganadero, deseo eliminar bovinos del registro cuando ya no formen parte del ganado (venta, muerte, etc.).                                        |
+| US10          | Búsqueda de Bovinos        | Como usuario ganadero, deseo buscar bovinos por nombre y raza para localizar rápidamente información específica.          |
+| US11          | Asignación de Bovinos a Establos | Como usuario ganadero, deseo asignar bovinos a establos específicos para organizar la distribución del ganado en las instalaciones.                     |
+
+----
+
+### Gestión de Vacunas
+
+**EP03: Como usuario ganadero, deseo gestionar las vacunas aplicadas a mis bovinos para llevar un control sanitario adecuado.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US12          | Registro de Vacunas        | Como usuario ganadero, deseo registrar las vacunas aplicadas a mis bovinos para mantener un historial sanitario completo.                                     |
+| US13          | Visualización de Vacunas   | Como usuario ganadero, deseo visualizar el historial de vacunación de cada bovino para conocer su estado sanitario actual.                                    |
+| US14          | Edición de Registros de Vacunas | Como usuario ganadero, deseo editar los registros de vacunación para corregir errores o actualizar información cuando sea necesario.                    |
+| US15          | Eliminación de Registros de Vacunas | Como usuario ganadero, deseo eliminar registros de vacunas incorrectos para mantener la precisión del historial sanitario.                          |
+| US16          | Búsqueda de Vacunas        | Como usuario ganadero, deseo buscar registros de vacunación por bovino, fecha o tipo de vacuna para acceder rápidamente a la información sanitaria.          |
+| US17          | Asignación de Vacunas a Bovinos | Como usuario ganadero, deseo asignar vacunas específicas a bovinos individuales para llevar un control detallado de los tratamientos aplicados.        |
+
+----
+
+### Gestión de Campañas
+
+**EP04: Como empresario ganadero, deseo gestionar campañas sanitarias y de mejoramiento para coordinar actividades a gran escala.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US18          | Creación de Campañas       | Como empresario ganadero, deseo crear nuevas campañas sanitarias o de mejoramiento para organizar actividades coordinadas en mi operación ganadera.          |
+| US19          | Visualización de Campañas  | Como empresario ganadero, deseo visualizar todas las campañas activas y pasadas para tener un control general de las actividades realizadas.                 |
+| US20          | Edición de Campañas        | Como empresario ganadero, deseo editar la información de las campañas para actualizar objetivos, fechas o recursos asignados.                                 |
+| US21          | Eliminación de Campañas    | Como empresario ganadero, deseo eliminar campañas canceladas o incorrectas para mantener organizado el registro de actividades.                               |
+| US22          | Búsqueda de Campañas       | Como empresario ganadero, deseo buscar campañas por fecha para localizar rápidamente información específica de las actividades.                |
+
+----
+
+### Gestión de Staff
+
+**EP05: Como empresario ganadero, deseo gestionar el personal que trabaja en mi operación ganadera para organizar eficientemente los recursos humanos.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| US23          | Registro de Personal       | Como empresario ganadero, deseo registrar nuevo personal en el sistema para mantener un control de todos los trabajadores de mi operación.                    |
+| US24          | Visualización de Personal  | Como empresario ganadero, deseo visualizar la información de todo mi personal para revisar datos de contacto, roles y responsabilidades asignadas.           |
+| US25          | Edición de Personal        | Como empresario ganadero, deseo editar la información del personal para actualizar datos personales, roles o responsabilidades cuando sea necesario.          |
+| US26          | Eliminación de Personal    | Como empresario ganadero, deseo eliminar registros de personal que ya no trabaja en mi operación para mantener actualizada la base de datos.                  |
+| US27          | Búsqueda de Personal       | Como empresario ganadero, deseo buscar personal por nombre para localizar rápidamente información específica de los trabajadores.      |
+| US28          | Asignación de Personal a Campañas | Como empresario ganadero, deseo asignar personal específico a las campañas para coordinar los recursos humanos necesarios en cada actividad.           |
+
+----
+
+**EP06: Como visitante del sitio web, deseo conocer las características y beneficios de la plataforma Moobile para evaluar si es la solución adecuada para mi operación ganadera.**
+
+| User Story ID | Título                     | Descripción                                                                                                                                                    |
+|---------------|----------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| TS01          | Visualización de Información de la Empresa | Como visitante, deseo ver información sobre Cowders para conocer los antecedentes y credibilidad de la empresa desarrolladora. |
+| TS02          | Exploración de Funcionalidades de Moobile | Como visitante, deseo conocer las características principales de la plataforma Moobile para entender cómo puede beneficiar mi operación ganadera. |
+| TS03          | Consulta de Herramientas de Nutrición y Productividad | Como visitante, deseo información sobre las funciones de gestión de raciones, peso y rendimiento para determinar si mejorará la productividad de mi ganado. |
+| TS04          | Acceso a Información de Contacto | Como visitante, deseo acceder fácilmente a la información de contacto de Cowders para realizar consultas específicas sobre la plataforma. |
+| TS05          | Conocimiento de Misión y Visión | Como visitante, deseo conocer la misión y visión de Cowders para entender sus objetivos y compromiso con el sector ganadero peruano. |
+| TS06          | Vista General de la Plataforma | Como visitante, deseo acceder a una vista general interactiva de la plataforma para familiarizarme con su interfaz y usabilidad. |
+
 ## 3.3. Product Backlog
+
+El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya que representa una lista priorizada de funcionalidades, mejoras y tareas necesarias para el desarrollo del producto. Este backlog fue construido a partir de las necesidades identificadas en las entrevistas, el To-Be Scenario Mapping y las User Stories, permitiendo organizar y planificar el trabajo del equipo de forma estructurada y alineada con los objetivos del proyecto. Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
+
+| # Orden | User Story ID | Título | Descripción | Story Points |
+|---------|---------------|--------|-------------|--------------|
+| 1 | US01 | Creación de Establos | Como usuario ganadero, deseo crear nuevos establos para organizar adecuadamente los espacios de alojamiento de los bovinos según sus características. | 3 |
+| 2 | US02 | Visualización de Establos | Como usuario ganadero, deseo visualizar la información de todos mis establos para tener un panorama general de las instalaciones disponibles. | 2 |
+| 3 | US06 | Registro de Bovinos | Como usuario ganadero, deseo registrar nuevos bovinos en el sistema para mantener un inventario actualizado de mi ganado. | 5 |
+| 4 | US07 | Visualización de Bovinos | Como usuario ganadero, deseo visualizar la información completa de mis bovinos para revisar sus datos y estado actual. | 3 |
+| 5 | US11 | Asignación de Bovinos a Establos | Como usuario ganadero, deseo asignar bovinos a establos específicos para organizar la distribución del ganado en las instalaciones. | 3 |
+| 6 | US03 | Edición de Establos | Como usuario ganadero, deseo editar la información de los establos existentes para mantener actualizados sus datos y características. | 2 |
+| 7 | US08 | Edición de Bovinos | Como usuario ganadero, deseo editar la información de los bovinos para actualizar sus datos cuando sea necesario (peso, edad, estado reproductivo, etc.). | 3 |
+| 8 | US12 | Registro de Vacunas | Como usuario ganadero, deseo registrar las vacunas aplicadas a mis bovinos para mantener un historial sanitario completo. | 5 |
+| 9 | US13 | Visualización de Vacunas | Como usuario ganadero, deseo visualizar el historial de vacunación de cada bovino para conocer su estado sanitario actual. | 3 |
+| 10 | US17 | Asignación de Vacunas a Bovinos | Como usuario ganadero, deseo asignar vacunas específicas a bovinos individuales para llevar un control detallado de los tratamientos aplicados. | 3 |
+| 11 | US05 | Búsqueda de Establos | Como usuario ganadero, deseo buscar establos por nombre o capacidad para localizar rápidamente la información que necesito. | 2 |
+| 12 | US10 | Búsqueda de Bovinos | Como usuario ganadero, deseo buscar bovinos por nombre y raza para localizar rápidamente información específica. | 2 |
+| 13 | US16 | Búsqueda de Vacunas | Como usuario ganadero, deseo buscar registros de vacunación por bovino, fecha o tipo de vacuna para acceder rápidamente a la información sanitaria. | 3 |
+| 14 | US18 | Creación de Campañas | Como empresario ganadero, deseo crear nuevas campañas sanitarias o de mejoramiento para organizar actividades coordinadas en mi operación ganadera. | 5 |
+| 15 | US19 | Visualización de Campañas | Como empresario ganadero, deseo visualizar todas las campañas activas y pasadas para tener un control general de las actividades realizadas. | 3 |
+| 16 | US23 | Registro de Personal | Como empresario ganadero, deseo registrar nuevo personal en el sistema para mantener un control de todos los trabajadores de mi operación. | 3 |
+| 17 | US24 | Visualización de Personal | Como empresario ganadero, deseo visualizar la información de todo mi personal para revisar datos de contacto, roles y responsabilidades asignadas. | 2 |
+| 18 | US28 | Asignación de Personal a Campañas | Como empresario ganadero, deseo asignar personal específico a las campañas para coordinar los recursos humanos necesarios en cada actividad. | 3 |
+| 19 | US14 | Edición de Registros de Vacunas | Como usuario ganadero, deseo editar los registros de vacunación para corregir errores o actualizar información cuando sea necesario. | 2 |
+| 20 | US20 | Edición de Campañas | Como empresario ganadero, deseo editar la información de las campañas para actualizar objetivos, fechas o recursos asignados. | 3 |
+| 21 | US25 | Edición de Personal | Como empresario ganadero, deseo editar la información del personal para actualizar datos personales, roles o responsabilidades cuando sea necesario. | 2 |
+| 22 | US22 | Búsqueda de Campañas | Como empresario ganadero, deseo buscar campañas por fecha para localizar rápidamente información específica de las actividades. | 2 |
+| 23 | US27 | Búsqueda de Personal | Como empresario ganadero, deseo buscar personal por nombre para localizar rápidamente información específica de los trabajadores. | 2 |
+| 24 | US04 | Eliminación de Establos | Como usuario ganadero, deseo eliminar establos que ya no utilizo para mantener organizado mi registro de instalaciones. | 2 |
+| 25 | US09 | Eliminación de Bovinos | Como usuario ganadero, deseo eliminar bovinos del registro cuando ya no formen parte del ganado (venta, muerte, etc.). | 3 |
+| 26 | US15 | Eliminación de Registros de Vacunas | Como usuario ganadero, deseo eliminar registros de vacunas incorrectos para mantener la precisión del historial sanitario. | 2 |
+| 27 | US21 | Eliminación de Campañas | Como empresario ganadero, deseo eliminar campañas canceladas o incorrectas para mantener organizado el registro de actividades. | 2 |
+| 28 | US26 | Eliminación de Personal | Como empresario ganadero, deseo eliminar registros de personal que ya no trabaja en mi operación para mantener actualizada la base de datos. | 2 |
+
 
 ## 3.4. Impact Mapping
 
