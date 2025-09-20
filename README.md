@@ -423,6 +423,10 @@
 
 ### 4.9.1. Class Diagrams
 
+<img src="./assets/chapter-4/class_diagram.png">
+
+***Figura 4.9.1 Extraído de Plant UML***
+
 ### 4.9.2. Class Dictionary
 
 ## 4.10. Database Design
