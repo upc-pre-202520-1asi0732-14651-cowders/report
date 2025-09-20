@@ -367,7 +367,7 @@
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
-<img src="images/wire-diagram.png" alt="Landing wireframe" width="600"/>
+<img src="images/Wire_diagram.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
