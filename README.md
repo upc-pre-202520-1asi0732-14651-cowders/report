@@ -375,6 +375,8 @@
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
+<img src="images/Flow-Diagram.png" alt="Landing wireframe" width="600"/>
+
 ## 4.5. Mobile Applications Prototyping
 
 ### 4.5.1. Android Mobile Applications Prototyping
