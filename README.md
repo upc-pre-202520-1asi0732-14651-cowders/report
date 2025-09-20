@@ -353,7 +353,7 @@
 
 ### 4.3.1. Landing Page Wireframe
 
-<img src="Images/Landing-wire.png" alt="Landing wireframe" width="600"/>
+<img src="images/Landing-wire.png" alt="Landing wireframe" width="600"/>
 
 ### 4.3.2. Landing Page Mock-up
 
