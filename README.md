@@ -429,6 +429,61 @@
 
 ### 4.9.2. Class Dictionary
 
+# VacApp - Class Dictionary
+
+## Core System Classes
+
+| **Class** | **Attributes** | **Methods** | **Description** |
+|-----------|----------------|-------------|-----------------|
+| **User** | UserId: Guid, Email: Email, PasswordHash: PasswordHash, FullName: string, IsActive: bool | Register(email, rawPassword), Authenticate(rawPassword): bool, AssignRole(role), Deactivate() | Usuario del sistema (ganadero, operador, veterinario). Puede autenticarse y tener roles específicos. |
+| **Admin** | *Inherits from User* | Promote(user), UpdateSystemSetting(key, value) | Usuario con privilegios administrativos del sistema. |
+| **Role** | RoleId: Guid, Name: string, Permissions: List<Permission> | AddPermission(p), RemovePermission(p) | Rol RBAC con conjunto de permisos para control de acceso granular. |
+| **Permission** | Code: string, Description: string | - | Permiso granular que un rol puede tener para acceder a funcionalidades específicas. |
+| **Bovine** | BovineId: Guid, TagId: TagId, Breed: string, Sex: string, BirthDate: DateTime, HealthStatus: HealthStatus, CurrentWeightKg: decimal | Register(), UpdateHealth(status), RecordWeight(weightKg, when), AssignStable(stable), ApplyVaccination(vr) | Animal (vaca/res) con identificación, salud y métricas. Entidad central del dominio ganadero. |
+| **Stable** | StableId: Guid, Name: string, Capacity: int, Location: string | AddBovine(b), RemoveBovine(b), HasSpace(): bool | Establo/corral donde se alojan bovinos. Gestiona capacidad y ubicación física. |
+| **Vaccine** | VaccineId: Guid, Name: string, Manufacturer: string, RecommendedDose: Dose, MinAgeDays: int | - | Catálogo de vacunas disponibles (metadatos). Define protocolos de vacunación. |
+| **VaccinationRecord** | VaccinationRecordId: Guid, BovineId: Guid, VaccineId: Guid, AppliedDose: Dose, AppliedAt: DateTime, Notes: string | - | Aplicación concreta de una vacuna a un bovino (historial). Registra trazabilidad sanitaria. |
+| **Staff** | StaffId: Guid, FullName: string, Position: string, EmployeeStatus: EmployeeStatus, ContactInfo: string | AssignToStable(stable), UpdateStatus(s) | Colaborador/empleado de la operación ganadera. Gestiona recursos humanos. |
+| **Campaign** | CampaignId: Guid, Name: string, Period: DateRange, Status: CampaignStatus | Activate(), End(), AddChannel(c), AddGoal(g) | Agrupa comunicaciones/acciones orientadas a objetivos específicos (vacunación, tratamiento). |
+| **Channel** | ChannelId: Guid, Name: string, Kind: string (SMS/Email/Push) | - | Canal por el cual se ejecuta la campaña. Define medio de comunicación. |
+| **Goal** | GoalId: Guid, Name: string, Metric: string, TargetValue: decimal | - | Objetivo/Meta medible de campaña (ej. "Vacunar 95% del ganado"). |
+| **VoiceCommand** | CommandId: Guid, Transcript: Transcript, Confidence: ConfidenceScore, CommandType: CommandType, IssuedBy: User, IssuedAt: DateTime | Interpret(): DomainAction, IsConfident(threshold): bool | Orden de voz emitida por un usuario; se interpreta a una acción de dominio. Facilita el uso para ganaderos. |
+| **DomainAction** | Name: string, Parameters: Dictionary<string,string> | - | Acción concreta a ejecutar en el dominio (ej. "ApplyVaccine", "RegisterBovine"). Resultado de la interpretación del comando de voz. |
+
+## Value Objects
+
+| **Value Object** | **Attributes** | **Methods** | **Description** |
+|------------------|----------------|-------------|-----------------|
+| **Email** | Value: string (validado por formato) | - | Value Object para email con validación incorporada. |
+| **PasswordHash** | Value: string | - | Hash seguro (BCrypt/Argon2) de la contraseña. |
+| **TagId** | Value: string | - | Identificador físico del animal (arete/chip RFID). Único por bovino. |
+| **Dose** | Value: string (p. ej. "5 ml IM") | - | Dosis aplicada/recomendada con unidad y vía de administración. |
+| **DateRange** | Start: DateTime, End: DateTime | Contains(dt): bool | Intervalo temporal válido de la campaña con validaciones. |
+| **Transcript** | Value: string | - | Texto reconocido del comando de voz (español/quechua). |
+| **ConfidenceScore** | Value: double (0–1) | - | Puntaje de confianza del reconocimiento de voz. |
+
+## Enumerations
+
+| **Enum** | **Values** | **Description** |
+|----------|------------|-----------------|
+| **HealthStatus** | Healthy, AtRisk, Sick, Recovered | Estado sanitario actual del bovino. |
+| **CampaignStatus** | Draft, Active, Finished | Ciclo de vida de la campaña. |
+| **EmployeeStatus** | Active, Inactive, Suspended | Estado laboral del empleado. |
+| **CommandType** | Query, Create, Update, Delete | Tipo de intención del comando (consultar, crear, actualizar, eliminar). |
+
+## Domain Relationships
+
+- **User** puede tener multiples **Roles**
+- **Role** contiene multiples **Permissions**
+- **Bovine** pertenece a un **Stable**
+- **Bovine** tiene multiples **VaccinationRecords**
+- **VaccinationRecord** hace referencia a **Vaccine**
+- **Campaign** usa multiples **Channels** y define multiples **Goals**
+- **Campaign** puede apuntar a multiples **Bovines**
+- **Staff** puede ser asignado a multiples **Stables**
+- **User** emite varios **VoiceCommands**
+- **VoiceCommand** genera un **DomainAction**
+
 ## 4.10. Database Design
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
