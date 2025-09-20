@@ -488,6 +488,10 @@
 
 ### 4.10.1. Relational/Non-Relational Database Diagram
 
+<img src="./assets/chapter-4/relational_database_diagram.png">
+
+***Figura 4.10.1 Extraído de Plant UML***
+
 # **Capítulo V: Product Implementation**
 
 ## 5.1. Software Configuration Management
