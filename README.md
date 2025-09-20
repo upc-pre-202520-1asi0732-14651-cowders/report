@@ -369,6 +369,8 @@
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+<img src="images/Mobile-mock.png" alt="Landing wireframe" width="600"/>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
 ## 4.5. Mobile Applications Prototyping
