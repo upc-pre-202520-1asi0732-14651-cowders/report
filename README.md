@@ -1,25 +1,41 @@
 <div align="center">
-  <h3> Universidad Peruana de Ciencias Aplicadas </h3>
+  <h3><strong> Universidad Peruana de Ciencias Aplicadas </strong></h3>
+</div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
+</div>
 
+<div align="center">
   <h5> Ingeniería de Software </h5>
+</div>
 
+<div align="center">
   <h5> Diseño de Experimentos de Ingeniería de Software </h5>
+</div>
 
+<div align="center">
   <h5> NRC: 14651 </h5>
+</div>
 
+<div align="center">
   <h5> Docente: Juan Carlos Tinoco Licas </h5>
+</div>
 
+<div align="center">
   <h5> Informe del Trabajo Final </h5>
+</div>
 
+<div align="center">
   <h5> Startup: Cowders </h5>
+</div>
 
+<div align="center">
   <h5> Producto: Moobile </h5>
 </div>
 
 <div align="center">
-    <h3>Integrantes:</h3>
+  <h3>Integrantes:</h3>
 </div>
 
 <div>
@@ -1207,7 +1223,14 @@ Es una estructura aplicada al desarrollo de software. Se utilizaron distintas te
 - **[Github](https://github.com/)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
 - **[HTML](https://www.jetbrains.com/help/webstorm/editing-html-files.html)**: Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Este lenguaje va a ser utilizado en el presente proyecto.  
 - **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
-- **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.  
+- **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.
+- **[Node.js LTS](https://nodejs.org/)**: Runtime para ejecutar herramientas de build y servidores de desarrollo de React.  
+- **[npm](https://www.npmjs.com/)/[yarn](https://yarnpkg.com/)/[pnpm](https://pnpm.io/)**: Gestores de paquetes para instalar dependencias del frontend.  
+- **[React](https://react.dev/)**: Biblioteca para construir interfaces web basadas en componentes.  
+- **[Vite](https://vitejs.dev/)**: Herramienta de bundling y dev server rápida para proyectos React.  
+- **[Flutter SDK](https://flutter.dev/)**: Framework multiplataforma para apps móviles (iOS/Android) usando Dart.  
+- **[Dart](https://dart.dev/)**: Lenguaje de programación utilizado por Flutter.  
+- **[Node.js LTS](https://nodejs.org/)**: Runtime para ejecutar herramientas de build y servidores de desarrollo de React.    
 
 #### Software Deployment  
 Tiene la función de examinar el comportamiento del software, asimismo le hace varias pruebas y lo verifica.
