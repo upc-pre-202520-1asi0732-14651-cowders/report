@@ -523,23 +523,23 @@ Perfil:
 
 Inicio:
 
-<img src="assets/chapter-4/Inicio.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/InicioColor.png" alt="Landing wireframe" width="600"/>
 
 Crear Cuenta:
 
-<img src="assets/chapter-4/Crear-Cuenta.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Crear_CuentaColor.png" alt="Landing wireframe" width="600"/>
 
 Iniciar Sesion:
 
-<img src="assets/chapter-4/Iniciar-Sesion.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Iniciar-SesionColor.png" alt="Landing wireframe" width="600"/>
 
 Contenido:
 
-<img src="assets/chapter-4/Plataforma.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/PlataformaColor.png" alt="Landing wireframe" width="600"/>
 
 Perfil:
 
-<img src="assets/chapter-4/Perfil.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/PerfilColor.png" alt="Landing wireframe" width="600"/>
 
 Figma: https://www.figma.com/design/m5rm63SoX3A5fbWQ2xnJRM/Cowders-Mobile?node-id=18-248&t=rPbr6AgPWNwdxWIm-1
 
