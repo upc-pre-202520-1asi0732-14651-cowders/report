@@ -609,6 +609,22 @@ Los pasos realizados fueron los siguientes:
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+[![image.png](https://i.postimg.cc/tgnTQp9p/image.png)](https://postimg.cc/Jymmjwy2)
+
+[![image.png](https://i.postimg.cc/TwXTzbkJ/image.png)](https://postimg.cc/v13R94w4)
+
+[![image.png](https://i.postimg.cc/FKyMJBZ0/image.png)](https://postimg.cc/FfKWMGwK)
+
+[![image.png](https://i.postimg.cc/HnhRgDY1/image.png)](https://postimg.cc/YLQb6PLd)
+
+[![image.png](https://i.postimg.cc/nVPPMxJ6/image.png)](https://postimg.cc/5j83kZj3)
+
+[![image.png](https://i.postimg.cc/3w8smZb6/image.png)](https://postimg.cc/18d7ZDSc)
+
+[![image.png](https://i.postimg.cc/8c2441kc/image.png)](https://postimg.cc/H8tbs1y1)
+
+[![image.png](https://i.postimg.cc/6pfs8Pzn/image.png)](https://postimg.cc/SnR15DBx)
+
 ### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
 **1. Staffs.**  
