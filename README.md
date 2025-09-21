@@ -1041,23 +1041,63 @@ La navegación de Moobile se basa en patrones comunes de apps móviles para redu
 
 <img src="assets/chapter-4/Landing-mock.png" alt="Landing wireframe" width="600"/>
 
+Figma: https://www.figma.com/design/CrGSyZN6jKW73TiJ2qILIv/Cowders-Landing?node-id=0-1&t=h73dRZkoV2g4gPP2-1
+
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
 
-<img src="assets/chapter-4/Mobile-wire.png" alt="Landing wireframe" width="600"/>
+Inicio:
+
+<img src="assets/chapter-4/inicio.png" alt="Landing wireframe" width="600"/>
+
+Crear Cuenta:
+
+<img src="assets/chapter-4/crear-cuenta.png" alt="Landing wireframe" width="600"/>
+
+Iniciar Sesion:
+
+<img src="assets/chapter-4/iniciar-sesion.png" alt="Landing wireframe" width="600"/>
+
+Contenido:
+
+<img src="assets/chapter-4/plataforma.png" alt="Landing wireframe" width="600"/>
+
+Perfil:
+
+<img src="assets/chapter-4/perfil.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
-<img src="assets/chapter-4/Wire_diagram.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Mobile-wire-diagram.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-<img src="assets/chapter-4/Mobile_mock.png" alt="Landing wireframe" width="600"/>
+Inicio:
+
+<img src="assets/chapter-4/InicioColor.png" alt="Landing wireframe" width="600"/>
+
+Crear Cuenta:
+
+<img src="assets/chapter-4/Crear_CuentaColor.png" alt="Landing wireframe" width="600"/>
+
+Iniciar Sesion:
+
+<img src="assets/chapter-4/Iniciar-SesionColor.png" alt="Landing wireframe" width="600"/>
+
+Contenido:
+
+<img src="assets/chapter-4/PlataformaColor.png" alt="Landing wireframe" width="600"/>
+
+Perfil:
+
+<img src="assets/chapter-4/PerfilColor.png" alt="Landing wireframe" width="600"/>
+
+Figma: https://www.figma.com/design/m5rm63SoX3A5fbWQ2xnJRM/Cowders-Mobile?node-id=18-248&t=rPbr6AgPWNwdxWIm-1
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-<img src="assets/chapter-4/Flow-Diagram.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Mobile-flow-diagram.png" alt="Landing wireframe" width="600"/>
 
 ## 4.5. Mobile Applications Prototyping
 
