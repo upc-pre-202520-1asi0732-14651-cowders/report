@@ -1391,19 +1391,37 @@ Los pasos realizados fueron los siguientes:
 
 ### 5.2.4. Implemented Native-Mobile Application Evidence
 
+1) Pantalla de bienvenida: presentamos “Moobile” y a Vicky, tu asistente vacuna. Esta vista introduce el propósito de la app (gestionar bovinos de forma simple y segura) y ofrece dos acciones claras para el usuario: Iniciar Sesión o Crear Cuenta.
+
 [![image.png](https://i.postimg.cc/tgnTQp9p/image.png)](https://postimg.cc/Jymmjwy2)
+
+2) Inicio de sesión: formulario limpio con usuario/email y contraseña, acceso a “¿Olvidaste tu contraseña?” y botón principal Iniciar Sesión. El encabezado y la ilustración refuerzan el tono cercano; priorizamos accesibilidad con campos grandes y toggle de visibilidad de contraseña.
 
 [![image.png](https://i.postimg.cc/TwXTzbkJ/image.png)](https://postimg.cc/v13R94w4)
 
+3) Registro: alta de cuenta con nombre de usuario, email y contraseña, más la casilla de Términos & Condiciones y Política de Privacidad. El botón se habilita solo cuando los datos son válidos, promoviendo calidad de registro y cumplimiento.
+
 [![image.png](https://i.postimg.cc/FKyMJBZ0/image.png)](https://postimg.cc/FfKWMGwK)
+
+4) Home / Panel: tablero inicial con saludo y atajo a configuración, seguido de tarjetas resumen (Panel de Animales, Campañas, Personal). Es la vista de control: métricas en cero para nuevo usuario y navegación inferior para moverse por las secciones clave.
 
 [![image.png](https://i.postimg.cc/HnhRgDY1/image.png)](https://postimg.cc/YLQb6PLd)
 
+5) Animales (estado vacío): mensaje “No hay bovinos registrados” con CTA Agregar Bovino. Este empty state guía al primer paso crítico del flujo y evita fricción inicial explicando qué hacer a continuación.
+
+6) Registrar Bovino: formulario guiado por bloques (foto, datos básicos, fecha de nacimiento, etc.). El diseño por tarjetas y el botón de agregar foto facilitan capturar información completa y estandarizada desde campo.
+
 [![image.png](https://i.postimg.cc/nVPPMxJ6/image.png)](https://postimg.cc/5j83kZj3)
+
+7) Gestión: hub operativo para Campañas, Vacunas y Empleados con contadores de estado (activas,
 
 [![image.png](https://i.postimg.cc/3w8smZb6/image.png)](https://postimg.cc/18d7ZDSc)
 
+8) Gestión: hub operativo para Campañas, Vacunas y Empleados con contadores de estado (activas, vacunados, en campaña). Centraliza administración y seguimiento, reduciendo pasos y manteniendo trazabilidad de actividades sanitarias y de personal.
+
 [![image.png](https://i.postimg.cc/8c2441kc/image.png)](https://postimg.cc/H8tbs1y1)
+
+9) Establos (estado vacío): invita a crear el primer establo para organizar animales por espacio físico. El texto de ayuda explica el beneficio (orden y manejo eficiente), y el botón principal inicia el flujo de creación.
 
 [![image.png](https://i.postimg.cc/6pfs8Pzn/image.png)](https://postimg.cc/SnR15DBx)
 
