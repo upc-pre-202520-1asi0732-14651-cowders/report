@@ -493,7 +493,25 @@ La navegación de Moobile se basa en patrones comunes de apps móviles para redu
 
 ### 4.4.1. Mobile Applications Wireframes
 
-<img src="assets/chapter-4/Mobile-wire.png" alt="Landing wireframe" width="600"/>
+Inicio:
+
+<img src="assets/chapter-4/inicio.png" alt="Landing wireframe" width="600"/>
+
+Crear Cuenta:
+
+<img src="assets/chapter-4/crear-cuenta.png" alt="Landing wireframe" width="600"/>
+
+Iniciar Sesion:
+
+<img src="assets/chapter-4/iniciar-sesion.png" alt="Landing wireframe" width="600"/>
+
+Contenido:
+
+<img src="assets/chapter-4/plataforma.png" alt="Landing wireframe" width="600"/>
+
+Perfil:
+
+<img src="assets/chapter-4/perfil.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
