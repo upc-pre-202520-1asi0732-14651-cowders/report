@@ -20,6 +20,7 @@
 
 <div align="center">
   <h5> Docente: Juan Carlos Tinoco Licas </h5>
+</div>
 
 <div align="center">
   <h5> Informe del Trabajo Final </h5>
@@ -34,11 +35,11 @@
 </div>
 
 <div align="center">
-    <h3>Integrantes:</h3>
+  <h3>Integrantes:</h3>
 </div>
 
 <div>
-     <table align="center">
+    <table align="center">
         <tr>
             <th style="text-align:center;">Apellidos y nombres</th>
             <th style="text-align:center;">Código</th>
@@ -580,15 +581,13 @@ En el Perú, el bienestar animal en las empresas ganaderas es a menudo insuficie
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
-### 5.2.4. Acuerdo de Servicio - SaaS
+### 5.2.4. Implemented Native-Mobile Application Evidence
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
 
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. RESTful API documentation
 
-### 5.2.7. RESTful API documentation
-
-### 5.2.8. Team Collaboration Insights
+### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
 
