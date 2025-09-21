@@ -863,61 +863,219 @@ A continuación presentaremos 3 Business Goals que consideramos importantes en n
 
 ## 4.1. Style Guidelines
 
+Las Style Guidelines son fundamentales para garantizar una comunicación consistente y profesional en todos los elementos visuales y de diseño del proyecto, ya sea en formatos impresos, digitales o en cualquier otro medio. En esta sección, se definirán las directrices que orientarán al equipo en la creación de Moobile. Estas normas establecerán aspectos clave como la selección de colores, tipografía, la organización de los documentos y otros elementos visuales. Para el desarrollo de Moobile, Figma será nuestra herramienta principal para diseñar tanto la aplicación móvil como la página de aterrizaje. En ambos casos, se utilizará una paleta de colores que combinará tonos verdes y cremosos, evocando la naturaleza y transmitiendo la confianza vinculada a una gestión responsable y sostenible del cuidado animal. A continuación, se detallarán estos puntos en mayor profundidad.
+
 ### 4.1.1. General Style Guidelines
+
+**Branding**
+
+El branding de Moobile está está concebida para transmitir seguridad, firmeza y un compromiso con la sostenibilidad en la ganadería bovina. Su identidad visual establece una conexión directa con la naturaleza y la productividad agrícola, incorporando elementos gráficos que simbolizan el manejo responsable del ganado. El objetivo es crear una imagen sólida y definida, que sea de fácil reconocimiento para los productores y profesionales del sector.
+
+**Typography**
+
+La tipografía seleccionada para Moobile es contemporánea y legible, con un énfasis en la claridad, especialmente en dispositivos móviles. Para los encabezados se usará la fuente Rokkitt, lo que ayudará a resaltar la jerarquía visual de la información, mientras que el cuerpo de texto estará en Mulish, garantizando una lectura cómoda y fluida durante largos períodos. La tipografía elegida busca transmitir seriedad, manteniendo al mismo tiempo una sensación de cercanía y accesibilidad.
+
+[![rokkitt.png](https://i.postimg.cc/vHfxF2Kn/rokkitt.png)](https://postimg.cc/bsYw1gpY)
+
+[![mulish.png](https://i.postimg.cc/qqfB1445/mulish.png)](https://postimg.cc/njktz8s4)
+
+**Colors**
+
+La paleta de colores de Moobile se basa en combinaciones de verdes y tonos crema, cuidadosamente elegidos para reflejar la naturaleza y transmitir confianza en una gestión ganadera sostenible. Los verdes simbolizan frescura, bienestar y responsabilidad ambiental, mientras que los cremas aportan una sensación de arraigo, tradición y vínculo con el entorno rural. Estos colores se aplicarán estratégicamente para lograr una interfaz visualmente equilibrada y fácil de usar en dispositivos móviles.
+
+[![vacapp-colors.png](https://i.postimg.cc/L6DR1zY7/vacapp-colors.png)](https://postimg.cc/56XZcQmq)
+
+**Spacing**
+
+Se utilizará un espaciado óptimo en toda la interfaz para evitar la saturación visual y asegurar una experiencia de navegación clara y agradable. Los márgenes y separaciones entre los distintos elementos serán definidos con precisión, con el objetivo de mantener un diseño ordenado y armonioso. Esto también favorecerá la usabilidad en dispositivos móviles, donde la interacción requiere mayor exactitud.
+
+**Tono de Comunicación**
+
+El tono de comunicación de Moobile será directo, respetuoso y accesible, orientado específicamente a los usuarios del ámbito de la ganadería bovina. Se empleará un lenguaje claro, profesional y comprensible, con el propósito de generar confianza y transmitir conocimientos relevantes sobre el manejo del ganado. La intención es que el usuario se sienta respaldado e informado, sin perder el tono serio y responsable que define al sector.
 
 ### 4.1.2. Web Style Guidelines
 
+El diseño web de Moobile se basará en principios de accesibilidad, usabilidad y coherencia visual, con el fin de garantizar una experiencia de usuario clara, intuitiva y uniforme en todo tipo de dispositivos.
+
 ### 4.1.3. Mobile Style Guidelines
+
+La app móvil de Moobile ha sido desarrollada utilizando Flutter, lo que permite mantener una coherencia visual en cuanto a colores, tipografía y componentes gráficos en ambas plataformas: iOS y Android.
+
+La principal diferencia se encuentra en la adaptación a las guías de diseño nativas de cada sistema operativo.
+
+**Tipografía:**
+
+- iOS: Se utiliza SF Pro Display/Text.
+- Android: Se emplea Roboto.
+
+Gracias a Flutter, se establece una jerarquía tipográfica uniforme que se ajusta automáticamente al estilo del sistema operativo correspondiente, garantizando una experiencia visual coherente y optimizada para cada entorno.
 
 #### 4.1.3.1. iOS Mobile Style Guidelines
 
+El diseño de la versión iOS de Moobile se ajustará a las Human Interface Guidelines (HIG) de Apple.
+
+**Colores**  
+Se utilizarán los mismos tonos definidos en la paleta general para mantener la coherencia de marca.
+
+**Componentes UI**
+
+- Barra de navegación inferior con iconos claros y minimalistas.
+
+- Botones con bordes redondeados (de 12 a 16 px), respetando la estética típica de iOS.
+
+- Uso de modal sheets para formularios y confirmaciones.
+
+**Interacciones**
+
+- Gestos nativos como swipe back y pull-to-refresh.
+
+- Animaciones que incorporan efectos de desenfoque y transparencia, creando una sensación de profundidad.
+
+- Respuestas visuales inmediatas en cada interacción para mejorar la experiencia del usuario.
+
 #### 4.1.3.2. Android Mobile Style Guidelines
+
+El diseño de la versión Android de Moobile se basará en las directrices de Material Design 3 de Google.
+
+**Colores**  
+Mismos definidos en la paleta general.
+
+**Componentes UI**
+Para la versión Android de Moobile, se utilizará BottomNavigationView o NavigationRail en tablets para facilitar la navegación.
+
+Los botones tendrán esquinas redondeadas siguiendo las especificaciones de Material Design 3.
+
+Además, se incorporará un Floating Action Button (FAB) para las acciones principales, como el registro de bovinos o vacunas.
+
+**Interacciones**
+Se implementarán animaciones dinámicas inspiradas en motion design para mejorar la experiencia visual.
+
+La aplicación ofrecerá soporte completo para el modo oscuro (dark mode).
+
+También será compatible con el sistema de personalización de Material You, permitiendo que la interfaz se adapte a los estilos y colores personalizados del usuario.
 
 ## 4.2. Information Architecture
 
+La arquictura de información de Moobile ha sido pensada para ofrecer una experiencia de uso fluida y coherente, tanto en la aplicación móvil como en la landing page. Cada decisión en su diseño tiene como objetivo permitir que los usuarios accedan fácilmente a las funciones principales de la plataforma. Para ello, se emplean principios de organización bien definidos, etiquetas claras, sistemas de búsqueda eficaces y una navegación intuitiva que facilita el recorrido del usuario.
+
 ### 4.2.1. Organization Systems
+
+Para Moobile, se han definido diferentes esquemas de organización según el tipo de contenido:
+
+- **Jerárquica (Visual Hierarchy):** Se aplica en la Landing Page y en la pantalla principal de la app, destacando las funciones más importantes como registro de ganado y control sanitario. Las acciones frecuentes se ubican en la parte superior o centradas.
+
+- **Secuencial (Step-by-step):** Utilizada en procesos como el registro de animales, guiando al usuario en pasos definidos.
+
+- **Por Tópicos:** En las secciones de información técnica, como manuales o ayudas, la organización se basa en temas relevantes (salud animal, nutrición, reproducción, etc.).
+
+- **Según Audiencia:** Algunas vistas como el panel administrativo o el perfil del veterinario muestran información personalizada, según el rol del usuario dentro del sistema.
 
 ### 4.2.2. Labeling Systems
 
+El sistema de etiquetado de Moobile prioriza la claridad y la economía del lenguaje. Las etiquetas han sido diseñadas con términos que el usuario del sector ganadero ya reconoce:
+
+- Se evita el uso de jergas técnicas excesivas.
+- Las acciones se etiquetan con verbos directos como "Registrar", "Consultar", "Programar".
+- Las categorías principales usan términos como "Animales", "Citas", "Inventario", "Diagnósticos".
+- Se emplean iconos acompañantes para reforzar visualmente el significado de cada etiqueta.
+
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para mejorar la visibilidad de Moobile en motores de búsqueda y en tiendas de aplicaciones, se han definido los siguientes valores de optimización:
+
+**Landing Page y Web App:**
+
+- **Title:** Moobile – Gestión inteligente para la ganadería bovina
+- **Meta Description:** Plataforma digital que optimiza el control sanitario, inventario y manejo del ganado bovino.
+- **Keywords:** ganadería, salud animal, veterinaria, bovino, control de ganado, app ganadera
+- **Author:** Moobile
+
+**App Store Optimization (ASO):**
+- **App Title:** Moobile
+- **App Subtitle:** Manejo digital de tu ganado bovino
+- **App Keywords:** ganadería, bovinos, recetas, veterinarios, animales
+- **App Description:** Moobile es una aplicación móvil diseñada para modernizar y optimizar la gestión ganadera en el Perú. Pensada tanto para ganaderos independientes como para empresas del sector.
 
 ### 4.2.4. Searching Systems
 
+Moobile contará con sistemas de búsqueda contextual y filtros específicos según la sección:
+
+- Búsqueda global por nombre, código de animal o categoría.
+- Filtros personalizados por estado de salud, tipo de ganado, fechas de registro, entre otros.
+- Sugerencias automáticas mientras se escribe (auto-complete).
+- Resultados mostrados con etiquetas claras, iconos e información resumida (como nombre, fecha, categoría).
+
 ### 4.2.5. Navigation Systems
+
+La navegación de Moobile se basa en patrones comunes de apps móviles para reducir la curva de aprendizaje:
+
+- Navegación inferior (Bottom Navigation) con accesos rápidos a secciones clave: Inicio, Animales, Perfil, etc.
+- Menú hamburguesa con opciones complementarias como configuración, soporte y cerrar sesión.
+- Enlaces jerárquicos que permiten ir y volver entre secciones sin perder contexto.
+- Flujos de usuario optimizados: pasos guiados para tareas como registrar un animal.
+- Indicadores visuales para mantener claridad sobre la ubicación actual dentro de la app.
 
 ## 4.3. Landing Page UI Design
 
 ### 4.3.1. Landing Page Wireframe
 
+<img src="assets/chapter-4/Landing-wire.png" alt="Landing wireframe" width="600"/>
+
 ### 4.3.2. Landing Page Mock-up
+
+<img src="assets/chapter-4/Landing-mock.png" alt="Landing wireframe" width="600"/>
 
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
 
+<img src="assets/chapter-4/Mobile-wire.png" alt="Landing wireframe" width="600"/>
+
 ### 4.4.2. Mobile Applications Wireflow Diagrams
+
+<img src="assets/chapter-4/Wire_diagram.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
+<img src="assets/chapter-4/Mobile_mock.png" alt="Landing wireframe" width="600"/>
+
 ### 4.4.4. Mobile Applications User Flow Diagrams
+
+<img src="assets/chapter-4/Flow-Diagram.png" alt="Landing wireframe" width="600"/>
 
 ## 4.5. Mobile Applications Prototyping
 
+Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Android e iOS.
+
 ### 4.5.1. Android Mobile Applications Prototyping
 
+[![prototipo.png](https://i.postimg.cc/HLybnWZS/prototipo.png)](https://postimg.cc/1gy8YSZ6)
+
 ### 4.5.2. iOS Mobile Applications Prototyping
+
+[![prototipo.png](https://i.postimg.cc/HLybnWZS/prototipo.png)](https://postimg.cc/1gy8YSZ6)
 
 ## 4.6. Web Applications UX/UI Design
 
 ### 4.6.1. Web Applications Wireframes
 
+[![image.png](https://i.postimg.cc/R0ZVpgfw/image.png)](https://postimg.cc/xXB2cy6d)
+
 ### 4.6.2. Web Applications Wireflow Diagrams
+
+[![image.png](https://i.postimg.cc/W1MkcYhK/image.png)](https://postimg.cc/pmLTDZQY)
 
 ### 4.6.3. Web Applications Mock-ups
 
+[![image.png](https://i.postimg.cc/6376tTM3/image.png)](https://postimg.cc/ftNQvWnn)
+
 ### 4.6.4. Web Applications User Flow Diagrams
 
+[![image.png](https://i.postimg.cc/D0JSjB9x/image.png)](https://postimg.cc/RJmCqQVt)
+
 ## 4.7. Web Applications Prototyping
+
+[![image.png](https://i.postimg.cc/2jQRv4LY/image.png)](https://postimg.cc/bdwBfSRV)
 
 ## 4.8. Domain-Driven Software Architecture
 
@@ -965,7 +1123,7 @@ A continuación presentaremos 3 Business Goals que consideramos importantes en n
 
 ### 4.9.2. Class Dictionary
 
-# VacApp - Class Dictionary
+# Moobile - Class Dictionary
 
 ## Core System Classes
 
