@@ -483,29 +483,29 @@ La navegación de Moobile se basa en patrones comunes de apps móviles para redu
 
 ### 4.3.1. Landing Page Wireframe
 
-<img src="assets/chapter-4/images/Landing-wire.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Landing-wire.png" alt="Landing wireframe" width="600"/>
 
 ### 4.3.2. Landing Page Mock-up
 
-<img src="assets/chapter-4/images/Landing-mock.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Landing-mock.png" alt="Landing wireframe" width="600"/>
 
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
 
-<img src="assets/chapter-4/images/Mobile-wire.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Mobile-wire.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
-<img src="assets/chapter-4/images/Wire_diagram.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Wire_diagram.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-<img src="assets/chapter-4/images/Mobile_mock.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Mobile_mock.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-<img src="assets/chapter-4/images/Flow-Diagram.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Flow-Diagram.png" alt="Landing wireframe" width="600"/>
 
 ## 4.5. Mobile Applications Prototyping
 
