@@ -517,7 +517,7 @@ Perfil:
 
 ### 4.4.2. Mobile Applications Wireflow Diagrams
 
-<img src="assets/chapter-4/Wire_diagram.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Mobile-wire-diagram.png" alt="Landing wireframe" width="600"/>
 
 ### 4.4.3. Mobile Applications Mock-ups
 
@@ -545,7 +545,7 @@ Figma: https://www.figma.com/design/m5rm63SoX3A5fbWQ2xnJRM/Cowders-Mobile?node-i
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
-<img src="assets/chapter-4/Flow-Diagram.png" alt="Landing wireframe" width="600"/>
+<img src="assets/chapter-4/Mobile-flow-diagram.png" alt="Landing wireframe" width="600"/>
 
 ## 4.5. Mobile Applications Prototyping
 
