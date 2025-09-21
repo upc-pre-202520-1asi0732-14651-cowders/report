@@ -436,7 +436,7 @@ La gestión del código fuente, también conocida como **SCM** (Source Code Mana
 
 **Landing Page: [LandingPage](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)**
 
-![Repositorios](Imgs-Source_Code_Management/diagram_branches.png)
+![Repositorios](assets/chapter-5/Imgs-Source_Code_Management/diagram_branches.png)
 
 En este proyecto,implementaremos **GitFlow** como ña estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que nos permite facilitar el desarrollo. Además, este permite a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenadamente. Con GitFlow, nos guiaremos según un flujo de trabajo definido que incluirá ramas dedicadas para el desarrollo de todo el ciclo de vida del software. Esta metodología nos permitirá mantener un control moderado sobre el proceso del desarrollo, logrando minimizar conflictos y asegurando la integración de funcionalidades de manera efectiva durante las fusiones.
 
@@ -451,7 +451,7 @@ Como se indicó anteriormente, gracias a GitFlow podremos trabajar con **branche
   - **Release Branches**: Se derivan de develop cuando el código está listo para preparar una nueva versión.
   - **Hotfix Branches**: Se abren desde main para corregir fallos críticos detectados en producción.
 
-![Repositorios2](Imgs-Source_Code_Management/diagram_branches2.png)
+![Repositorios2](assets/chapter-5/Imgs-Source_Code_Management/diagram_branches2.png)
 
 #### Conventional Commits:
 
@@ -495,15 +495,15 @@ El despliegue de la landing page de Moobile fue posible gracias al uso de las si
 Los pasos realizados fueron los siguientes:
 1) En este caso, nuestro equipo utilizó GitHub Pages como método de despliegue, entonces navegaríamos al repositorio de la página y desde allí procederemos a la opción configurar.
 
-![captura1](Imgs-Software%20Deployment%20Configuration/Captura1.png)
+![captura1](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura1.png)
 
 2) Acceder a la opción de GitHub Pages y configurar las opciones para obtener el link de la landing page.
 
-![captura2](Imgs-Software%20Deployment%20Configuration/Captura2.png)
+![captura2](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura2.png)
 
 3) Tras realizar el paso anterior, se obtuvo el siguiente link: [https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/). Este nos redirigirá a la landing page desplegada.
 
-![captura3](Imgs-Software%20Deployment%20Configuration/Captura3.png)
+![captura3](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura3.png)
 
 
 ## 5.2. Product Implementation & Deployment
@@ -548,34 +548,31 @@ Los pasos realizados fueron los siguientes:
 | TS05 | Conocimiento de Misión y Visión | T33 | Implementar sección de misión y visión | 1 | Martinez Ramos, Bryan Felix | To-do |
 | TS06 | Vista General de la Plataforma | T34 | Implementar vista general interactiva (tour) | 3 | Roque Tello, Jack Eddie | To-do |
 
-
-
-
 ### 5.2.2. Implemented Landing Page Evidence
 
 1) Esta primera parte de la página presenta a Cowders y su propuesta: usar tecnología para ayudar a la ganadería peruana. Arriba se ve el menú para moverse por la web y un botón verde para pedir una demo. El título grande deja claro de qué trata el sitio y, al costado, hay cuatro recuadros que muestran de forma simple qué hace la plataforma: cuida la salud del ganado, mejora la alimentación y productividad, lleva el control reproductivo y promueve la sostenibilidad.
 
-![Hero_Section](Imgs-Implemented_Landing_Page_Evidence/1.png)
+![Hero_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/1.png)
 
 2) Aquí se explica, con ejemplos, qué incluye la plataforma “Moobile”. Cada tarjeta cuenta una función concreta: registrar la salud de los animales, planificar raciones y controlar el peso, llevar un historial confiable de ciclos y preñeces, tomar decisiones con datos ambientales, trabajar desde el campo o la oficina con la app, y mantener la información segura. Es una forma clara de ver “qué puedo hacer” si uso el sistema.
 
-![features_Section](Imgs-Implemented_Landing_Page_Evidence/2.png)
+![features_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/2.png)
 
 3) En esta parte se resumen los beneficios principales para el usuario: trabajar de manera más eficiente, cuidar mejor a los animales y actuar de forma responsable con el ambiente. Justo al lado aparece un recuadro que invita a “agendar diagnóstico”, pensado para que alguien interesado pueda evaluar su situación y recibir recomendaciones prácticas.
 
-![benefits_diagnostic_Section](Imgs-Implemented_Landing_Page_Evidence/3.png)
+![benefits_diagnostic_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/3.png)
 
 4) Esta sección muestra que el impacto de la plataforma se puede medir. Divide el contenido en dos: ambiental y social. La idea es que no solo se hable de mejoras, sino que se puedan ver con datos. A la derecha se repite la invitación a pedir un diagnóstico.
 
-![benefits_diagnostic_Section](Imgs-Implemented_Landing_Page_Evidence/4.png)
+![benefits_diagnostic_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/4.png)
 
 5) Aquí se cuenta la misión y la visión del proyecto.
 
-![environmental_social_impact_Section](Imgs-Implemented_Landing_Page_Evidence/5.png)
+![environmental_social_impact_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/5.png)
 
 6) Finalmente, está el formulario de contacto. Al lado aparecen el email oficial y la ubicación (Lima, Perú), por si se prefiere escribir directamente. En el pie de página se ve el año, una nota de que el proyecto nació en la UPC y algunos enlaces rápidos para volver a secciones importantes.
 
-![mission_vision_Section](Imgs-Implemented_Landing_Page_Evidence/6.png)
+![mission_vision_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/6.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
@@ -630,32 +627,32 @@ Los pasos realizados fueron los siguientes:
 **1. Staffs.**  
 En esta primera captura se ve la sección “Staffs” del panel Swagger, que agrupa todas las operaciones del recurso de personal bajo el prefijo `/api/v1/staff`. La fila verde indica que es posible **crear** un registro de staff con `POST /staff`. Debajo se muestran varios bloques azules que permiten **listar** a todo el personal (`GET /staff`) y **consultar** un registro puntual (`GET /staff/{id}`). Aparecen también las operaciones para **actualizar** (`PUT /staff/{id}`, en color ámbar) y **eliminar** (`DELETE /staff/{id}`, en rojo) un staff existente. Además, la pantalla evidencia tres búsquedas especializadas: **por campaña** (`GET /staff/search-by-campaign/{campaignId}`), **por estado laboral** (`GET /staff/search-by-employee-status/{employeeStatus}`) y **por nombre** (`GET /staff/search-by-name/{name}`), cada una con su breve descripción al lado derecho. Todos los ítems muestran el candado de seguridad, confirmando que requieren autenticación.
 
-![Staffs](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/4.png)
+![Staffs](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/4.png)
 
 **2. User Admins y Users.**  
 La segunda imagen presenta dos grupos diferenciados. Arriba, “User Admins” concentra las rutas administrativas bajo `/api/v1/admin`: se observan los endpoints para **crear** administradores (`POST /admin/create`), **iniciar sesión** (`POST /admin/sign-in`), **ver el perfil** (`GET /admin/profile`), **actualizarlo** (`PUT /admin/update-profile`) y **eliminar la propia cuenta** (`DELETE /admin/delete`). También aparecen los listados globales: **todos los admins** (`GET /admin/all`) y **todos los usuarios** (`GET /admin/all-users`) visibles para un administrador. Abajo, el bloque “Users” muestra el flujo del usuario final con `/api/v1/user`: **registro** (`POST /user/sign-up`), **inicio de sesión** (`POST /user/sign-in`), **consulta de su información** (`GET /user/get-info`), **actualización de perfil** (`PUT /user/update-profile`), **eliminación de cuenta** (`DELETE /user/delete-account`) y **acceso al perfil** (`GET /user/profile`). En ambos grupos, el candado confirma que todas las operaciones están protegidas por autenticación.
 
-![Users](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/5.png)
+![Users](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/5.png)
 
 **3. Vaccines y Voice Commands.**  
 La tercera captura reúne dos módulos. En la parte superior, “Vaccines” agrupa el CRUD completo bajo `/api/v1/vaccines`: **creación** (`POST /vaccines`), **listado global** (`GET /vaccines`), **consulta por ID** (`GET /vaccines/{id}`), **actualización** (`PUT /vaccines/{id}`) y **eliminación** (`DELETE /vaccines/{id}`). Se destaca además una ruta específica para **recuperar las vacunas vinculadas a un bovino** (`GET /vaccines/bovine/{bovineId}`), lo que evidencia la relación entre entidades. En la parte inferior aparece “Voice Commands”, con rutas de **procesamiento de audio** (`POST /voice-command/process-audio`) y **prueba de parsing textual** (`POST /voice-command/parse-text`), además de **listado de comandos** del usuario (`GET /voice-command`), **listado paginado** (`GET /voice-command/paginated`), **detalle** (`GET /voice-command/{id}`) y **estadísticas** de uso (`GET /voice-command/statistics`). En todos los casos se muestra el icono de candado, señal de que se exige token.
 
-![Vaccines](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/6.png)
+![Vaccines](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/6.png)
 
 **4. Bovines y Campaigns (vista general).**  
 La cuarta imagen abre con la sección “Bovines”, donde se aprecia la **creación** de bovinos (`POST /api/v1/bovines`), el **listado** general (`GET /bovines`), la **consulta por ID** (`GET /bovines/{id}`), la **actualización** (`PUT /bovines/{id}`) y la **eliminación** (`DELETE /bovines/{id}`). Se incluye además un endpoint para **listar por establo** (`GET /bovines/stable/{stableId}`), lo que confirma la vinculación con el módulo de establos.
 
-![Bovines](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/1.png)
+![Bovines](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/1.png)
 
 **5. Campaigns (acciones avanzadas).**  
 La quinta captura profundiza en la gestión de campañas mostrando, además del CRUD, **operaciones específicas de negocio**. Se observa un `PATCH /api/v1/campaigns/{id}/update-status` para **cambiar el estado** de la campaña (por ejemplo, planificada, activa o finalizada). También aparecen `PATCH /{id}/add-goal` para **agregar objetivos** medibles y `PATCH /{id}/add-channel` para **incorporar canales** de comunicación o ejecución. Finalmente, se listan los recursos asociados con `GET /{id}/goals` y `GET /{id}/channels`, que permiten **consultar objetivos y canales** vinculados a la campaña. La presencia de los candados indica que estas acciones avanzadas exigen autenticación y, previsiblemente, privilegios administrativos.
 
-![Campaigns](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/2.png)
+![Campaigns](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/2.png)
 
 **6. Stables.**  
 La última imagen corresponde a la sección “Stables”, donde se visualiza el CRUD completo del recurso **establo** bajo `/api/v1/stables`. El bloque verde indica la **creación** (`POST /stables`), seguido por el **listado** (`GET /stables`) y la **consulta individual** (`GET /stables/{id}`). Se incluyen las operaciones de **actualización** (`PUT /stables/{id}`) y **eliminación** (`DELETE /stables/{id}`), junto con una ruta de **búsqueda por nombre** (`GET /stables/name/{name}`) que facilita localizar establos específicos. Cada fila muestra el icono de candado, reafirmando el control de acceso por token.
 
-![Stables](Implemented_RESTful_API_andor_Serverless_Backend_Evidence/3.png)
+![Stables](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/3.png)
 
 **Conclusión.**  
 En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico, y **seguridad aplicada**.
