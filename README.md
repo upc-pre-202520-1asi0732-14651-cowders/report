@@ -1,20 +1,35 @@
 <div align="center">
-  <h3> Universidad Peruana de Ciencias Aplicadas </h3>
+  <h3><strong> Universidad Peruana de Ciencias Aplicadas </strong></h3>
+</div>
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
+<div align="center">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
+</div>
 
+<div align="center">
   <h5> Ingeniería de Software </h5>
+</div>
 
+<div align="center">
   <h5> Diseño de Experimentos de Ingeniería de Software </h5>
+</div>
 
+<div align="center">
   <h5> NRC: 14651 </h5>
+</div>
 
+<div align="center">
   <h5> Docente: Juan Carlos Tinoco Licas </h5>
 
+<div align="center">
   <h5> Informe del Trabajo Final </h5>
+</div>
 
+<div align="center">
   <h5> Startup: Cowders </h5>
+</div>
 
+<div align="center">
   <h5> Producto: Moobile </h5>
 </div>
 
