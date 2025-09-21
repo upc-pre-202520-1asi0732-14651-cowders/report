@@ -489,6 +489,8 @@ La navegación de Moobile se basa en patrones comunes de apps móviles para redu
 
 <img src="assets/chapter-4/Landing-mock.png" alt="Landing wireframe" width="600"/>
 
+Figma: https://www.figma.com/design/CrGSyZN6jKW73TiJ2qILIv/Cowders-Landing?node-id=0-1&t=h73dRZkoV2g4gPP2-1
+
 ## 4.4. Mobile Applications UX/UI Design
 
 ### 4.4.1. Mobile Applications Wireframes
@@ -519,7 +521,27 @@ Perfil:
 
 ### 4.4.3. Mobile Applications Mock-ups
 
-<img src="assets/chapter-4/Mobile_mock.png" alt="Landing wireframe" width="600"/>
+Inicio:
+
+<img src="assets/chapter-4/Inicio.png" alt="Landing wireframe" width="600"/>
+
+Crear Cuenta:
+
+<img src="assets/chapter-4/Crear-Cuenta.png" alt="Landing wireframe" width="600"/>
+
+Iniciar Sesion:
+
+<img src="assets/chapter-4/Iniciar-Sesion.png" alt="Landing wireframe" width="600"/>
+
+Contenido:
+
+<img src="assets/chapter-4/Plataforma.png" alt="Landing wireframe" width="600"/>
+
+Perfil:
+
+<img src="assets/chapter-4/Perfil.png" alt="Landing wireframe" width="600"/>
+
+Figma: https://www.figma.com/design/m5rm63SoX3A5fbWQ2xnJRM/Cowders-Mobile?node-id=18-248&t=rPbr6AgPWNwdxWIm-1
 
 ### 4.4.4. Mobile Applications User Flow Diagrams
 
