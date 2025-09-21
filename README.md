@@ -1038,31 +1038,317 @@ A continuación presentaremos 3 Business Goals que consideramos importantes en n
 
 ## 5.1. Software Configuration Management
 
-### 5.1.1. Software Development Environment Configuration
+### 5.1.1. Software Development Environment Configuration.
+En esta sección el equipo describe e indica los nombres de productos, el propósito de uso en el proyecto, la ruta de referencia o ruta de descarga de cada uno de los productos de software que se utilizaron por los miembros de equipo para colaborar en el ciclo de vida de los productos digitales.
+
+#### Product UX/UI Design  
+Estas herramientas nos permitieron desarrollar el modelo de nuestro proyecto de manera digital.
+
+- **[Miro](https://miro.com/app/dashboard/)**: Es una pizarra digital colaborativa en línea, que puede ser usada para la investigación, la ideación, la creación de lluvias de ideas, mapas mentales y una variedad de otras actividades colaborativas.  
+- **[Figma](https://www.figma.com/design/)**: Es una herramienta de prototipo web y editor de gráficos vectorial.  
+- **[Structurizr](https://structurizr.com/)**: Es una herramienta de diseño que soporta el modelo C4, para visualizar la arquitectura de software de nuestra solución.  
+- **[Trello](https://trello.com/es)**: Es un software de administración de proyectos con interfaz web y con cliente para iOS y Android para organizar proyectos.  
+
+#### Software Development  
+Es una estructura aplicada al desarrollo de software. Se utilizaron distintas tecnologías para el proceso del desarrollo del proyecto.
+
+- **[Github](https://github.com/)**: Es una forja para alojar proyectos utilizando el sistema de control de versiones Git.
+- **[HTML](https://www.jetbrains.com/help/webstorm/editing-html-files.html)**: Es el código que se utiliza para estructurar y desplegar una página web y sus contenidos. Este lenguaje va a ser utilizado en el presente proyecto.  
+- **[CSS](https://www.jetbrains.com/help/webstorm/style-sheets.html#ws_css_completion)**: Es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Este lenguaje se utilizará para la implementación del diseño de nuestro proyecto.  
+- **[JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)**: Es un lenguaje de secuencias de comandos que te permite crear contenido de actualización dinámica, controlar multimedia, animar imágenes y prácticamente todo lo demás.  
+
+#### Software Deployment  
+Tiene la función de examinar el comportamiento del software, asimismo le hace varias pruebas y lo verifica.
+
+- **[Github Pages](https://pages.github.com/)**: Es un servicio de alojamiento de sitio estático que toma archivos HTML, CSS y JavaScript directamente desde un repositorio en GitHub.  
+
 
 ### 5.1.2. Source Code Management
 
+La gestión del código fuente, también conocida como **SCM** (Source Code Management), es una práctica de alta importancia en el desarrollo de software. El propósito de este es registrar y llevar el control de las modificaciones que los miembres del equipo realizan en los repositorios de código a lo largo del ciclo de vida del proyecto. Este sistema nos permite identificar cambios introducidos por cada desarrollador, de esta manera se asegura que todas las contribuciones estén documentadas correctamente. En este caso, utilizaremos  **GitHub** como la plataforma para gestionar las versiones.
+
+**Landing Page: [LandingPage](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)**
+
+![Repositorios](assets/chapter-5/Imgs-Source_Code_Management/diagram_branches.png)
+
+En este proyecto,implementaremos **GitFlow** como ña estrategia principal para la gestión de ramas y el control de versiones. GitFlow es un modelo estructurado que nos permite facilitar el desarrollo. Además, este permite a los equipos trabajar en múltiples funcionalidades de manera simultánea y ordenadamente. Con GitFlow, nos guiaremos según un flujo de trabajo definido que incluirá ramas dedicadas para el desarrollo de todo el ciclo de vida del software. Esta metodología nos permitirá mantener un control moderado sobre el proceso del desarrollo, logrando minimizar conflictos y asegurando la integración de funcionalidades de manera efectiva durante las fusiones.
+
+Como se indicó anteriormente, gracias a GitFlow podremos trabajar con **branches** para realizar el desarrollo de manera progresiva. A continuación, se describirán las ramas que emplearemos:
+
+- **Main Branches**: Son las ramas base que ordenan el flujo de trabajo del proyecto. En GitFlow hay dos esenciales:
+  - **Main**: main es la línea de tiempo estable del código y refleja lo que podría ponerse en producción ahora mismo. Solo llegan a main cambios ya verificados y aprobados, por lo que debe mantenerse siempre en un estado confiable.
+  - **Develop**: develop concentra el desarrollo activo. Aquí se integran nuevas funcionalidades y mejoras. Las ramas de feature nacen de develop y, al completarse y probarse, regresan a develop. Cuando develop alcanza un estado sólido para lanzar una versión, se fusiona a main y se abre una release.
+
+- **Support Branches**: Son ramas temporales que facilitan distintas fases del proceso y luego se fusionan o eliminan. Las principales son:
+  - **Feature Branches**: Se crean desde develop para trabajar en funciones o mejoras específicas.
+  - **Release Branches**: Se derivan de develop cuando el código está listo para preparar una nueva versión.
+  - **Hotfix Branches**: Se abren desde main para corregir fallos críticos detectados en producción.
+
+![Repositorios2](assets/chapter-5/Imgs-Source_Code_Management/diagram_branches2.png)
+
+#### Conventional Commits:
+
+La especificación de Conventional Commits es un formato sencillo para escribir mensajes de commit. Define reglas claras que ayudan a mantener un historial de cambios explícito y fácil de entender. Además, se alinea con Semantic Versioning (SemVer), ya que el tipo de commit indica si se añadió una función, se corrigió un error o se introdujeron cambios incompatibles.
+
+- **Estructura:**
+<type>[optional scope]: <description>
+
+[optional body]
+
+[optional footer(s)]
+
+
 ### 5.1.3. Source Code Style Guide & Conventions
+En esta sección se evidenciarán las convenciones y estilos que se utilizarán en la creación del proyecto. Se van a mencionar las reglas y recomendaciones generales que se tendrán en cuenta para el desarrollo. Todas las nomenclaturas se definirán en inglés.
+
+Las referencias tomadas para estas convenciones incluyen:  
+- [HTML Style Guide and Coding Conventions - W3Schools](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
+- [Google Java Style Guide](https://google.github.io/styleguide/javaguide.html)  
+- [Spring Boot Features](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html)  
+- [Gherkin Conventions](https://cucumber.io/docs/gherkin/reference/)  
+
+#### **Nomenclatura General**  
+Todos los elementos serán nombrados en inglés, incluyendo variables, funciones, clases, archivos y carpetas.  
+- Se seguirá la convención camelCase para variables y funciones, y PascalCase para clases (según lenguaje).  
+- Se evita el uso de abreviaciones innecesarias para mantener la claridad del código.
+
+#### **Sangría**  
+Se utilizará una indentación de **2 espacios** en los archivos, evitando el uso de la tecla **TAB**, siguiendo lo recomendado por W3Schools. 
 
 ### 5.1.4. Software Deployment Configuration
+Tal como se mencionó anteriormente, la gestión del proyecto se llevará a cabo a través de Github. Asimismo, se utilizará Github Pages para la públicación y el despliegue de la landing page. 
+
+El despliegue de la landing page de Moobile fue posible gracias al uso de las siguientes tecnologías:
+  - **Git:** Sistema de control de versiones diseñado para garantizar la eficiencia y compatibilidad, el cual facilitó el trabajo en equipo durante el desarrollo de la Landing Page.
+  - **GitHub:** Plataforma para el desarrollo colaborativo.
+  - **Git Flow:** Herramienta que nos permitió controlar el progreso de cada integrante en el desarrollo de la Landing Page.
+  - **GitHub Pages:** Servicio de GitHub que nos permitió alojar la Landing Page de manera efectiva.
+
+Los pasos realizados fueron los siguientes:
+1) En este caso, nuestro equipo utilizó GitHub Pages como método de despliegue, entonces navegaríamos al repositorio de la página y desde allí procederemos a la opción configurar.
+
+![captura1](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura1.png)
+
+2) Acceder a la opción de GitHub Pages y configurar las opciones para obtener el link de la landing page.
+
+![captura2](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura2.png)
+
+3) Tras realizar el paso anterior, se obtuvo el siguiente link: [https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/). Este nos redirigirá a la landing page desplegada.
+
+![captura3](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura3.png)
+
 
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
 
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |
+|---|---|---|---|---|---|---|
+| **Id** | **Title** | **Id** | **Title** | **Estimation** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01 | Creación de Establos | T01 | Implementar creación de establos (backend + UI) | 3 | Bravo Gavilano, Jorge Rafael | To-do |
+| US02 | Visualización de Establos | T02 | Implementar listado y detalle de establos | 2 | Gonzalez Custodio, Carlos Alberto | To-do |
+| US03 | Edición de Establos | T03 | Implementar edición de establos | 3 | Martinez Ramos, Bryan Felix | To-do |
+| US04 | Eliminación de Establos | T04 | Implementar eliminación (soft-delete) de establos | 2 | Roque Tello, Jack Eddie | To-do |
+| US05 | Búsqueda de Establos | T05 | Implementar búsqueda por nombre/capacidad | 2 | Silva Morales, Renzo Cesar | To-do |
+| US06 | Registro de Bovinos | T06 | Implementar registro de bovinos | 3 | Bravo Gavilano, Jorge Rafael | To-do |
+| US07 | Visualización de Bovinos | T07 | Implementar listado y ficha de bovinos | 2 | Gonzalez Custodio, Carlos Alberto | To-do |
+| US08 | Edición de Bovinos | T08 | Implementar edición de datos de bovinos | 3 | Martinez Ramos, Bryan Felix | To-do |
+| US09 | Eliminación de Bovinos | T09 | Implementar eliminación de bovinos | 2 | Roque Tello, Jack Eddie | To-do |
+| US10 | Búsqueda de Bovinos | T10 | Implementar búsqueda por nombre y raza | 2 | Silva Morales, Renzo Cesar | To-do |
+| US11 | Asignación de Bovinos a Establos | T11 | Implementar asignación y cambio de establo | 3 | Bravo Gavilano, Jorge Rafael | To-do |
+| US12 | Registro de Vacunas | T12 | Implementar registro de vacunas por bovino | 3 | Gonzalez Custodio, Carlos Alberto | To-do |
+| US13 | Visualización de Vacunas | T13 | Implementar historial de vacunación | 2 | Martinez Ramos, Bryan Felix | To-do |
+| US14 | Edición de Registros de Vacunas | T14 | Implementar edición de registros de vacunas | 3 | Roque Tello, Jack Eddie | To-do |
+| US15 | Eliminación de Registros de Vacunas | T15 | Implementar eliminación de registros de vacunas | 2 | Silva Morales, Renzo Cesar | To-do |
+| US16 | Búsqueda de Vacunas | T16 | Implementar búsqueda por bovino/fecha/tipo | 2 | Bravo Gavilano, Jorge Rafael | To-do |
+| US17 | Asignación de Vacunas a Bovinos | T17 | Implementar asignación de vacunas a bovinos | 3 | Gonzalez Custodio, Carlos Alberto | To-do |
+| US18 | Creación de Campañas | T18 | Implementar creación de campañas | 3 | Martinez Ramos, Bryan Felix | To-do |
+| US19 | Visualización de Campañas | T19 | Implementar listado y detalle de campañas | 2 | Roque Tello, Jack Eddie | To-do |
+| US20 | Edición de Campañas | T20 | Implementar edición de campañas | 3 | Silva Morales, Renzo Cesar | To-do |
+| US21 | Eliminación de Campañas | T21 | Implementar eliminación de campañas | 2 | Bravo Gavilano, Jorge Rafael | To-do |
+| US22 | Búsqueda de Campañas | T22 | Implementar búsqueda de campañas por fecha | 2 | Gonzalez Custodio, Carlos Alberto | To-do |
+| US23 | Registro de Personal | T23 | Implementar registro de personal | 3 | Martinez Ramos, Bryan Felix | To-do |
+| US24 | Visualización de Personal | T24 | Implementar listado y perfil de personal | 2 | Roque Tello, Jack Eddie | To-do |
+| US25 | Edición de Personal | T25 | Implementar edición de datos de personal | 3 | Silva Morales, Renzo Cesar | To-do |
+| US26 | Eliminación de Personal | T26 | Implementar eliminación de registros de personal | 2 | Bravo Gavilano, Jorge Rafael | To-do |
+| US27 | Búsqueda de Personal | T27 | Implementar búsqueda de personal por nombre | 2 | Gonzalez Custodio, Carlos Alberto | To-do |
+| US28 | Asignación de Personal a Campañas | T28 | Implementar asignación de personal a campañas | 3 | Martinez Ramos, Bryan Felix | To-do |
+| TS01 | Visualización de Información de la Empresa | T29 | Implementar página “Sobre Cowders” | 2 | Roque Tello, Jack Eddie | To-do |
+| TS02 | Exploración de Funcionalidades de Moobile | T30 | Implementar página de funcionalidades | 2 | Silva Morales, Renzo Cesar | To-do |
+| TS03 | Consulta de Herramientas de Nutrición y Productividad | T31 | Implementar sección de raciones/peso/rendimiento | 3 | Bravo Gavilano, Jorge Rafael | To-do |
+| TS04 | Acceso a Información de Contacto | T32 | Implementar página y formulario de contacto | 2 | Gonzalez Custodio, Carlos Alberto | To-do |
+| TS05 | Conocimiento de Misión y Visión | T33 | Implementar sección de misión y visión | 1 | Martinez Ramos, Bryan Felix | To-do |
+| TS06 | Vista General de la Plataforma | T34 | Implementar vista general interactiva (tour) | 3 | Roque Tello, Jack Eddie | To-do |
+
 ### 5.2.2. Implemented Landing Page Evidence
+
+1) Esta primera parte de la página presenta a Cowders y su propuesta: usar tecnología para ayudar a la ganadería peruana. Arriba se ve el menú para moverse por la web y un botón verde para pedir una demo. El título grande deja claro de qué trata el sitio y, al costado, hay cuatro recuadros que muestran de forma simple qué hace la plataforma: cuida la salud del ganado, mejora la alimentación y productividad, lleva el control reproductivo y promueve la sostenibilidad.
+
+![Hero_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/1.png)
+
+2) Aquí se explica, con ejemplos, qué incluye la plataforma “Moobile”. Cada tarjeta cuenta una función concreta: registrar la salud de los animales, planificar raciones y controlar el peso, llevar un historial confiable de ciclos y preñeces, tomar decisiones con datos ambientales, trabajar desde el campo o la oficina con la app, y mantener la información segura. Es una forma clara de ver “qué puedo hacer” si uso el sistema.
+
+![features_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/2.png)
+
+3) En esta parte se resumen los beneficios principales para el usuario: trabajar de manera más eficiente, cuidar mejor a los animales y actuar de forma responsable con el ambiente. Justo al lado aparece un recuadro que invita a “agendar diagnóstico”, pensado para que alguien interesado pueda evaluar su situación y recibir recomendaciones prácticas.
+
+![benefits_diagnostic_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/3.png)
+
+4) Esta sección muestra que el impacto de la plataforma se puede medir. Divide el contenido en dos: ambiental y social. La idea es que no solo se hable de mejoras, sino que se puedan ver con datos. A la derecha se repite la invitación a pedir un diagnóstico.
+
+![benefits_diagnostic_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/4.png)
+
+5) Aquí se cuenta la misión y la visión del proyecto.
+
+![environmental_social_impact_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/5.png)
+
+6) Finalmente, está el formulario de contacto. Al lado aparecen el email oficial y la ubicación (Lima, Perú), por si se prefiere escribir directamente. En el pie de página se ve el año, una nota de que el proyecto nació en la UPC y algunos enlaces rápidos para volver a secciones importantes.
+
+![mission_vision_Section](assets/chapter-5/Imgs-Implemented_Landing_Page_Evidence/6.png)
 
 ### 5.2.3. Implemented Frontend-Web Application Evidence
 
-### 5.2.4. Acuerdo de Servicio - SaaS
+1) Se muestra el panel inicial de Moobile con una barra superior que incluye el logo, el saludo “Welcome, Oscar!” y el botón Logout; al centro hay un hero con el título “Welcome to Your Dashboard” y un subtítulo introductorio, una tarjeta que invita a usar comandos de voz con el atajo Ctrl/⌘+Shift+V y, debajo, la sección “Account Overview” compuesta por tres tarjetas de métricas en estado cero —Total Bovines, Total Stables y Total Vaccinations— acompañadas de iconografía; en la esquina inferior derecha aparece un botón flotante de micrófono para activar la entrada por voz.
 
-### 5.2.5. Implemented Native-Mobile Application Evidence
+[![image.png](https://i.postimg.cc/9Mt2WTGc/image.png)](https://postimg.cc/HcxRzrZN)
 
-### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
+2) Mantiene el encabezado con saludo y el bloque “Account Overview” con las tres métricas, pero añade debajo una fila de tarjetas de acción rápida: “Bovines Management”, “Stables Management” y “Settings”, cada una con breve descripción contextual, un botón principal (Manage Bovines, Manage Stables u Open Settings) y una sugerencia de comando de voz; el diseño prioriza la navegación directa hacia las áreas clave del sistema.
 
-### 5.2.7. RESTful API documentation
+[![image.png](https://i.postimg.cc/1XmQ4tHw/image.png)](https://postimg.cc/62mSmBFp)
 
-### 5.2.8. Team Collaboration Insights
+3) Presenta primero el estado vacío del módulo de bovinos con el mensaje “No Bovines Registered”, un llamado a la acción “Register Your First Bovine” y un botón superior “+ Add New Bovine”.
+
+[![image.png](https://i.postimg.cc/8k4G9RpH/image.png)](https://postimg.cc/qgNWCCCh)
+
+4) Al proceder, aparece el formulario “Register New Bovine” con campos para nombre, género, fecha de nacimiento, raza, ubicación y estable, además de un cargador de imagen opcional, y ofrece las acciones “Cancel” y “Register Bovine”, todo sobre un fondo verde suave que refuerza la temática de gestión animal.
+
+[![image.png](https://i.postimg.cc/g03FDRt3/image.png)](https://postimg.cc/hJ454JBG)
+
+5) Muestra el estado vacío de establos con la tarjeta “No Stables Registered”, un botón “Create Your First Stable” y el botón superior “+ Add New Stable”.
+
+[![image.png](https://i.postimg.cc/pTxN1T34/image.png)](https://postimg.cc/1gWY89mr)
+
+6) Al crear un establo, se despliega el formulario “Create New Stable” con dos campos esenciales junto a los botones “Cancel” y “Create Stable”, y se complementa con un bloque informativo inferior que explica la gestión de establos y la planificación de capacidad, en una paleta violeta/azulada que diferencia este flujo del de bovinos.
+
+[![image.png](https://i.postimg.cc/gjkCm7zK/image.png)](https://postimg.cc/DJHjcBbW)
+
+7) La pantalla de configuración organiza tres secciones claras: “Profile Settings”, donde se pueden editar el username y el email con un botón de actualización; “Account Status”, que muestra el correo asociado y su estado de verificación; y “Danger Zone”, que concentra la acción irreversible de eliminación de cuenta; el layout mantiene el encabezado con el nombre del usuario y el botón Logout, y emplea tarjetas con sombras sutiles para jerarquizar la información.
+
+[![image.png](https://i.postimg.cc/KvW6hQdn/image.png)](https://postimg.cc/Yh1n1N29)
+
+### 5.2.4. Implemented Native-Mobile Application Evidence
+
+[![image.png](https://i.postimg.cc/tgnTQp9p/image.png)](https://postimg.cc/Jymmjwy2)
+
+[![image.png](https://i.postimg.cc/TwXTzbkJ/image.png)](https://postimg.cc/v13R94w4)
+
+[![image.png](https://i.postimg.cc/FKyMJBZ0/image.png)](https://postimg.cc/FfKWMGwK)
+
+[![image.png](https://i.postimg.cc/HnhRgDY1/image.png)](https://postimg.cc/YLQb6PLd)
+
+[![image.png](https://i.postimg.cc/nVPPMxJ6/image.png)](https://postimg.cc/5j83kZj3)
+
+[![image.png](https://i.postimg.cc/3w8smZb6/image.png)](https://postimg.cc/18d7ZDSc)
+
+[![image.png](https://i.postimg.cc/8c2441kc/image.png)](https://postimg.cc/H8tbs1y1)
+
+[![image.png](https://i.postimg.cc/6pfs8Pzn/image.png)](https://postimg.cc/SnR15DBx)
+
+### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+
+**1. Staffs.**  
+En esta primera captura se ve la sección “Staffs” del panel Swagger, que agrupa todas las operaciones del recurso de personal bajo el prefijo `/api/v1/staff`. La fila verde indica que es posible **crear** un registro de staff con `POST /staff`. Debajo se muestran varios bloques azules que permiten **listar** a todo el personal (`GET /staff`) y **consultar** un registro puntual (`GET /staff/{id}`). Aparecen también las operaciones para **actualizar** (`PUT /staff/{id}`, en color ámbar) y **eliminar** (`DELETE /staff/{id}`, en rojo) un staff existente. Además, la pantalla evidencia tres búsquedas especializadas: **por campaña** (`GET /staff/search-by-campaign/{campaignId}`), **por estado laboral** (`GET /staff/search-by-employee-status/{employeeStatus}`) y **por nombre** (`GET /staff/search-by-name/{name}`), cada una con su breve descripción al lado derecho. Todos los ítems muestran el candado de seguridad, confirmando que requieren autenticación.
+
+![Staffs](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/4.png)
+
+**2. User Admins y Users.**  
+La segunda imagen presenta dos grupos diferenciados. Arriba, “User Admins” concentra las rutas administrativas bajo `/api/v1/admin`: se observan los endpoints para **crear** administradores (`POST /admin/create`), **iniciar sesión** (`POST /admin/sign-in`), **ver el perfil** (`GET /admin/profile`), **actualizarlo** (`PUT /admin/update-profile`) y **eliminar la propia cuenta** (`DELETE /admin/delete`). También aparecen los listados globales: **todos los admins** (`GET /admin/all`) y **todos los usuarios** (`GET /admin/all-users`) visibles para un administrador. Abajo, el bloque “Users” muestra el flujo del usuario final con `/api/v1/user`: **registro** (`POST /user/sign-up`), **inicio de sesión** (`POST /user/sign-in`), **consulta de su información** (`GET /user/get-info`), **actualización de perfil** (`PUT /user/update-profile`), **eliminación de cuenta** (`DELETE /user/delete-account`) y **acceso al perfil** (`GET /user/profile`). En ambos grupos, el candado confirma que todas las operaciones están protegidas por autenticación.
+
+![Users](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/5.png)
+
+**3. Vaccines y Voice Commands.**  
+La tercera captura reúne dos módulos. En la parte superior, “Vaccines” agrupa el CRUD completo bajo `/api/v1/vaccines`: **creación** (`POST /vaccines`), **listado global** (`GET /vaccines`), **consulta por ID** (`GET /vaccines/{id}`), **actualización** (`PUT /vaccines/{id}`) y **eliminación** (`DELETE /vaccines/{id}`). Se destaca además una ruta específica para **recuperar las vacunas vinculadas a un bovino** (`GET /vaccines/bovine/{bovineId}`), lo que evidencia la relación entre entidades. En la parte inferior aparece “Voice Commands”, con rutas de **procesamiento de audio** (`POST /voice-command/process-audio`) y **prueba de parsing textual** (`POST /voice-command/parse-text`), además de **listado de comandos** del usuario (`GET /voice-command`), **listado paginado** (`GET /voice-command/paginated`), **detalle** (`GET /voice-command/{id}`) y **estadísticas** de uso (`GET /voice-command/statistics`). En todos los casos se muestra el icono de candado, señal de que se exige token.
+
+![Vaccines](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/6.png)
+
+**4. Bovines y Campaigns (vista general).**  
+La cuarta imagen abre con la sección “Bovines”, donde se aprecia la **creación** de bovinos (`POST /api/v1/bovines`), el **listado** general (`GET /bovines`), la **consulta por ID** (`GET /bovines/{id}`), la **actualización** (`PUT /bovines/{id}`) y la **eliminación** (`DELETE /bovines/{id}`). Se incluye además un endpoint para **listar por establo** (`GET /bovines/stable/{stableId}`), lo que confirma la vinculación con el módulo de establos.
+
+![Bovines](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/1.png)
+
+**5. Campaigns (acciones avanzadas).**  
+La quinta captura profundiza en la gestión de campañas mostrando, además del CRUD, **operaciones específicas de negocio**. Se observa un `PATCH /api/v1/campaigns/{id}/update-status` para **cambiar el estado** de la campaña (por ejemplo, planificada, activa o finalizada). También aparecen `PATCH /{id}/add-goal` para **agregar objetivos** medibles y `PATCH /{id}/add-channel` para **incorporar canales** de comunicación o ejecución. Finalmente, se listan los recursos asociados con `GET /{id}/goals` y `GET /{id}/channels`, que permiten **consultar objetivos y canales** vinculados a la campaña. La presencia de los candados indica que estas acciones avanzadas exigen autenticación y, previsiblemente, privilegios administrativos.
+
+![Campaigns](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/2.png)
+
+**6. Stables.**  
+La última imagen corresponde a la sección “Stables”, donde se visualiza el CRUD completo del recurso **establo** bajo `/api/v1/stables`. El bloque verde indica la **creación** (`POST /stables`), seguido por el **listado** (`GET /stables`) y la **consulta individual** (`GET /stables/{id}`). Se incluyen las operaciones de **actualización** (`PUT /stables/{id}`) y **eliminación** (`DELETE /stables/{id}`), junto con una ruta de **búsqueda por nombre** (`GET /stables/name/{name}`) que facilita localizar establos específicos. Cada fila muestra el icono de candado, reafirmando el control de acceso por token.
+
+![Stables](assets/chapter-5/Implemented_RESTful_API_andor_Serverless_Backend_Evidence/3.png)
+
+**Conclusión.**  
+En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico, y **seguridad aplicada**.
+
+### 5.2.6. RESTful API documentation
+
+La plataforma expone una **API RESTful** versionada bajo el prefijo `/api/v1`, diseñada para integrarse con aplicaciones web y móviles del ecosistema (p. ej., panel de administración y app de campo). Todas las operaciones utilizan **JSON** como formato de intercambio y fechas en **ISO-8601** (por ejemplo, `2025-09-20T18:36:55.257Z`). Salvo indicación contraria, las peticiones deben incluir el encabezado `Content-Type: application/json` y las respuestas retornan códigos HTTP estándar para indicar éxito o error.
+
+### Autenticación y control de acceso
+La capa de administración se gestiona mediante los endpoints:
+- `POST /api/v1/admin/create` — alta de administradores por correo.
+- `POST /api/v1/admin/sign-in` — autenticación con correo y contraseña.
+
+Tras la autenticación, el cliente debe conservar el mecanismo de sesión/ticket que emita el backend (p. ej., token) y remitirlo en cada solicitud protegida según las políticas de la plataforma. Los usuarios finales del sistema se registran con el recurso **users**, que acepta `username`, `password` y `email`, permitiendo separar perfiles operativos (staff/administradores) de credenciales de uso final.
+
+### Convenciones de recursos
+Los recursos principales siguen convenciones REST para operaciones de creación, consulta, actualización y eliminación (CRUD), aunque la implementación exacta de cada verbo puede variar según permisos y flujos del dominio. La API modela entidades del negocio ganadero y sanitario: **Bovines**, **Campaigns**, **Stables**, **Staffs**, **Users** y **Vaccines**, además de un conjunto de **comandos de voz** para ingreso asistido de datos.
+
+### Modelo de datos y validaciones
+
+**Bovines** representa el individuo bovino y concentra metadatos de gestión: `name`, `description`, `startDate`, `endDate`, `status`, `stableId`, y colecciones de `goals` y `channels`. Cada canal contiene `id`, `type` y `details`, habilitando la trazabilidad de comunicaciones o intervenciones asociadas al animal.
+
+**Campaigns** comparte la misma estructura que Bovines (`name`, `description`, `startDate`, `endDate`, `status`, `goals`, `channels`, `stableId`) y se utiliza para planificar y monitorear acciones coordinadas (p. ej., jornadas de sanidad o trazabilidad).
+
+**Stables** define los establos o corrales con `name` y un `limit` de ocupación, insumo clave para reglas de capacidad y asignación.
+
+**Staffs** modela al personal operativo con `name`, `employeeStatus` (estado laboral codificado) y `campaignId` para vincularlo a campañas activas.
+
+**Users** registra credenciales de acceso de usuarios finales (`username`, `password`, `email`).
+
+**Vaccines** registra eventos de vacunación: `id`, `name`, `vaccineType`, `vaccineDate`, `vaccineImg` (evidencia), y `bovineId` para la relación con el individuo.
+
+**Voice Commands** aporta dos endpoints:
+- `POST /api/v1/voice-command/process-audio` — recepción de audio binario/base64.
+- `POST /api/v1/voice-command/parse-text` — JSON con `text`.  
+Ambos transforman insumos de voz o texto libre en estructuras accionables del dominio.
+
+### Flujos típicos
+Un flujo estándar de registro sanitario inicia con la **autenticación** del administrador, la **creación** o **actualización** de un **Bovine** (asignando `stableId` y `status`), la **planificación** de una **Campaign** con `startDate`/`endDate` y canales de comunicación, la **asignación** de **Staffs** a la campaña (`campaignId`), y finalmente el **registro** de **Vaccines** por `bovineId`, incluyendo la evidencia `vaccineImg` y la `vaccineDate`. Alternativamente, el personal puede usar **comandos de voz** para acelerar el ingreso de datos desde campo, enviando audio o texto para su interpretación.
+
+### Errores y respuestas
+La API emplea códigos HTTP convencionales:
+- `201 Created` en altas,
+- `200 OK` en lecturas/actualizaciones,
+- `400 Bad Request` por validaciones fallidas,
+- `401 Unauthorized` si faltan credenciales,
+- `404 Not Found` cuando el recurso no existe,
+- `409 Conflict` ante colisiones de negocio.
+
+Los cuerpos de error devuelven un mensaje descriptivo y, cuando corresponde, detalles de validación por campo para facilitar la corrección por parte del cliente.
+
+### Versionado y compatibilidad
+El prefijo `/api/v1` encapsula cambios controlados. Evoluciones futuras que rompan compatibilidad deberán publicarse bajo un nuevo prefijo (p. ej., `/api/v2`) manteniendo la convivencia temporal de versiones para migraciones seguras. Cambios aditivos (nuevos campos opcionales) se consideran compatibles y no requieren cambio de versión.
+
+### Seguridad y cumplimiento
+Los datos sensibles (credenciales, imágenes de vacunación) deben viajar exclusivamente bajo **TLS**. Se recomienda aplicar políticas de caducidad de tokens, límites de tamaño para `vaccineImg`, y controles de acceso por rol para operaciones críticas (creación de administradores, reasignación de establos, eliminación de historiales). Los registros de auditoría (quién, cuándo y qué cambió) son recomendables para trazabilidad sanitaria y cumplimiento.
+
+### Observabilidad y límites operativos
+La API está pensada para integrarse con métricas y trazas (latencia por endpoint, ratio de error, throughput). En escenarios de alta concurrencia (campañas masivas), es aconsejable emplear **paginación** en listados, **idempotencia** en operaciones de escritura (especialmente en cargas desde voz) y **rate limiting** por cliente para preservar la estabilidad. Los tiempos (`startDate`, `endDate`, `vaccineDate`) deben procesarse en **UTC** y, de ser necesario, adaptarse a la zona horaria del cliente en la presentación.
+
+> Con este contrato, los equipos cliente (web y móvil) disponen de un **núcleo uniforme y predecible** para operar procesos de inventario bovino, campañas sanitarias, asignación de personal y registro de vacunas, además de capacidades de **entrada por voz** que agilizan el trabajo en campo manteniendo la integridad de los datos.
+
+### 5.2.7. Team Collaboration Insights
 
 ## 5.3. Video About-the-Product
 
