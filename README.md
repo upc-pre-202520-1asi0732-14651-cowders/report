@@ -717,7 +717,30 @@ La API está pensada para integrarse con métricas y trazas (latencia por endpoi
 
 ### 5.2.7. Team Collaboration Insights
 
+Durante el transcurso del Sprint 1, el equipo trabajó de manera conjunta en el repositorio del Informe, empleando herramientas como GitHub, Trello y Google Meet para organizar tareas, compartir avances y aclarar dudas de forma constante.
+
+A continuación, gracias a la sección de Insights de GitHub, se incluyen gráficos que reflejan el nivel de participación de cada miembro del equipo en el repositorio del Informe.
+
+#### Tabla de identificación del equipo
+
+| Username (GitHub) | Nombre completo          | Código de estudiante |
+| ----------------- | ------------------------ | -------------------- |
+| @rrenzosilva       | Renzo Silva Morales | U20221C362           |
+| @UPC-Skylar        | Jack Roque Tello     | U20221C448           |
+| @Rafooo6           | Jorge Bravo Gavilano   | U202212535           |
+| @CarlosGC-LP       | Carlos Gonzalez Custodio  | U202020230           |
+
+#### Analíticos de GitHub
+
+##### Informe
+
+[![image.png](https://i.postimg.cc/R0vWtjmB/image.png)](https://postimg.cc/9DNX5gz8)
+
 ## 5.3. Video About-the-Product
+
+Con el fin de complementar la documentación y proporcionar una visión más detallada del alcance de Moobile, se ha creado un video de presentación titulado *About The Product*.
+
+Este video resume de manera clara las principales funcionalidades de la aplicación, su propuesta de valor y cómo ayuda a mejorar la gestión del ganado bovino. Además, ofrece a los interesados una experiencia más directa con el producto, facilitando la comprensión de sus características y beneficios a través de un formato dinámico y accesible.
 
 # **Part II: Verification, Validation & Pipeline**
 
