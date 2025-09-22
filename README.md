@@ -1115,7 +1115,13 @@ Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Andro
 
 ### 4.6.1. Web Applications Wireframes
 
-[![image.png](https://i.postimg.cc/R0ZVpgfw/image.png)](https://postimg.cc/xXB2cy6d)
+[![image.png](https://i.postimg.cc/kGxHdD5r/image.png)](https://postimg.cc/64pcrWRz)
+
+[![image.png](https://i.postimg.cc/Y9QRvZBY/image.png)](https://postimg.cc/hzPTwCjt)
+
+[![image.png](https://i.postimg.cc/RhM7N0Rx/image.png)](https://postimg.cc/DJMJNnHx)
+
+[![image.png](https://i.postimg.cc/Bndwtx1W/image.png)](https://postimg.cc/cvBcbtmT)
 
 ### 4.6.2. Web Applications Wireflow Diagrams
 
@@ -1123,7 +1129,13 @@ Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Andro
 
 ### 4.6.3. Web Applications Mock-ups
 
-[![image.png](https://i.postimg.cc/6376tTM3/image.png)](https://postimg.cc/ftNQvWnn)
+[![image.png](https://i.postimg.cc/SQ8391fZ/image.png)](https://postimg.cc/grzgFD5R)
+
+[![image.png](https://i.postimg.cc/dts605HZ/image.png)](https://postimg.cc/0r4DW0q9)
+
+[![image.png](https://i.postimg.cc/SR3xHTj1/image.png)](https://postimg.cc/y3hKZTm0)
+
+[![image.png](https://i.postimg.cc/XJhZ07zg/image.png)](https://postimg.cc/47646ZZK)
 
 ### 4.6.4. Web Applications User Flow Diagrams
 
