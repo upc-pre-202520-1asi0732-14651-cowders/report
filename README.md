@@ -1659,7 +1659,6 @@ Link para ver el video: [Click aquí](https://upcedupe-my.sharepoint.com/:v:/g/p
 - **Backend (Swagger):** [moobile.azurewebsites.net/swagger](https://moobile.azurewebsites.net/swagger/index.html)
 - **Landing Page:** [upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)
 - **Entrevistas (Microsoft Stream):** [ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
-- **Video de exposición:** _(agrega el enlace aquí)_
 - **About-the-Product:** 
 [Link de Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
 [Link de YouTube](https://youtu.be/UvyjXTcFnHk)
