@@ -1809,8 +1809,6 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 - Poppendieck, M., & Poppendieck, T. (2003). Lean Software Development: An Agile Toolkit. Addison-Wesley.
 - Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley.
 
-
-# Anexos
 # Anexos
 
 - **Frontend:** [moobile-front-v1.netlify.app](https://moobile-front-v1.netlify.app/)
