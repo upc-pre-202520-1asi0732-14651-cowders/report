@@ -1811,3 +1811,10 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 
 
 # Anexos
+# Anexos
+
+- **Frontend:** [moobile-front-v1.netlify.app](https://moobile-front-v1.netlify.app/)
+- **Backend (Swagger):** [moobile.azurewebsites.net/swagger](https://moobile.azurewebsites.net/swagger/index.html)
+- **Landing Page:** [upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)
+- **Entrevistas (Microsoft Stream):** [ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
+- **Video de exposición:** _(agrega el enlace aquí)_
