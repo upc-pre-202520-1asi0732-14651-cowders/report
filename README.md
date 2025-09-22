@@ -1800,7 +1800,14 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 ----
 
 # Bibliografía
+- Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
+- Evans, E. (2004). Domain-Driven Design: Tackling Complexity in the Heart of Software. Addison-Wesley.
+- Evans, E. (2015). Domain-Driven Design Reference: Definitions and Pattern Summaries. Domain Language, Inc. https://www.domainlanguage.com/ddd/reference/
+- Fowler, M. (2003). Patterns of Enterprise Application Architecture. Addison-Wesley.
+- Gothelf, J. (2013). Lean UX: Applying Lean Principles to Improve User Experience. O’Reilly Media.
+- ISO/IEC/IEEE 12207:2017 – Systems and software engineering – Software life cycle processes.
+- Poppendieck, M., & Poppendieck, T. (2003). Lean Software Development: An Agile Toolkit. Addison-Wesley.
+- Vernon, V. (2013). Implementing Domain-Driven Design. Addison-Wesley.
 
-----
 
 # Anexos
