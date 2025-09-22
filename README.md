@@ -1778,9 +1778,20 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 
 ----
 
-# Conclusiones
-
 ## Conclusiones Y Recomendaciones
+
+1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
+   Las entrevistas con productores independientes y empresas evidenciaron problemas persistentes de trazabilidad sanitaria, registros dispersos (papel/Excel) y toma de decisiones sin datos. El alcance funcional (bovinos, establos, vacunas, campañas y personal) responde directamente a esos “dolores” y prioriza el valor temprano.
+
+2. **La propuesta está correctamente alineada con prácticas de Ingeniería de Software modernas.**  
+   Se definieron user stories claras, un backlog priorizado, arquitectura guiada por DDD y un diseño UX/UI consistente entre web y móvil. El **backend RESTful** (versionado, autenticado y con endpoints de negocio más allá de CRUD) y la evidencia de la **landing** demuestran avance tangible y coherente.
+
+3. **La sostenibilidad, la ética y la seguridad fueron tratadas como requisitos de primer orden.**  
+   Se incorporan prácticas y métricas orientadas a bienestar animal y uso eficiente de recursos; se resalta la **privacidad y seguridad** de datos sensibles (sanidad, trazabilidad, suscripciones) como condición para la adopción.
+
+4. **La arquitectura y el backlog posibilitan iteración rápida guiada por datos.**
+    Con un dominio modelado en DDD, API versionada y módulos desacoplados (bovinos, establos, vacunas, campañas y staff), el equipo puede liberar un MVP, instrumentar métricas (activación, tiempo ahorrado, cobertura sanitaria) y ejecutar experimentos controlados para validar hipótesis y priorizar mejoras con evidencia.
+
 
 ## Video App Validation
 
