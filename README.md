@@ -1369,6 +1369,7 @@ Los pasos realizados fueron los siguientes:
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
+#### TB1
 
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |
 |---|---|---|---|---|---|---|
@@ -1407,6 +1408,47 @@ Los pasos realizados fueron los siguientes:
 | TS04 | Acceso a Información de Contacto | T32 | Implementar página y formulario de contacto | 2 | Gonzalez Custodio, Carlos Alberto | To-do |
 | TS05 | Conocimiento de Misión y Visión | T33 | Implementar sección de misión y visión | 1 | Martinez Ramos, Bryan Felix | To-do |
 | TS06 | Vista General de la Plataforma | T34 | Implementar vista general interactiva (tour) | 3 | Roque Tello, Jack Eddie | To-do |
+
+#### TB2
+
+| **User Story** |  | **Work-Item / Task** |  |  |  |  |
+|---|---|---|---|---|---|---|
+| **Id** | **Title** | **Id** | **Title** | **Estimation** | **Assigned To** | **Status (To-do / In-Process / To-Review / Done)** |
+| US01 | Creación de Establos | T01 | Implementar creación de establos (backend + UI) | 3 | Bravo Gavilano, Jorge Rafael | Done |
+| US02 | Visualización de Establos | T02 | Implementar listado y detalle de establos | 2 | Gonzalez Custodio, Carlos Alberto | Done |
+| US03 | Edición de Establos | T03 | Implementar edición de establos | 3 | Martinez Ramos, Bryan Felix | Done |
+| US04 | Eliminación de Establos | T04 | Implementar eliminación (soft-delete) de establos | 2 | Roque Tello, Jack Eddie | Done |
+| US05 | Búsqueda de Establos | T05 | Implementar búsqueda por nombre/capacidad | 2 | Silva Morales, Renzo Cesar | Done |
+| US06 | Registro de Bovinos | T06 | Implementar registro de bovinos | 3 | Bravo Gavilano, Jorge Rafael | Done |
+| US07 | Visualización de Bovinos | T07 | Implementar listado y ficha de bovinos | 2 | Gonzalez Custodio, Carlos Alberto | Done |
+| US08 | Edición de Bovinos | T08 | Implementar edición de datos de bovinos | 3 | Martinez Ramos, Bryan Felix | Done |
+| US09 | Eliminación de Bovinos | T09 | Implementar eliminación de bovinos | 2 | Roque Tello, Jack Eddie | Done |
+| US10 | Búsqueda de Bovinos | T10 | Implementar búsqueda por nombre y raza | 2 | Silva Morales, Renzo Cesar | Done |
+| US11 | Asignación de Bovinos a Establos | T11 | Implementar asignación y cambio de establo | 3 | Bravo Gavilano, Jorge Rafael | Done |
+| US12 | Registro de Vacunas | T12 | Implementar registro de vacunas por bovino | 3 | Gonzalez Custodio, Carlos Alberto | Done |
+| US13 | Visualización de Vacunas | T13 | Implementar historial de vacunación | 2 | Martinez Ramos, Bryan Felix | Done |
+| US14 | Edición de Registros de Vacunas | T14 | Implementar edición de registros de vacunas | 3 | Roque Tello, Jack Eddie | Doneo |
+| US15 | Eliminación de Registros de Vacunas | T15 | Implementar eliminación de registros de vacunas | 2 | Silva Morales, Renzo Cesar | Doneo |
+| US16 | Búsqueda de Vacunas | T16 | Implementar búsqueda por bovino/fecha/tipo | 2 | Bravo Gavilano, Jorge Rafael | Done |
+| US17 | Asignación de Vacunas a Bovinos | T17 | Implementar asignación de vacunas a bovinos | 3 | Gonzalez Custodio, Carlos Alberto | Done |
+| US18 | Creación de Campañas | T18 | Implementar creación de campañas | 3 | Martinez Ramos, Bryan Felix | Done |
+| US19 | Visualización de Campañas | T19 | Implementar listado y detalle de campañas | 2 | Roque Tello, Jack Eddie | Done |
+| US20 | Edición de Campañas | T20 | Implementar edición de campañas | 3 | Silva Morales, Renzo Cesar | Done |
+| US21 | Eliminación de Campañas | T21 | Implementar eliminación de campañas | 2 | Bravo Gavilano, Jorge Rafael | Done |
+| US22 | Búsqueda de Campañas | T22 | Implementar búsqueda de campañas por fecha | 2 | Gonzalez Custodio, Carlos Alberto | Done |
+| US23 | Registro de Personal | T23 | Implementar registro de personal | 3 | Martinez Ramos, Bryan Felix | Done |
+| US24 | Visualización de Personal | T24 | Implementar listado y perfil de personal | 2 | Roque Tello, Jack Eddie | Done |
+| US25 | Edición de Personal | T25 | Implementar edición de datos de personal | 3 | Silva Morales, Renzo Cesar | Done |
+| US26 | Eliminación de Personal | T26 | Implementar eliminación de registros de personal | 2 | Bravo Gavilano, Jorge Rafael | Done |
+| US27 | Búsqueda de Personal | T27 | Implementar búsqueda de personal por nombre | 2 | Gonzalez Custodio, Carlos Alberto | Done |
+| US28 | Asignación de Personal a Campañas | T28 | Implementar asignación de personal a campañas | 3 | Martinez Ramos, Bryan Felix | Done |
+| TS01 | Visualización de Información de la Empresa | T29 | Implementar página “Sobre Cowders” | 2 | Roque Tello, Jack Eddie | Done |
+| TS02 | Exploración de Funcionalidades de Moobile | T30 | Implementar página de funcionalidades | 2 | Silva Morales, Renzo Cesar | Done |
+| TS03 | Consulta de Herramientas de Nutrición y Productividad | T31 | Implementar sección de raciones/peso/rendimiento | 3 | Bravo Gavilano, Jorge Rafael | Done |
+| TS04 | Acceso a Información de Contacto | T32 | Implementar página y formulario de contacto | 2 | Gonzalez Custodio, Carlos Alberto | Done |
+| TS05 | Conocimiento de Misión y Visión | T33 | Implementar sección de misión y visión | 1 | Martinez Ramos, Bryan Felix | Done |
+| TS06 | Vista General de la Plataforma | T34 | Implementar vista general interactiva (tour) | 3 | Roque Tello, Jack Eddie | Done |
+
 
 ### 5.2.2. Implemented Landing Page Evidence
 
