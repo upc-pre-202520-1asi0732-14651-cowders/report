@@ -481,6 +481,529 @@ Las pruebas en StaffTests.cs verifican las historias US23–US28, enfocadas en e
 
 ### 6.1.2. Core Integration Tests
 
+En este apartado, se describe cómo se llevaron a cabo las pruebas de integración para verificar que los distintos módulos o bounded contexts del sistema operen adecuadamente al interactuar entre sí.  
+El objetivo principal fue garantizar que la comunicación entre los distintos servicios del backend funcione correctamente, asegurando que las operaciones como creación, consulta o actualización de datos se ejecuten de manera coherente e integrada.  
+
+---
+
+### Campaign Bounded Context
+
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
+using Moobile_Platform;
+using Moobile_Platform.CampaignManagement.Interfaces.REST.Resources;
+
+namespace Moobile_Platform.Tests.Integration.Campaign
+{
+    [TestFixture]
+    public class CampaignIntegrationTests
+    {
+        private HttpClient _client = null!;
+        private WebApplicationFactory<Program> _factory = null!;
+
+        [SetUp]
+        public void SetUp()
+        {
+            _factory = new WebApplicationFactory<Program>();
+            _client = _factory.CreateClient();
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _client.Dispose();
+            _factory.Dispose();
+        }
+
+        // TEST 1: Crear una campaña correctamente
+        [Test]
+        public async Task CreateCampaign_ShouldReturnCreated_WhenDataIsValid()
+        {
+            var createResource = new CreateCampaignResource
+            {
+                Title = "Vacunación de Ganado Octubre",
+                Description = "Campaña de vacunación contra fiebre aftosa",
+                StartDate = DateTime.UtcNow,
+                EndDate = DateTime.UtcNow.AddDays(10)
+            };
+
+            var response = await _client.PostAsJsonAsync("/api/v1/campaigns", createResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created));
+            var created = await response.Content.ReadFromJsonAsync<CampaignResource>();
+            Assert.That(created, Is.Not.Null);
+            Assert.That(created!.Title, Is.EqualTo(createResource.Title));
+        }
+
+        // TEST 2: Obtener todas las campañas del usuario autenticado
+        [Test]
+        public async Task GetAllCampaigns_ShouldReturnOk_WithListOfCampaigns()
+        {
+            var response = await _client.GetAsync("/api/v1/campaigns");
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            var campaigns = await response.Content.ReadFromJsonAsync<List<CampaignResource>>();
+            Assert.That(campaigns, Is.Not.Null);
+        }
+
+        // TEST 3: Actualizar el estado de una campaña existente
+        [Test]
+        public async Task UpdateCampaignStatus_ShouldReturnCreated_WhenCampaignExists()
+        {
+            var campaignId = 1; 
+            var updateStatusResource = new UpdateCampaignStatusResource
+            {
+                Status = "Completed"
+            };
+
+            var response = await _client.PatchAsJsonAsync($"/api/v1/campaigns/{campaignId}/update-status", updateStatusResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created));
+            var updated = await response.Content.ReadFromJsonAsync<CampaignResource>();
+            Assert.That(updated, Is.Not.Null);
+            Assert.That(updated!.Status, Is.EqualTo("Completed"));
+        }
+    }
+}
+```
+
+## Ranch Bounded Context
+
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Moobile_Platform.RanchManagement.Domain.Services;
+using Moobile_Platform.RanchManagement.Interfaces.REST;
+using Moobile_Platform.RanchManagement.Interfaces.REST.Resources;
+using Moq;
+using NUnit.Framework;
+
+namespace Moobile_Platform.Tests.Ranch
+{
+    [TestFixture]
+    public class RanchIntegrationTests
+    {
+        private BovinesController bovinesController;
+        private VaccineController vaccineController;
+
+        private Mock<IBovineCommandService> mockBovineCommandService;
+        private Mock<IBovineQueryService> mockBovineQueryService;
+        private Mock<IVaccineCommandService> mockVaccineCommandService;
+        private Mock<IVaccineQueryService> mockVaccineQueryService;
+
+        [SetUp]
+        public void Setup()
+        {
+            mockBovineCommandService = new Mock<IBovineCommandService>();
+            mockBovineQueryService = new Mock<IBovineQueryService>();
+            mockVaccineCommandService = new Mock<IVaccineCommandService>();
+            mockVaccineQueryService = new Mock<IVaccineQueryService>();
+
+            bovinesController = new BovinesController(mockBovineCommandService.Object, mockBovineQueryService.Object);
+            vaccineController = new VaccineController(mockVaccineCommandService.Object, mockVaccineQueryService.Object);
+
+            var user = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+                new Claim(ClaimTypes.Sid, "1")
+            }, "mock"));
+
+            bovinesController.ControllerContext = new ControllerContext
+            {
+                HttpContext = new DefaultHttpContext { User = user }
+            };
+
+            vaccineController.ControllerContext = new ControllerContext
+            {
+                HttpContext = new DefaultHttpContext { User = user }
+            };
+        }
+
+        // 1. Crear un bovino
+        [Test]
+        public async Task CreateBovine_ShouldReturnCreatedBovine()
+        {
+            var resource = new CreateBovineResource
+            {
+                Name = "Bessie",
+                Age = 3,
+                StableId = 1
+            };
+
+            var createdBovine = new Domain.Model.Entities.Bovine
+            {
+                Id = 1,
+                Name = resource.Name,
+                Age = resource.Age,
+                StableId = resource.StableId
+            };
+
+            mockBovineCommandService
+                .Setup(s => s.Handle(It.IsAny<Domain.Model.Commands.CreateBovineCommand>()))
+                .ReturnsAsync(createdBovine);
+
+            var result = await bovinesController.CreateBovines(resource) as CreatedAtActionResult;
+            var resultBovine = result?.Value as BovineResource;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(201, result.StatusCode);
+            Assert.IsNotNull(resultBovine);
+            Assert.AreEqual("Bessie", resultBovine.Name);
+        }
+
+        // 2. Obtener bovinos por establo
+        [Test]
+        public async Task GetBovinesByStableId_ShouldReturnBovinesList()
+        {
+            int stableId = 1;
+            var bovinesList = new List<Domain.Model.Entities.Bovine>
+            {
+                new Domain.Model.Entities.Bovine { Id = 1, Name = "Bessie", StableId = stableId },
+                new Domain.Model.Entities.Bovine { Id = 2, Name = "Daisy", StableId = stableId }
+            };
+
+            mockBovineQueryService
+                .Setup(s => s.Handle(It.IsAny<Domain.Model.Queries.GetBovinesByStableIdQuery>()))
+                .ReturnsAsync(bovinesList);
+
+            var result = await bovinesController.GetBovinesByStableId(stableId) as OkObjectResult;
+            var bovines = result?.Value as IEnumerable<BovineResource>;
+
+            Assert.IsNotNull(result);
+            Assert.AreEqual(200, result.StatusCode);
+            Assert.IsTrue(bovines.Any());
+        }
+
+        // 3. Crear y obtener vacuna para un bovino
+        [Test]
+        public async Task CreateVaccine_ForBovine_ShouldReturnVaccine()
+        {
+            int bovineId = 1;
+            var vaccineResource = new CreateVaccineResource
+            {
+                Name = "Rabies",
+                DateAdministered = DateTime.UtcNow,
+                BovineId = bovineId
+            };
+
+            var createdVaccine = new Domain.Model.Entities.Vaccine
+            {
+                Id = 1,
+                Name = vaccineResource.Name,
+                BovineId = bovineId,
+                DateAdministered = vaccineResource.DateAdministered
+            };
+
+            var vaccinesList = new List<Domain.Model.Entities.Vaccine> { createdVaccine };
+
+            mockVaccineCommandService
+                .Setup(s => s.Handle(It.IsAny<Domain.Model.Commands.CreateVaccineCommand>()))
+                .ReturnsAsync(createdVaccine);
+
+            mockVaccineQueryService
+                .Setup(s => s.Handle(It.IsAny<Domain.Model.Queries.GetVaccinesByBovineIdQuery>()))
+                .ReturnsAsync(vaccinesList);
+
+            var createResult = await vaccineController.CreateVaccines(vaccineResource) as CreatedAtActionResult;
+            var resultVaccine = createResult?.Value as VaccineResource;
+
+            var getResult = await vaccineController.GetVaccinesByBovineId(bovineId) as OkObjectResult;
+            var vaccines = getResult?.Value as IEnumerable<VaccineResource>;
+
+            Assert.IsNotNull(createResult);
+            Assert.AreEqual(201, createResult.StatusCode);
+            Assert.IsNotNull(resultVaccine);
+            Assert.IsTrue(vaccines.Any(v => v.Id == resultVaccine.Id));
+        }
+    }
+}
+```
+
+## Staff Boundend Context
+
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using Moobile_Platform.StaffAdministration.Interfaces.REST.Resources;
+using NUnit.Framework;
+
+namespace Moobile_Platform.Tests.Integration.Staff
+{
+    [TestFixture]
+    public class StaffControllerTests : IntegrationTestBase
+    {
+        // 1. Crear un nuevo personal
+        [Test]
+        public async Task CreateStaff_ShouldReturnCreatedStaff()
+        {
+            var newStaff = new CreateStaffResource
+            {
+                Name = "Carlos Gonzalez",
+                EmployeeStatus = 1,
+                CampaignId = 1,
+                Email = "carlos@example.com"
+            };
+
+            var response = await HttpClient.PostAsJsonAsync("/api/v1/staff", newStaff);
+
+            Assert.AreEqual(HttpStatusCode.Created, response.StatusCode);
+            var createdStaff = await response.Content.ReadFromJsonAsync<StaffResource>();
+            Assert.NotNull(createdStaff);
+            Assert.AreEqual(newStaff.Name, createdStaff.Name);
+        }
+
+        // 2. Retornará una lista con todos los miembros del personal
+        [Test]
+        public async Task GetAllStaff_ShouldReturnListOfStaff()
+        {
+            var response = await HttpClient.GetAsync("/api/v1/staff");
+
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            var staffList = await response.Content.ReadFromJsonAsync<IEnumerable<StaffResource>>();
+            Assert.NotNull(staffList);
+            Assert.IsNotEmpty(staffList);
+        }
+
+        // 3. Devuelve los datos de un empleado específico
+        [Test]
+        public async Task GetStaffById_ShouldReturnSpecificStaff()
+        {
+            var staffId = 1; 
+            var response = await HttpClient.GetAsync($"/api/v1/staff/{staffId}");
+
+            Assert.AreEqual(HttpStatusCode.OK, response.StatusCode);
+            var staff = await response.Content.ReadFromJsonAsync<StaffResource>();
+            Assert.NotNull(staff);
+            Assert.AreEqual(staffId, staff.Id);
+        }
+    }
+}
+```
+
+## Voice Boundend Context
+```csharp
+using System;
+using System.Collections.Generic;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using Moobile_Platform.VoiceCommand.Domain.Model.Commands;
+using Moobile_Platform.VoiceCommand.Domain.Model.Queries;
+using Moobile_Platform.VoiceCommand.Domain.Services;
+using Moobile_Platform.VoiceCommand.Interfaces.REST;
+using Moq;
+using NUnit.Framework;
+
+namespace Moobile_Platform.Tests.VoiceCommand.Interfaces.REST
+{
+    [TestFixture]
+    public class VoiceCommandControllerTests
+    {
+        private Mock<IVoiceCommandService> _voiceCommandServiceMock = null!;
+        private Mock<IVoiceParserService> _voiceParserServiceMock = null!;
+        private Mock<IVoiceQueryService> _voiceQueryServiceMock = null!;
+        private Mock<ILogger<VoiceCommandController>> _loggerMock = null!;
+        private VoiceCommandController _controller = null!;
+
+        [SetUp]
+        public void Setup()
+        {
+            _voiceCommandServiceMock = new Mock<IVoiceCommandService>();
+            _voiceParserServiceMock = new Mock<IVoiceParserService>();
+            _voiceQueryServiceMock = new Mock<IVoiceQueryService>();
+            _loggerMock = new Mock<ILogger<VoiceCommandController>>();
+
+            _controller = new VoiceCommandController(
+                _voiceCommandServiceMock.Object,
+                _voiceParserServiceMock.Object,
+                _voiceQueryServiceMock.Object,
+                _loggerMock.Object
+            );
+
+            var user = new ClaimsPrincipal(new ClaimsIdentity(new Claim[]
+            {
+                new Claim(ClaimTypes.Sid, "1"),
+                new Claim(ClaimTypes.Name, "TestUser")
+            }, "mock"));
+
+            _controller.ControllerContext = new ControllerContext
+            {
+                HttpContext = new DefaultHttpContext { User = user }
+            };
+        }
+
+        // TEST 1: Procesar comando de voz
+        [Test]
+        public async Task ProcessVoiceCommand_ShouldReturnOk_WhenValidAudio()
+        {
+            var mockFile = new Mock<IFormFile>();
+            mockFile.Setup(f => f.Length).Returns(1024);
+            mockFile.Setup(f => f.ContentType).Returns("audio/wav");
+            mockFile.Setup(f => f.FileName).Returns("voice.wav");
+            mockFile.Setup(f => f.OpenReadStream()).Returns(new System.IO.MemoryStream(new byte[1024]));
+
+            _voiceCommandServiceMock
+                .Setup(s => s.Handle(It.IsAny<ProcessVoiceCommand>()))
+                .ReturnsAsync(new { success = true, message = "Processed successfully" });
+
+            var result = await _controller.ProcessVoiceCommand(mockFile.Object);
+
+            Assert.That(result, Is.InstanceOf<OkObjectResult>());
+            var okResult = result as OkObjectResult;
+            Assert.That(okResult?.Value, Is.Not.Null);
+        }
+
+        // TEST 2: Analizar comando en texto
+        [Test]
+        public void ParseTextCommand_ShouldReturnOk_WhenTextIsValid()
+        {
+            var request = new ParseTextRequest("turn on the light");
+
+            _voiceParserServiceMock.Setup(p => p.ParseCommand(It.IsAny<string>()))
+                .Returns(new MockCommandResult
+                {
+                    IsValid = true,
+                    CommandType = "LightControl",
+                    Parameters = new Dictionary<string, string> { { "device", "light" } },
+                    OriginalText = request.Text
+                });
+
+            var result = _controller.ParseTextCommand(request);
+
+            Assert.That(result, Is.InstanceOf<OkObjectResult>());
+            var okResult = result as OkObjectResult;
+            Assert.That(okResult?.Value, Is.Not.Null);
+        }
+
+        // TEST 3: Obtener comando de voz por ID
+        [Test]
+        public async Task GetVoiceCommandById_ShouldReturnOk_WhenFoundAndOwnedByUser()
+        {
+            var voiceCommand = new VoiceEntityMock { Id = 1, UserId = 1, Text = "Play music" };
+
+            _voiceQueryServiceMock.Setup(q => q.Handle(It.IsAny<GetVoicesByIdQuery>()))
+                .ReturnsAsync(voiceCommand);
+
+            var result = await _controller.GetVoiceCommandById(1);
+
+            Assert.That(result, Is.InstanceOf<OkObjectResult>());
+            var okResult = result as OkObjectResult;
+            Assert.That(okResult?.Value, Is.Not.Null);
+        }
+
+        private class VoiceEntityMock
+        {
+            public int Id { get; set; }
+            public int UserId { get; set; }
+            public string Text { get; set; } = string.Empty;
+        }
+
+        private class MockCommandResult
+        {
+            public bool IsValid { get; set; }
+            public string CommandType { get; set; } = string.Empty;
+            public Dictionary<string, string> Parameters { get; set; } = new();
+            public string OriginalText { get; set; } = string.Empty;
+        }
+    }
+}
+```
+
+## IAM Boundend Context
+```csharp
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Moq;
+using NUnit.Framework;
+using Moobile_Platform.IAM.Domain.Services;
+using Moobile_Platform.IAM.Domain.Model.Entities;
+using Moobile_Platform.IAM.Domain.Model.Commands;
+using Moobile_Platform.IAM.Interfaces.REST;
+using Moobile_Platform.IAM.Interfaces.REST.Resources.UserResources;
+using Moobile_Platform.IAM.Interfaces.REST.Transform.TransformFromUserResources;
+
+namespace Moobile_Platform.Tests.IAM
+{
+    [TestFixture]
+    public class IAMIntegrationTests
+    {
+        private Mock<IUserCommandService> _mockUserCommandService = null!;
+        private Mock<IUserQueryService> _mockUserQueryService = null!;
+        private Mock<IAdminCommandService> _mockAdminCommandService = null!;
+        private Mock<IAdminQueryService> _mockAdminQueryService = null!;
+        private UserController _userController = null!;
+        private AdminController _adminController = null!;
+
+        [SetUp]
+        public void Setup()
+        {
+            _mockUserCommandService = new Mock<IUserCommandService>();
+            _mockUserQueryService = new Mock<IUserQueryService>();
+            _mockAdminCommandService = new Mock<IAdminCommandService>();
+            _mockAdminQueryService = new Mock<IAdminQueryService>();
+
+            _userController = new UserController(_mockUserCommandService.Object, _mockUserQueryService.Object);
+            _adminController = new AdminController(_mockAdminCommandService.Object, _mockAdminQueryService.Object, _mockUserQueryService.Object);
+        }
+
+        // Test 1: Verificar registro de usuario exitoso
+        [Test]
+        public async Task SignUp_ShouldReturnCreated_WhenUserIsRegistered()
+        {
+            var resource = new SignUpResource("Carlos", "carlos@example.com", "123456");
+            var userEntity = new User { Id = 1, Username = "Carlos", Email = "carlos@example.com" };
+
+            _mockUserCommandService
+                .Setup(s => s.Handle(It.IsAny<SignUpCommand>()))
+                .ReturnsAsync(userEntity);
+
+            var result = await _userController.SignUp(resource);
+
+            Assert.IsInstanceOf<CreatedAtActionResult>(result);
+            var createdResult = result as CreatedAtActionResult;
+            Assert.NotNull(createdResult?.Value);
+        }
+
+        // Test 2: Verificar inicio de sesión exitoso
+        [Test]
+        public async Task SignIn_ShouldReturnOk_WhenCredentialsAreValid()
+        {
+            // Arrange
+            var resource = new SignInResource("carlos@example.com", null, "123456");
+            var userEntity = new User { Id = 1, Username = "Carlos", Email = "carlos@example.com" };
+
+            _mockUserCommandService
+                .Setup(s => s.Handle(It.IsAny<SignInCommand>()))
+                .ReturnsAsync(userEntity);
+
+            _mockUserQueryService
+                .Setup(s => s.GetUserNameByEmail(resource.Email))
+                .ReturnsAsync("Carlos");
+
+            _mockUserQueryService
+                .Setup(s => s.GetEmailByUserName(It.IsAny<string>()))
+                .ReturnsAsync(resource.Email);
+
+            var result = await _userController.SignIn(resource);
+
+            Assert.IsInstanceOf<OkObjectResult>(result.Result);
+            var okResult = result.Result as OkObjectResult;
+            Assert.NotNull(okResult?.Value);
+        }
+    }
+}
+```
+
 ### 6.1.3. Core Behavior-Driven Development
 
 ### 6.1.4. Core System Tests
