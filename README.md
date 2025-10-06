@@ -440,6 +440,44 @@
 ## 6.1. Testing Suites & Validation
 
 ### 6.1.1. Core Entities Unit Tests
+El proyecto Moobile.Platform.Domain.Tests contiene las pruebas unitarias de las entidades principales del dominio de la plataforma Moobile. Estas pruebas garantizan la correcta funcionalidad de los módulos base definidos en las historias de usuario correspondientes a la gestión de establos, bovinos, vacunas, campañas y personal (staff).
+
+Cada conjunto de pruebas se encuentra organizado en carpetas según la entidad a la que pertenece, manteniendo así una estructura modular y de fácil mantenimiento.
+
+#### Estructura general del proyecto de pruebas
+```
+Moobile.Platform.Domain.Tests
+ ├── Bovine
+ │   └── BovineTests.cs
+ ├── Campaign
+ │   └── CampaignTests.cs
+ ├── Shared
+ │   ├── CampaignCommandFactory.cs
+ │   ├── RanchManagementCommandFactory.cs
+ │   └── StaffCommandFactory.cs
+ ├── Stable
+ │   └── StableTests.cs
+ ├── Staff
+ │   └── StaffTests.cs
+ └── Vaccine
+     └── VaccineTests.cs
+
+```
+#### Cobertura de pruebas por módulo
+- Gestión de Establos (EP01)
+Las pruebas implementadas en StableTests.cs validan los casos definidos en las historias de usuario US01–US05, abarcando la creación, visualización, edición, eliminación y búsqueda de establos. Se comprueba que las operaciones CRUD se ejecuten correctamente y que las reglas de negocio (como capacidad o nombre único) sean respetadas.
+
+- Gestión de Bovinos (EP02)
+El archivo BovineTests.cs cubre las funcionalidades descritas en las historias US06–US11, relacionadas con el registro, visualización, actualización, eliminación, búsqueda y asignación de bovinos a establos. Las pruebas verifican la integridad de los datos y la correcta asociación entre bovinos y establos.
+
+- Gestión de Vacunas (EP03)
+En VaccineTests.cs se implementan las pruebas para las historias US12–US17, que incluyen el registro, consulta, modificación, eliminación, búsqueda y asignación de vacunas a bovinos. Estas pruebas aseguran la consistencia del historial sanitario y la relación entre vacunas y animales.
+
+- Gestión de Campañas (EP04)
+El archivo CampaignTests.cs valida las historias US18–US22, garantizando el correcto manejo de campañas sanitarias o de mejoramiento, incluyendo su creación, consulta, actualización, eliminación y búsqueda por fecha.
+
+- Gestión de Personal (EP05)
+Las pruebas en StaffTests.cs verifican las historias US23–US28, enfocadas en el registro, visualización, edición, eliminación, búsqueda y asignación del personal a campañas. Se valida la consistencia de roles y asignaciones dentro del sistema.
 
 ### 6.1.2. Core Integration Tests
 
