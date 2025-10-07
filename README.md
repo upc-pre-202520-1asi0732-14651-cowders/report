@@ -1344,7 +1344,7 @@ Todos los elementos serán nombrados en inglés, incluyendo variables, funciones
 Se utilizará una indentación de **2 espacios** en los archivos, evitando el uso de la tecla **TAB**, siguiendo lo recomendado por W3Schools. 
 
 ### 5.1.4. Software Deployment Configuration
-Tal como se mencionó anteriormente, la gestión del proyecto se llevará a cabo a través de Github. Asimismo, se utilizará Github Pages para la públicación y el despliegue de la landing page. 
+Tal como se mencionó anteriormente, la gestión del proyecto se llevará a cabo a través de Github. Asimismo, se utilizará Github Pages para la publicación y el despliegue de la landing page. 
 
 El despliegue de la landing page de Moobile fue posible gracias al uso de las siguientes tecnologías:
   - **Git:** Sistema de control de versiones diseñado para garantizar la eficiencia y compatibilidad, el cual facilitó el trabajo en equipo durante el desarrollo de la Landing Page.
