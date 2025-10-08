@@ -1006,6 +1006,11 @@ namespace Moobile_Platform.Tests.IAM
 
 ### 6.1.3. Core Behavior-Driven Development
 
+En el siguiente apartado, se mostrarán las principales pruebas realizadas con Cucumber.
+Acceptance Tests:
+
+Url del repositorio: 
+
 ### 6.1.4. Core System Tests
 
 ## 6.2. Static testing & Verification
