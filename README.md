@@ -1009,140 +1009,140 @@ namespace Moobile_Platform.Tests.IAM
 En el siguiente apartado, se mostrarán las principales pruebas realizadas con Cucumber.
 Acceptance Tests:
 
-Url del repositorio: https://github.com/UPC-Skylar/Cowders-acceptance-test
+Url del repositorio: https://github.com/upc-pre-202520-1asi0732-14651-cowders/moobile-acceptance-tests
 
 #### **Feature 01 - Registro de Usuarios**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/537f9bc9-d65e-47de-b72e-cca2a0081fe1" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/14fb7fec-c065-4a1d-bf91-2c53079d441f" />
 
 *Figura 6.1.1: Extraído de Visual Studio Code*
 
 #### **Feature 02 - Login de Usuarios**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/893a3f84-8034-4967-bcfa-739a5a97a71e" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/2ca3d4c9-a4ad-4366-a25d-b631401d1698" />
 
 *Figura 6.1.2: Extraído de Visual Studio Code*
 
 #### **Feature 03 - Creación de Establos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/91c7a059-583d-4060-b3c6-66f80f2c2026" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/050b781a-1a47-493c-8180-3a7c722794d9" />
 
 *Figura 6.1.3: Extraído de Visual Studio Code*
 
 #### **Feature 04 - Visualización de Establos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/18734320-5231-426b-92d5-7e078e74b3d4" />
+<img height="520" alt="Image" src="https://github.com/user-attachments/assets/e1f96f6e-4970-4634-b174-39227157bc70" />
 
 *Figura 6.1.4: Extraído de Visual Studio Code*
 
 #### **Feature 05 - Edición de Establos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/ab3ab843-c6b6-4949-b808-618ff82473b3" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/189d8337-f053-4eb8-bf7e-780a1198c1f5" />
 
 *Figura 6.1.5: Extraído de Visual Studio Code*
 
 #### **Feature 06 - Eliminación de Establos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/276f3993-1523-4696-9809-6c056c944aa5" />
+<img height="520" alt="Image" src="https://github.com/user-attachments/assets/739388c8-6477-4728-b528-06be4b842b92" />
 
 *Figura 6.1.6: Extraído de Visual Studio Code*
 
 #### **Feature 07 - Busqueda de Establos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/ddb09ef4-e230-4b4a-a17f-768a5548eaec" />
+<img height="520" alt="Image" src="https://github.com/user-attachments/assets/4e23f0dc-c2e2-4ea8-a2f4-839cb893b634" />
 
 *Figura 6.1.7: Extraído de Visual Studio Code*
 
 #### **Feature 08 - Registro de Bovinos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/b2b46f41-f1fb-4dda-954a-e74bc75a1fc9" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/46acc0d2-0699-489b-bfd4-f825b38ccc82" />
 
 *Figura 6.1.8: Extraído de Visual Studio Code*
 
 #### **Feature 09 - Visualización de Bovinos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/ae687214-5070-49a0-bcdd-e41080b5affa" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/f446fdc0-86af-4121-9090-fb132317a85d" />
 
 *Figura 6.1.9: Extraído de Visual Studio Code*
 
 #### **Feature 10 - Edición de Bovinos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/77a20f1f-448f-4147-b304-58f1ca15e0d9" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/0af8ac48-4092-41ae-816f-d5e548fb772e" />
 
 *Figura 6.1.10: Extraído de Visual Studio Code*
 
 #### **Feature 11 - Eliminación de Bovinos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/c4f1f34f-d853-472d-bff9-55e3a265b37f" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/61c5f008-c4a1-4aa5-9da9-69f31e7038fd" />
 
 *Figura 6.1.11: Extraído de Visual Studio Code*
 
 #### **Feature 12 - Busqueda de Bovinos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/34ba6d70-d065-41ea-b483-a50dbd86fbe9" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/fcad30b4-a051-49da-a872-8f5bce646bc2" />
 
 *Figura 6.1.12: Extraído de Visual Studio Code*
 
 #### **Feature 13 - Asignación de Bovinos a Establos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/05a3545c-e26e-466f-85ed-a885bc66b54d" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/36876467-c531-459b-8f7f-8b3371ddf890" />
 
 *Figura 6.1.13: Extraído de Visual Studio Code*
 
 #### **Feature 14 - Registro de Vacunas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/e69d4f59-bee4-4d60-a9b7-8533b53aeca5" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/e6df8ab7-c5c0-4457-8022-a5ad692046ac" />
 
 *Figura 6.1.14: Extraído de Visual Studio Code*
 
 #### **Feature 15 - Visualización de Vacunas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/5217de46-61b4-43e6-a56a-94b22e1c743f" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/11b0bca0-c4b5-4a78-a15a-257979de731c" />
 
 *Figura 6.1.15: Extraído de Visual Studio Code*
 
 #### **Feature 16 - Eliminación de Registros de Vacunas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/6e939529-1f49-4762-b2ca-209b269a9a37" />
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/6cc5328a-aa3a-4861-8467-1c538b286994" />
 
 *Figura 6.1.16: Extraído de Visual Studio Code*
 
 #### **Feature 17 - Edición de Registros de Vacunas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/cae87018-d7b9-47ab-bc7c-56394730776f" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/52a67908-3b01-4675-9d22-31f66bbc0955" />
 
 *Figura 6.1.17: Extraído de Visual Studio Code*
 
 #### **Feature 18 - Búsqueda de Vacunas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/665665d1-32d7-450a-a564-6797febfef10" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/6e46a9d4-ac77-46e2-96b2-878e67aebea0" />
 
 *Figura 6.1.18: Extraído de Visual Studio Code*
 
 #### **Feature 19 - Asignación de Vacunas a Bovinos**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/771eaec1-c9f2-4850-93f1-4bb090f81e60" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/7a129625-2944-45f9-a985-bc3d271ee11e" />
 
 *Figura 6.1.19: Extraído de Visual Studio Code*
 
 #### **Feature 20 - Creación de Campañas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/6d9a0138-2d0f-4f3e-af6d-45d13ae124ed" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/7061743c-0f78-4b11-8ee2-4f0b87e7eb03" />
 
 *Figura 6.1.20: Extraído de Visual Studio Code*
 
 #### **Feature 21 - Visualización de Campañas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/9e0342ca-cc2c-44b1-a653-4290161b6198" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/4e655c6b-b974-40d3-a630-9f2adb947310" />
 
 *Figura 6.1.21: Extraído de Visual Studio Code*
 
 #### **Feature 22 - Edición de Campañas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/b2fe0e06-5674-4cbf-a40d-0e5b3de6705a" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/61cb0970-c5f8-4496-83a2-c59c87f33a98" />
 
 *Figura 6.1.22: Extraído de Visual Studio Code*
 
 #### **Feature 23 - Eliminación de Campañas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/81d3946f-93b7-4e81-af04-3b250085bb93" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/7d44797b-4161-40e8-86eb-7d0dbb742bd3" />
 
 *Figura 6.1.23: Extraído de Visual Studio Code*
 
 #### **Feature 24 - Búsqueda de Campañas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/6e1144f8-406e-4438-b87d-756672d9405b" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/25177dfe-1f55-4a51-8136-83d364b8edc5" />
 
 *Figura 6.1.24: Extraído de Visual Studio Code*
 
 #### **Feature 25 - Registro de Personal**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/90a5e7e4-af54-4ae5-94aa-5220aad62bb7" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/c28c7fb1-26b0-408d-b778-baca313d987c" />
 
 *Figura 6.1.25: Extraído de Visual Studio Code*
 
 #### **Feature 26 - Visualización de Personal**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/0066d615-09d2-48e3-ae46-1901f4d86766" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/0ec5d9ea-626e-41df-a439-76e8e6431166" />
 
 *Figura 6.1.26: Extraído de Visual Studio Code*
 
 #### **Feature 27 - Edición de Personal**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/8df251ea-2284-49c8-8047-e3ec3939cfd5" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/b9776d23-f837-4ff7-8105-2877c91bae39" />
 
 *Figura 6.1.27: Extraído de Visual Studio Code*
 
@@ -1152,17 +1152,14 @@ Url del repositorio: https://github.com/UPC-Skylar/Cowders-acceptance-test
 *Figura 6.1.28: Extraído de Visual Studio Code*
 
 #### **Feature 29 - Búsqueda de Personal**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/b6107a8e-6824-4ed2-a93a-63941afab33a" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/e388baa9-3b20-43c9-ac1c-3ffebfda2abb" />
 
 *Figura 6.1.29: Extraído de Visual Studio Code*
 
 #### **Feature 30 - Asignación de Personal a Campañas**
-<img height="512" alt="Image" src="https://github.com/user-attachments/assets/cc0850e2-5c32-4aad-846c-30f3d0fe03dc" />
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/eb47b356-1278-4ab4-a778-c35c78ee77a2" />
 
 *Figura 6.1.30: Extraído de Visual Studio Code*
-
-
-
 
 ### 6.1.4. Core System Tests
 
