@@ -72,6 +72,7 @@
 |**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
 | :-: | :-: | :-: | :-: |
 |1\.0|10/09/2025|Moobile|Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation|
+|2\.0|09/10/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices|
 
 # Project Report Collaboration Insights
 
@@ -166,10 +167,11 @@
       - [5.2.1. Sprint Backlogs](#521-sprint-backlogs)
       - [5.2.2. Implemented Landing Page Evidence](#522-implemented-landing-page-evidence)
       - [5.2.3. Implemented Frontend-Web Application Evidence](#523-implemented-frontend-web-application-evidence)
-      - [5.2.4. Implemented Native-Mobile Application Evidence](#524-implemented-native-mobile-application-evidence)
-      - [5.2.5. Implemented RESTful API and/or Serverless Backend Evidence](#525-implemented-restful-api-andor-serverless-backend-evidence)
-      - [5.2.6. RESTful API documentation](#526-restful-api-documentation)
-      - [5.2.7. Team Collaboration Insights](#527-team-collaboration-insights)
+      - [5.2.4. Acuerdo de Servicio - SaaS](#524-acuerdo-de-servicio---saas)
+      - [5.2.5. Implemented Native-Mobile Application Evidence](#525-implemented-native-mobile-application-evidence)
+      - [5.2.6. Implemented RESTful API and/or Serverless Backend Evidence](#526-implemented-restful-api-andor-serverless-backend-evidence)
+      - [5.2.7. RESTful API documentation](#527-restful-api-documentation)
+      - [5.2.8. Team Collaboration Insights](#528-team-collaboration-insights)
     - [5.3. Video About-the-Product](#53-video-about-the-product)
 - [Part II: Verification, Validation & Pipeline](#part-ii-verification-validation--pipeline)
   - [Capítulo VI: Product Verification & Validation](#capítulo-vi-product-verification--validation)
@@ -1506,7 +1508,104 @@ Los pasos realizados fueron los siguientes:
 
 [![image.png](https://i.postimg.cc/KvW6hQdn/image.png)](https://postimg.cc/Yh1n1N29)
 
-### 5.2.4. Implemented Native-Mobile Application Evidence
+### 5.2.4. Acuerdo de Servicio - SaaS
+
+**Acuerdo de Servicio SaaS (SaaS Agreement) - Moobile**
+
+El presente Acuerdo de Servicio SaaS (“Acuerdo”) se celebra entre Moobile S.A.C., en adelante “Moobile”, proveedor de la plataforma digital y titular de todos los derechos asociados, y el Usuario, entendido como toda persona natural o jurídica que acceda o utilice los servicios ofrecidos por Moobile, ya sea en calidad de productor ganadero independiente o empresa ganadera.
+
+Este documento define los derechos, obligaciones y restricciones aplicables a todos los usuarios, y se integra públicamente como parte de los Términos y Condiciones del sitio web, en cumplimiento de los principios de transparencia, accesibilidad y normativas legales vigentes.
+
+La aceptación de este Acuerdo se realiza mediante el uso o registro en la plataforma Moobile, ya sea a través de la aplicación móvil o el sitio web oficial.
+
+**1. Aceptación del Acuerdo**
+
+El Usuario declara haber leído, comprendido y aceptado todos los términos del presente Acuerdo.
+El uso continuado del Servicio implicará la aceptación plena y voluntaria de estas condiciones.
+
+**2. Definiciones**
+
+A efectos del presente documento, se entiende por:
+
+Plataforma: El sistema digital desarrollado y administrado por Moobile que permite gestionar información veterinaria, historial de animales, citas, tratamientos, reportes y otros servicios relacionados.
+
+Usuario: Persona natural o jurídica que accede a los servicios SaaS de Moobile.
+
+Cuenta: Perfil personal o empresarial creado por el Usuario para acceder a la Plataforma.
+
+Datos del Usuario: Toda información ingresada o generada por el Usuario dentro de la Plataforma, incluyendo datos de identificación, registros de animales y transacciones.
+
+Servicio: El acceso en línea a las funcionalidades de Moobile, bajo modalidad de Software como Servicio.
+
+**3. Objeto del Acuerdo**
+
+El presente Acuerdo tiene por objeto establecer los términos y condiciones bajo los cuales Moobile otorga al Usuario una licencia limitada, no exclusiva, intransferible y revocable para utilizar la Plataforma, conforme a los fines previstos y de acuerdo con las disposiciones aquí establecidas.
+
+**4. Acceso y Uso del Servicio**
+
+4.1. El Usuario podrá acceder al Servicio mediante la creación de una cuenta personal o corporativa.
+4.2. El Usuario se compromete a proporcionar información veraz, completa y actualizada.
+4.3. El acceso al Servicio podrá estar sujeto a planes gratuitos o de suscripción según las condiciones comerciales vigentes.
+4.4. El Usuario no podrá:
+
+Copiar, modificar o distribuir el software sin autorización.
+
+Utilizar la Plataforma con fines ilícitos, fraudulentos o contrarios a la moral y buenas costumbres.
+
+Intentar descompilar o realizar ingeniería inversa sobre el software.
+
+**5. Propiedad Intelectual**
+
+Todos los derechos de propiedad intelectual sobre la Plataforma, su código fuente, diseño, logotipos, marcas, bases de datos y documentación son propiedad exclusiva de Moobile S.A.C..
+El Usuario no adquiere derecho alguno sobre dichos elementos, salvo el uso limitado otorgado por este Acuerdo.
+
+**6. Confidencialidad y Protección de Datos**
+
+6.1. Moobile garantiza que los Datos del Usuario serán tratados con estricta confidencialidad y conforme a la Ley N.º 29733 – Ley de Protección de Datos Personales del Perú, su Reglamento y normas complementarias.
+6.2. Los datos ingresados por el Usuario se emplearán únicamente para el funcionamiento del Servicio, la mejora de la experiencia de uso y el cumplimiento de obligaciones legales.
+6.3. Moobile podrá anonimizar o agregar datos con fines estadísticos o de mejora del sistema, sin comprometer información personal identificable.
+
+**7. Exclusión de Intermediación Financiera**
+
+Moobile no gestiona ni intermedia pagos entre los Usuarios ni entre terceros.
+Cualquier transacción económica que pudiera derivarse del uso de la Plataforma es responsabilidad exclusiva de las partes involucradas.
+Moobile no asume obligación alguna respecto a la recepción, administración o transferencia de fondos, ni garantiza la validez o cumplimiento de acuerdos financieros entre Usuarios o con proveedores externos.
+
+**8. Disponibilidad y Mantenimiento del Servicio**
+
+8.1. Moobile se compromete a mantener una disponibilidad mínima del 99% mensual del Servicio, salvo interrupciones planificadas por mantenimiento o causas de fuerza mayor.
+8.2. Los mantenimientos programados serán comunicados con antelación razonable.
+8.3. Moobile podrá actualizar la Plataforma para incorporar mejoras de seguridad, rendimiento o nuevas funcionalidades, sin necesidad de notificación previa.
+
+**9. Duración y Terminación**
+
+9.1. El presente Acuerdo entrará en vigor desde la aceptación por parte del Usuario y se mantendrá vigente mientras éste utilice la Plataforma.
+9.2. Cualquiera de las partes podrá dar por terminado el Acuerdo en cualquier momento, notificando por los canales establecidos.
+9.3. Moobile podrá suspender o cancelar el acceso del Usuario en caso de incumplimiento de las condiciones aquí descritas.
+
+**10. Limitación de Responsabilidad**
+
+Moobile no será responsable por:
+
+Daños indirectos, pérdida de datos o lucro cesante derivados del uso o imposibilidad de uso del Servicio.
+
+Fallos ocasionados por la red de internet, proveedores externos o configuraciones del dispositivo del Usuario.
+
+Contenidos o acciones realizados por terceros dentro de la Plataforma.
+
+**11. Modificaciones al Acuerdo**
+
+Moobile se reserva el derecho de modificar, actualizar o complementar los términos del presente Acuerdo en cualquier momento.
+Las modificaciones serán publicadas en la Plataforma o notificadas al Usuario por medios electrónicos.
+El uso continuado del Servicio después de la publicación de los cambios constituirá la aceptación plena de las nuevas condiciones.
+En caso de no estar de acuerdo con las modificaciones, el Usuario podrá cancelar su cuenta y dejar de utilizar el Servicio sin penalización alguna.
+
+**12. Ley Aplicable y Jurisdicción**
+
+El presente Acuerdo se rige por las leyes de la República del Perú.
+Cualquier controversia derivada del mismo será resuelta  ante los tribunales competentes de Lima, Perú.
+
+### 5.2.5. Implemented Native-Mobile Application Evidence
 
 1) Pantalla de bienvenida: presentamos “Moobile” y a Vicky, tu asistente vacuna. Esta vista introduce el propósito de la app (gestionar bovinos de forma simple y segura) y ofrece dos acciones claras para el usuario: Iniciar Sesión o Crear Cuenta.
 
@@ -1542,7 +1641,7 @@ Los pasos realizados fueron los siguientes:
 
 [![image.png](https://i.postimg.cc/6pfs8Pzn/image.png)](https://postimg.cc/SnR15DBx)
 
-### 5.2.5. Implemented RESTful API and/or Serverless Backend Evidence
+### 5.2.6. Implemented RESTful API and/or Serverless Backend Evidence
 
 **1. Staffs.**  
 En esta primera captura se ve la sección “Staffs” del panel Swagger, que agrupa todas las operaciones del recurso de personal bajo el prefijo `/api/v1/staff`. La fila verde indica que es posible **crear** un registro de staff con `POST /staff`. Debajo se muestran varios bloques azules que permiten **listar** a todo el personal (`GET /staff`) y **consultar** un registro puntual (`GET /staff/{id}`). Aparecen también las operaciones para **actualizar** (`PUT /staff/{id}`, en color ámbar) y **eliminar** (`DELETE /staff/{id}`, en rojo) un staff existente. Además, la pantalla evidencia tres búsquedas especializadas: **por campaña** (`GET /staff/search-by-campaign/{campaignId}`), **por estado laboral** (`GET /staff/search-by-employee-status/{employeeStatus}`) y **por nombre** (`GET /staff/search-by-name/{name}`), cada una con su breve descripción al lado derecho. Todos los ítems muestran el candado de seguridad, confirmando que requieren autenticación.
@@ -1577,7 +1676,7 @@ La última imagen corresponde a la sección “Stables”, donde se visualiza el
 **Conclusión.**  
 En conjunto, las seis capturas prueban la implementación de un backend RESTful versionado bajo `/api/v1`, con **recursos claramente separados**, **búsquedas especializadas**, **operaciones de negocio** más allá del CRUD básico, y **seguridad aplicada**.
 
-### 5.2.6. RESTful API documentation
+### 5.2.7. RESTful API documentation
 
 La plataforma expone una **API RESTful** versionada bajo el prefijo `/api/v1`, diseñada para integrarse con aplicaciones web y móviles del ecosistema (p. ej., panel de administración y app de campo). Todas las operaciones utilizan **JSON** como formato de intercambio y fechas en **ISO-8601** (por ejemplo, `2025-09-20T18:36:55.257Z`). Salvo indicación contraria, las peticiones deben incluir el encabezado `Content-Type: application/json` y las respuestas retornan códigos HTTP estándar para indicar éxito o error.
 
@@ -1635,7 +1734,7 @@ La API está pensada para integrarse con métricas y trazas (latencia por endpoi
 
 > Con este contrato, los equipos cliente (web y móvil) disponen de un **núcleo uniforme y predecible** para operar procesos de inventario bovino, campañas sanitarias, asignación de personal y registro de vacunas, además de capacidades de **entrada por voz** que agilizan el trabajo en campo manteniendo la integridad de los datos.
 
-### 5.2.7. Team Collaboration Insights
+### 5.2.8. Team Collaboration Insights
 
 Durante el transcurso del Sprint 1, el equipo trabajó de manera conjunta en el repositorio del Informe, empleando herramientas como GitHub, Trello y Google Meet para organizar tareas, compartir avances y aclarar dudas de forma constante.
 
