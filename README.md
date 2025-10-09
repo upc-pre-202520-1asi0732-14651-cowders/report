@@ -679,7 +679,40 @@ Asimismo, se supervisa la disponibilidad del frontend mediante herramientas inte
 
 ## 7.3. Continuous deployment
 
+El despliegue continuo es una práctica fundamental en el desarrollo de software moderno, que automatiza la entrega de cambios al entorno de producción. En esta sección se describen las
+herramientas y procesos implementados para asegurar un flujo de trabajo eficiente, permitiendo que el software sea desplegado de manera rápida, segura y consistente.
+
 ### 7.3.1. Tools and Practices
+
+**GitHub Actions:**
+Es el motor principal de automatización CI/CD en el proyecto VacApp.
+Se configuraron flujos de trabajo que se ejecutan automáticamente ante cada push o pull request en el repositorio.
+Estos pipelines realizan una serie de validaciones, incluyendo análisis estático de código con ESLint, verificación de tipos con TypeScript, ejecución de pruebas unitarias con NUnit, pruebas de integración en los distintos bounded contexts, y pruebas end-to-end con Selenium.
+En caso de que todas las verificaciones sean exitosas, se procede al despliegue automático del backend en Azure App Service y del frontend en Netlify, garantizando una entrega continua, estable y confiable del sistema.
+
+<img width="170" height="132" alt="Image" src="https://github.com/user-attachments/assets/e98893cf-36ab-448e-907c-a7c3cfacf6bf" />
+
+**Azure App Service:**
+Es la plataforma utilizada para el despliegue del backend de VacApp desarrollado en .NET.
+Permite integrar directamente el flujo de despliegue con GitHub Actions, ofreciendo un entorno administrado con soporte para scaling, monitoreo de rendimiento y gestión de versiones.
+Su infraestructura automatizada facilita el despliegue sin intervención manual, reduciendo el riesgo de errores y mejorando los tiempos de entrega a producción.
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/e4b90ae3-e64f-4e85-968f-8ad3d5bfdc6f" />
+
+**Netlify:**
+Es la plataforma utilizada para el despliegue del frontend de VacApp, desarrollado en React y TypeScript.
+Netlify proporciona integración nativa con GitHub, lo que permite generar previews automáticos de cada rama y realizar el despliegue final al aprobar los cambios en la rama principal.
+Además, ofrece soporte para HTTPS, control de versiones y optimización automática del contenido estático, garantizando alto rendimiento en el entorno productivo.
+
+<img width="200" alt="Image" src="https://github.com/user-attachments/assets/bd3f8e61-bc2b-4be1-8a8e-2500840f4e07" />
+
+**ESLint + Prettier:**
+Herramientas integradas en el pipeline de CI/CD para garantizar la calidad, legibilidad y consistencia del código en el frontend.
+ESLint aplica reglas personalizadas específicas para proyectos en TypeScript y React, detectando errores de estilo, malas prácticas y vulnerabilidades potenciales.
+Por su parte, Prettier asegura un formato uniforme en todo el código, siguiendo los estándares definidos por el equipo de desarrollo, como el uso de comillas simples, indentación consistente y trailing commas.
+En conjunto, estas herramientas ayudan a mantener un código limpio, profesional y coherente entre todos los miembros del equipo.
+
+<img width="301" height="167" alt="Image" src="https://github.com/user-attachments/assets/50cf0805-3b56-47ce-9151-de76d32da20a" />
 
 ### 7.3.2. Production Deployment Pipeline Components
 
