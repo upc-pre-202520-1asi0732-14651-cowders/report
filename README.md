@@ -492,6 +492,57 @@
 ### 7.1.1. Tools and Practices
 
 ### 7.1.2. Build & Test Suite Pipeline Components
+Este documento describe los Épicos (Epics) principales de la plataforma **Moobile-Platform**, organizados bajo el formato de Historias de Usuario para definir flujos de trabajo clave desde la perspectiva del usuario ganadero.
+
+---
+
+## 🐄 Epic 01: Gestión de Establos
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como usuario ganadero,** | **Quiero gestionar los establos en la plataforma** | **Para mantener organizadas las instalaciones** donde se alojan los bovinos. |
+
+<img width="886" height="551" alt="image" src="https://github.com/user-attachments/assets/3ee378e8-3f43-466d-8d6d-fa13cb040a08" />
+
+---
+
+## 🐂 Epic 02: Gestión de Bovinos
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como usuario ganadero,** | **Quiero gestionar los bovinos registrados en mis establos** | **Para mantener un control organizado y actualizado** del ganado en la plataforma. |
+
+<img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/7fc836ea-1302-4f0c-9985-28bbd83cb5a9" />
+
+---
+
+## ✏️ Epic 03: Edición de Bovinos
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como usuario ganadero,** | **Quiero editar la información de los bovinos,** | **Para actualizar sus datos cuando sea necesario** (peso, edad, raza o estado reproductivo). |
+
+<img width="886" height="565" alt="image" src="https://github.com/user-attachments/assets/504861c5-2bca-42e2-8449-7e1b9f424e26" />
+
+---
+
+## 📅 Epic 04: Gestión de Campañas
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como empresario ganadero,** | **Quiero gestionar campañas sanitarias y de mejoramiento** | **Para coordinar actividades a gran escala** (ej., vacunación, suplementación) y asegurar el cuidado óptimo. |
+
+<img width="886" height="620" alt="image" src="https://github.com/user-attachments/assets/d7386044-8ab9-44b7-bde3-16bbc1a48164" />
+
+---
+
+## 👨‍🌾 Epic 05: Gestión de Staff
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como empresario ganadero,** | **Quiero gestionar el personal que trabaja en mi operación ganadera** | **Para organizar eficientemente los recursos humanos** y asignar tareas. |
+
+<img width="886" height="634" alt="image" src="https://github.com/user-attachments/assets/7c866db4-f04e-48c6-a965-06e0a2858013" />
 
 ## 7.2. Continuous Delivery
 
