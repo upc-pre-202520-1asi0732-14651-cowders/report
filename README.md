@@ -587,7 +587,40 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 ## 7.2. Continuous Delivery
 
+En este apartado se puede encontrar tres puntos principales a tomar en cuenta: La automatización de pruebas (pruebas unitarias, pruebas de integración y pruebas funcionales y de aceptación), el
+entorno de pruebas automatizado y las pruebas de rendimiento y carga.
+
 ### 7.2.1. Tools and Practices
+
+Para la implementación de VacApp, se emplearon distintas herramientas que cubren desde el análisis estático del código hasta las pruebas automatizadas y la integración continua. El objetivo principal fue garantizar la calidad, estabilidad y mantenibilidad del sistema a través de un proceso de desarrollo controlado y validado en múltiples niveles.
+
+**NUnit:** Framework principal de pruebas unitarias para el backend desarrollado en C# y .NET. Permite validar la lógica de negocio definida en los distintos bounded contexts del dominio de VacApp mediante una convención de nomenclatura descriptiva, asegurando legibilidad y consistencia. Las pruebas de Core Entities Unit Tests cubren las funcionalidades derivadas de las 28 User Stories implementadas, mientras que las Core Integration Tests validan la interacción entre componentes, con 3 pruebas por bounded context y 2 para el módulo IAM (Identity and Access Management).
+
+<img width="220" alt="Image" src="https://github.com/user-attachments/assets/3064c1c8-897d-42ec-a4ea-bbe9cba54b76" />
+
+**Selenium:** Utilizado en los Core System Tests para realizar pruebas end-to-end sobre la interfaz del frontend desarrollado en React y TypeScript, simulando la interacción real de los usuarios con el sistema. Permite validar los flujos críticos del sistema, como autenticación, registro de ganado, gestión de vacunas y campañas, asegurando que la aplicación funcione correctamente en entornos reales.
+
+<img width="100" alt="Image" src="https://github.com/user-attachments/assets/2ce9c224-5952-4554-849b-bcea88239d17" />
+
+**Cucumber:** Implementado en la capa de Core Behavior-Driven Development (BDD) para la ejecución de Acceptance Tests. Las pruebas se redactan en lenguaje Gherkin, lo que facilita la comprensión tanto por parte del equipo técnico como de los stakeholders no técnicos. Estas pruebas aseguran que cada User Story (US) cumpla con los criterios de aceptación definidos, validando comportamientos esperados del sistema desde la perspectiva del usuario final.
+
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/c40d7548-75c6-42a8-81dd-71921939313a" />
+
+**GitHub Actions:** Sistema de integración y despliegue continuo (CI/CD) encargado de automatizar la ejecución de pruebas unitarias, de integración y end-to-end en cada pull request. Además, realiza validaciones de código con ESLint y análisis de tipado con TypeScript, garantizando la calidad del código antes de fusionar los cambios en la rama principal del proyecto.
+
+<img width="170" height="132" alt="Image" src="https://github.com/user-attachments/assets/e98893cf-36ab-448e-907c-a7c3cfacf6bf" />
+
+**ESLint y TypeScript:** Se utilizan de manera conjunta en el frontend para mantener un código limpio, consistente y seguro. ESLint aplica reglas personalizadas de estilo, seguridad y buenas prácticas en React, mientras que TypeScript ofrece comprobación estática de tipos, minimizando errores en tiempo de ejecución y mejorando la mantenibilidad a largo plazo.
+
+<img height="100" alt="Image" src="https://github.com/user-attachments/assets/2bbde38e-6843-43b9-b311-345b040a3bf7" />
+
+**Azure App Service:** Servicio en la nube de Microsoft Azure utilizado para desplegar y administrar el backend desarrollado en .NET. Ofrece integración directa con GitHub Actions, soporte para despliegues automatizados y escalabilidad bajo demanda. Permite realizar pruebas en entornos preconfigurados, gestionar logs y monitorear el rendimiento del sistema de manera continua.
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/e4b90ae3-e64f-4e85-968f-8ad3d5bfdc6f" />
+
+**Netlify:** Plataforma utilizada para el despliegue del frontend desarrollado en React y TypeScript. Ofrece integración continua con GitHub, lo que permite realizar despliegues automáticos tras cada merge en la rama principal. Además, proporciona un entorno de hosting rápido, seguro y con soporte para HTTPS, control de versiones y previsualización de cambios antes del despliegue final.
+
+<img width="200" alt="Image" src="https://github.com/user-attachments/assets/bd3f8e61-bc2b-4be1-8a8e-2500840f4e07" />
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
