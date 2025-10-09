@@ -622,7 +622,60 @@ Para la implementación de VacApp, se emplearon distintas herramientas que cubre
 
 <img width="200" alt="Image" src="https://github.com/user-attachments/assets/bd3f8e61-bc2b-4be1-8a8e-2500840f4e07" />
 
+---
+
 ### 7.2.2. Stages Deployment Pipeline Components
+
+A continuación, se describen las etapas del pipeline de despliegue implementado en el proyecto **VacApp**.  
+Cada fase fue diseñada para garantizar una entrega continua, confiable y de alta calidad del software, asegurando la integración fluida entre el **frontend (React + TypeScript)** y el **backend (.NET + C#)**.
+
+**1. Code Commit**
+El proceso se inicia cuando un desarrollador realiza un commit en el repositorio de código.  
+Se utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma de alojamiento.  
+Todos los commits siguen la convención de **Conventional Commits** para mantener mensajes claros, estructurados y compatibles con **SemVer** (versionado semántico).
+
+**2. Linting y Verificación de Tipos**
+En esta etapa se ejecutan herramientas de análisis estático del código en el **frontend**, utilizando **ESLint** para validar la calidad y estilo, y **TypeScript** para la comprobación estricta de tipos.  
+Esta validación temprana asegura la robustez del código y previene errores antes de llegar a etapas posteriores del pipeline.
+
+**3. Build**
+El código del **frontend** se compila con **Vite** y **TypeScript**, generando los artefactos listos para despliegue en **Netlify**.  
+Simultáneamente, el **backend** se compila en **.NET SDK**, verificando la integridad de dependencias, controladores, entidades y servicios.  
+Esta fase asegura que no existan errores de compilación y que el sistema esté preparado para las pruebas automatizadas.
+
+**4. Test Unitarios**
+Se ejecutan las pruebas unitarias mediante **NUnit** para el backend, cubriendo las **Core Entities Unit Tests** y asegurando el correcto funcionamiento de la lógica de negocio individual.  
+Cada prueba sigue una convención descriptiva (*Método_DadaCondición_DeberíaResultadoEsperado*) que mejora la mantenibilidad y claridad de los resultados.
+
+**5. Test de Integración**
+Durante esta etapa se ejecutan las **Core Integration Tests** con **NUnit**, validando la interacción entre los distintos **bounded contexts** del dominio y los módulos de infraestructura.  
+Cada contexto incluye tres pruebas principales, además de dos pruebas específicas para el módulo **IAM (Identity and Access Management)**.
+
+**6. Test End-to-End**
+Las **Core System Tests** se ejecutan con **Selenium**, simulando la interacción real de los usuarios sobre la interfaz web desarrollada en **React**.  
+Estas pruebas validan los flujos críticos como el inicio de sesión, la gestión de bovinos, vacunas y campañas, garantizando la correcta experiencia de usuario final.
+
+**7. Acceptance Tests (BDD)**
+En esta fase se ejecutan pruebas **Behavior-Driven Development (BDD)** con **Cucumber**, empleando el lenguaje **Gherkin** para validar las 28 **User Stories (US)** del sistema.  
+Cada escenario describe comportamientos esperados desde la perspectiva del usuario, facilitando la validación del producto frente a los criterios de aceptación definidos.
+
+**8. Staging Deployment**
+Tras superar las fases de prueba, el sistema se despliega automáticamente en un entorno de **staging**:
+- **Backend:** desplegado en **Azure App Service**, replicando el entorno productivo.  
+- **Frontend:** desplegado en **Netlify**, permitiendo previsualizar la versión antes del lanzamiento final.  
+En esta etapa se realizan pruebas adicionales de integración, rendimiento y conectividad entre servicios.
+
+**9. Production Release**
+Luego de la aprobación en *staging*, los cambios son fusionados en la rama `main`.  
+El pipeline de **GitHub Actions** ejecuta el **despliegue automático a producción**, publicando:
+- El **frontend** en **Netlify**.  
+- El **backend** en **Azure App Service**.  
+Este proceso asegura un flujo continuo y sin intervención manual, reduciendo tiempos de entrega y errores humanos.
+
+**10. Monitoreo Post-Despliegue**
+Una vez en producción, **VacApp** es monitoreada continuamente para verificar su rendimiento y estabilidad.  
+El backend utiliza **Azure Monitor** y **Application Insights** para el registro estructurado, métricas de uso y detección temprana de errores.  
+Asimismo, se supervisa la disponibilidad del frontend mediante herramientas integradas en **Netlify Analytics**, garantizando una respuesta rápida ante cualquier incidencia.
 
 ## 7.3. Continuous deployment
 
