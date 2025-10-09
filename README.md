@@ -490,6 +490,47 @@
 ## 7.1. Continuous Integration
 
 ### 7.1.1. Tools and Practices
+Para la implementación de VacApp, desplegamos el frontend en Netlify y el backend en Azure App Service, garantizando un entorno escalable, seguro y de fácil mantenimiento.
+Adoptamos el flujo Gitflow para la gestión de ramas en GitHub, junto con Conventional Commits para mantener una estructura clara en los mensajes de commit y SemVer para el versionamiento semántico.
+Implementamos integración continua con GitHub Actions, que ejecuta automáticamente validaciones de código, análisis estático con ESLint, comprobación de tipos con TypeScript, y pruebas automatizadas tanto en el frontend como en el backend.
+
+Para el frontend, empleamos pruebas unitarias y de integración usando React Testing Library junto con Vitest, lo que permite verificar la funcionalidad de los componentes y la interacción del usuario en entornos simulados.
+En el backend, utilizamos NUnit como framework de testing principal, complementado con Selenium para realizar pruebas end-to-end sobre la interfaz de usuario, validando la integración entre el sistema web y los flujos de usuario reales.
+Esta infraestructura de pruebas nos permite detectar errores de manera temprana y asegurar la estabilidad del producto antes de su despliegue.
+
+
+
+| Característica     | NUnit | Selenium |
+| ------------------ | ----- | -------- |
+|                    |  <img width="150" alt="Image" src="https://github.com/user-attachments/assets/f58716a2-722e-4795-80ab-df5e720049cb" />  |    <img width="100" alt="Image" src="https://github.com/user-attachments/assets/061eb064-a4f3-43fe-beb5-870c6308c337" />   |
+| Tipo | Framework de testing unitario para .NET| Framework de testing end-to-end para aplicaciones web |
+| Lenguaje principal | C#  | Multilenguaje (C#, Java, Python, etc.)         |
+| Enfoque            | Pruebas unitarias y de integración en el backend       | Pruebas funcionales simulando la interacción del usuario         |
+| Ventajas Clave     | Estructura modular basada en fixtures, assertions y test cases parametrizados. Integración directa con Azure DevOps y GitHub Actions.      |  Ejecución de pruebas en navegadores reales, automatización de flujos completos y validación visual del frontend.        |
+| Compatibilidad     | Integración con .NET y Azure Pipelines      | Soporte para múltiples navegadores y entornos CI/C         |
+| Tipos de Prueba    | Unitarias, integración, regresión | End-to-End, UI, smoke y regresión visual|
+
+<br>
+
+**Workflow de Integración Continua**
+Para asegurar la calidad y consistencia en el desarrollo de VacApp, todos los miembros del equipo siguen el siguiente flujo de trabajo:
+	
+  
+  **1.	Desarrollo local:** Una vez finalizada una feature, el desarrollador ejecuta las pruebas automatizadas con NUnit y Selenium en su entorno local para garantizar la ausencia de errores o regresiones.
+
+**2.	Pull Request:** Si las pruebas son exitosas, se crea una pull request hacia la rama develop, siguiendo el formato de commit definido por Conventional Commits e incluyendo el número de la PR (por ejemplo, #23).
+  
+  **3.	Pipeline automático:** Al subir la PR al repositorio remoto, GitHub Actions ejecuta automáticamente los pipelines configurados para:
+	•	Validar el código con ESLint y TypeScript.
+	•	Correr las suites de pruebas con NUnit para el backend.
+	•	Ejecutar pruebas end-to-end con Selenium sobre entornos controlados.
+  
+  **4.	Revisión y pruebas de integración:** Una vez aprobada la PR, los cambios se integran a la rama release, donde se ejecutan pruebas de integración adicionales en un entorno similar a producción (Azure Test Environment).
+	
+  **5.	Despliegue a producción:** Si las pruebas son exitosas, se aprueba la pull request hacia main, lo que desencadena un despliegue automático:
+	•	Frontend: en Netlify.
+	•	Backend: en Azure App Service.
+En caso de errores o fallas en los pipelines, el cambio se devuelve a la rama del desarrollador para su corrección antes de reiniciar el ciclo.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
 Este documento describe los Épicos (Epics) principales de la plataforma **Moobile-Platform**, organizados bajo el formato de Historias de Usuario para definir flujos de trabajo clave desde la perspectiva del usuario ganadero.
