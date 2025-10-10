@@ -489,6 +489,10 @@
 
 ## 7.1. Continuous Integration
 
+Para el proyecto VacApp, desarrollado con React y TypeScript en el frontend y C#/.NET en el backend, se implementó un sistema de Integración Continua (CI) mediante GitHub Actions.
+Este pipeline automatiza tareas clave como la validación del código, la verificación de tipos, la ejecución de pruebas y la preparación para el despliegue.
+De esta manera, cada commit o pull request activa un flujo de validaciones automáticas que permiten detectar errores tempranamente, mantener la calidad del código y asegurar entregas más estables y confiables en los entornos de Azure App Service y Netlify.
+
 ### 7.1.1. Tools and Practices
 Para la implementación de VacApp, desplegamos el frontend en Netlify y el backend en Azure App Service, garantizando un entorno escalable, seguro y de fácil mantenimiento.
 Adoptamos el flujo Gitflow para la gestión de ramas en GitHub, junto con Conventional Commits para mantener una estructura clara en los mensajes de commit y SemVer para el versionamiento semántico.
