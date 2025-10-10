@@ -1542,6 +1542,7 @@ Servicio: El acceso en línea a las funcionalidades de Moobile, bajo modalidad d
 
 El presente Acuerdo tiene por objeto establecer los términos y condiciones bajo los cuales Moobile otorga al Usuario una licencia limitada, no exclusiva, intransferible y revocable para utilizar la Plataforma, conforme a los fines previstos y de acuerdo con las disposiciones aquí establecidas.
 
+
 **4. Acceso y Uso del Servicio**
 
 4.1. El Usuario podrá acceder al Servicio mediante la creación de una cuenta personal o corporativa.
@@ -1767,6 +1768,893 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 Link para ver el video: [Click aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
 
 ----
+  
+# **Capítulo VI: Product Verification & Validation**
+
+## 6.1. Testing Suites & Validation
+  
+### 6.1.1. Core Entities Unit Tests
+  
+El proyecto Moobile.Platform.Domain.Tests contiene las pruebas unitarias de las entidades principales del dominio de la plataforma Moobile. Estas pruebas garantizan la correcta funcionalidad de los módulos base definidos en las historias de usuario correspondientes a la gestión de establos, bovinos, vacunas, campañas y personal (staff).
+
+Cada conjunto de pruebas se encuentra organizado en carpetas según la entidad a la que pertenece, manteniendo así una estructura modular y de fácil mantenimiento.
+
+#### Estructura general del proyecto de pruebas
+```
+Moobile.Platform.Domain.Tests
+ ├── Bovine
+ │   └── BovineTests.cs
+ ├── Campaign
+ │   └── CampaignTests.cs
+ ├── Shared
+ │   ├── CampaignCommandFactory.cs
+ │   ├── RanchManagementCommandFactory.cs
+ │   └── StaffCommandFactory.cs
+ ├── Stable
+ │   └── StableTests.cs
+ ├── Staff
+ │   └── StaffTests.cs
+ └── Vaccine
+     └── VaccineTests.cs
+
+```
+#### Cobertura de pruebas por módulo
+- Gestión de Establos (EP01)
+Las pruebas implementadas en StableTests.cs validan los casos definidos en las historias de usuario US01–US05, abarcando la creación, visualización, edición, eliminación y búsqueda de establos. Se comprueba que las operaciones CRUD se ejecuten correctamente y que las reglas de negocio (como capacidad o nombre único) sean respetadas.
+
+- Gestión de Bovinos (EP02)
+El archivo BovineTests.cs cubre las funcionalidades descritas en las historias US06–US11, relacionadas con el registro, visualización, actualización, eliminación, búsqueda y asignación de bovinos a establos. Las pruebas verifican la integridad de los datos y la correcta asociación entre bovinos y establos.
+
+- Gestión de Vacunas (EP03)
+En VaccineTests.cs se implementan las pruebas para las historias US12–US17, que incluyen el registro, consulta, modificación, eliminación, búsqueda y asignación de vacunas a bovinos. Estas pruebas aseguran la consistencia del historial sanitario y la relación entre vacunas y animales.
+
+- Gestión de Campañas (EP04)
+El archivo CampaignTests.cs valida las historias US18–US22, garantizando el correcto manejo de campañas sanitarias o de mejoramiento, incluyendo su creación, consulta, actualización, eliminación y búsqueda por fecha.
+
+- Gestión de Personal (EP05)
+Las pruebas en StaffTests.cs verifican las historias US23–US28, enfocadas en el registro, visualización, edición, eliminación, búsqueda y asignación del personal a campañas. Se valida la consistencia de roles y asignaciones dentro del sistema.
+  
+En este apartado, se describe cómo se llevaron a cabo las pruebas de integración para verificar que los distintos módulos o bounded contexts del sistema operen adecuadamente al interactuar entre sí.  
+El objetivo principal fue garantizar que la comunicación entre los distintos servicios del backend funcione correctamente, asegurando que las operaciones como creación, consulta o actualización de datos se ejecuten de manera coherente e integrada.  
+
+---
+
+### Campaign Bounded Context
+
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
+using Moobile_Platform;
+using Moobile_Platform.CampaignManagement.Interfaces.REST.Resources;
+using System.Collections.Generic;
+using System;
+using Microsoft.AspNetCore.Hosting;
+using System.IO;
+using System.Linq;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
+using GoalType = Moobile_Platform.CampaignManagement.Domain.Model.Aggregates.Goal;
+using ChannelType = Moobile_Platform.CampaignManagement.Domain.Model.Aggregates.Channel;
+
+
+namespace Moobile_Platform.Tests.Integration.Campaign
+{
+    [TestFixture]
+    public class CampaignIntegrationTests
+    {
+        private HttpClient _client = null!;
+        private CustomWebApplicationFactory<Program> _factory = null!; 
+        
+        private const int MOCKED_USER_ID = 99; 
+        private const int MOCKED_STABLE_ID = 1;
+        private int _createdCampaignId = 0; 
+
+        [SetUp]
+        public void SetUp()
+        {
+            _factory = new CustomWebApplicationFactory<Program>(); 
+            _client = _factory.CreateClient(); 
+            _client.DefaultRequestHeaders.Add("X-User-Id", MOCKED_USER_ID.ToString());
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _client?.Dispose();
+            _factory?.Dispose();
+        }
+        
+        // TEST 1: Crear una campaña correctamente 
+        [Test, Order(1)]
+        public async Task TEST_1_CreateCampaign_ShouldReturnCreated_WhenDataIsValid()
+        {
+            var goalsList = new List<GoalType> 
+            {
+                new GoalType("Aumentar Leche", "Litros", 500, 0, 0) 
+            };
+            
+            var channelsList = new List<ChannelType> 
+            { 
+                new ChannelType("Email", "Contacto a staff", 0) 
+            };
+
+            var createResource = new CreateCampaignResource(
+                Name: "Campaña de Integración Base",
+                Description: "Campaña de prueba para tests encadenados.",
+                StartDate: DateTime.UtcNow.Date.AddDays(1),
+                EndDate: DateTime.UtcNow.Date.AddDays(11),
+                Status: "Planned", 
+                Goals: goalsList, 
+                Channels: channelsList, 
+                StableId: MOCKED_STABLE_ID
+            );
+
+            var response = await _client.PostAsJsonAsync("/api/v1/campaigns", createResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created), $"Esperado Created, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+            
+            var created = await response.Content.ReadFromJsonAsync<CampaignResource>();
+            
+            _createdCampaignId = created.Id;
+            Assert.That(_createdCampaignId, Is.GreaterThan(0), "La campaña debe tener un ID asignado por la base de datos.");
+        }
+        
+        // TEST 2: Obtener todas las campañas del usuario autenticado
+        [Test, Order(2)]
+        public async Task TEST_2_GetAllCampaigns_ShouldReturnOk_WithListOfCampaigns()
+        {
+            if (_createdCampaignId == 0) await TEST_1_CreateCampaign_ShouldReturnCreated_WhenDataIsValid();
+
+            var response = await _client.GetAsync("/api/v1/campaigns");
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            
+            var campaigns = await response.Content.ReadFromJsonAsync<List<CampaignResource>>();
+            
+            Assert.That(campaigns, Is.Not.Null);
+            Assert.That(campaigns!.Count, Is.GreaterThanOrEqualTo(1), "La lista debe contener al menos una campaña.");
+            
+            Assert.That(campaigns.Any(c => c.Id == _createdCampaignId), Is.True, "La lista debe contener el ID de la campaña recién creada.");
+        }
+        
+        // TEST 3: Actualizar el estado de una campaña existente 
+        [Test, Order(3)]
+        public async Task TEST_3_UpdateCampaignStatus_ShouldReturnOk()
+        {
+            if (_createdCampaignId == 0) await TEST_1_CreateCampaign_ShouldReturnCreated_WhenDataIsValid();
+            
+            var newStatus = "Completed";
+            var updateStatusResource = new UpdateCampaignStatusResource(Status: newStatus);
+
+            var response = await _client.PatchAsJsonAsync($"/api/v1/campaigns/{_createdCampaignId}/update-status", updateStatusResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK), "Se esperaba una respuesta OK (200) al actualizar.");
+            
+            var updated = await response.Content.ReadFromJsonAsync<CampaignResource>();
+            Assert.That(updated!.Status, Is.EqualTo(newStatus), "El estado debe haber sido actualizado correctamente.");
+        }
+        
+        public class CustomWebApplicationFactory<TProgram> : WebApplicationFactory<TProgram> where TProgram : class
+        {
+            protected override IWebHostBuilder CreateWebHostBuilder()
+            {
+                var builder = base.CreateWebHostBuilder();
+                
+                var assembly = typeof(TProgram).Assembly;
+                builder.UseContentRoot(Path.GetDirectoryName(assembly.Location)!);
+                
+                return builder;
+            }
+
+            protected override void ConfigureWebHost(IWebHostBuilder builder)
+            {
+                builder.UseEnvironment("Development");
+            }
+        }
+    }
+}
+```
+
+## Ranch Bounded Context
+
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
+using Moobile_Platform; 
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using System.Collections.Generic;
+using System.Linq;
+using System;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
+using Moobile_Platform.RanchManagement.Interfaces.REST.Resources; 
+
+namespace Moobile_Platform.Tests.Integration.Ranch
+{
+    [TestFixture]
+    public class StableIntegrationTests
+    {
+        private HttpClient _client = null!;
+        private CustomWebApplicationFactory<Program> _factory = null!; 
+        
+        private const int MOCKED_USER_ID = 99; 
+        private int _createdStableId = 0; 
+
+        [SetUp]
+        public void SetUp()
+        {
+            _factory = new CustomWebApplicationFactory<Program>(); 
+            _client = _factory.CreateClient(); 
+            _client.DefaultRequestHeaders.Add("X-User-Id", MOCKED_USER_ID.ToString());
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _client?.Dispose();
+            _factory?.Dispose();
+        }
+        
+        // TEST 1: Creación de Establos
+        [Test, Order(1)]
+        public async Task R_I_1_CreateStable_ShouldReturnCreated_WhenDataIsValid()
+        {
+            var createResource = new CreateStableResource(
+                Name: "Establo Pruebas Integración",
+                Limit: 75
+            );
+
+            var response = await _client.PostAsJsonAsync("/api/v1/stables", createResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created), $"Esperado Created, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+            
+            var created = await response.Content.ReadFromJsonAsync<StableResource>();
+            
+            Assert.That(created, Is.Not.Null);
+            Assert.That(created!.Name, Is.EqualTo(createResource.Name));
+            
+            _createdStableId = created.Id;
+            Assert.That(_createdStableId, Is.GreaterThan(0), "El Establo debe tener un ID válido.");
+        }
+        
+        // TEST 2: Visualización de Establos
+        [Test, Order(2)]
+        public async Task R_I_2_GetStables_ShouldReturnOk_AndContainCreatedStable()
+        {
+            if (_createdStableId == 0) await R_I_1_CreateStable_ShouldReturnCreated_WhenDataIsValid();
+
+            var response = await _client.GetAsync("/api/v1/stables");
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            
+            var stables = await response.Content.ReadFromJsonAsync<List<StableResource>>();
+            
+            Assert.That(stables, Is.Not.Null);
+            Assert.That(stables!.Count, Is.GreaterThanOrEqualTo(1), "Debe contener al menos el establo creado.");
+            Assert.That(stables.Any(s => s.Id == _createdStableId), Is.True, "La lista debe contener el ID del establo recién creado.");
+        }
+        
+        // TEST 3: Eliminación de Establos
+        [Test, Order(3)]
+        public async Task R_I_3_DeleteStable_ShouldReturnNoContent()
+        {
+            if (_createdStableId == 0) await R_I_1_CreateStable_ShouldReturnCreated_WhenDataIsValid();
+
+            var response = await _client.DeleteAsync($"/api/v1/stables/{_createdStableId}");
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.NoContent), "Esperado No Content (204) después de la eliminación.");
+            
+            var getResponse = await _client.GetAsync($"/api/v1/stables/{_createdStableId}");
+            Assert.That(getResponse.StatusCode, Is.EqualTo(HttpStatusCode.NotFound), "El recurso no debe existir después de ser eliminado.");
+        }
+        
+        public class CustomWebApplicationFactory<TProgram> : WebApplicationFactory<TProgram> where TProgram : class
+        {
+            protected override IWebHostBuilder CreateWebHostBuilder()
+            {
+                var builder = base.CreateWebHostBuilder();
+                
+                var assembly = typeof(TProgram).Assembly;
+                builder.UseContentRoot(Path.GetDirectoryName(assembly.Location)!);
+                
+                return builder;
+            }
+
+            protected override void ConfigureWebHost(IWebHostBuilder builder)
+            {
+                builder.UseEnvironment("Development");
+            }
+        }
+    }
+}
+```
+
+## Staff Boundend Context
+
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
+using Moobile_Platform; 
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using System.Collections.Generic;
+using System.Linq;
+using System;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
+using Moobile_Platform.StaffAdministration.Interfaces.REST.Resources; 
+
+namespace Moobile_Platform.Tests.Integration.Staff
+{
+    [TestFixture]
+    public class StaffIntegrationTests
+    {
+        private HttpClient _client = null!;
+        private CustomWebApplicationFactory<Program> _factory = null!; 
+        
+        private const int MOCKED_USER_ID = 99; 
+        private const int MOCKED_CAMPAIGN_ID = 1; 
+        private int _createdStaffId = 0; 
+        private const int STATUS_ACTIVE = 1;
+        private const int STATUS_SUSPENDED = 2; 
+
+        [SetUp]
+        public void SetUp()
+        {
+            _factory = new CustomWebApplicationFactory<Program>(); 
+            _client = _factory.CreateClient(); 
+            _client.DefaultRequestHeaders.Add("X-User-Id", MOCKED_USER_ID.ToString());
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _client?.Dispose();
+            _factory?.Dispose();
+        }
+
+        // TEST 1: Registro de Personal
+        [Test, Order(1)]
+        public async Task S_I_1_CreateStaff_ShouldReturnCreated_WhenDataIsValid()
+        {
+            var createResource = new CreateStaffResource(
+                Name: "Juan Pérez Integración",
+                EmployeeStatus: STATUS_ACTIVE, 
+                CampaignId: MOCKED_CAMPAIGN_ID 
+            );
+
+            var response = await _client.PostAsJsonAsync("/api/v1/staff", createResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created), $"Esperado Created, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+            
+            var created = await response.Content.ReadFromJsonAsync<StaffResource>();
+            
+            Assert.That(created, Is.Not.Null);
+            Assert.That(created!.Name, Is.EqualTo(createResource.Name));
+            
+            _createdStaffId = created.Id;
+            Assert.That(_createdStaffId, Is.GreaterThan(0), "El Staff debe tener un ID válido.");
+        }
+        
+        // TEST 2: Visualización de Personal
+        [Test, Order(2)]
+        public async Task S_I_2_GetStaffById_ShouldReturnOk_WhenStaffExists()
+        {
+            if (_createdStaffId == 0) await S_I_1_CreateStaff_ShouldReturnCreated_WhenDataIsValid();
+
+            var response = await _client.GetAsync($"/api/v1/staff/{_createdStaffId}");
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            
+            var staff = await response.Content.ReadFromJsonAsync<StaffResource>();
+            
+            Assert.That(staff, Is.Not.Null);
+            Assert.That(staff!.Id, Is.EqualTo(_createdStaffId));
+        }
+        
+        // TEST 3: Edición de Personal
+        [Test, Order(3)]
+        public async Task S_I_3_UpdateStaff_ShouldReturnOk()
+        {
+            if (_createdStaffId == 0) await S_I_1_CreateStaff_ShouldReturnCreated_WhenDataIsValid();
+            
+            var newName = "Juan Pérez - Suspendido";
+            
+            var updateResource = new UpdateStaffResource
+            {
+                Name = newName, 
+                EmployeeStatus = STATUS_SUSPENDED, 
+                CampaignId = MOCKED_CAMPAIGN_ID
+            };
+
+            var response = await _client.PutAsJsonAsync($"/api/v1/staff/{_createdStaffId}", updateResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK), $"Esperado OK, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+            
+            var updated = await response.Content.ReadFromJsonAsync<StaffResource>();
+            
+            Assert.That(updated, Is.Not.Null);
+            Assert.That(updated!.Name, Is.EqualTo(newName), "El nombre debe haberse actualizado.");
+            Assert.That(updated.EmployeeStatus, Is.EqualTo(STATUS_SUSPENDED), "El estado del empleado debe ser 'Suspended' (código 2).");
+        }
+        
+        public class CustomWebApplicationFactory<TProgram> : WebApplicationFactory<TProgram> where TProgram : class
+        {
+            protected override IWebHostBuilder CreateWebHostBuilder()
+            {
+                var builder = base.CreateWebHostBuilder();
+                
+                var assembly = typeof(TProgram).Assembly;
+                builder.UseContentRoot(Path.GetDirectoryName(assembly.Location)!);
+                
+                return builder;
+            }
+
+            protected override void ConfigureWebHost(IWebHostBuilder builder)
+            {
+                builder.UseEnvironment("Development");
+            }
+        }
+    }
+}
+
+```
+
+## Voice Boundend Context
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
+using Moobile_Platform; 
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using System.Collections.Generic;
+using System;
+using System.Linq;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
+using Moobile_Platform.VoiceCommand.Interfaces.REST.Resources; 
+
+using Moobile_Platform.VoiceCommand.Domain.Model.ValueObjects; 
+
+namespace Moobile_Platform.Tests.Integration.VoiceCommand
+{
+    [TestFixture]
+    public class VoiceCommandIntegrationTests
+    {
+        private HttpClient _client = null!;
+        private CustomWebApplicationFactory<Program> _factory = null!; 
+        
+        private const int MOCKED_USER_ID = 99;
+        private int _createdVoiceId = 0; 
+        private const string ENDPOINT_BASE = "/api/v1/voices";
+
+        [SetUp]
+        public void SetUp()
+        {
+            _factory = new CustomWebApplicationFactory<Program>(); 
+            _client = _factory.CreateClient(); 
+            _client.DefaultRequestHeaders.Add("X-User-Id", MOCKED_USER_ID.ToString());
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _client?.Dispose();
+            _factory?.Dispose();
+        }
+        
+        private VoiceResource CreateVoiceResource(string originalText, VoiceCommandType type, bool isValid)
+        {
+            return new VoiceResource(
+                Id: 0, 
+                OriginalText: originalText,
+                CommandType: type, 
+                Parameters: isValid ? "stableName=A" : null,
+                IsValid: isValid,
+                WasExecuted: isValid, 
+                UserId: MOCKED_USER_ID,
+                CreatedAt: DateTime.UtcNow,
+                ExecutedAt: isValid ? DateTime.UtcNow : (DateTime?)null,
+                ErrorMessage: isValid ? null : "Invalid command type.",
+                ResponseMessage: isValid ? "Command processed." : "Command not recognized."
+            );
+        }
+        
+        // TEST 1: Registro de un Comando de Voz 
+        [Test, Order(1)]
+        public async Task V_I_1_CreateVoiceCommand_ShouldReturnCreated_WhenDataIsValid()
+        {
+            var createResource = CreateVoiceResource(
+                "crear establo", 
+                VoiceCommandType.InitializeToCreateStable, 
+                isValid: true
+            );
+
+            var response = await _client.PostAsJsonAsync(ENDPOINT_BASE, createResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created), $"Esperado Created, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+            
+            var created = await response.Content.ReadFromJsonAsync<VoiceResource>();
+            
+            Assert.That(created, Is.Not.Null);
+            Assert.That(created!.OriginalText, Is.EqualTo(createResource.OriginalText), "El texto original debe coincidir.");
+            
+            _createdVoiceId = created.Id;
+            Assert.That(_createdVoiceId, Is.GreaterThan(0), "El comando de voz debe tener un ID válido.");
+        }
+        
+        // TEST 2: Recuperación del Historial de Comandos
+        [Test, Order(2)]
+        public async Task V_I_2_GetVoiceCommandLogs_ShouldReturnOk_AndContainCreatedCommand()
+        {
+            if (_createdVoiceId == 0) await V_I_1_CreateVoiceCommand_ShouldReturnCreated_WhenDataIsValid();
+
+            var response = await _client.GetAsync(ENDPOINT_BASE);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK));
+            
+            var commands = await response.Content.ReadFromJsonAsync<List<VoiceResource>>();
+            
+            Assert.That(commands, Is.Not.Null);
+            Assert.That(commands.Any(c => c.Id == _createdVoiceId), Is.True, "La lista debe contener el ID del comando recién creado.");
+        }
+        
+        // TEST 3: Comando Inválido o Mal Formado
+        [Test, Order(3)]
+        public async Task V_I_3_CreateVoiceCommand_ShouldReturnBadRequest_WhenOriginalTextIsMissing()
+        {
+            var invalidResource = CreateVoiceResource(
+                originalText: "", 
+                VoiceCommandType.Unknown, 
+                isValid: false
+            );
+
+            var response = await _client.PostAsJsonAsync(ENDPOINT_BASE, invalidResource);
+            
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.BadRequest), $"Esperado BadRequest, recibido {response.StatusCode}.");
+        }
+        
+        public class CustomWebApplicationFactory<TProgram> : WebApplicationFactory<TProgram> where TProgram : class
+        {
+            protected override IWebHostBuilder CreateWebHostBuilder()
+            {
+                var builder = base.CreateWebHostBuilder();
+                
+                var assembly = typeof(TProgram).Assembly;
+                builder.UseContentRoot(Path.GetDirectoryName(assembly.Location)!);
+                
+                return builder;
+            }
+
+            protected override void ConfigureWebHost(IWebHostBuilder builder)
+            {
+                builder.UseEnvironment("Development");
+            }
+        }
+    }
+}
+```
+
+## IAM Boundend Context
+```csharp
+using System.Net;
+using System.Net.Http.Json;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc.Testing;
+using NUnit.Framework;
+using Moobile_Platform; 
+using System.IO;
+using Microsoft.AspNetCore.Hosting;
+using System;
+using System.Linq;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.VisualStudio.TestPlatform.TestHost;
+
+using Moobile_Platform.IAM.Interfaces.REST.Resources.UserResources;
+using Moobile_Platform.Shared.Infrastructure.Persistence.EFC.Configuration;
+
+namespace Moobile_Platform.Tests.Integration.IAM
+{
+    [TestFixture]
+    public class IAMIntegrationTests
+    {
+        private HttpClient _client = null!;
+        private CustomWebApplicationFactory<Program> _factory = null!; 
+        
+        private string _testUsername = $"user_{Guid.NewGuid():N}"; 
+        private const string TEST_PASSWORD = "PasswordSeguro123!";
+        private const string ENDPOINT_SIGNUP = "/api/v1/auth/sign-up";
+        private const string ENDPOINT_SIGNIN = "/api/v1/auth/sign-in";
+
+        [SetUp]
+        public void SetUp()
+        {
+            _factory = new CustomWebApplicationFactory<Program>(); 
+            _client = _factory.CreateClient(); 
+        }
+
+        [TearDown]
+        public void TearDown()
+        {
+            _client?.Dispose();
+            _factory?.Dispose();
+        }
+        
+        // TEST 1: Registro
+        [Test, Order(1)]
+        public async Task I_I_1_SignUpUser_ShouldReturnCreated_WhenDataIsValid()
+        {
+            var signUpResource = new SignUpResource(
+                Username: _testUsername,
+                Password: TEST_PASSWORD,
+                Email: $"{_testUsername}@moobile.com"
+            );
+
+            var response = await _client.PostAsJsonAsync(ENDPOINT_SIGNUP, signUpResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.Created), $"Esperado Created, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+            
+            var createdUser = await response.Content.ReadFromJsonAsync<UserResource>();
+            Assert.That(createdUser, Is.Not.Null, "La respuesta debe contener la información del usuario registrado.");
+        }
+
+        // TEST 2: Login
+        [Test, Order(2)]
+        public async Task I_I_2_SignInUser_ShouldReturnOk_WhenCredentialsAreValid()
+        {
+            await I_I_1_SignUpUser_ShouldReturnCreated_WhenDataIsValid();
+            
+            var signInResource = new SignInResource(
+                Email: $"{_testUsername}@moobile.com",
+                UserName: _testUsername,
+                Password: TEST_PASSWORD
+            );
+            
+            var response = await _client.PostAsJsonAsync(ENDPOINT_SIGNIN, signInResource);
+
+            Assert.That(response.StatusCode, Is.EqualTo(HttpStatusCode.OK), $"Esperado OK, recibido {response.StatusCode}. Contenido: {await response.Content.ReadAsStringAsync()}");
+
+            var authResponse = await response.Content.ReadFromJsonAsync<UserResource>();
+            Assert.That(authResponse, Is.Not.Null);
+            Assert.That(authResponse!.token, Is.Not.Null, "La respuesta debe contener el token después de un login exitoso."); 
+        }
+        
+        public class CustomWebApplicationFactory<TProgram> : Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactory<TProgram> where TProgram : class
+        {
+            protected override IWebHostBuilder CreateWebHostBuilder()
+            {
+                var builder = base.CreateWebHostBuilder();
+                
+                var assembly = typeof(TProgram).Assembly;
+                builder.UseContentRoot(Path.GetDirectoryName(assembly.Location)!);
+                
+                return builder;
+            }
+
+            protected override void ConfigureWebHost(IWebHostBuilder builder)
+            {
+                builder.ConfigureServices(services =>
+                {
+                    var descriptor = services.SingleOrDefault(
+                        d => d.ServiceType == typeof(Microsoft.EntityFrameworkCore.DbContextOptions<AppDbContext>));
+
+                    if (descriptor != null)
+                    {
+                        services.Remove(descriptor);
+                    }
+
+                    services.AddDbContext<AppDbContext>(options =>
+                    {
+                        options.UseInMemoryDatabase($"TestDb-{Guid.NewGuid()}");
+                    });
+                });
+                
+                builder.UseEnvironment("Development");
+            }
+        }
+    }
+}
+```
+
+### 6.1.3. Core Behavior-Driven Development
+
+En el siguiente apartado, se mostrarán las principales pruebas realizadas con Cucumber.
+Acceptance Tests:
+
+Url del repositorio: https://github.com/upc-pre-202520-1asi0732-14651-cowders/moobile-acceptance-tests
+
+#### **Feature 01 - Registro de Usuarios**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/14fb7fec-c065-4a1d-bf91-2c53079d441f" />
+
+*Figura 6.1.1: Extraído de Visual Studio Code*
+
+#### **Feature 02 - Login de Usuarios**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/2ca3d4c9-a4ad-4366-a25d-b631401d1698" />
+
+*Figura 6.1.2: Extraído de Visual Studio Code*
+
+#### **Feature 03 - Creación de Establos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/050b781a-1a47-493c-8180-3a7c722794d9" />
+
+*Figura 6.1.3: Extraído de Visual Studio Code*
+
+#### **Feature 04 - Visualización de Establos**
+<img height="520" alt="Image" src="https://github.com/user-attachments/assets/e1f96f6e-4970-4634-b174-39227157bc70" />
+
+*Figura 6.1.4: Extraído de Visual Studio Code*
+
+#### **Feature 05 - Edición de Establos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/189d8337-f053-4eb8-bf7e-780a1198c1f5" />
+
+*Figura 6.1.5: Extraído de Visual Studio Code*
+
+#### **Feature 06 - Eliminación de Establos**
+<img height="520" alt="Image" src="https://github.com/user-attachments/assets/739388c8-6477-4728-b528-06be4b842b92" />
+
+*Figura 6.1.6: Extraído de Visual Studio Code*
+
+#### **Feature 07 - Busqueda de Establos**
+<img height="520" alt="Image" src="https://github.com/user-attachments/assets/4e23f0dc-c2e2-4ea8-a2f4-839cb893b634" />
+
+*Figura 6.1.7: Extraído de Visual Studio Code*
+
+#### **Feature 08 - Registro de Bovinos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/46acc0d2-0699-489b-bfd4-f825b38ccc82" />
+
+*Figura 6.1.8: Extraído de Visual Studio Code*
+
+#### **Feature 09 - Visualización de Bovinos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/f446fdc0-86af-4121-9090-fb132317a85d" />
+
+*Figura 6.1.9: Extraído de Visual Studio Code*
+
+#### **Feature 10 - Edición de Bovinos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/0af8ac48-4092-41ae-816f-d5e548fb772e" />
+
+*Figura 6.1.10: Extraído de Visual Studio Code*
+
+#### **Feature 11 - Eliminación de Bovinos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/61c5f008-c4a1-4aa5-9da9-69f31e7038fd" />
+
+*Figura 6.1.11: Extraído de Visual Studio Code*
+
+#### **Feature 12 - Busqueda de Bovinos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/fcad30b4-a051-49da-a872-8f5bce646bc2" />
+
+*Figura 6.1.12: Extraído de Visual Studio Code*
+
+#### **Feature 13 - Asignación de Bovinos a Establos**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/36876467-c531-459b-8f7f-8b3371ddf890" />
+
+*Figura 6.1.13: Extraído de Visual Studio Code*
+
+#### **Feature 14 - Registro de Vacunas**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/e6df8ab7-c5c0-4457-8022-a5ad692046ac" />
+
+*Figura 6.1.14: Extraído de Visual Studio Code*
+
+#### **Feature 15 - Visualización de Vacunas**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/11b0bca0-c4b5-4a78-a15a-257979de731c" />
+
+*Figura 6.1.15: Extraído de Visual Studio Code*
+
+#### **Feature 16 - Eliminación de Registros de Vacunas**
+<img height="720" alt="Image" src="https://github.com/user-attachments/assets/6cc5328a-aa3a-4861-8467-1c538b286994" />
+
+*Figura 6.1.16: Extraído de Visual Studio Code*
+
+#### **Feature 17 - Edición de Registros de Vacunas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/52a67908-3b01-4675-9d22-31f66bbc0955" />
+
+*Figura 6.1.17: Extraído de Visual Studio Code*
+
+#### **Feature 18 - Búsqueda de Vacunas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/6e46a9d4-ac77-46e2-96b2-878e67aebea0" />
+
+*Figura 6.1.18: Extraído de Visual Studio Code*
+
+#### **Feature 19 - Asignación de Vacunas a Bovinos**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/7a129625-2944-45f9-a985-bc3d271ee11e" />
+
+*Figura 6.1.19: Extraído de Visual Studio Code*
+
+#### **Feature 20 - Creación de Campañas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/7061743c-0f78-4b11-8ee2-4f0b87e7eb03" />
+
+*Figura 6.1.20: Extraído de Visual Studio Code*
+
+#### **Feature 21 - Visualización de Campañas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/4e655c6b-b974-40d3-a630-9f2adb947310" />
+
+*Figura 6.1.21: Extraído de Visual Studio Code*
+
+#### **Feature 22 - Edición de Campañas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/61cb0970-c5f8-4496-83a2-c59c87f33a98" />
+
+*Figura 6.1.22: Extraído de Visual Studio Code*
+
+#### **Feature 23 - Eliminación de Campañas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/7d44797b-4161-40e8-86eb-7d0dbb742bd3" />
+
+*Figura 6.1.23: Extraído de Visual Studio Code*
+
+#### **Feature 24 - Búsqueda de Campañas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/25177dfe-1f55-4a51-8136-83d364b8edc5" />
+
+*Figura 6.1.24: Extraído de Visual Studio Code*
+
+#### **Feature 25 - Registro de Personal**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/c28c7fb1-26b0-408d-b778-baca313d987c" />
+
+*Figura 6.1.25: Extraído de Visual Studio Code*
+
+#### **Feature 26 - Visualización de Personal**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/0ec5d9ea-626e-41df-a439-76e8e6431166" />
+
+*Figura 6.1.26: Extraído de Visual Studio Code*
+
+#### **Feature 27 - Edición de Personal**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/b9776d23-f837-4ff7-8105-2877c91bae39" />
+
+*Figura 6.1.27: Extraído de Visual Studio Code*
+
+#### **Feature 28 - Eliminación de Personal**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/77e74bf5-7125-4695-aa8d-cfd0c7f3a118" />
+
+*Figura 6.1.28: Extraído de Visual Studio Code*
+
+#### **Feature 29 - Búsqueda de Personal**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/e388baa9-3b20-43c9-ac1c-3ffebfda2abb" />
+
+*Figura 6.1.29: Extraído de Visual Studio Code*
+
+#### **Feature 30 - Asignación de Personal a Campañas**
+<img height="512" alt="Image" src="https://github.com/user-attachments/assets/eb47b356-1278-4ab4-a778-c35c78ee77a2" />
+
+*Figura 6.1.30: Extraído de Visual Studio Code*
+
+### 6.1.4. Core System Tests
+
+En esta sección se presentan las pruebas esenciales aplicadas al sistema central, con el fin de verificar su funcionamiento adecuado. Dichas pruebas están orientadas a la validación de la lógica central del sistema, asegurando que los componentes críticos operen conforme a los requerimientos previamente establecidos.
+
+| EP01: Gestión de Establos |
+| :------------: |
+| **Como** usuario ganadero, <br> **Quiero** gestionar los establos <br> **Para** mantener organizadas las instalaciones donde se alojan los bovinos. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/26LK97nn/image.png)](https://postimg.cc/47ZPmtL3) |
+
+| EP02: Gestión de Bovinos |
+| :------------: |
+| **Como** usuario ganadero, <br> **Quiero** gestionar la información de mis bovinos <br> **Para** llevar un control detallado del ganado. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/pT9L040s/image.png)](https://postimg.cc/gXWpjSbh) |
+
+| EP03: Gestión de Vacunas |
+| :------------: |
+| **Como** usuario ganadero, <br> **Quiero** gestionar las vacunas aplicadas a mis bovinos <br> **Para** llevar un control sanitario adecuado. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/9FstJHLV/image.png)](https://postimg.cc/YhfWCZcy) |
+
+| EP04: Gestión de Campañas |
+| :------------: |
+| **Como** empresario ganadero, <br> **Quiero** gestionar campañas sanitarias y de mejoramiento <br> **Para** coordinar actividades a gran escala. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/HkHJdb9M/image.png)](https://postimg.cc/HVZWtcKW) |
+
+| EP05: Gestión de Staff |
+| :------------: |
+| **Como** empresario ganadero, <br> **Quiero** gestionar el personal que trabaja en mi operación ganadera <br> **Para** organizar eficientemente los recursos humanos. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/jqHR62fb/image.png)](https://postimg.cc/fkb4Dw52) |
 
 ## Conclusiones Y Recomendaciones
 
