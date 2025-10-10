@@ -2656,6 +2656,270 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 | **Como** empresario ganadero, <br> **Quiero** gestionar el personal que trabaja en mi operación ganadera <br> **Para** organizar eficientemente los recursos humanos. |
 | Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/jqHR62fb/image.png)](https://postimg.cc/fkb4Dw52) |
 
+# **Capítulo VII: DevOps Practices**
+  
+## 7.1. Continuous Integration    
+  
+Para el proyecto VacApp, desarrollado con React y TypeScript en el frontend y C#/.NET en el backend, se implementó un sistema de Integración Continua (CI) mediante GitHub Actions.
+Este pipeline automatiza tareas clave como la validación del código, la verificación de tipos, la ejecución de pruebas y la preparación para el despliegue.
+De esta manera, cada commit o pull request activa un flujo de validaciones automáticas que permiten detectar errores tempranamente, mantener la calidad del código y asegurar entregas más estables y confiables en los entornos de Azure App Service y Netlify.
+
+### 7.1.1. Tools and Practices
+  
+Para la implementación de VacApp, desplegamos el frontend en Netlify y el backend en Azure App Service, garantizando un entorno escalable, seguro y de fácil mantenimiento.
+Adoptamos el flujo Gitflow para la gestión de ramas en GitHub, junto con Conventional Commits para mantener una estructura clara en los mensajes de commit y SemVer para el versionamiento semántico.
+Implementamos integración continua con GitHub Actions, que ejecuta automáticamente validaciones de código, análisis estático con ESLint, comprobación de tipos con TypeScript, y pruebas automatizadas tanto en el frontend como en el backend.
+
+Para el frontend, empleamos pruebas unitarias y de integración usando React Testing Library junto con Vitest, lo que permite verificar la funcionalidad de los componentes y la interacción del usuario en entornos simulados.
+En el backend, utilizamos NUnit como framework de testing principal, complementado con Selenium para realizar pruebas end-to-end sobre la interfaz de usuario, validando la integración entre el sistema web y los flujos de usuario reales.
+Esta infraestructura de pruebas nos permite detectar errores de manera temprana y asegurar la estabilidad del producto antes de su despliegue.
+
+
+
+| Característica     | NUnit | Selenium |
+| ------------------ | ----- | -------- |
+|                    |  <img width="150" alt="Image" src="https://github.com/user-attachments/assets/f58716a2-722e-4795-80ab-df5e720049cb" />  |    <img width="100" alt="Image" src="https://github.com/user-attachments/assets/061eb064-a4f3-43fe-beb5-870c6308c337" />   |
+| Tipo | Framework de testing unitario para .NET| Framework de testing end-to-end para aplicaciones web |
+| Lenguaje principal | C#  | Multilenguaje (C#, Java, Python, etc.)         |
+| Enfoque            | Pruebas unitarias y de integración en el backend       | Pruebas funcionales simulando la interacción del usuario         |
+| Ventajas Clave     | Estructura modular basada en fixtures, assertions y test cases parametrizados. Integración directa con Azure DevOps y GitHub Actions.      |  Ejecución de pruebas en navegadores reales, automatización de flujos completos y validación visual del frontend.        |
+| Compatibilidad     | Integración con .NET y Azure Pipelines      | Soporte para múltiples navegadores y entornos CI/C         |
+| Tipos de Prueba    | Unitarias, integración, regresión | End-to-End, UI, smoke y regresión visual|
+
+<br>
+
+**Workflow de Integración Continua**
+Para asegurar la calidad y consistencia en el desarrollo de VacApp, todos los miembros del equipo siguen el siguiente flujo de trabajo:
+	
+  
+  **1.	Desarrollo local:** Una vez finalizada una feature, el desarrollador ejecuta las pruebas automatizadas con NUnit y Selenium en su entorno local para garantizar la ausencia de errores o regresiones.
+
+**2.	Pull Request:** Si las pruebas son exitosas, se crea una pull request hacia la rama develop, siguiendo el formato de commit definido por Conventional Commits e incluyendo el número de la PR (por ejemplo, #23).
+  
+  **3.	Pipeline automático:** Al subir la PR al repositorio remoto, GitHub Actions ejecuta automáticamente los pipelines configurados para:
+	•	Validar el código con ESLint y TypeScript.
+	•	Correr las suites de pruebas con NUnit para el backend.
+	•	Ejecutar pruebas end-to-end con Selenium sobre entornos controlados.
+  
+  **4.	Revisión y pruebas de integración:** Una vez aprobada la PR, los cambios se integran a la rama release, donde se ejecutan pruebas de integración adicionales en un entorno similar a producción (Azure Test Environment).
+	
+  **5.	Despliegue a producción:** Si las pruebas son exitosas, se aprueba la pull request hacia main, lo que desencadena un despliegue automático:
+	•	Frontend: en Netlify.
+	•	Backend: en Azure App Service.
+En caso de errores o fallas en los pipelines, el cambio se devuelve a la rama del desarrollador para su corrección antes de reiniciar el ciclo.  
+  
+### 7.1.2. Build & Test Suite Pipeline Components  
+  
+Este documento describe los Épicos (Epics) principales de la plataforma **Moobile-Platform**, organizados bajo el formato de Historias de Usuario para definir flujos de trabajo clave desde la perspectiva del usuario ganadero.
+
+--
+
+## Epic 01: Gestión de Establos
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como usuario ganadero,** | **Quiero gestionar los establos en la plataforma** | **Para mantener organizadas las instalaciones** donde se alojan los bovinos. |
+
+<img width="886" height="551" alt="image" src="https://github.com/user-attachments/assets/3ee378e8-3f43-466d-8d6d-fa13cb040a08" />
+
+--
+
+## Epic 02: Gestión de Bovinos
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como usuario ganadero,** | **Quiero gestionar los bovinos registrados en mis establos** | **Para mantener un control organizado y actualizado** del ganado en la plataforma. |
+
+<img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/7fc836ea-1302-4f0c-9985-28bbd83cb5a9" />
+
+--
+
+## Epic 03: Edición de Bovinos
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como usuario ganadero,** | **Quiero editar la información de los bovinos,** | **Para actualizar sus datos cuando sea necesario** (peso, edad, raza o estado reproductivo). |
+
+<img width="886" height="565" alt="image" src="https://github.com/user-attachments/assets/504861c5-2bca-42e2-8449-7e1b9f424e26" />
+
+--
+
+## Epic 04: Gestión de Campañas
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como empresario ganadero,** | **Quiero gestionar campañas sanitarias y de mejoramiento** | **Para coordinar actividades a gran escala** (ej., vacunación, suplementación) y asegurar el cuidado óptimo. |
+
+<img width="886" height="620" alt="image" src="https://github.com/user-attachments/assets/d7386044-8ab9-44b7-bde3-16bbc1a48164" />
+
+--
+
+## Epic 05: Gestión de Staff
+
+| Rol | Objetivo | Razón |
+| :--- | :--- | :--- |
+| **Como empresario ganadero,** | **Quiero gestionar el personal que trabaja en mi operación ganadera** | **Para organizar eficientemente los recursos humanos** y asignar tareas. |
+
+<img width="886" height="634" alt="image" src="https://github.com/user-attachments/assets/7c866db4-f04e-48c6-a965-06e0a2858013" />
+
+## 7.2. Continuous Delivery
+
+En este apartado se puede encontrar tres puntos principales a tomar en cuenta: La automatización de pruebas (pruebas unitarias, pruebas de integración y pruebas funcionales y de aceptación), el
+entorno de pruebas automatizado y las pruebas de rendimiento y carga.
+
+### 7.2.1. Tools and Practices
+
+Para la implementación de VacApp, se emplearon distintas herramientas que cubren desde el análisis estático del código hasta las pruebas automatizadas y la integración continua. El objetivo principal fue garantizar la calidad, estabilidad y mantenibilidad del sistema a través de un proceso de desarrollo controlado y validado en múltiples niveles.
+
+**NUnit:** Framework principal de pruebas unitarias para el backend desarrollado en C# y .NET. Permite validar la lógica de negocio definida en los distintos bounded contexts del dominio de VacApp mediante una convención de nomenclatura descriptiva, asegurando legibilidad y consistencia. Las pruebas de Core Entities Unit Tests cubren las funcionalidades derivadas de las 28 User Stories implementadas, mientras que las Core Integration Tests validan la interacción entre componentes, con 3 pruebas por bounded context y 2 para el módulo IAM (Identity and Access Management).
+
+<img width="220" alt="Image" src="https://github.com/user-attachments/assets/3064c1c8-897d-42ec-a4ea-bbe9cba54b76" />
+
+**Selenium:** Utilizado en los Core System Tests para realizar pruebas end-to-end sobre la interfaz del frontend desarrollado en React y TypeScript, simulando la interacción real de los usuarios con el sistema. Permite validar los flujos críticos del sistema, como autenticación, registro de ganado, gestión de vacunas y campañas, asegurando que la aplicación funcione correctamente en entornos reales.
+
+<img width="100" alt="Image" src="https://github.com/user-attachments/assets/2ce9c224-5952-4554-849b-bcea88239d17" />
+
+**Cucumber:** Implementado en la capa de Core Behavior-Driven Development (BDD) para la ejecución de Acceptance Tests. Las pruebas se redactan en lenguaje Gherkin, lo que facilita la comprensión tanto por parte del equipo técnico como de los stakeholders no técnicos. Estas pruebas aseguran que cada User Story (US) cumpla con los criterios de aceptación definidos, validando comportamientos esperados del sistema desde la perspectiva del usuario final.
+
+<img width="400" alt="Image" src="https://github.com/user-attachments/assets/c40d7548-75c6-42a8-81dd-71921939313a" />
+
+**GitHub Actions:** Sistema de integración y despliegue continuo (CI/CD) encargado de automatizar la ejecución de pruebas unitarias, de integración y end-to-end en cada pull request. Además, realiza validaciones de código con ESLint y análisis de tipado con TypeScript, garantizando la calidad del código antes de fusionar los cambios en la rama principal del proyecto.
+
+<img width="170" height="132" alt="Image" src="https://github.com/user-attachments/assets/e98893cf-36ab-448e-907c-a7c3cfacf6bf" />
+
+**ESLint y TypeScript:** Se utilizan de manera conjunta en el frontend para mantener un código limpio, consistente y seguro. ESLint aplica reglas personalizadas de estilo, seguridad y buenas prácticas en React, mientras que TypeScript ofrece comprobación estática de tipos, minimizando errores en tiempo de ejecución y mejorando la mantenibilidad a largo plazo.
+
+<img height="100" alt="Image" src="https://github.com/user-attachments/assets/2bbde38e-6843-43b9-b311-345b040a3bf7" />
+
+**Azure App Service:** Servicio en la nube de Microsoft Azure utilizado para desplegar y administrar el backend desarrollado en .NET. Ofrece integración directa con GitHub Actions, soporte para despliegues automatizados y escalabilidad bajo demanda. Permite realizar pruebas en entornos preconfigurados, gestionar logs y monitorear el rendimiento del sistema de manera continua.
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/e4b90ae3-e64f-4e85-968f-8ad3d5bfdc6f" />
+
+**Netlify:** Plataforma utilizada para el despliegue del frontend desarrollado en React y TypeScript. Ofrece integración continua con GitHub, lo que permite realizar despliegues automáticos tras cada merge en la rama principal. Además, proporciona un entorno de hosting rápido, seguro y con soporte para HTTPS, control de versiones y previsualización de cambios antes del despliegue final.
+
+<img width="200" alt="Image" src="https://github.com/user-attachments/assets/bd3f8e61-bc2b-4be1-8a8e-2500840f4e07" />
+
+---
+
+### 7.2.2. Stages Deployment Pipeline Components
+
+A continuación, se describen las etapas del pipeline de despliegue implementado en el proyecto **VacApp**.  
+Cada fase fue diseñada para garantizar una entrega continua, confiable y de alta calidad del software, asegurando la integración fluida entre el **frontend (React + TypeScript)** y el **backend (.NET + C#)**.
+
+**1. Code Commit**
+El proceso se inicia cuando un desarrollador realiza un commit en el repositorio de código.  
+Se utiliza **Git** como sistema de control de versiones y **GitHub** como plataforma de alojamiento.  
+Todos los commits siguen la convención de **Conventional Commits** para mantener mensajes claros, estructurados y compatibles con **SemVer** (versionado semántico).
+
+**2. Linting y Verificación de Tipos**
+En esta etapa se ejecutan herramientas de análisis estático del código en el **frontend**, utilizando **ESLint** para validar la calidad y estilo, y **TypeScript** para la comprobación estricta de tipos.  
+Esta validación temprana asegura la robustez del código y previene errores antes de llegar a etapas posteriores del pipeline.
+
+**3. Build**
+El código del **frontend** se compila con **Vite** y **TypeScript**, generando los artefactos listos para despliegue en **Netlify**.  
+Simultáneamente, el **backend** se compila en **.NET SDK**, verificando la integridad de dependencias, controladores, entidades y servicios.  
+Esta fase asegura que no existan errores de compilación y que el sistema esté preparado para las pruebas automatizadas.
+
+**4. Test Unitarios**
+Se ejecutan las pruebas unitarias mediante **NUnit** para el backend, cubriendo las **Core Entities Unit Tests** y asegurando el correcto funcionamiento de la lógica de negocio individual.  
+Cada prueba sigue una convención descriptiva (*Método_DadaCondición_DeberíaResultadoEsperado*) que mejora la mantenibilidad y claridad de los resultados.
+
+**5. Test de Integración**
+Durante esta etapa se ejecutan las **Core Integration Tests** con **NUnit**, validando la interacción entre los distintos **bounded contexts** del dominio y los módulos de infraestructura.  
+Cada contexto incluye tres pruebas principales, además de dos pruebas específicas para el módulo **IAM (Identity and Access Management)**.
+
+**6. Test End-to-End**
+Las **Core System Tests** se ejecutan con **Selenium**, simulando la interacción real de los usuarios sobre la interfaz web desarrollada en **React**.  
+Estas pruebas validan los flujos críticos como el inicio de sesión, la gestión de bovinos, vacunas y campañas, garantizando la correcta experiencia de usuario final.
+
+**7. Acceptance Tests (BDD)**
+En esta fase se ejecutan pruebas **Behavior-Driven Development (BDD)** con **Cucumber**, empleando el lenguaje **Gherkin** para validar las 28 **User Stories (US)** del sistema.  
+Cada escenario describe comportamientos esperados desde la perspectiva del usuario, facilitando la validación del producto frente a los criterios de aceptación definidos.
+
+**8. Staging Deployment**
+Tras superar las fases de prueba, el sistema se despliega automáticamente en un entorno de **staging**:
+- **Backend:** desplegado en **Azure App Service**, replicando el entorno productivo.  
+- **Frontend:** desplegado en **Netlify**, permitiendo previsualizar la versión antes del lanzamiento final.  
+En esta etapa se realizan pruebas adicionales de integración, rendimiento y conectividad entre servicios.
+
+**9. Production Release**
+Luego de la aprobación en *staging*, los cambios son fusionados en la rama `main`.  
+El pipeline de **GitHub Actions** ejecuta el **despliegue automático a producción**, publicando:
+- El **frontend** en **Netlify**.  
+- El **backend** en **Azure App Service**.  
+Este proceso asegura un flujo continuo y sin intervención manual, reduciendo tiempos de entrega y errores humanos.
+
+**10. Monitoreo Post-Despliegue**
+Una vez en producción, **VacApp** es monitoreada continuamente para verificar su rendimiento y estabilidad.  
+El backend utiliza **Azure Monitor** y **Application Insights** para el registro estructurado, métricas de uso y detección temprana de errores.  
+Asimismo, se supervisa la disponibilidad del frontend mediante herramientas integradas en **Netlify Analytics**, garantizando una respuesta rápida ante cualquier incidencia.
+
+## 7.3. Continuous deployment
+
+El despliegue continuo es una práctica fundamental en el desarrollo de software moderno, que automatiza la entrega de cambios al entorno de producción. En esta sección se describen las
+herramientas y procesos implementados para asegurar un flujo de trabajo eficiente, permitiendo que el software sea desplegado de manera rápida, segura y consistente.
+
+### 7.3.1. Tools and Practices
+
+**GitHub Actions:**
+Es el motor principal de automatización CI/CD en el proyecto VacApp.
+Se configuraron flujos de trabajo que se ejecutan automáticamente ante cada push o pull request en el repositorio.
+Estos pipelines realizan una serie de validaciones, incluyendo análisis estático de código con ESLint, verificación de tipos con TypeScript, ejecución de pruebas unitarias con NUnit, pruebas de integración en los distintos bounded contexts, y pruebas end-to-end con Selenium.
+En caso de que todas las verificaciones sean exitosas, se procede al despliegue automático del backend en Azure App Service y del frontend en Netlify, garantizando una entrega continua, estable y confiable del sistema.
+
+<img width="170" height="132" alt="Image" src="https://github.com/user-attachments/assets/e98893cf-36ab-448e-907c-a7c3cfacf6bf" />
+
+**Azure App Service:**
+Es la plataforma utilizada para el despliegue del backend de VacApp desarrollado en .NET.
+Permite integrar directamente el flujo de despliegue con GitHub Actions, ofreciendo un entorno administrado con soporte para scaling, monitoreo de rendimiento y gestión de versiones.
+Su infraestructura automatizada facilita el despliegue sin intervención manual, reduciendo el riesgo de errores y mejorando los tiempos de entrega a producción.
+
+<img width="200" alt="image" src="https://github.com/user-attachments/assets/e4b90ae3-e64f-4e85-968f-8ad3d5bfdc6f" />
+
+**Netlify:**
+Es la plataforma utilizada para el despliegue del frontend de VacApp, desarrollado en React y TypeScript.
+Netlify proporciona integración nativa con GitHub, lo que permite generar previews automáticos de cada rama y realizar el despliegue final al aprobar los cambios en la rama principal.
+Además, ofrece soporte para HTTPS, control de versiones y optimización automática del contenido estático, garantizando alto rendimiento en el entorno productivo.
+
+<img width="200" alt="Image" src="https://github.com/user-attachments/assets/bd3f8e61-bc2b-4be1-8a8e-2500840f4e07" />
+
+**ESLint + Prettier:**
+Herramientas integradas en el pipeline de CI/CD para garantizar la calidad, legibilidad y consistencia del código en el frontend.
+ESLint aplica reglas personalizadas específicas para proyectos en TypeScript y React, detectando errores de estilo, malas prácticas y vulnerabilidades potenciales.
+Por su parte, Prettier asegura un formato uniforme en todo el código, siguiendo los estándares definidos por el equipo de desarrollo, como el uso de comillas simples, indentación consistente y trailing commas.
+En conjunto, estas herramientas ayudan a mantener un código limpio, profesional y coherente entre todos los miembros del equipo.
+
+<img width="301" height="167" alt="Image" src="https://github.com/user-attachments/assets/50cf0805-3b56-47ce-9151-de76d32da20a" />
+
+**Monitoreo y Validación Post-Despliegue:**
+Tras cada despliegue, el sistema se supervisa mediante Azure Monitor y Application Insights para registrar el rendimiento, analizar métricas y detectar errores en tiempo real.
+En el frontend, Netlify Analytics permite verificar la disponibilidad y el comportamiento del sitio, asegurando una experiencia estable para los usuarios finales.
+
+### 7.3.2. Production Deployment Pipeline Components
+
+**Despliegue en Azure y Netlify:**
+
+- Azure: Utilizamos Azure para el despliegue del backend, ya que ofrece una plataforma robusta y escalable con integración directa con GitHub, despliegue continuo, soporte completo para variables de entorno y servicios gestionados como Azure App Service o Azure Functions. Además, permite configurar dominios personalizados, certificados SSL y opciones avanzadas de monitoreo y seguridad, todo sin necesidad de gestionar servidores directamente.
+
+- Netlify: Utilizamos Netlify para el despliegue del frontend, ya que permite una configuración rápida mediante integración con Git, despliegue continuo con cada push, gestión sencilla de variables de entorno y entrega optimizada a través de su red CDN global. También proporciona HTTPS automático y funciones como redirecciones, formularios y prerenderizado, lo que facilita un entorno de producción moderno y eficiente.
+
+**Pruebas Unitarias y de Integración:**
+
+- Pruebas Continuas: Adoptamos un enfoque riguroso en la ejecución de pruebas automatizadas utilizando Cucumber para pruebas de aceptación basadas en criterios de negocio y Selenium para pruebas de interfaz de usuario. Para las pruebas unitarias y de integración del backend, utilizamos el ecosistema de pruebas de .NET con C#, lo que nos permite validar el comportamiento de los componentes clave antes de cada despliegue.
+- Cobertura de Pruebas: Empleamos herramientas de cobertura específicas para .NET con el fin de asegurar que el código esté correctamente probado. Esto nos permite identificar posibles brechas en la lógica de negocio y mantener un alto estándar de calidad. El enfoque en pruebas automatizadas reduce riesgos y asegura un funcionamiento confiable en entornos de producción.
+
+El proceso de despliegue en producción de la aplicación se gestiona mediante un pipeline automatizado que utiliza Azure como plataforma de alojamiento del backend. Este flujo permite implementar de manera continua y eficiente los cambios aprobados en la rama principal del repositorio, garantizando una integración fluida entre el código fuente, los servicios desplegados y los entornos de producción. En la siguiente imagen se puede observar cómo Azure se integra dentro del pipeline de despliegue para proporcionar un entorno de backend estable, seguro y escalable, facilitando la entrega continua de nuevas funcionalidades a los usuarios finales.
+
+[![image.png](https://i.postimg.cc/jjT5N1q0/image.png)](https://postimg.cc/k2jqPftf)
+
+Para asegurar la calidad del software y verificar que se cumplan los requisitos funcionales establecidos en el product backlog, se han utilizado pruebas automatizadas mediante Selenium. Estas pruebas reproducen la interacción del usuario con la aplicación y se alinean con las historias de usuario priorizadas durante el desarrollo. De esta manera, se valida que cada funcionalidad implementada cumpla con los criterios de aceptación definidos por el equipo de producto. La siguiente imagen muestra la ejecución de un conjunto de pruebas automatizadas en Selenium, centradas en validar los escenarios clave definidos por las historias de usuario, como parte del proceso de aseguramiento de calidad antes del despliegue.
+
+[![image.png](https://i.postimg.cc/t4BqZ4cB/image.png)](https://postimg.cc/qNCVW44K)
+
+El despliegue del frontend de la aplicación se realiza mediante la plataforma Netlify, que permite una entrega continua y automatizada de la interfaz de usuario hacia producción. Gracias a su integración directa con sistemas de control de versiones como Git, Netlify detecta automáticamente los cambios en la rama principal del repositorio y ejecuta los procesos de construcción y despliegue sin necesidad de intervención manual. Esta automatización garantiza que las nuevas características visuales y mejoras en la experiencia del usuario estén disponibles de forma inmediata. En la siguiente imagen se ilustra cómo Netlify gestiona el pipeline de despliegue del frontend, incluyendo la detección de cambios, la generación del build estático y su publicación en un entorno seguro, escalable y con soporte para HTTPS automático.
+
+[![image.png](https://i.postimg.cc/tC72QSjy/image.png)](https://postimg.cc/7f8gSNhQ)  
+  
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
