@@ -537,11 +537,12 @@ Para asegurar la calidad y consistencia en el desarrollo de VacApp, todos los mi
 En caso de errores o fallas en los pipelines, el cambio se devuelve a la rama del desarrollador para su corrección antes de reiniciar el ciclo.
 
 ### 7.1.2. Build & Test Suite Pipeline Components
+
 Este documento describe los Épicos (Epics) principales de la plataforma **Moobile-Platform**, organizados bajo el formato de Historias de Usuario para definir flujos de trabajo clave desde la perspectiva del usuario ganadero.
 
----
+--
 
-## 🐄 Epic 01: Gestión de Establos
+## Epic 01: Gestión de Establos
 
 | Rol | Objetivo | Razón |
 | :--- | :--- | :--- |
@@ -549,9 +550,9 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="551" alt="image" src="https://github.com/user-attachments/assets/3ee378e8-3f43-466d-8d6d-fa13cb040a08" />
 
----
+--
 
-## 🐂 Epic 02: Gestión de Bovinos
+## Epic 02: Gestión de Bovinos
 
 | Rol | Objetivo | Razón |
 | :--- | :--- | :--- |
@@ -559,9 +560,9 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/7fc836ea-1302-4f0c-9985-28bbd83cb5a9" />
 
----
+--
 
-## ✏️ Epic 03: Edición de Bovinos
+## Epic 03: Edición de Bovinos
 
 | Rol | Objetivo | Razón |
 | :--- | :--- | :--- |
@@ -569,9 +570,9 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="565" alt="image" src="https://github.com/user-attachments/assets/504861c5-2bca-42e2-8449-7e1b9f424e26" />
 
----
+--
 
-## 📅 Epic 04: Gestión de Campañas
+## Epic 04: Gestión de Campañas
 
 | Rol | Objetivo | Razón |
 | :--- | :--- | :--- |
@@ -579,9 +580,9 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="620" alt="image" src="https://github.com/user-attachments/assets/d7386044-8ab9-44b7-bde3-16bbc1a48164" />
 
----
+--
 
-## 👨‍🌾 Epic 05: Gestión de Staff
+## Epic 05: Gestión de Staff
 
 | Rol | Objetivo | Razón |
 | :--- | :--- | :--- |
@@ -722,8 +723,30 @@ En conjunto, estas herramientas ayudan a mantener un código limpio, profesional
 Tras cada despliegue, el sistema se supervisa mediante Azure Monitor y Application Insights para registrar el rendimiento, analizar métricas y detectar errores en tiempo real.
 En el frontend, Netlify Analytics permite verificar la disponibilidad y el comportamiento del sitio, asegurando una experiencia estable para los usuarios finales.
 
-
 ### 7.3.2. Production Deployment Pipeline Components
+
+**Despliegue en Azure y Netlify:**
+
+- Azure: Utilizamos Azure para el despliegue del backend, ya que ofrece una plataforma robusta y escalable con integración directa con GitHub, despliegue continuo, soporte completo para variables de entorno y servicios gestionados como Azure App Service o Azure Functions. Además, permite configurar dominios personalizados, certificados SSL y opciones avanzadas de monitoreo y seguridad, todo sin necesidad de gestionar servidores directamente.
+
+- Netlify: Utilizamos Netlify para el despliegue del frontend, ya que permite una configuración rápida mediante integración con Git, despliegue continuo con cada push, gestión sencilla de variables de entorno y entrega optimizada a través de su red CDN global. También proporciona HTTPS automático y funciones como redirecciones, formularios y prerenderizado, lo que facilita un entorno de producción moderno y eficiente.
+
+**Pruebas Unitarias y de Integración:**
+
+- Pruebas Continuas: Adoptamos un enfoque riguroso en la ejecución de pruebas automatizadas utilizando Cucumber para pruebas de aceptación basadas en criterios de negocio y Selenium para pruebas de interfaz de usuario. Para las pruebas unitarias y de integración del backend, utilizamos el ecosistema de pruebas de .NET con C#, lo que nos permite validar el comportamiento de los componentes clave antes de cada despliegue.
+- Cobertura de Pruebas: Empleamos herramientas de cobertura específicas para .NET con el fin de asegurar que el código esté correctamente probado. Esto nos permite identificar posibles brechas en la lógica de negocio y mantener un alto estándar de calidad. El enfoque en pruebas automatizadas reduce riesgos y asegura un funcionamiento confiable en entornos de producción.
+
+El proceso de despliegue en producción de la aplicación se gestiona mediante un pipeline automatizado que utiliza Azure como plataforma de alojamiento del backend. Este flujo permite implementar de manera continua y eficiente los cambios aprobados en la rama principal del repositorio, garantizando una integración fluida entre el código fuente, los servicios desplegados y los entornos de producción. En la siguiente imagen se puede observar cómo Azure se integra dentro del pipeline de despliegue para proporcionar un entorno de backend estable, seguro y escalable, facilitando la entrega continua de nuevas funcionalidades a los usuarios finales.
+
+[![image.png](https://i.postimg.cc/jjT5N1q0/image.png)](https://postimg.cc/k2jqPftf)
+
+Para asegurar la calidad del software y verificar que se cumplan los requisitos funcionales establecidos en el product backlog, se han utilizado pruebas automatizadas mediante Selenium. Estas pruebas reproducen la interacción del usuario con la aplicación y se alinean con las historias de usuario priorizadas durante el desarrollo. De esta manera, se valida que cada funcionalidad implementada cumpla con los criterios de aceptación definidos por el equipo de producto. La siguiente imagen muestra la ejecución de un conjunto de pruebas automatizadas en Selenium, centradas en validar los escenarios clave definidos por las historias de usuario, como parte del proceso de aseguramiento de calidad antes del despliegue.
+
+[![image.png](https://i.postimg.cc/t4BqZ4cB/image.png)](https://postimg.cc/qNCVW44K)
+
+El despliegue del frontend de la aplicación se realiza mediante la plataforma Netlify, que permite una entrega continua y automatizada de la interfaz de usuario hacia producción. Gracias a su integración directa con sistemas de control de versiones como Git, Netlify detecta automáticamente los cambios en la rama principal del repositorio y ejecuta los procesos de construcción y despliegue sin necesidad de intervención manual. Esta automatización garantiza que las nuevas características visuales y mejoras en la experiencia del usuario estén disponibles de forma inmediata. En la siguiente imagen se ilustra cómo Netlify gestiona el pipeline de despliegue del frontend, incluyendo la detección de cambios, la generación del build estático y su publicación en un entorno seguro, escalable y con soporte para HTTPS automático.
+
+[![image.png](https://i.postimg.cc/tC72QSjy/image.png)](https://postimg.cc/7f8gSNhQ)
 
 ## 7.4. Continuous Monitoring
 
