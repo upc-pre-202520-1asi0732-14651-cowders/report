@@ -718,6 +718,11 @@ En conjunto, estas herramientas ayudan a mantener un código limpio, profesional
 
 <img width="301" height="167" alt="Image" src="https://github.com/user-attachments/assets/50cf0805-3b56-47ce-9151-de76d32da20a" />
 
+**Monitoreo y Validación Post-Despliegue:**
+Tras cada despliegue, el sistema se supervisa mediante Azure Monitor y Application Insights para registrar el rendimiento, analizar métricas y detectar errores en tiempo real.
+En el frontend, Netlify Analytics permite verificar la disponibilidad y el comportamiento del sitio, asegurando una experiencia estable para los usuarios finales.
+
+
 ### 7.3.2. Production Deployment Pipeline Components
 
 ## 7.4. Continuous Monitoring
