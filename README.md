@@ -1296,6 +1296,33 @@ Url del repositorio: https://github.com/upc-pre-202520-1asi0732-14651-cowders/mo
 
 ### 6.1.4. Core System Tests
 
+En esta sección se presentan las pruebas esenciales aplicadas al sistema central, con el fin de verificar su funcionamiento adecuado. Dichas pruebas están orientadas a la validación de la lógica central del sistema, asegurando que los componentes críticos operen conforme a los requerimientos previamente establecidos.
+
+| EP01: Gestión de Establos |
+| :------------: |
+| **Como** usuario ganadero, <br> **Quiero** gestionar los establos <br> **Para** mantener organizadas las instalaciones donde se alojan los bovinos. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/26LK97nn/image.png)](https://postimg.cc/47ZPmtL3) |
+
+| EP02: Gestión de Bovinos |
+| :------------: |
+| **Como** usuario ganadero, <br> **Quiero** gestionar la información de mis bovinos <br> **Para** llevar un control detallado del ganado. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/pT9L040s/image.png)](https://postimg.cc/gXWpjSbh) |
+
+| EP03: Gestión de Vacunas |
+| :------------: |
+| **Como** usuario ganadero, <br> **Quiero** gestionar las vacunas aplicadas a mis bovinos <br> **Para** llevar un control sanitario adecuado. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/9FstJHLV/image.png)](https://postimg.cc/YhfWCZcy) |
+
+| EP04: Gestión de Campañas |
+| :------------: |
+| **Como** empresario ganadero, <br> **Quiero** gestionar campañas sanitarias y de mejoramiento <br> **Para** coordinar actividades a gran escala. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/HkHJdb9M/image.png)](https://postimg.cc/HVZWtcKW) |
+
+| EP05: Gestión de Staff |
+| :------------: |
+| **Como** empresario ganadero, <br> **Quiero** gestionar el personal que trabaja en mi operación ganadera <br> **Para** organizar eficientemente los recursos humanos. |
+| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/jqHR62fb/image.png)](https://postimg.cc/fkb4Dw52) |
+
 ## 6.2. Static testing & Verification
 
 ### 6.2.1. Static Code Analysis
