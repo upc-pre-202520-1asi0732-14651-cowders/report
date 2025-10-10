@@ -74,14 +74,11 @@
 |1\.0|10/09/2025|Moobile|Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation|
 |2\.0|09/10/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices|
 
-# Project Report Collaboration Insights
-
 # Contenido
 
 ## Tabla de contenidos
 
 - [Registro de versiones del informe](#registro-de-versiones-del-informe)
-- [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
@@ -1368,10 +1365,10 @@ Los pasos realizados fueron los siguientes:
 
 ![captura3](assets/chapter-5/Imgs-Software%20Deployment%20Configuration/Captura3.png)
 
-
 ## 5.2. Product Implementation & Deployment
 
 ### 5.2.1. Sprint Backlogs
+
 #### TB1
 
 | **User Story** |  | **Work-Item / Task** |  |  |  |  |
@@ -2949,10 +2946,17 @@ El despliegue del frontend de la aplicación se realiza mediante la plataforma N
 # Anexos
 
 - **Video de Exposición TB1:** [Link del video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EaVDXrhL0NJAj9O8bAdSD68BTxltcBiUW64HRYQz1Vdy9g?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ApF1Fz)
+
+- **Video de Exposición TP1:** [Link del video en Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EfZ9E1e-fONHuTSeP6cVsb0Bl-O9sGIWXr0lfG6K-BrgBA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=a4rwIZ)
+
 - **Frontend:** [moobile-front-v1.netlify.app](https://moobile-front-v1.netlify.app/)
+
 - **Backend (Swagger):** [moobile.azurewebsites.net/swagger](https://moobile.azurewebsites.net/swagger/index.html)
+
 - **Landing Page:** [upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)
-- **Entrevistas (Microsoft Stream):** [ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
+
+- **Entrevistas (Microsoft Stream):** [Ver entrevistas](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
+
 - **About-the-Product:** 
 [Link de Microsoft Stream](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
 [Link de YouTube](https://youtu.be/UvyjXTcFnHk)
