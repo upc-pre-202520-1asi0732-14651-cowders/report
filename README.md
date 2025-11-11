@@ -2654,6 +2654,44 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 | **Como** empresario ganadero, <br> **Quiero** gestionar el personal que trabaja en mi operación ganadera <br> **Para** organizar eficientemente los recursos humanos. |
 | Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/jqHR62fb/image.png)](https://postimg.cc/fkb4Dw52) |
 
+## 6.2. Static testing & Verification
+
+### 6.2.1. Static Code Analysis
+
+#### 6.2.1.1. Coding standard & Code conventions
+
+#### 6.2.1.2. Code Quality & Code Security
+
+### 6.2.2. Reviews
+
+## 6.3. Validation Interviews
+
+### 6.3.1. Diseño de Entrevistas
+
+### 6.3.2. Registro de Entrevistas
+
+### 6.3.3. Evaluaciones según heurísticas
+
+## 6.4. Auditoría de Experiencias de Usuario
+
+### 6.4.1. Auditoría realizada
+
+#### 6.4.1.1. Información del grupo auditado
+
+#### 6.4.1.2. Cronograma de auditoría realizada
+
+#### 6.4.1.3. Contenido de auditoría realizada
+
+### 6.4.2. Auditoría recibida
+
+#### 6.4.2.1. Información del grupo auditor
+
+#### 6.4.2.2. Cronograma de auditoría recibida
+
+#### 6.4.2.3. Contenido de auditoría recibida
+
+#### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
 # **Capítulo VII: DevOps Practices**
   
 ## 7.1. Continuous Integration    
@@ -2916,7 +2954,57 @@ Para asegurar la calidad del software y verificar que se cumplan los requisitos 
 
 El despliegue del frontend de la aplicación se realiza mediante la plataforma Netlify, que permite una entrega continua y automatizada de la interfaz de usuario hacia producción. Gracias a su integración directa con sistemas de control de versiones como Git, Netlify detecta automáticamente los cambios en la rama principal del repositorio y ejecuta los procesos de construcción y despliegue sin necesidad de intervención manual. Esta automatización garantiza que las nuevas características visuales y mejoras en la experiencia del usuario estén disponibles de forma inmediata. En la siguiente imagen se ilustra cómo Netlify gestiona el pipeline de despliegue del frontend, incluyendo la detección de cambios, la generación del build estático y su publicación en un entorno seguro, escalable y con soporte para HTTPS automático.
 
-[![image.png](https://i.postimg.cc/tC72QSjy/image.png)](https://postimg.cc/7f8gSNhQ)  
+[![image.png](https://i.postimg.cc/tC72QSjy/image.png)](https://postimg.cc/7f8gSNhQ)
+
+## 7.4. Continuous Monitoring
+
+### 7.4.1. Tools and Practices
+
+### 7.4.2. Monitoring Pipeline Components
+
+### 7.4.3. Alerting Pipeline Components
+
+### 7.4.4. Notification Pipeline Components
+
+# **Part III: Experiment-Driven Lifecycle**
+
+# **Capítulo VIII: Experiment-Driven Development**
+
+## 8.1. Experiment Planning
+
+### 8.1.1. As-Is Summary
+
+### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+
+### 8.1.3. Experiment-Ready Questions
+
+### 8.1.4. Question Backlog
+
+### 8.1.5. Experiment Cards
+
+## 8.2. Experiment Design
+
+### 8.2.1. Hypotheses
+
+### 8.2.2. Domain Business Metrics
+
+### 8.2.3. Measures
+
+### 8.2.4. Conditions
+
+### 8.2.5. Scale Calculations and Decisions
+
+### 8.2.6. Methods Selection
+
+### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
+
+### 8.2.8. Web and Mobile Tracking Plan
+
+## 8.3. Experimentation
+
+### 8.3.1. To-Be User Stories
+
+### 8.3.2. To-Be Product Backlog
   
 ## Conclusiones Y Recomendaciones
 
