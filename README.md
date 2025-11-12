@@ -2662,6 +2662,35 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 #### 6.2.1.2. Code Quality & Code Security
 
+Las imágenes que se presentarán a continuación corresponden al análisis de la calidad del código fuente del proyecto “MoobileAPI” utilizando la herramienta SonarQube Community Edition. Esta herramienta se emplea para realizar un control de calidad automatizado del código, detectando errores, vulnerabilidades, malas prácticas y posibles puntos de mejora en la mantenibilidad y confiabilidad del software.
+
+El análisis se ejecutó sobre la rama master del repositorio del proyecto, evaluando aproximadamente 5.4 mil líneas de código. Los resultados muestran que el Quality Gate fue “Passed”, lo que significa que el código cumple con los estándares mínimos de calidad definidos en las reglas de SonarQube.
+
+<img alt="Overview SonarQube" src="assets/chapter-6/Code Quality & Code Security/Overview_SonarQube.png"/>
+
+<br>
+
+**Seguridad:**
+El sistema no detectó problemas abiertos y asignó una calificación A, lo cual es un indicador positivo de que no existen vulnerabilidades críticas en el código. Sin embargo, se encontraron nueve security hotspots, que representan puntos de posible riesgo o prácticas que conviene revisar para garantizar la protección frente a ataques.
+
+**Confiabilidad (Reliability):**
+Se reportaron doce incidencias abiertas con una calificación A, lo que refleja que el código es estable, aunque presenta algunos posibles errores que podrían ocasionar fallos en tiempo de ejecución.
+
+**Mantenibilidad (Maintainability):**
+Se obtuvo una calificación C, con un total de cien incidencias abiertas, lo que evidencia la necesidad de refactorizar ciertas partes del código que podrían dificultar su comprensión o mantenimiento futuro.
+
+<br>
+
+<img alt="Security SonarQube" src="assets/chapter-6/Code Quality & Code Security/Security_SonarQube.png"/>
+
+<br>
+
+En la sección de detalles de incidencias, SonarQube muestra un total de 112 problemas distribuidos entre diferentes niveles de severidad: cinco de gravedad alta, ochenta y uno de nivel medio, diecisiete de nivel bajo y nueve informativos. La mayoría de los hallazgos están relacionados con la mantenibilidad del código y no con vulnerabilidades directas. Entre los ejemplos más representativos se encuentran el uso incorrecto de excepciones genéricas, como en el caso de la instrucción "System.Exception should not be thrown by user code", que sugiere reemplazar las excepciones genéricas por tipos más específicos para facilitar el manejo de errores.
+
+También se detectaron variables declaradas pero nunca utilizadas, como el caso de la variable “e”, lo que indica la existencia de código innecesario que podría eliminarse para mejorar la legibilidad. Otras incidencias mencionan posibles referencias nulas al pasar parámetros o al acceder a objetos, lo cual puede provocar errores en tiempo de ejecución y debe corregirse mediante validaciones adecuadas.
+
+En síntesis, el análisis evidencia que MoobileAPI mantiene un nivel general de calidad satisfactorio, superando las verificaciones del Quality Gate, aunque presenta oportunidades claras de mejora.
+
 ### 6.2.2. Reviews
 
 ## 6.3. Validation Interviews
