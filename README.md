@@ -2687,11 +2687,11 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 3. **<u>Evaluación del Problema</u>**
 
-- Actualmente, ¿cuál es el desafío que más impacta su objetivo de asegurar un estado y cuidado óptimo para sus animales?
-- Desde su perspectiva, ¿cuáles son los principales inconvenientes en su gestión actual que le impiden ser más eficiente y sostenible? (Ej. uso de insumos, tiempo, mano de obra).
-- ¿Qué herramientas o métodos utiliza hoy para llevar el registro del historial de salud y la nutrición de sus animales? ¿Qué le gustaría que mejorara de esos métodos?
-- ¿Cree que una plataforma web/móvil lo ayudaría a llevar a cabo prácticas de venta más honestas y transparentes, ofreciendo un producto de mayor calidad? ¿Por qué?
-- ¿Estaría dispuesto/a en contratar un servicio de software integral (como Moobile) para optimizar el cuidado de sus animales y la gestión de su granja? ¿Qué características serían decisivas para tomar esa decisión?
+- Después de usar Moobile para gestionar sus operaciones, ¿siente que la plataforma ha cumplido con su objetivo de ayudarle a garantizar un estado y cuidado óptimo para sus animales? ¿Por qué sí o por qué no?
+- ¿Qué tan útil encontró la funcionalidad de monitoreo de salud, nutrición y reproducción? ¿Cree que la información proporcionada es suficiente y fácil de interpretar para tomar mejores decisiones en su día a día?
+- ¿Moobile le ha facilitado la aplicación de prácticas de venta más honestas y transparentes? ¿Cómo impactó esto la percepción de la calidad de su producto?
+- ¿La plataforma le ayudó a gestionar mejor sus operaciones y reducir el uso ineficiente de insumos? 
+- Si tuviera que describir Moobile a otro productor independiente, ¿qué beneficio principal destacaría de la plataforma? ¿Hay alguna funcionalidad clave que deba ser mejorada o agregada?
 
 ___________________________
 
@@ -2714,11 +2714,11 @@ ___________________________
 
 3. **<u>Evaluación del Problema</u>**
 
-- Desde la perspectiva de la gestión corporativa, ¿cuáles fueron los principales inconvenientes de rendimiento y organización que a menudo se presentan en la gestión de grandes volúmenes de animales?
-- En base a la pregunta anterior, ¿qué herramientas o prácticas internas consideran que pueden ayudar a disipar los inconvenientes en la gestión veterinaria y de nutrición?
-- ¿Qué tan difícil le resulta actualmente monitorear el bienestar individual de cada animal a gran escala? ¿Siente que esta información es dispersa o llega tarde?
-- ¿Estaría dispuesto/a en implementar un servicio de plataforma web para optimizar la comunicación entre el equipo veterinario y de producción, la planificación nutricional y la gestión general de la empresa? ¿Por qué?
-- ¿Considera que sus trabajadores (personal de campo, veterinarios) accederán y le darán un uso adecuado y constante a un software como Moobile? ¿Cree que saldrían buenos resultados en la optimización de procesos a corto plazo?
+- ¿La plataforma Moobile ha logrado proporcionar ese sistema integral de gestión veterinaria que buscaban? ¿Se garantiza ahora un acceso constante y adecuado a la atención médica veterinaria para todos sus animales?
+- ¿Las herramientas de Moobile para la gestión de la nutrición han ayudado a asegurar una alimentación precisa y óptima para los animales? ¿Esto ha mejorado el bienestar animal de manera medible en la empresa?
+- ¿Cómo evalúa la utilidad de las herramientas de Moobile para evaluar su impacto ambiental y social? ¿Cree que esta información es precisa y/o valiosa para los reportes de sostenibilidad corporativos?
+- ¿La integración de Moobile ayudó a reducir los problemas de comunicación dispersa y la respuesta tardía ante eventos críticos entre sus equipos (ej. producción y veterinaria)? ¿En qué porcentaje estima la mejora de la eficiencia operativa?
+- Desde una perspectiva de retorno de inversión, ¿considera que Moobile es una solución que transforma digitalmente el negocio? ¿Qué valor agregado observa que ha sido la más impactante para la empresa ante la competencia?
 
 ### 6.3.2. Registro de Entrevistas
 
