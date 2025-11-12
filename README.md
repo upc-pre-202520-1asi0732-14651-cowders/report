@@ -2717,7 +2717,7 @@ ___________________________
 - ¿La plataforma Moobile ha logrado proporcionar ese sistema integral de gestión veterinaria que buscaban? ¿Se garantiza ahora un acceso constante y adecuado a la atención médica veterinaria para todos sus animales?
 - ¿Las herramientas de Moobile para la gestión de la nutrición han ayudado a asegurar una alimentación precisa y óptima para los animales? ¿Esto ha mejorado el bienestar animal de manera medible en la empresa?
 - ¿Cómo evalúa la utilidad de las herramientas de Moobile para evaluar su impacto ambiental y social? ¿Cree que esta información es precisa y/o valiosa para los reportes de sostenibilidad corporativos?
-- ¿La integración de Moobile ayudó a reducir los problemas de comunicación dispersa y la respuesta tardía ante eventos críticos entre sus equipos (ej. producción y veterinaria)? ¿En qué porcentaje estima la mejora de la eficiencia operativa?
+- ¿La integración de Moobile ayudó a reducir los problemas de comunicación dispersa y la respuesta tardía ante eventos críticos entre sus equipos? ¿En qué porcentaje estima la mejora de la eficiencia operativa?
 - Desde una perspectiva de retorno de inversión, ¿considera que Moobile es una solución que transforma digitalmente el negocio? ¿Qué valor agregado observa que ha sido la más impactante para la empresa ante la competencia?
 
 ### 6.3.2. Registro de Entrevistas
