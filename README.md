@@ -2668,6 +2668,58 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 ### 6.3.1. Diseño de Entrevistas
 
+#### LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES
+
+1. **<u>Información Personal</u>**
+
+- ¿Cuál es su nombre, edad y rol principal en su operación ganadera?
+- ¿En qué región del Perú reside y dónde se encuentra su granja o propiedad?
+- ¿Qué tipos de ganado posee  y aproximadamente cuántos animales gestiona en total?
+- ¿Cuál es la antigüedad de su negocio o experiencia personal en la ganadería?
+
+2. **<u>Personalidad, Aspecto Emocional y Habilidades del Usuario</u>**
+
+- Defina una frase o un principio que resuma su enfoque sobre el cuidado y bienestar de sus animales.
+- Describa algunas cualidades o fortalezas que considera esenciales para garantizar la calidad natural y alta calidad de sus productos de venta.
+- ¿Qué emociones le genera la búsqueda de información sobre nuevos métodos de cuidado animal? ¿Siente frustración, curiosidad o motivación? ¿Por qué?
+- ¿Cómo se siente cuando un problema de salud animal ocurre sin previo aviso o cuando la venta no es "honesta" en términos de precio o calidad?
+- ¿Se considera hábil en el uso de aplicaciones móviles, software o tecnología para la gestión de su granja? ¿Tuvo dificultades para aprender a usar las herramientas digitales que ya emplea?
+
+3. **<u>Evaluación del Problema</u>**
+
+- Actualmente, ¿cuál es el desafío que más impacta su objetivo de asegurar un estado y cuidado óptimo para sus animales?
+- Desde su perspectiva, ¿cuáles son los principales inconvenientes en su gestión actual que le impiden ser más eficiente y sostenible? (Ej. uso de insumos, tiempo, mano de obra).
+- ¿Qué herramientas o métodos utiliza hoy para llevar el registro del historial de salud y la nutrición de sus animales? ¿Qué le gustaría que mejorara de esos métodos?
+- ¿Cree que una plataforma web/móvil lo ayudaría a llevar a cabo prácticas de venta más honestas y transparentes, ofreciendo un producto de mayor calidad? ¿Por qué?
+- ¿Estaría dispuesto/a en contratar un servicio de software integral (como Moobile) para optimizar el cuidado de sus animales y la gestión de su granja? ¿Qué características serían decisivas para tomar esa decisión?
+
+___________________________
+
+#### LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS
+
+1. **<u>Información Personal</u>**
+
+- ¿Cuál es su nombre, cargo y área de responsabilidad dentro de la empresa ganadera?
+- ¿Cuál es el enfoque principal de su empresa y cuántos animales gestionan aproximadamente?
+- ¿En qué departamento o región de Perú opera la empresa?
+- ¿Cuál es el tamaño aproximado de su equipo de gestión y veterinario?
+
+2. **<u>Personalidad, Aspecto Emocional y Habilidades del Usuario</u>**
+
+- Defina una frase o un lema que represente el compromiso ético y sostenible de su empresa en la producción ganadera.
+- Describa alguna cualidad o fortaleza que considere representativa de la cultura de su empresa respecto a la precisión y el cuidado individual del ganado.
+- ¿Qué emociones genera a la gerencia o al equipo escuchar que no se está logrando una alimentación precisa y óptima para sus animales? ¿Por qué?
+- ¿Cómo se siente cuando no encuentra un sistema integral de gestión veterinaria o una solución que le permita el acceso constante y adecuado a la información de salud? ¿Buscan desarrollar algo internamente o buscan alternativas externas?
+- ¿Se considera la empresa hábil y abierta a la adopción de nuevas soluciones tecnológicas o software especializados para la ganadería? ¿Cree que es indispensable que una empresa ganadera corporativa se adecúe al entorno digital? ¿Por qué?
+
+3. **<u>Evaluación del Problema</u>**
+
+- Desde la perspectiva de la gestión corporativa, ¿cuáles fueron los principales inconvenientes de rendimiento y organización que a menudo se presentan en la gestión de grandes volúmenes de animales?
+- En base a la pregunta anterior, ¿qué herramientas o prácticas internas consideran que pueden ayudar a disipar los inconvenientes en la gestión veterinaria y de nutrición?
+- ¿Qué tan difícil le resulta actualmente monitorear el bienestar individual de cada animal a gran escala? ¿Siente que esta información es dispersa o llega tarde?
+- ¿Estaría dispuesto/a en implementar un servicio de plataforma web para optimizar la comunicación entre el equipo veterinario y de producción, la planificación nutricional y la gestión general de la empresa? ¿Por qué?
+- ¿Considera que sus trabajadores (personal de campo, veterinarios) accederán y le darán un uso adecuado y constante a un software como Moobile? ¿Cree que saldrían buenos resultados en la optimización de procesos a corto plazo?
+
 ### 6.3.2. Registro de Entrevistas
 
 ### 6.3.3. Evaluaciones según heurísticas
