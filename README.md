@@ -2777,6 +2777,93 @@ ___________________________
 
 ### 6.3.3. Evaluaciones según heurísticas
 
+## UX Heuristics & Principles Evaluation  
+
+**Usability – Inclusive Design – Information Architecture**
+### Tareas a Evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas, enfocadas en la gestión del ganado (EP02) y la navegación:
+
+1. Registro de un nuevo bovino.  
+2. Consulta del historial sanitario de un bovino.  
+3. Búsqueda y filtrado de animales por establo o estado de salud.  
+4. Navegación general hacia las funcionalidades clave (Campañas, Staff, etc.).
+
+**No están incluidas en esta versión:**
+
+- Gestión de roles y permisos de Staff (EP05).  
+- Ejecución de comandos de voz (Voice Commands).  
+- Procesos de autenticación de seguridad (Login/Logout).  
+
+---
+
+### Escala de Severidad
+
+Los errores serán puntuados tomando en cuenta la siguiente escala:
+
+| Nivel | Descripción |
+|-------|--------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible. |
+| **2** | Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Debe corregirse con prioridad baja en la siguiente versión. |
+| **3** | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta. |
+| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del lanzamiento. |
+
+---
+
+### Tabla Resumen
+
+| # | Problema | Escala de Severidad | Heurística / Principio Violado |
+|---|-----------|----------------------|--------------------------------|
+| 1 | El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio. | 3 | Usability: Consistencia y estándares |
+| 2 | Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil). | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles. | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | La navegación móvil inferior no incluye un acceso directo a la búsqueda o a la asignación de animales/vacunas. | 3 | Information Architecture: Is it findable? |
+| 5 | No se muestra claramente la capacidad restante del Establo en la vista de asignación de bovinos. | 2 | Usability: Prevención de errores |
+
+---
+
+## Descripción de Problemas
+
+### Problema #1  
+**El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio.**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Consistencia y estándares  
+
+**Problema:**  
+En la plataforma web, el botón flotante con el ícono de micrófono (para comandos de voz) se ubica en la esquina inferior derecha. Aunque esta posición es estándar en dispositivos móviles, en escritorio puede superponerse a contenido importante o a la paginación de módulos como *Bovinos* o *Staff*. Esto obliga al usuario a interactuar con el comando de voz innecesariamente o ajustar la vista manualmente, interrumpiendo su flujo.  
+
+**Recomendación:**  
+Reubicar el control de comando de voz dentro del encabezado principal (junto al saludo o al botón *Logout*), o integrarlo en la barra lateral de navegación izquierda, evitando que interfiera con el contenido principal.
+
+---
+
+### Problema #2  
+**Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil).**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
+
+**Problema:**  
+El formulario de registro de un nuevo bovino contiene múltiples campos (nombre, género, raza, ubicación, etc.). Al no contar con un indicador visual de progreso, el usuario desconoce cuántos pasos restan para finalizar, lo que puede generar frustración o abandono de la tarea.  
+
+**Recomendación:**  
+Incluir una barra o *stepper* de progreso en la parte superior del formulario que divida el proceso en pasos lógicos (por ejemplo: "Datos Básicos", "Ubicación y Salud", "Confirmación"). Esto reduce la carga cognitiva y mejora la percepción de avance.
+
+---
+
+### Problema #3  
+**Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design - Proporciona experiencias comparables  
+
+**Problema:**  
+En las tarjetas de métricas del panel general se utilizan íconos que transmiten información visual, pero carecen de etiquetas `alt` o `aria-label`. Esto impide que los lectores de pantalla describan correctamente los elementos, afectando la accesibilidad para usuarios con discapacidad visual.  
+
+**Recomendación:**  
+Asegurar que todos los elementos gráficos que comunican información tengan etiquetas `alt` o `aria-label` descriptivas. Esto garantiza una experiencia inclusiva y cumple con los estándares de accesibilidad definidos en las pautas **WCAG**.
+
+---
+
+
 ## 6.4. Auditoría de Experiencias de Usuario
 
 ### 6.4.1. Auditoría realizada
