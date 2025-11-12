@@ -2660,6 +2660,28 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 #### 6.2.1.1. Coding standard & Code conventions
 
+Nuestro equipo consideró StyleCop para este proyecto, este paquete es el que se encarga de analizar el código y aplicar las reglas de estilo definidas, generando advertencias o sugerencias para mantener un formato consistente en todo el proyecto.
+
+<img alt="NuGet StyleCop" src="assets/chapter-6/Coding Standards & Code Conventions/StyleCop.png"/>
+
+En esta captura se observa el archivo stylecop.json, donde se configura el comportamiento de StyleCop. En él se definen aspectos como el nombre de la empresa y el texto de copyright que se incluirá en los encabezados de los archivos. También está activada la opción xmlHeader, lo que significa que el analizador exigirá que cada archivo tenga un encabezado XML con esa información.
+
+<img alt="StyleCop Config" src="assets/chapter-6/Coding Standards & Code Conventions/StyleCopConfig.png"/>
+
+### Pruebas de uso
+
+En la siguiente imagen muestra la clase User, y se puede ver una advertencia con la regla SA1600, que indica que los elementos públicos deben estar documentados. En otras palabras, StyleCop espera que cada clase, propiedad o método tenga un comentario XML con un <summary> que describa su propósito. Esta regla fomenta una mejor documentación del código, especialmente útil en proyectos grandes o colaborativos.
+
+<img alt="Overview 1" src="assets/chapter-6/Coding Standards & Code Conventions/Overview1.png"/>
+
+En la siguiente imagen se ve la interfaz IUserRepository, donde aparece la advertencia SA1028. Esta regla señala que hay espacios en blanco al final de algunas líneas de código, algo que puede parecer menor, pero que afecta la limpieza y consistencia del formato. La solución es simplemente eliminar esos espacios o configurar el editor para que lo haga automáticamente al guardar los archivos.
+
+<img alt="Overview 2" src="assets/chapter-6/Coding Standards & Code Conventions/Overview2.png"/>
+
+En la siguiente imagen se ve el método SignIn dentro del controlador AdminController, donde aparece una advertencia de StyleCop con la regla SA1101. Esta regla sugiere que se debe usar el prefijo this. al acceder a miembros de la clase, como servicios o propiedades, para dejar claro que pertenecen a la instancia actual y no son variables locales. Es una práctica de estilo que mejora la legibilidad del código y ayuda a evitar confusiones.
+
+<img alt="Overview 3" src="assets/chapter-6/Coding Standards & Code Conventions/Overview3.png"/>
+
 #### 6.2.1.2. Code Quality & Code Security
 
 Las imágenes que se presentarán a continuación corresponden al análisis de la calidad del código fuente del proyecto “MoobileAPI” utilizando la herramienta SonarQube Community Edition. Esta herramienta se emplea para realizar un control de calidad automatizado del código, detectando errores, vulnerabilidades, malas prácticas y posibles puntos de mejora en la mantenibilidad y confiabilidad del software.
