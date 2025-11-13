@@ -3150,13 +3150,73 @@ El despliegue del frontend de la aplicación se realiza mediante la plataforma N
 
 ## 7.4. Continuous Monitoring
 
+En esta sección se busca visualizar el proceso de supervisión del comportamiento de la aplicación en tiempo real, con el fin de detectar y responder errores o anomalías que puedan afectar de manera efectiva.
+
 ### 7.4.1. Tools and Practices
+
+Para implementar el monitoreo continuo efectivo en nuestra aplicación, consideramos fundamental aplicar un conjunto de herramientas junto a buenas prácticas. A continuación, detallaremos las principales:
+
+#### **a. Herramientas de monitoreo:**
+
+La imagen muestra la interfaz de configuración de Sematext Synthetics, específicamente la pantalla para crear un Browser Monitor. Esta herramienta permite realizar pruebas sintéticas sobre aplicaciones web simulando la interacción de un usuario real desde diferentes ubicaciones del mundo. En la captura se observa la creación de un monitor llamado MobileApp, donde es posible definir el tipo de dispositivo, establecer el intervalo de ejecución, configurar reintentos automáticos en caso de fallos y seleccionar las regiones geográficas desde donde se ejecutarán las pruebas. Sematext Synthetics facilita el monitoreo continuo del rendimiento, la detección temprana de errores y la validación de la disponibilidad del servicio bajo distintas condiciones de red y localización.
+
+<img alt="Create Browser Monitoring" src="assets/chapter-7/ToolsAndPractices/Sematex.png" />
+
+#### **b. Métricas clave:**
+
+Es esencial identificar y monitorear métricas relevantes, como: 
+    - Tiempo de respuesta en ms 
+    - Tasa de errores 
+    - Disponibilidad del sistema 
+    - Volumen de tráfico (tamaño de la transacción) 
+
+#### **c. Registros (Logging):**
+
+El uso de mecanismos de registro que almacenen eventos y logs de la aplicación permite identificar comportamientos anómalos y agiliza el proceso de diagnóstico y resolución de fallos.
+
+#### **d. Monitorización de la infraestructura:**
+
+Además de la aplicación, es importante supervisar las diferentes tecnologías ligadas a la aplicación: 
+    - Servidores 
+    - Bases de datos 
+    - Servicios de red y componentes del sistema operativo
 
 ### 7.4.2. Monitoring Pipeline Components
 
+Un pipeline de monitoreo continuo se estructura en distintas fases que permiten observar, analizar y responder al comportamiento del sistema en tiempo real. Las etapas fundamentales incluyen:
+
+  - Recopilación de datos:
+    Las soluciones de monitoreo capturan información proveniente de múltiples orígenes, como la propia aplicación, la infraestructura, los registros generados y los servicios relacionados.
+
+  - Almacenamiento de datos:
+    Los datos obtenidos se conservan en plataformas de almacenamiento especializadas, comúnmente bases de datos de series temporales, que facilitan su consulta y análisis posterior.
+
 ### 7.4.3. Alerting Pipeline Components
 
+El sistema de alertas constituye un componente clave dentro del monitoreo continuo, pues facilita la detección y notificación automática de eventos inusuales o críticos que puedan comprometer el rendimiento de una aplicación o de su infraestructura. En este sentido, empleamos la plataforma de monitoreo Sematext para configurar nuestro propio flujo de alertas.
+
+<img alt="Configure alerts" src="assets/chapter-7/AlertingPipelineComponents/AlertingOverview.png" />
+
 ### 7.4.4. Notification Pipeline Components
+
+El flujo de notificaciones se encarga de distribuir las alertas generadas por el sistema de monitoreo a las personas adecuadas, lo cual resulta esencial para asegurar que los equipos responsables reciban la información de forma rápida y eficaz. Este flujo está compuesto por los siguientes elementos principales:
+
+<img alt="Configure alerts" src="assets/chapter-7/NotificationPipelineComponents/NotificationOverview.png" />
+
+#### **a. Canal de comunicación:**
+Las alertas pueden enviarse mediante distintos medios, según la importancia del evento y las preferencias del equipo. Entre los canales que utilizamos con mayor frecuencia se encuentran:
+
+  - Correo electrónico
+  - SMS
+
+#### **b. Formato del mensaje:**
+Las notificaciones deben presentarse de manera clara y directa, incluyendo los datos necesarios para permitir una respuesta ágil. Esto contempla:
+
+  - Descripción del incidente o alerta
+  - Nivel de severidad
+  - Componente o fuente afectada
+  - Enlaces a paneles de control o registros relevantes
+  - Recomendaciones o pasos sugeridos para su resolución
 
 # **Part III: Experiment-Driven Lifecycle**
 
