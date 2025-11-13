@@ -2717,6 +2717,14 @@ En síntesis, el análisis evidencia que MoobileAPI mantiene un nivel general de
 
 ### 6.2.2. Reviews
 
+La etapa de Reviews complementa el proceso de análisis estático al incorporar una evaluación manual y contextualizada de los hallazgos generados por las herramientas StyleCop.Analyzers y SonarQube. 
+
+Durante este proceso se revisaron las advertencias detectadas por StyleCop, como la ausencia de documentación XML (SA1600), los espacios en blanco innecesarios (SA1028) o el uso inconsistente del prefijo this. (SA1101). Estas observaciones fueron discutidas por el equipo con el objetivo de mantener un estilo de programación uniforme y asegurar que la base de código sea clara, comprensible y consistente.
+
+Asimismo, las revisiones incluyeron un análisis detallado de los resultados obtenidos en SonarQube. Se evaluaron las incidencias clasificadas en seguridad, confiabilidad y mantenibilidad, prestando especial atención a los security hotspots, a las variables sin uso detectadas y a las posibles referencias nulas señaladas por el sistema. Cada hallazgo se examinó para determinar si constituía un riesgo funcional o una mala práctica priorizando las correcciones según su severidad y su impacto en el proyecto.
+
+Estas revisiones facilitaron una retroalimentación interna entre los miembros del equipo, fomentando mejores hábitos de desarrollo y asegurando que las decisiones adoptadas se mantuvieran alineadas con los estándares técnicos establecidos para el proyecto.
+
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
