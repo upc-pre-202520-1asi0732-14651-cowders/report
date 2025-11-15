@@ -2658,19 +2658,219 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 ### 6.2.1. Static Code Analysis
 
+En esta sección se detalla el proceso de análisis estático de código implementado en el proyecto, cuyo objetivo principal es garantizar la calidad, consistencia y seguridad del código fuente antes de su ejecución. Este tipo de análisis permite detectar errores, malas prácticas y desviaciones de las normas de estilo de manera automática, facilitando la corrección temprana de problemas y promoviendo buenas prácticas de desarrollo. Para lograrlo, el equipo integró herramientas especializadas como StyleCop.Analyzers y SonarQube, las cuales se encargan de evaluar distintos aspectos del código: la primera enfocada en el cumplimiento de los estándares de codificación y convenciones de estilo, y la segunda en medir la calidad, seguridad y mantenibilidad general del software. Gracias a estas herramientas, fue posible mantener un código más limpio, legible y alineado con las buenas prácticas.
+
 #### 6.2.1.1. Coding standard & Code conventions
+
+Nuestro equipo consideró StyleCop para este proyecto, este paquete es el que se encarga de analizar el código y aplicar las reglas de estilo definidas, generando advertencias o sugerencias para mantener un formato consistente en todo el proyecto.
+
+<img alt="NuGet StyleCop" src="assets/chapter-6/Coding Standards & Code Conventions/StyleCop.png"/>
+
+En esta captura se observa el archivo stylecop.json, donde se configura el comportamiento de StyleCop. En él se definen aspectos como el nombre de la empresa y el texto de copyright que se incluirá en los encabezados de los archivos. También está activada la opción xmlHeader, lo que significa que el analizador exigirá que cada archivo tenga un encabezado XML con esa información.
+
+<img alt="StyleCop Config" src="assets/chapter-6/Coding Standards & Code Conventions/StyleCopConfig.png"/>
+
+### Pruebas de uso
+
+En la siguiente imagen muestra la clase User, y se puede ver una advertencia con la regla SA1600, que indica que los elementos públicos deben estar documentados. En otras palabras, StyleCop espera que cada clase, propiedad o método tenga un comentario XML con un <summary> que describa su propósito. Esta regla fomenta una mejor documentación del código, especialmente útil en proyectos grandes o colaborativos.
+
+<img alt="Overview 1" src="assets/chapter-6/Coding Standards & Code Conventions/Overview1.png"/>
+
+En la siguiente imagen se ve la interfaz IUserRepository, donde aparece la advertencia SA1028. Esta regla señala que hay espacios en blanco al final de algunas líneas de código, algo que puede parecer menor, pero que afecta la limpieza y consistencia del formato. La solución es simplemente eliminar esos espacios o configurar el editor para que lo haga automáticamente al guardar los archivos.
+
+<img alt="Overview 2" src="assets/chapter-6/Coding Standards & Code Conventions/Overview2.png"/>
+
+En la siguiente imagen se ve el método SignIn dentro del controlador AdminController, donde aparece una advertencia de StyleCop con la regla SA1101. Esta regla sugiere que se debe usar el prefijo this. al acceder a miembros de la clase, como servicios o propiedades, para dejar claro que pertenecen a la instancia actual y no son variables locales. Es una práctica de estilo que mejora la legibilidad del código y ayuda a evitar confusiones.
+
+<img alt="Overview 3" src="assets/chapter-6/Coding Standards & Code Conventions/Overview3.png"/>
 
 #### 6.2.1.2. Code Quality & Code Security
 
+Las imágenes que se presentarán a continuación corresponden al análisis de la calidad del código fuente del proyecto “MoobileAPI” utilizando la herramienta SonarQube Community Edition. Esta herramienta se emplea para realizar un control de calidad automatizado del código, detectando errores, vulnerabilidades, malas prácticas y posibles puntos de mejora en la mantenibilidad y confiabilidad del software.
+
+El análisis se ejecutó sobre la rama master del repositorio del proyecto, evaluando aproximadamente 5.4 mil líneas de código. Los resultados muestran que el Quality Gate fue “Passed”, lo que significa que el código cumple con los estándares mínimos de calidad definidos en las reglas de SonarQube.
+
+<img alt="Overview SonarQube" src="assets/chapter-6/Code Quality & Code Security/Overview_SonarQube.png"/>
+
+<br>
+
+**Seguridad:**
+El sistema no detectó problemas abiertos y asignó una calificación A, lo cual es un indicador positivo de que no existen vulnerabilidades críticas en el código. Sin embargo, se encontraron nueve security hotspots, que representan puntos de posible riesgo o prácticas que conviene revisar para garantizar la protección frente a ataques.
+
+**Confiabilidad (Reliability):**
+Se reportaron doce incidencias abiertas con una calificación A, lo que refleja que el código es estable, aunque presenta algunos posibles errores que podrían ocasionar fallos en tiempo de ejecución.
+
+**Mantenibilidad (Maintainability):**
+Se obtuvo una calificación C, con un total de cien incidencias abiertas, lo que evidencia la necesidad de refactorizar ciertas partes del código que podrían dificultar su comprensión o mantenimiento futuro.
+
+<br>
+
+<img alt="Security SonarQube" src="assets/chapter-6/Code Quality & Code Security/Security_SonarQube.png"/>
+
+<br>
+
+En la sección de detalles de incidencias, SonarQube muestra un total de 112 problemas distribuidos entre diferentes niveles de severidad: cinco de gravedad alta, ochenta y uno de nivel medio, diecisiete de nivel bajo y nueve informativos. La mayoría de los hallazgos están relacionados con la mantenibilidad del código y no con vulnerabilidades directas. Entre los ejemplos más representativos se encuentran el uso incorrecto de excepciones genéricas, como en el caso de la instrucción "System.Exception should not be thrown by user code", que sugiere reemplazar las excepciones genéricas por tipos más específicos para facilitar el manejo de errores.
+
+También se detectaron variables declaradas pero nunca utilizadas, como el caso de la variable “e”, lo que indica la existencia de código innecesario que podría eliminarse para mejorar la legibilidad. Otras incidencias mencionan posibles referencias nulas al pasar parámetros o al acceder a objetos, lo cual puede provocar errores en tiempo de ejecución y debe corregirse mediante validaciones adecuadas.
+
+En síntesis, el análisis evidencia que MoobileAPI mantiene un nivel general de calidad satisfactorio, superando las verificaciones del Quality Gate, aunque presenta oportunidades claras de mejora.
+
 ### 6.2.2. Reviews
+
+La etapa de Reviews complementa el proceso de análisis estático al incorporar una evaluación manual y contextualizada de los hallazgos generados por las herramientas StyleCop.Analyzers y SonarQube. 
+
+Durante este proceso se revisaron las advertencias detectadas por StyleCop, como la ausencia de documentación XML (SA1600), los espacios en blanco innecesarios (SA1028) o el uso inconsistente del prefijo this. (SA1101). Estas observaciones fueron discutidas por el equipo con el objetivo de mantener un estilo de programación uniforme y asegurar que la base de código sea clara, comprensible y consistente.
+
+Asimismo, las revisiones incluyeron un análisis detallado de los resultados obtenidos en SonarQube. Se evaluaron las incidencias clasificadas en seguridad, confiabilidad y mantenibilidad, prestando especial atención a los security hotspots, a las variables sin uso detectadas y a las posibles referencias nulas señaladas por el sistema. Cada hallazgo se examinó para determinar si constituía un riesgo funcional o una mala práctica priorizando las correcciones según su severidad y su impacto en el proyecto.
+
+Estas revisiones facilitaron una retroalimentación interna entre los miembros del equipo, fomentando mejores hábitos de desarrollo y asegurando que las decisiones adoptadas se mantuvieran alineadas con los estándares técnicos establecidos para el proyecto.
 
 ## 6.3. Validation Interviews
 
 ### 6.3.1. Diseño de Entrevistas
 
+#### LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES
+
+1. **<u>Información Personal</u>**
+
+- ¿Cuál es su nombre, edad y rol principal en su operación ganadera?
+- ¿En qué región del Perú reside y dónde se encuentra su granja o propiedad?
+- ¿Qué tipos de ganado posee  y aproximadamente cuántos animales gestiona en total?
+- ¿Cuál es la antigüedad de su negocio o experiencia personal en la ganadería?
+
+2. **<u>Personalidad, Aspecto Emocional y Habilidades del Usuario</u>**
+
+- Defina una frase o un principio que resuma su enfoque sobre el cuidado y bienestar de sus animales.
+- Describa algunas cualidades o fortalezas que considera esenciales para garantizar la calidad natural y alta calidad de sus productos de venta.
+- ¿Qué emociones le genera la búsqueda de información sobre nuevos métodos de cuidado animal? ¿Siente frustración, curiosidad o motivación? ¿Por qué?
+- ¿Cómo se siente cuando un problema de salud animal ocurre sin previo aviso o cuando la venta no es "honesta" en términos de precio o calidad?
+- ¿Se considera hábil en el uso de aplicaciones móviles, software o tecnología para la gestión de su granja? ¿Tuvo dificultades para aprender a usar las herramientas digitales que ya emplea?
+
+3. **<u>Evaluación del Problema</u>**
+
+- Después de usar Moobile para gestionar sus operaciones, ¿siente que la plataforma ha cumplido con su objetivo de ayudarle a garantizar un estado y cuidado óptimo para sus animales? ¿Por qué sí o por qué no?
+- ¿Qué tan útil encontró la funcionalidad de monitoreo de salud, nutrición y reproducción? ¿Cree que la información proporcionada es suficiente y fácil de interpretar para tomar mejores decisiones en su día a día?
+- ¿Moobile le ha facilitado la aplicación de prácticas de venta más honestas y transparentes? ¿Cómo impactó esto la percepción de la calidad de su producto?
+- ¿La plataforma le ayudó a gestionar mejor sus operaciones y reducir el uso ineficiente de insumos? 
+- Si tuviera que describir Moobile a otro productor independiente, ¿qué beneficio principal destacaría de la plataforma? ¿Hay alguna funcionalidad clave que deba ser mejorada o agregada?
+
+___________________________
+
+#### LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS
+
+1. **<u>Información Personal</u>**
+
+- ¿Cuál es su nombre, cargo y área de responsabilidad dentro de la empresa ganadera?
+- ¿Cuál es el enfoque principal de su empresa y cuántos animales gestionan aproximadamente?
+- ¿En qué departamento o región de Perú opera la empresa?
+- ¿Cuál es el tamaño aproximado de su equipo de gestión y veterinario?
+
+2. **<u>Personalidad, Aspecto Emocional y Habilidades del Usuario</u>**
+
+- Defina una frase o un lema que represente el compromiso ético y sostenible de su empresa en la producción ganadera.
+- Describa alguna cualidad o fortaleza que considere representativa de la cultura de su empresa respecto a la precisión y el cuidado individual del ganado.
+- ¿Qué emociones genera a la gerencia o al equipo escuchar que no se está logrando una alimentación precisa y óptima para sus animales? ¿Por qué?
+- ¿Cómo se siente cuando no encuentra un sistema integral de gestión veterinaria o una solución que le permita el acceso constante y adecuado a la información de salud? ¿Buscan desarrollar algo internamente o buscan alternativas externas?
+- ¿Se considera la empresa hábil y abierta a la adopción de nuevas soluciones tecnológicas o software especializados para la ganadería? ¿Cree que es indispensable que una empresa ganadera corporativa se adecúe al entorno digital? ¿Por qué?
+
+3. **<u>Evaluación del Problema</u>**
+
+- ¿La plataforma Moobile ha logrado proporcionar ese sistema integral de gestión veterinaria que buscaban? ¿Se garantiza ahora un acceso constante y adecuado a la atención médica veterinaria para todos sus animales?
+- ¿Las herramientas de Moobile para la gestión de la nutrición han ayudado a asegurar una alimentación precisa y óptima para los animales? ¿Esto ha mejorado el bienestar animal de manera medible en la empresa?
+- ¿Cómo evalúa la utilidad de las herramientas de Moobile para evaluar su impacto ambiental y social? ¿Cree que esta información es precisa y/o valiosa para los reportes de sostenibilidad corporativos?
+- ¿La integración de Moobile ayudó a reducir los problemas de comunicación dispersa y la respuesta tardía ante eventos críticos entre sus equipos? ¿En qué porcentaje estima la mejora de la eficiencia operativa?
+- Desde una perspectiva de retorno de inversión, ¿considera que Moobile es una solución que transforma digitalmente el negocio? ¿Qué valor agregado observa que ha sido la más impactante para la empresa ante la competencia?
+
 ### 6.3.2. Registro de Entrevistas
 
 ### 6.3.3. Evaluaciones según heurísticas
+
+## UX Heuristics & Principles Evaluation  
+
+**Usability – Inclusive Design – Information Architecture**
+### Tareas a Evaluar
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas, enfocadas en la gestión del ganado (EP02) y la navegación:
+
+1. Registro de un nuevo bovino.  
+2. Consulta del historial sanitario de un bovino.  
+3. Búsqueda y filtrado de animales por establo o estado de salud.  
+4. Navegación general hacia las funcionalidades clave (Campañas, Staff, etc.).
+
+**No están incluidas en esta versión:**
+
+- Gestión de roles y permisos de Staff (EP05).  
+- Ejecución de comandos de voz (Voice Commands).  
+- Procesos de autenticación de seguridad (Login/Logout).  
+
+---
+
+### Escala de Severidad
+
+Los errores serán puntuados tomando en cuenta la siguiente escala:
+
+| Nivel | Descripción |
+|-------|--------------|
+| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible. |
+| **2** | Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Debe corregirse con prioridad baja en la siguiente versión. |
+| **3** | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta. |
+| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del lanzamiento. |
+
+---
+
+### Tabla Resumen
+
+| # | Problema | Escala de Severidad | Heurística / Principio Violado |
+|---|-----------|----------------------|--------------------------------|
+| 1 | El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio. | 3 | Usability: Consistencia y estándares |
+| 2 | Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil). | 2 | Usability: Visibilidad del estado del sistema |
+| 3 | Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles. | 3 | Inclusive Design: Proporciona experiencias comparables |
+| 4 | La navegación móvil inferior no incluye un acceso directo a la búsqueda o a la asignación de animales/vacunas. | 3 | Information Architecture: Is it findable? |
+| 5 | No se muestra claramente la capacidad restante del Establo en la vista de asignación de bovinos. | 2 | Usability: Prevención de errores |
+
+---
+
+## Descripción de Problemas
+
+### Problema #1  
+**El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio.**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad - Consistencia y estándares  
+
+**Problema:**  
+En la plataforma web, el botón flotante con el ícono de micrófono (para comandos de voz) se ubica en la esquina inferior derecha. Aunque esta posición es estándar en dispositivos móviles, en escritorio puede superponerse a contenido importante o a la paginación de módulos como *Bovinos* o *Staff*. Esto obliga al usuario a interactuar con el comando de voz innecesariamente o ajustar la vista manualmente, interrumpiendo su flujo.  
+
+**Recomendación:**  
+Reubicar el control de comando de voz dentro del encabezado principal (junto al saludo o al botón *Logout*), o integrarlo en la barra lateral de navegación izquierda, evitando que interfiera con el contenido principal.
+
+---
+
+### Problema #2  
+**Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil).**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
+
+**Problema:**  
+El formulario de registro de un nuevo bovino contiene múltiples campos (nombre, género, raza, ubicación, etc.). Al no contar con un indicador visual de progreso, el usuario desconoce cuántos pasos restan para finalizar, lo que puede generar frustración o abandono de la tarea.  
+
+**Recomendación:**  
+Incluir una barra o *stepper* de progreso en la parte superior del formulario que divida el proceso en pasos lógicos (por ejemplo: "Datos Básicos", "Ubicación y Salud", "Confirmación"). Esto reduce la carga cognitiva y mejora la percepción de avance.
+
+---
+
+### Problema #3  
+**Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles.**  
+**Severidad:** 3  
+**Heurística violada:** Inclusive Design - Proporciona experiencias comparables  
+
+**Problema:**  
+En las tarjetas de métricas del panel general se utilizan íconos que transmiten información visual, pero carecen de etiquetas `alt` o `aria-label`. Esto impide que los lectores de pantalla describan correctamente los elementos, afectando la accesibilidad para usuarios con discapacidad visual.  
+
+**Recomendación:**  
+Asegurar que todos los elementos gráficos que comunican información tengan etiquetas `alt` o `aria-label` descriptivas. Esto garantiza una experiencia inclusiva y cumple con los estándares de accesibilidad definidos en las pautas **WCAG**.
+
+---
+
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
@@ -2958,13 +3158,73 @@ El despliegue del frontend de la aplicación se realiza mediante la plataforma N
 
 ## 7.4. Continuous Monitoring
 
+En esta sección se busca visualizar el proceso de supervisión del comportamiento de la aplicación en tiempo real, con el fin de detectar y responder errores o anomalías que puedan afectar de manera efectiva.
+
 ### 7.4.1. Tools and Practices
+
+Para implementar el monitoreo continuo efectivo en nuestra aplicación, consideramos fundamental aplicar un conjunto de herramientas junto a buenas prácticas. A continuación, detallaremos las principales:
+
+#### **a. Herramientas de monitoreo:**
+
+La imagen muestra la interfaz de configuración de Sematext Synthetics, específicamente la pantalla para crear un Browser Monitor. Esta herramienta permite realizar pruebas sintéticas sobre aplicaciones web simulando la interacción de un usuario real desde diferentes ubicaciones del mundo. En la captura se observa la creación de un monitor llamado MobileApp, donde es posible definir el tipo de dispositivo, establecer el intervalo de ejecución, configurar reintentos automáticos en caso de fallos y seleccionar las regiones geográficas desde donde se ejecutarán las pruebas. Sematext Synthetics facilita el monitoreo continuo del rendimiento, la detección temprana de errores y la validación de la disponibilidad del servicio bajo distintas condiciones de red y localización.
+
+<img alt="Create Browser Monitoring" src="assets/chapter-7/ToolsAndPractices/Sematex.png" />
+
+#### **b. Métricas clave:**
+
+Es esencial identificar y monitorear métricas relevantes, como: 
+    - Tiempo de respuesta en ms 
+    - Tasa de errores 
+    - Disponibilidad del sistema 
+    - Volumen de tráfico (tamaño de la transacción) 
+
+#### **c. Registros (Logging):**
+
+El uso de mecanismos de registro que almacenen eventos y logs de la aplicación permite identificar comportamientos anómalos y agiliza el proceso de diagnóstico y resolución de fallos.
+
+#### **d. Monitorización de la infraestructura:**
+
+Además de la aplicación, es importante supervisar las diferentes tecnologías ligadas a la aplicación: 
+    - Servidores 
+    - Bases de datos 
+    - Servicios de red y componentes del sistema operativo
 
 ### 7.4.2. Monitoring Pipeline Components
 
+Un pipeline de monitoreo continuo se estructura en distintas fases que permiten observar, analizar y responder al comportamiento del sistema en tiempo real. Las etapas fundamentales incluyen:
+
+  - Recopilación de datos:
+    Las soluciones de monitoreo capturan información proveniente de múltiples orígenes, como la propia aplicación, la infraestructura, los registros generados y los servicios relacionados.
+
+  - Almacenamiento de datos:
+    Los datos obtenidos se conservan en plataformas de almacenamiento especializadas, comúnmente bases de datos de series temporales, que facilitan su consulta y análisis posterior.
+
 ### 7.4.3. Alerting Pipeline Components
 
+El sistema de alertas constituye un componente clave dentro del monitoreo continuo, pues facilita la detección y notificación automática de eventos inusuales o críticos que puedan comprometer el rendimiento de una aplicación o de su infraestructura. En este sentido, empleamos la plataforma de monitoreo Sematext para configurar nuestro propio flujo de alertas.
+
+<img alt="Configure alerts" src="assets/chapter-7/AlertingPipelineComponents/AlertingOverview.png" />
+
 ### 7.4.4. Notification Pipeline Components
+
+El flujo de notificaciones se encarga de distribuir las alertas generadas por el sistema de monitoreo a las personas adecuadas, lo cual resulta esencial para asegurar que los equipos responsables reciban la información de forma rápida y eficaz. Este flujo está compuesto por los siguientes elementos principales:
+
+<img alt="Configure alerts" src="assets/chapter-7/NotificationPipelineComponents/NotificationOverview.png" />
+
+#### **a. Canal de comunicación:**
+Las alertas pueden enviarse mediante distintos medios, según la importancia del evento y las preferencias del equipo. Entre los canales que utilizamos con mayor frecuencia se encuentran:
+
+  - Correo electrónico
+  - SMS
+
+#### **b. Formato del mensaje:**
+Las notificaciones deben presentarse de manera clara y directa, incluyendo los datos necesarios para permitir una respuesta ágil. Esto contempla:
+
+  - Descripción del incidente o alerta
+  - Nivel de severidad
+  - Componente o fuente afectada
+  - Enlaces a paneles de control o registros relevantes
+  - Recomendaciones o pasos sugeridos para su resolución
 
 # **Part III: Experiment-Driven Lifecycle**
 
