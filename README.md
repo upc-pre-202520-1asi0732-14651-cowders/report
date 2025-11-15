@@ -2736,6 +2736,20 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 #### 6.4.2.1. Información del grupo auditor
 
+- Nombre del grupo auditor: DebtGo
+
+- Responsable del equipo: Daniel Jhared Chavarri Zarzosa
+
+- Integrantes del grupo auditor:
+
+  - Maria Fernanda Peña Riofrio
+
+  - Daniel Jhared Chavarri Zarzosa
+
+  - Anderson José William Gamarrra Vega
+
+- Objetivo de la auditoría: Evaluar la usabilidad de las funciones principales de la plataforma Moobile, identificar hallazgos críticos y proponer mejoras alineadas a principios de usabilidad reconocidos (heurísticas de Nielsen).
+
 #### 6.4.2.2. Cronograma de auditoría recibida
 
 #### 6.4.2.3. Contenido de auditoría recibida
