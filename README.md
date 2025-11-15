@@ -3028,6 +3028,68 @@ Para el desarrollo de las hipótesis en esta etapa de diseño, se utilizarán di
 
 ### 8.2.3. Measures
 
+**EP01: Gestión de Establos**
+
+Medidas:
+	**•	Tasa de éxito en gestión de establos (%):** Número de operaciones completadas (crear/editar/eliminar) sin errores / total de intentos.
+	**•	Errores de validación por sesión:** Total de errores en formularios de establos / total de sesiones relacionadas.
+	**•	Tiempo medio para registrar un establo (s):** Tiempo promedio desde que se abre el formulario hasta que se guarda exitosamente.
+	**•	Número de pasos repetidos:** Veces que el usuario vuelve atrás, corrige o reinicia el formulario de establo.
+	**•	Uso del buscador de establos (%):** Sesiones donde se utiliza la búsqueda de establos / total de sesiones en el módulo.
+    
+**EP02: Gestión de Bovinos**
+
+Medidas:
+	**•	Tasa de éxito en registro de bovinos (%):** Bovinos registrados sin errores / total de intentos de registro.
+	**•	Errores por arete duplicado (%):** Registros rechazados por arete repetido / total de intentos.
+	**•	Tiempo medio de registro de bovino (s):** Desde que se abre el formulario hasta que se guarda correctamente.
+	**•	Porcentaje de bovinos con ficha completa:** Fichas con datos obligatorios completos (arete, raza, sexo, fecha, salud, establo) / total de bovinos.
+	**•	Frecuencia de edición por bovino:** Número de ediciones realizadas / total de bovinos registrados.
+
+⸻
+
+**EP03: Gestión de Vacunas**
+
+Medidas:
+	**•	Tasa de éxito en registro de vacunas (%):** Registros de vacunación guardados sin errores / total de intentos.
+	**•	Errores de fecha futura (%):** Registros rechazados por fechas inválidas / total de intentos.
+	**•	Tiempo medio para registrar una vacunación (s):** Desde la selección del bovino hasta el guardado del registro.
+	**•	Porcentaje de bovinos con historial sanitario completo:** Bovinos con al menos una vacuna registrada según su edad / total de bovinos.
+	**•	Uso de filtros en el historial (%):** Sesiones que utilizan filtros por fecha/tipo/bovino / sesiones totales en el módulo de vacunas.
+
+⸻
+
+**EP04: Gestión de Campañas**
+
+Medidas:
+	**•	Tiempo medio para crear una campaña (s):** Desde abrir el formulario hasta guardar la campaña.
+	**•	Tasa de campañas completadas (%):** Campañas marcadas como “completadas” / total de campañas creadas.
+	**•	Tasa de edición posterior (%):** Campañas que fueron modificadas después de creadas / total de campañas.
+	**•	Número medio de personal asignado por campaña:** Total de asignaciones de personal / total de campañas activas.
+	**•	Tasa de uso de filtros por fecha (%):** Sesiones que usan búsqueda por rango de fechas / sesiones totales en el módulo.
+
+⸻
+
+**EP05: Gestión de Personal**
+
+Medidas:
+	**•	Tasa de éxito en registro de personal (%):** Registros de personal creados sin errores / total de intentos.
+	**•	Tiempo medio para registrar un empleado (s):** Desde abrir el formulario hasta guardar correctamente.
+	**•	Búsquedas exitosas por nombre (%):** Búsquedas que devuelven al menos un resultado / total de búsquedas.
+	**•	Porcentaje de personal con rol asignado correctamente:** Registros con rol no vacío y coherente con la operación / total de empleados.
+	**•	Tasa de eliminación de personal inactivo (%):** Empleados marcados como inactivos y luego eliminados / total de empleados inactivos.
+
+⸻
+
+**EP06: Información Pública del Sitio Web**
+
+Medidas:
+	**•	Tiempo medio en secciones informativas (s):** Tiempo promedio en páginas de “Funcionalidades”, “Beneficios”, “Misión y Visión”.
+	**•	Tasa de clics en “Contacto” (%):** Clics en enlaces de contacto / total de sesiones de visitantes.
+	**•	Número de secciones vistas por sesión:** Total de secciones informativas visitadas / sesiones de visitantes.
+	**•	Tasa de conversión a registro (%):** Visitantes que pasan de la landing al formulario de registro / total de visitantes.
+	**•	Interacción con la vista general de la plataforma:** Eventos de scroll, clicks o hovers en la demo/vista general / total de sesiones que la cargan.
+
 ### 8.2.4. Conditions
 
 ### 8.2.5. Scale Calculations and Decisions
