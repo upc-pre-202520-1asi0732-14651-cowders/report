@@ -2691,6 +2691,8 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
   - Anderson José William Gamarrra Vega
 
+- Objetivo de la auditoría: Evaluar la usabilidad de las funciones principales de la plataforma de la Startup DebtGo para dentificar hallazgos críticos y proponer mejoras alineadas a principios de usabilidad reconocidos (heurísticas de Nielsen).
+
 #### 6.4.1.2. Cronograma de auditoría realizada
 
 <table>
@@ -2707,25 +2709,25 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
       <td>Planificación de auditoría</td>
       <td>08/11/2025</td>
       <td>1 día</td>
-      <td>Equipo DebtGo</td>
+      <td>Equipo Cowders</td>
     </tr>
     <tr>
       <td>Evaluación heurística de la plataforma</td>
       <td>12/11/2025</td>
       <td>1 día</td>
-      <td>Equipo DebtGo</td>
+      <td>Equipo Cowders</td>
     </tr>
     <tr>
       <td>Documentación de hallazgos preliminares</td>
       <td>13/11/2025</td>
       <td>1 día</td>
-      <td>Equipo DebtGo</td>
+      <td>Equipo Cowders</td>
     </tr>
     <tr>
       <td>Entrega del informe de evaluación de heurísticas final</td>
       <td>14/11/2025</td>
       <td>-</td>
-      <td>Equipo DebtGo</td>
+      <td>Equipo Cowders</td>
     </tr>
   </tbody>
 </table>
@@ -3388,6 +3390,209 @@ El despliegue del frontend de la aplicación se realiza mediante la plataforma N
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories
+
+Esta sección reúne nuevas Historias de Usuario que aún no se integran al backlog oficial, pero que podrían incorporarse en futuras versiones del producto. Dichas historias provienen de experimentos, entrevistas, pruebas de usabilidad u observaciones hechas durante la validación y el proceso XDPD. Representan necesidades, oportunidades de mejora o funcionalidades propuestas para optimizar la experiencia del usuario o solucionar problemas identificados, y requieren ser analizadas antes de avanzar a su desarrollo.
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TB US01</td>
+      <td>Registro con terceros</td>
+      <td>Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso con Google</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en la pantalla de registro
+        <br>
+        <strong>Cuando</strong> hace clic en el botón "Continuar con Google"
+        <br>
+        <strong>Entonces</strong> se abre el pop-up de Google y, tras aceptar, es redirigido a la aplicación como usuario registrado.
+        <br>
+        <br>
+        <strong>Escenario 2: Registro exitoso con Apple</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en la pantalla de registro
+        <br>
+        <strong>Cuando</strong> hace clic en el botón "Continuar con Apple"
+        <br>
+        <strong>Entonces</strong> se inicia la autenticación de Apple y, tras aceptarla, es redirigido a la aplicación como usuario registrado.
+        <br>
+        <br>
+        <strong>Escenario 3: Error de autenticación</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta registrarse con Google o Apple
+        <br>
+        <strong>Cuando</strong> el proveedor de terceros deniega la autenticación
+        <br>
+        <strong>Entonces</strong> la ventana emergente se cierra
+        <br>
+        <strong>Y</strong> el sistema muestra un mensaje de error "No pudimos completar el registro. Inténtalo de nuevo."
+        <br>
+        <br>
+        <strong>Escenario 4: Correo electrónico ya registrado</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta registrarse con un tercero (Google/Apple)
+        <br>
+        <strong>Y</strong> el correo asociado a esa cuenta ya existe en la base de datos de la aplicación con contraseña normal
+        <br>
+        <strong>Cuando</strong> el sistema intenta completar el registro
+        <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje pidiendo al usuario iniciar sesión con su contraseña
+        <br>
+      </td>
+    </tr>
+  <tr>
+      <td>TB US02</td>
+      <td>Personalización ampliada del perfil</td>
+      <td>Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+      <td>
+        <strong>Escenario 1: Actualización de datos exitosa</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en la sección de edición de perfil
+        <br>
+        <strong>Y</strong> ha cambiado la foto y algún dato personal
+        <br>
+        <strong>Cuando</strong> hace clic en "Guardar"
+        <br>
+        <strong>Entonces</strong> la nueva información se actualiza de inmediato
+        <br>
+        <strong>Y</strong> se muestra un mensaje de confirmación flotante "Perfil actualizado exitosamente".
+        <br>
+        <br>
+        <strong>Escenario 2: Subida de foto con formato incorrecto</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta subir una foto
+        <br>
+        <strong>Cuando</strong> selecciona un archivo que no es una imagen
+        <br>
+        <strong>Entonces</strong> el sistema bloquea la subida
+        <br>
+        <strong>Y</strong> muestra un mensaje de error claro sobre los formatos aceptados.
+        <br>
+        <br>
+        <strong>Escenario 3: Campos obligatorios no llenados</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está editando su perfil
+        <br>
+        <strong>Y</strong> intenta borrar un campo que es obligatorio
+        <br>
+        <strong>Cuando</strong> hace clic en "Guardar"
+        <br>
+        <strong>Entonces</strong> el sistema no guarda los cambios
+        <br>
+        <strong>Y</strong> resalta el campo obligatorio vacío con un mensaje de error.
+      </td>
+    <tr>
+      <td>TB US03</td>
+      <td>Confirmación visual al registrar información</td>
+      <td>Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso de un elemento</strong>
+        <br>
+        <strong>Dado que</strong> el usuario completa y envía el formulario de registro
+        <br>
+        <strong>Cuando</strong> el sistema guarda la información correctamente
+        <br>
+        <strong>Entonces</strong> se muestra un mensaje de éxito "Bovino registrado correctamente"
+        <br>
+        <strong>Y</strong> el listado de elementos se actualiza automáticamente para mostrar el nuevo registro.
+        <br>
+        <br>
+        <strong>Escenario 2: Intento de registro duplicado</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta registrar un elemento
+        <br>
+        <strong>Y</strong> la clave o identificador único ya existe en el sistema
+        <br>
+        <strong>Cuando</strong> intenta guardar el formulario
+        <br>
+        <strong>Entonces</strong> el sistema previene la duplicación
+        <br>
+        <strong>Y</strong> muestra un mensaje de error "El ID de establo ya existe. Por favor, ingrese uno nuevo."
+      </td>
+    </tr>
+    <tr>
+      <td>TB US04</td>
+      <td>Buscador y filtros en listados</td>
+      <td>Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+      <td>
+        <strong>Escenario 1: Búsqueda por texto exitosa</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en un listado 
+        <br>
+        <strong>Cuando</strong> introduce texto en el campo de búsqueda 
+        <br>
+        <strong>Entonces</strong> la tabla se filtra en tiempo real
+        <br>
+        <strong>Y</strong> solo muestra los registros que coinciden con el texto introducido.
+        <br>
+        <br>
+        <strong>Escenario 2: Aplicación de filtro por estado</strong>
+        <br>
+        <strong>Dado que</strong> el listado tiene una opción de filtro por estado 
+        <br>
+        <strong>Cuando</strong> el usuario selecciona el filtro "Inactivo"
+        <br>
+        <strong>Entonces</strong> la tabla solo muestra los elementos que están en estado "Inactivo".
+        <br>
+        <br>
+        <strong>Escenario 3: Búsqueda sin resultados</strong>
+        <br>
+        <strong>Dado que</strong> el usuario introduce un término de búsqueda
+        <br>
+        <strong>Y</strong> no hay coincidencias en la tabla
+        <br>
+        <strong>Cuando</strong> la búsqueda se completa
+        <br>
+        <strong>Entonces</strong> la tabla aparece vacía
+        <br>
+        <strong>Y</strong> se muestra un mensaje informativo  "No se encontraron resultados para su búsqueda".
+      </td>
+    </tr>
+  <tr>
+      <td>TB US05</td>
+      <td>Navegación y acciones mediante comandos de voz</td>
+      <td>Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+      <td>
+        <strong>Escenario 1: Navegación exitosa a una sección</strong>
+        <br>
+        <strong>Dado que</strong> el micrófono de la app está activo
+        <br>
+        <strong>Cuando</strong> el usuario dice el comando "Vicky, quiero crear un establo"
+        <br>
+        <strong>Entonces</strong> la aplicación navega inmediatamente a la sección correspondiente.
+        <br>
+        <br>
+        <strong>Escenario 2: Ejecución de acción exitosa</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en una sección de listados
+        <br>
+        <strong>Cuando</strong> el usuario dice el comando "Vicky, quiero agregar un establo"
+        <br>
+        <strong>Entonces</strong> la aplicación abre la ventana o formulario de registro del elemento solicitado.
+        <br>
+        <br>
+        <strong>Escenario 3: Comando de voz no reconocido</strong>
+        <br>
+        <strong>Dado que</strong> el micrófono de la app está activo
+        <br>
+        <strong>Cuando</strong> el usuario dice un comando no definido o ininteligible
+        <br>
+        <strong>Entonces</strong> la aplicación permanece en la pantalla actual
+        <br>
+        <strong>Y</strong> muestra un mensaje de error de reconocimiento "Comando no reconocido, por favor, inténtalo de nuevo."
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 8.3.2. To-Be Product Backlog
   
