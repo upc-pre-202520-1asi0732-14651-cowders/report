@@ -3138,6 +3138,33 @@ Esta información se usará para:
 
 ### 8.2.5. Scale Calculations and Decisions
 
+**Rendimiento y Estabilidad del Sistema:** 
+Se evaluará el comportamiento técnico de VacApp durante las pruebas, midiendo tiempos de carga, latencia del backend, estabilidad del flujo de navegación y manejo de datos en módulos críticos como bovinos, establos y vacunas. El objetivo es asegurar que la plataforma pueda operar de manera estable incluso ante un crecimiento significativo del número de usuarios y registros.
+
+**Tasa de Finalización de Operaciones Críticas:**
+Se analizará cuántos usuarios completan exitosamente acciones clave dentro del sistema —registro de bovinos, asignaciones, búsqueda de información, registro de vacunas, creación de campañas, etc.— como indicador fundamental de usabilidad y claridad del flujo. Un porcentaje consistentemente alto implicará que la plataforma está lista para escalar.
+
+**Comprensión del Flujo de Gestión Ganadera:**
+Se medirá si los usuarios comprenden correctamente los procesos del sistema, como asignar bovinos a establos, registrar vacunas o editar información sanitaria. Una comprensión mínima del 75% será considerada el umbral adecuado para una expansión más amplia.
+
+**Retroalimentación de Ganaderos y Personal Operativo:**
+Se recopilará feedback directo sobre facilidad de uso, claridad de la interfaz, utilidad de los módulos y barreras encontradas. Las sugerencias y reportes de confusión o errores serán analizados para realizar ajustes necesarios antes de escalar la plataforma a un grupo más grande de usuarios.
+	•	Participación Activa en el Piloto:
+Se evaluará el nivel de uso real durante el periodo de pruebas, considerando métricas como:
+	•	ingreso recurrente a la plataforma,
+	•	registro y consulta de datos,
+	•	uso de buscadores,
+	•	interacción con campañas,
+	•	asignación de bovinos y personal.
+Una participación activa por encima del 60% del total de usuarios del piloto será un factor clave para justificar el escalado.
+
+**Viabilidad Técnica y Organizacional:**
+Antes de escalar, se analizará si la infraestructura desplegada en Azure App Service y Netlify puede soportar mayor tráfico y procesamiento. También se evaluará la disponibilidad del equipo técnico y de soporte para atender incidencias, garantizar la continuidad operativa y realizar mejoras sin comprometer la experiencia del usuario.
+
+**Decisión de Escalado:**
+Si los criterios definidos se cumplen —rendimiento adecuado, buenas tasas de finalización, comprensión clara del sistema, retroalimentación positiva y participación activa—, se procederá con un escalado progresivo hacia un mayor número de ganaderos o empresas del sector.
+Si no se alcanzan los umbrales establecidos, se realizará una nueva iteración de mejoras y se continuará operando en un alcance limitado hasta asegurar que la plataforma está lista para una expansión sostenible.
+
 ### 8.2.6. Methods Selection
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
