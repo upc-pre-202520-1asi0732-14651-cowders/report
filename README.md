@@ -1,17 +1,17 @@
 <div align="center">
-  <h3><strong> Universidad Peruana de Ciencias Aplicadas </strong></h3>
-</div>
-
-<div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
 </div>
 
 <div align="center">
-  <h5> Ingeniería de Software </h5>
+  <h3> Universidad Peruana de Ciencias Aplicadas </h3>
 </div>
 
 <div align="center">
-  <h5> Diseño de Experimentos de Ingeniería de Software </h5>
+  <h5> Carrera de Ingeniería de Software - 202520</h5>
+</div>
+
+<div align="center">
+  <h5> 1ASI0732 - Diseño de Experimentos de Ingeniería de Software </h5>
 </div>
 
 <div align="center">
@@ -19,7 +19,7 @@
 </div>
 
 <div align="center">
-  <h5> Docente: Juan Carlos Tinoco Licas </h5>
+  <h5> Profesor: Juan Carlos Tinoco Licas </h5>
 </div>
 
 <div align="center">
@@ -39,26 +39,26 @@
 </div>
 
 <div>
-     <table align="center">
+    <table align="center">
         <tr>
-            <th style="text-align:center;">Apellidos y nombres</th>
             <th style="text-align:center;">Código</th>
+            <th style="text-align:center;">Apellidos y nombres</th>
         </tr>
         <tr>
-            <td>Bravo Gavilano, Jorge Rafael</td>
             <td>U202212535</td>
+            <td>Bravo Gavilano, Jorge Rafael</td>
         </tr>
         <tr>
-            <td>Gonzalez Custodio, Carlos Alberto</td>
             <td>U202020230</td>
+            <td>Gonzalez Custodio, Carlos Alberto</td>
         </tr>
         <tr>
-            <td>Roque Tello, Jack Eddie</td>
             <td>U20221C448</td>
+            <td>Roque Tello, Jack Eddie</td>
         </tr>
         <tr>
-            <td>Silva Morales, Renzo Cesar</td>
             <td>U20221C362</td>
+            <td>Silva Morales, Renzo Cesar</td>
         </tr>
     </table>
 </div>
@@ -2677,6 +2677,18 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 ### 6.4.1. Auditoría realizada
 
 #### 6.4.1.1. Información del grupo auditado
+
+- Nombre del grupo auditado: DebtGo
+
+- Responsable del equipo: Daniel Jhared Chavarri Zarzosa
+
+- Integrantes del grupo auditado:
+
+  - Maria Fernanda Peña Riofrio
+
+  - Daniel Jhared Chavarri Zarzosa
+
+  - Anderson José William Gamarrra Vega
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
