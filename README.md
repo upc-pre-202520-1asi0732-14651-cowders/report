@@ -3595,6 +3595,57 @@ Esta sección reúne nuevas Historias de Usuario que aún no se integran al back
 </table>
 
 ### 8.3.2. To-Be Product Backlog
+
+Esta sección reúne una serie de elementos funcionales o técnicos que podrían integrarse al producto a partir de los aprendizajes obtenidos durante la etapa de experimentación. A diferencia del backlog vigente, este To-Be Product Backlog aún no cuenta con aprobación para su desarrollo. No obstante, consolida posibles funcionalidades, tareas o mejoras que se alinean con las nuevas historias de usuario (To-Be User Stories). Cada ítem descrito se basa en hipótesis validadas, ideas viables o necesidades recurrentes identificadas durante las pruebas con usuarios.
+
+<table>
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>1</b></td>
+      <td>TB US05</td>
+      <td>Navegación y acciones mediante comandos de voz</td>
+      <td>Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+      <td><b>8</b></td>
+    </tr>
+    <tr>
+      <td><b>2</b></td>
+      <td>TB US01</td>
+      <td>Registro con terceros</td>
+      <td>Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+      <td><b>5</b></td>
+    </tr>
+    <tr>
+      <td><b>3</b></td>
+      <td>TB US04</td>
+      <td>Buscador y filtros en listados</td>
+      <td>Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+      <td><b>5</b></td>
+    </tr>
+    <tr>
+      <td><b>4</b></td>
+      <td>TB US02</td>
+      <td>Personalización ampliada del perfil</td>
+      <td>Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+      <td><b>3</b></td>
+    </tr>
+    <tr>
+      <td><b>5</b></td>
+      <td>TB US03</td>
+      <td>Confirmación visual al registrar información</td>
+      <td>Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+      <td><b>2</b></td>
+    </tr>
+  </tbody>
+</table>
   
 ## Conclusiones Y Recomendaciones
 
