@@ -523,6 +523,27 @@
 Esta sección establece las bases para la experimentación sistemática dentro del desarrollo de productos y servicios. Su objetivo es definir el estado actual del problema, formular preguntas clave, identificar lagunas de conocimiento y establecer un marco estructurado para diseñar pruebas de software.
 
 ### 8.1.1. As-Is Summary
+El modelo AS-IS describe el flujo de trabajo actual de los productores (Segmento #1) y las empresas (Segmento #2) al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
+
+#### Segmento #1: Productores Ganaderos Independientes
+
+| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
+| :--- | :--- | :--- | :--- |
+| **1. Registro y Sanidad** | Anotar pesajes, vacunas y partos en un cuaderno o Excel básico. | ¿Es este registro el más actualizado? ¿Qué bovinos necesitan revacunarse el mes que viene? | Incertidumbre por la calidad del dato. Presión por la gestión de tiempo. |
+| **2. Localización de Ganado** | Recorrer físicamente el rancho o el establo para verificar un animal específico por su código. | ¿En qué establo dejé al animal? Necesito ir rápido, no tengo tiempo para buscar. | Frustración ante la lentitud. Dependencia de la memoria del personal. |
+| **3. Evaluación del Desempeño** | Cálculo manual del rendimiento por animal al final del mes. | ¿Está dando el rendimiento esperado? ¿Podría estar perdiendo dinero con este animal? | Duda sobre la rentabilidad. Cansancio por el esfuerzo manual. |
+
+El modelo AS-IS describe el flujo de trabajo actual del productor ganadero al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
+
+#### Segmento #2: Empresas Ganaderas
+
+| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
+| :--- | :--- | :--- | :--- |
+| **1. Trazabilidad y Reporte** | Consolidar datos de múltiples fuentes para generar informes de cumplimiento. | ¿Tenemos todos los datos que pide la certificadora? ¿Qué tan bien estamos cumpliendo con los estándares ambientales? | Estrés por la auditoría y los plazos. Burocracia interna. |
+| **2. Coordinación de Personal** | Asignar personal a campañas o establos por medio de llamadas, radios o listas impresas. | ¿Mi personal sabe a qué establo ir? ¿Cómo verifico que la tarea se hizo correctamente en campo? | Ansiedad por la falta de visibilidad en tiempo real. Desconfianza en la ejecución. |
+| **3. Propuesta de Valor al Cliente** | Intentar comunicar el manejo ético o ambiental del ganado sin datos concretos o digitales. | ¿Cómo les demuestro a los clientes que somos sostenibles? Necesito algo más que palabras para ganar este contrato. | Desconexión con el mercado premium. Pérdida de Oportunidad. |
+
+El flujo de trabajo AS-IS, tanto para productores independientes como para empresas, se caracteriza por la fragmentación de la información y la alta dependencia de procesos manuales. La meta de Moobile es reducir el tiempo de la entrada de datos para transformar la ineficiencia en valor.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 
