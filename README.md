@@ -520,6 +520,7 @@
 # **Capítulo VIII: Experiment-Driven Development**
 
 ## 8.1. Experiment Planning
+Esta sección establece las bases para la experimentación sistemática dentro del desarrollo de productos y servicios. Su objetivo es definir el estado actual del problema, formular preguntas clave, identificar lagunas de conocimiento y establecer un marco estructurado para diseñar pruebas de software.
 
 ### 8.1.1. As-Is Summary
 
