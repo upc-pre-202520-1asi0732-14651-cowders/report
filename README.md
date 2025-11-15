@@ -2692,6 +2692,43 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
+<table>
+  <thead>
+    <tr>
+      <th>Actividad</th>
+      <th>Fecha de ejecución</th>
+      <th>Duración estimada</th>
+      <th>Responsables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Planificación de auditoría</td>
+      <td>08/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+    <tr>
+      <td>Evaluación heurística de la plataforma</td>
+      <td>12/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+    <tr>
+      <td>Documentación de hallazgos preliminares</td>
+      <td>13/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+    <tr>
+      <td>Entrega del informe de evaluación de heurísticas final</td>
+      <td>14/11/2025</td>
+      <td>-</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.4.1.3. Contenido de auditoría realizada
 
 ### 6.4.2. Auditoría recibida
