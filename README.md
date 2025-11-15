@@ -3092,6 +3092,50 @@ Medidas:
 
 ### 8.2.4. Conditions
 
+**Público Objetivo:** El experimento estará dirigido principalmente a productores ganaderos independientes y empresas ganaderas del contexto peruano, además de visitantes interesados en soluciones digitales para la gestión de ganado.
+
+**Entorno de Pruebas:** Las pruebas se realizarán en un entorno controlado y remoto, utilizando navegadores web (Chrome, Edge, Firefox) y la aplicación móvil cuando corresponda. Se buscará simular condiciones reales de uso: conexión a internet variable, dispositivos de gama media y entornos rurales o semiurbanos.
+
+**Período de Pruebas:** El período de experimentación tendrá una duración estimada de dos a tres semanas, durante las cuales los usuarios podrán:
+	•	Registrar y gestionar establos, bovinos y vacunas.
+	•	Crear y monitorear campañas.
+	•	Registrar, consultar y asignar personal.
+	•	Navegar por la landing page de VacApp para conocer la propuesta de valor.
+    
+**Control de Variables Externas:** Se tomarán medidas para mitigar factores que puedan distorsionar los resultados, como:
+	•	Problemas de conectividad frecuentes en zonas rurales.
+	•	Cambios estacionales en la carga de trabajo ganadera (campañas de vacunación reales).
+	•	Diferencias de experiencia digital entre usuarios.
+Cuando sea posible, se registrará el contexto (tipo de conexión, dispositivo, zona) para interpretar mejor los datos.
+
+**•	Condición Experimental:** Los usuarios interactuarán con una versión de VacApp que incluye:
+	•	Formularios con validaciones, mensajes de error claros y ayudas contextuales.
+	•	Listados con filtros y buscadores para establos, bovinos, vacunas, campañas y personal.
+	•	Vistas de resumen (dashboards) básicas para facilitar la toma de decisiones.
+    
+**Condición de Control:**
+Un grupo reducido de usuarios utilizará una versión más básica del sistema, con:
+	•	Menos ayudas visuales y mensajes de apoyo.
+	•	Filtros limitados o búsqueda simplificada.
+Esto permitirá comparar si las mejoras en interfaz y validaciones influyen en la eficiencia y precisión de uso.
+
+**Consentimiento Informado:**
+Todos los participantes serán informados del propósito académico del experimento, del uso de sus datos de manera anónima y deberán aceptar un consentimiento informado antes de utilizar la plataforma en el contexto de pruebas.
+
+**Muestra Representativa:**
+Se buscará una muestra heterogénea, incluyendo:
+	•	Ganaderos independientes.
+	•	Representantes de empresas ganaderas.
+	•	Usuarios con distintos niveles de familiaridad con herramientas digitales.
+Esto permitirá que los resultados sean más representativos del público objetivo real de VacApp.
+
+**Medición y Evaluación Continua:**
+Durante todo el periodo de pruebas se recopilarán métricas clave (tiempos, tasas de éxito, errores, búsquedas, conversiones) asociadas a las épicas EP01–EP06.
+Esta información se usará para:
+	•	Ajustar la interfaz.
+	•	Simplificar flujos de registro y consulta.
+	•	Mejorar mensajes, validaciones y componentes críticos orientados a la productividad del ganadero.
+
 ### 8.2.5. Scale Calculations and Decisions
 
 ### 8.2.6. Methods Selection
