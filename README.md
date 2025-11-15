@@ -3020,6 +3020,40 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 | **Asignación de Personal a Campañas.** | La centralización digital elimina la ambigüedad de los métodos manuales y proporciona trazabilidad instantánea sobre quién, dónde y qué tarea debe realizarse. | Implementar la funcionalidades que aseguren validaciones de disponibilidad y carga de trabajo. | Claim |
 
 ### 8.1.3. Experiment-Ready Questions
+Esta sección corresponde a preguntas listas para ser ejecutadas en un experimento, las cuales serán afinadas al utilizar la técnica de 5Ws y H.
+
+#### 1. ¿El Componente de Comando de Voz reduce el tiempo en el registro de tareas en campo?
+
+| The Five Ws and One H | Detalle para Moobile-Platform |
+| :--- | :--- |
+| **What** | Comparar la tasa de éxito y el tiempo necesario para registrar una Vacuna o Asignar un Bovino a un Establo utilizando el Comando de Voz frente al uso del formulario manual (UI). |
+| **Why** | Para validar la principal suposición de usabilidad y asegurar que la inversión en el Comando de voz se traduce en eficiencia para el personal de campo. |
+| **When** | Durante las pruebas de campo del personal de Staff que realiza tareas rutinarias de registro. |
+| **Where** | En el Frontend donde se activa el comando de voz. |
+| **Who** | Personal de Staff y Usuarios Ganaderos que operan directamente en el establo y están acostumbrados a registrar datos. |
+| **How** | Medir el Tiempo de Tarea y la Tasa de Error de Transcripción en dos grupos: Grupo A (Voz) vs. Grupo B (Manual). |
+
+#### 2. ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el Backend?
+
+| The Five Ws and One H | Detalle para Moobile-Platform |
+| :--- | :--- |
+| **What** | Determinar la latencia máxima aceptable para la consulta de datos complejos. |
+| **Why** | Para establecer un servicio de rendimiento para la gestión de ranchos y mitigar el riesgo de abandono en zonas de baja conectividad. |
+| **When** | Durante las pruebas de Carga/Estrés del sistema, simulando 50 usuarios concurrentes en los endpoints de consulta. |
+| **Where** | En el entorno de pre-producción del backend. |
+| **Who** | Ingenieros de Software y QA que monitorean el rendimiento bajo presión. |
+| **How** | Usar herramientas de load testing para medir la latencia, buscando un valor inferior a 2,000 ms (2 segundos). |
+
+#### 3. ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental?
+
+| The Five Ws and One H | Detalle para Moobile-Platform |
+| :--- | :--- |
+| **What** | Evaluar la Usabilidad y el Valor Percibido de los informes de impacto ambiental y social generados. |
+| **Why** | Para validar la principal propuesta de valor al segmento de Empresas Ganaderas y asegurar que el output sea accionable para el cliente final. |
+| **When** | Durante las entrevistas de validación con las Empresas Ganaderas, mostrando prototipos de reportes. |
+| **Where** | En el módulo de Reporte, centrándose en la claridad de las visualizaciones de métricas complejas. |
+| **Who** | Empresarios Ganaderos y Stakeholders de Trazabilidad. |
+| **How** | Usar encuestas de valor para calificar la utilidad y claridad del informe para la toma de decisiones. |
 
 ### 8.1.4. Question Backlog
 
