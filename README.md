@@ -3035,6 +3035,48 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Hallazgo identificado</th>
+      <th>Modificación propuesta</th>
+      <th>Escala de severidad</th>
+      <th>Prioridad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Falta de opciones de registro con terceros</td>
+      <td>Implementar autenticación con Google y Apple ID para reducir fricción en el registro y facilitar el ingreso.</td>
+      <td>3</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Poca personalización del perfil del usuario</td>
+      <td>Añadir opciones como foto de perfil, rol, información personal y preferencias para mejorar la experiencia personalizada.</td>
+      <td>2</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Falta de confirmación clara después de registrar bovinos, establos o staff</td>
+      <td>Incorporar mensajes de confirmación consistentes y refrescar automáticamente los listados al completar un registro.</td>
+      <td>2</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Listados extensos sin buscador o filtros</td>
+      <td>Agregar herramientas de búsqueda, filtros y/o paginación para optimizar la navegación y búsqueda de elementos.</td>
+      <td>3</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
+
 # **Capítulo VII: DevOps Practices**
   
 ## 7.1. Continuous Integration    
