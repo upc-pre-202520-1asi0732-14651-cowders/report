@@ -73,6 +73,7 @@
 | :-: | :-: | :-: | :-: |
 |1\.0|10/09/2025|Moobile|Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation|
 |2\.0|09/10/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices|
+|3\.0|14/11/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment|
 
 # Contenido
 
