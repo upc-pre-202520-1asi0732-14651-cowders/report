@@ -3069,6 +3069,33 @@ Esta es una herramienta estratégica utilizada durante las fases de investigaci�
 
 ### 8.1.5. Experiment Cards
 
+#### Experiment Card 01: Usabilidad del Comando de Voz
+
+| Sección | Contenido |
+| :--- | :--- |
+| **Question** | ¿El componente de Comando de Voz reduce significativamente el tiempo y el esfuerzo necesario para tareas críticas (registrar una vacuna o mover un bovino) en comparación con la entrada manual a través del formulario? |
+| **Why** | Es vital validar que la inversión en el comando de voz se traduzca en eficiencia y facilidad de uso para el personal de campo, mitigando el riesgo de baja adopción. |
+| **What** | Implementar la funcionalidad de registro de una tarea simple (ej., Asignar Bovino a Establo) y medir el rendimiento con dos grupos: Grupo A (solo voz) vs. Grupo B (solo UI táctil). |
+| **Hypothesis** | Si implementamos la funcionalidad de Comando de Voz, entonces **el Tiempo de Tarea (TT) para el registro se reducirá en al menos un 40%**, con una Tasa de Error de Transcripción (TET) inferior al 5%. |
+
+#### Experiment Card 02: Rendimiento y Latencia de Consultas
+
+| Sección | Contenido |
+| :--- | :--- |
+| **Question** | ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el backend? |
+| **Why** | La latencia alta en la consulta de datos complejos puede frustrar a los usuarios en zonas de baja conectividad y es un riesgo de escalabilidad no medido. |
+| **What** | Ejecutar pruebas de carga/estrés simulando 50 usuarios concurrentes en los *endpoints* de consulta y midiendo la latencia en la base de datos simulada. |
+| **Hypothesis** | Si se logra una latencia inferior a **2,000 ms (2 segundos)** al consultar varias entidades, entonces el rendimiento será aceptable para la mayoría de los escenarios de conectividad en campo. |
+
+#### Experiment Card 03: Valor Percibido del Reporte de Impacto
+
+| Sección | Contenido |
+| :--- | :--- |
+| **Question** | ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental y es percibido como valioso por las Empresas Ganaderas? |
+| **Why** | Es crucial validar la principal propuesta de valor diferenciadora de Moobile, asegurando que los reportes generen *insights* accionables y refuercen la confianza con el cliente final. |
+| **What** | Crear dos versiones de prototipos de informes y presentarlos a empresas para medir la claridad, utilidad y Valor Percibido. |
+| **Hypothesis** | Si presentamos los datos de impacto ambiental y social en un **dashboard circular y jerárquico**, entonces el Valor Percibido por las empresas aumentará en al menos un **25%** respecto al formato de tabla lineal simple. |
+
 ## 8.2. Experiment Design
 
 ### 8.2.1. Hypotheses
