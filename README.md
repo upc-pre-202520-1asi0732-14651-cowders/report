@@ -2986,6 +2986,44 @@ El despliegue del frontend de la aplicación se realiza mediante la plataforma N
 
 ### 8.2.1. Hypotheses
 
+Para el desarrollo de las hipótesis en esta etapa de diseño, se utilizarán diferentes herramientas y componentes de acuerdo con el caso.
+
+| EP01 | Gestión de Establos |
+| ---- | ------------------- |
+| Question     | ¿Los ganaderos pueden gestionar correctamente sus establos cuando la interfaz muestra información clara sobre capacidad, nombre y distribución del ganado?                    |
+| Hypothesis     | Los usuarios ganaderos pueden crear, visualizar, editar y eliminar establos sin dificultades cuando la interfaz presenta formularios simples y listados organizados.                    |
+| Data Analytics | Tiempo promedio para crear un establo. Tasa de errores en creación o edición. Porcentaje de búsquedas exitosas. Frecuencia de modificaciones realizadas por el usuario.                |
+
+| EP02 | Gestión de Bovinos |
+| ---- | ------------------- |
+| Question     |  ¿Los usuarios pueden registrar y gestionar la información de sus bovinos de forma precisa utilizando formularios guiados y validaciones en tiempo real?                   |
+| Hypothesis     |  Los ganaderos registrarán correctamente los datos de bovinos (arete, raza, sexo, nacimiento, salud) cuando existan validaciones claras que eviten duplicados o datos inconsistentes.                   |
+| Data Analytics |   Tiempo promedio para registrar un bovino. Porcentaje de registros completos. Frecuencia de edición por bovino. Tasa de búsquedas exitosas por arete o raza.              |
+
+| EP03 | Gestión de Vacunas |
+| ---- | ------------------- |
+| Question     |  ¿Los ganaderos pueden registrar y visualizar la información sanitaria de sus bovinos de manera eficiente mediante historiales claros y filtros adecuados?                   |
+| Hypothesis     |  Los usuarios podrán mantener un historial sanitario preciso si el sistema permite registrar vacunas rápidamente y visualizar información por fecha, tipo y bovino.                   |
+| Data Analytics |  Tiempo promedio para registrar una vacuna. Número de correcciones en registros. Búsquedas por fecha y tipo. Porcentaje de bovinos con historial actualizado.               |
+
+| EP04 | Gestión de Campañas |
+| ---- | ------------------- |
+| Question     |  ¿Los empresarios ganaderos pueden planificar y coordinar campañas de manera eficiente cuando la plataforma organiza campañas por estado, fechas y personal asignado?                   |
+| Hypothesis     | La organización del sistema por campañas activas y completadas mejora la planificación del usuario y facilita la coordinación de recursos humanos y sanitarios.                    |
+| Data Analytics | Tiempo promedio para crear campañas. Tasa de campañas editadas. Número de personal asignado por campaña. Búsquedas por rango de fechas. Porcentaje de campañas completadas.                |
+
+| EP05 | Gestión del Staff |
+| ---- | ------------------- |
+| Question     |  ¿Los empresarios ganaderos pueden gestionar eficientemente al personal utilizando una plataforma con roles claros, filtros por nombre y tarjetas informativas?                   |
+| Hypothesis     |  Los usuarios podrán registrar, buscar y asignar personal correctamente cuando la interfaz presente roles visibles, datos ordenados y un sistema de asignación intuitivo.                   |
+| Data Analytics | Tiempo promedio de registro. Búsquedas exitosas por nombre. Cantidad de asignaciones correctas por campaña. Errores al editar información. Porcentaje de personal inactivo eliminado.               |
+
+| EP06 | Información del Sitio Web |
+| ---- | ------------------- |
+| Question     |  ¿Los visitantes del sitio pueden comprender el valor de la plataforma y sus beneficios cuando se presenta una estructura clara de funcionalidades, misión y contacto?                   |
+| Hypothesis     | Los visitantes mostrarán mayor interés en VacApp cuando encuentren secciones claras sobre funcionalidades principales, beneficios ganaderos y canales de contacto.                    |
+| Data Analytics | Tiempo en secciones informativas. Clics en “Contacto”. Número de secciones vistas por usuario. Interacciones con la vista general. Conversión de visitantes hacia registro.                |
+
 ### 8.2.2. Domain Business Metrics
 
 ### 8.2.3. Measures
