@@ -3057,6 +3057,16 @@ Esta sección corresponde a preguntas listas para ser ejecutadas en un experimen
 
 ### 8.1.4. Question Backlog
 
+Esta es una herramienta estratégica utilizada durante las fases de investigación, validación de hipótesis y descubrimiento de producto. Con ella, nuestro objetivo es estructurar y priorizar las preguntas clave que el equipo de desarrollo necesita responder para garantizar que la solución propuesta se sincronice con las necesidades, comportamientos y expectativas reales de los usuarios.
+
+#### Preguntas Prioritarias para Experimentación de Moobile
+
+1.  **¿El componente de Comando de Voz reduce el tiempo para el registro de tareas en campo** en comparación con la entrada manual a través del formulario? **(Riesgo: Usabilidad)**
+2.  **¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva** (ej., listar 1,000+ bovinos) en el *backend*? **(Riesgo: Rendimiento/Escalabilidad)**
+3.  **¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental** para las Empresas Ganaderas? **(Riesgo: Propuesta de Valor)**
+4.  **¿El sistema de Alertas y Notificaciones sobre el estado de salud de los bovinos es lo suficientemente oportuno para generar una acción correctiva?** **(Riesgo: Valor y Gestión de Staff)**
+5.  **¿La Asignación de Personal a Campañas a través de la plataforma reduce los errores de coordinación en comparación con los métodos manuales?** **(Riesgo: Eficiencia Operativa)**
+
 ### 8.1.5. Experiment Cards
 
 ## 8.2. Experiment Design
