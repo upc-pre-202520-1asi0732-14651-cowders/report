@@ -546,6 +546,27 @@ El modelo AS-IS describe el flujo de trabajo actual del productor ganadero al ge
 El flujo de trabajo AS-IS, tanto para productores independientes como para empresas, se caracteriza por la fragmentación de la información y la alta dependencia de procesos manuales. La meta de Moobile es reducir el tiempo de la entrada de datos para transformar la ineficiencia en valor.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+A continuación, se presentan las premisas, lagunas de conocimiento y afirmaciones que hemos formulado e identificado de acuerdo al core business.
+
+#### Premisas y Suposiciones (Assumptions)
+
+| Premisa | Justificación | Enfoque Tecnológico | Tipo |
+| :--- | :--- | :--- | :--- |
+| **Comando de Voz como herramienta de entrada preferida.** | El ambiente de trabajo ganadero a menudo requiere manos libres, ya que la manipulación de dispositivos táctiles es inconveniente o imposible. | Priorizar la optimización del comando de voz en el frontend y la baja latencia del backend para asegurar una precisión en la interpretación de comandos clave. | Assumption |
+| **Sistema de Alertas generará acción correctiva.** | La salud de los bovinos se puede cuidar si la información es oportuna y accionable, lo cual es esencial para reducir pérdidas por enfermedad. | Implementación de un servicio de notificación en la aplicación (Staff Administration BC). | Assumption |
+
+#### Lagunas de Conocimiento (Knowledge Gaps)
+
+| Laguna | Justificación | Enfoque Tecnológico | Tipo |
+| :--- | :--- | :--- | :--- |
+| **Tasa máxima de latencia aceptable.** | Una latencia alta frustrará la adopción en campo, especialmente en zonas con conectividad limitada. | Se requiere diseñar Pruebas de Carga/Estrés para medir la latencia bajo simulación de usuarios concurrentes. | Knowledge Gap |
+
+#### Afirmaciones y Decisiones de Diseño (Claims)
+
+| Afirmación | Justificación | Enfoque Tecnológico | Tipo |
+| :--- | :--- | :--- | :--- |
+| **Arquitectura basada en DDD.** | La separación por Bounded Contexts aísla fallos, facilita la escalabilidad de equipos y permite la evolución independiente de módulos críticos. | Mantener la cohesión de los Agregados dentro de cada Bounded Context y usar el Shared Context solo para primitivas y Value Objects universales. | Claim |
+| **Asignación de Personal a Campañas.** | La centralización digital elimina la ambigüedad de los métodos manuales y proporciona trazabilidad instantánea sobre quién, dónde y qué tarea debe realizarse. | Implementar la funcionalidades que aseguren validaciones de disponibilidad y carga de trabajo. | Claim |
 
 ### 8.1.3. Experiment-Ready Questions
 
