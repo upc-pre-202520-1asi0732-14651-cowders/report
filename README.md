@@ -2797,6 +2797,242 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
+**Moobile - Evaluación de Heurísticas y Principios UX**
+
+- Carrera: Ingeniería de Software
+
+- Curso: Diseño de Experimentos de Software - 1ASI0732
+
+- NRC: 14651
+
+- Profesores: Todos
+
+- Auditor: DebtGo
+
+- Cliente: Cowders (Equipo de Moobile)
+
+- Sitio o App a Evaluar: Moobile
+
+*TAREAS A EVALUAR:*
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo
+
+2. Visualización del perfil del usuario
+
+3. Gestión de bovinos
+
+4. Gestión de establos
+
+5. Gestión de vacunas
+
+6. Gestión de staff
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Gestión de campañas
+
+2. Funcionalidades con comandos de voz
+
+*ESCALA DE SEVERIDAD:*
+
+<table>
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>
+        Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+*TABLA RESUMEN:*
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística violada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Falta de opciones de registro con terceros</td>
+      <td>3</td>
+      <td>6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Poca personalización del perfil</td>
+      <td>2</td>
+      <td>7. Flexibility and Efficiency of Use</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Falta de confirmación clara después de registrar bovinos, establos o staff</td>
+      <td>2</td>
+      <td>9. Help Users Recognize, Diagnose, and Recover from Errors</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Listados extensos sin buscador o filtros</td>
+      <td>3</td>
+      <td>7. Flexibility and Efficiency of Use</td>
+    </tr>
+  </tbody>
+</table>
+
+*DESCRIPCIÓN DE PROBLEMAS:*
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #1: Falta de opciones de registro con terceros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        El proceso de registro solo permite crear una cuenta mediante nombre de usuario, correo y contraseña. Esto obliga al usuario a recordar datos y crear credenciales nuevas, generando fricción y aumentando la probabilidad de abandono del proceso de registro.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Incorporar botones de registro con Google o Apple para facilitar un acceso rápido, reducir carga cognitiva y mejorar la experiencia de ingreso.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #2: Poca personalización del perfil del usuario</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 7. Flexibility and Efficiency of Use</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        El perfil solo permite editar campos básicos como el nombre de usuario y el correo. Esto limita la capacidad del usuario de personalizar su experiencia, debilitando el sentido de identidad y control dentro de la aplicación.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Permitir editar información adicional como foto de perfil, datos personales o preferencias, brindando mayor flexibilidad y una experiencia más completa.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #3: Falta de confirmación clara después de registrar bovinos, establos o staff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 9. Help Users Recognize, Diagnose, and Recover from Errors</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Al completar un registro, la aplicación no muestra un mensaje de éxito claro ni retroalimentación visual inmediata. Esto genera incertidumbre sobre si la acción se realizó correctamente y puede llevar a duplicar registros o cometer errores.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Mostrar mensajes de confirmación visibles y consistentes, y actualizar el listado automáticamente después de registrar un elemento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #4: Listados extensos sin buscador o filtros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 7. Flexibility and Efficiency of Use</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Las secciones que contienen muchos elementos (bovinos, establos, vacunas o staff) se vuelven difíciles de navegar debido a la falta de filtros, buscador o herramientas de organización. Esto incrementa el tiempo necesario para encontrar información y afecta la eficiencia del sistema.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Agregar herramientas de búsqueda, filtros por categoría o paginación para facilitar la navegación y mejorar la eficiencia en tareas repetitivas o con grandes volúmenes de datos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
 # **Capítulo VII: DevOps Practices**
