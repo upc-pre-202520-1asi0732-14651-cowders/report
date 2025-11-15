@@ -3167,6 +3167,22 @@ Si no se alcanzan los umbrales establecidos, se realizará una nueva iteración 
 
 ### 8.2.6. Methods Selection
 
+Para evaluar el sistema VacApp se utilizará una combinación de métodos cuantitativos y cualitativos:
+
+**Pruebas de usabilidad:**
+Los usuarios realizarán tareas clave como registrar bovinos, crear establos, asignar personal, registrar vacunas y gestionar campañas, observando posibles dificultades en la navegación, formularios o flujos críticos tanto en la versión web como móvil.
+
+**Encuestas post-uso:**
+Se aplicarán encuestas breves para medir facilidad de uso, claridad en los procesos ganaderos (registro, asignación, vacunación), satisfacción general y percepción de eficiencia dentro de la plataforma.
+
+**Análisis de métricas:**
+Se recogerán datos como número de bovinos registrados, tiempo de navegación por módulo (bovinos, establos, vacunas, personal), uso de buscadores, puntos de abandono y errores frecuentes en flujos de gestión ganadera.
+
+**Pruebas A/B (si aplica):**
+Se compararán versiones con diferentes estructuras de formularios o mensajes de validación para evaluar su impacto en la velocidad de registro y en la comprensión de las acciones dentro del sistema.
+
+Estos métodos permitirán validar hipótesis, identificar oportunidades de mejora y tomar decisiones basadas en evidencia real sobre la experiencia y eficiencia de VacApp.
+
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
 ### 8.2.8. Web and Mobile Tracking Plan
