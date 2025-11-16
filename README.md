@@ -2671,7 +2671,7 @@ En esta captura se observa el archivo stylecop.json, donde se configura el compo
 
 <img alt="StyleCop Config" src="assets/chapter-6/Coding Standards & Code Conventions/StyleCopConfig.png"/>
 
-### Pruebas de uso
+**Pruebas de uso**
 
 En la siguiente imagen muestra la clase User, y se puede ver una advertencia con la regla SA1600, que indica que los elementos públicos deben estar documentados. En otras palabras, StyleCop espera que cada clase, propiedad o método tenga un comentario XML con un <summary> que describa su propósito. Esta regla fomenta una mejor documentación del código, especialmente útil en proyectos grandes o colaborativos.
 
@@ -2897,9 +2897,6 @@ En las tarjetas de métricas del panel general se utilizan íconos que transmite
 
 **Recomendación:**  
 Asegurar que todos los elementos gráficos que comunican información tengan etiquetas `alt` o `aria-label` descriptivas. Esto garantiza una experiencia inclusiva y cumple con los estándares de accesibilidad definidos en las pautas **WCAG**.
-
----
-
 
 ## 6.4. Auditoría de Experiencias de Usuario
 
