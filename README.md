@@ -3425,10 +3425,11 @@ El equipo ha definido las siguientes métricas relevantes para el dominio de neg
 
 ---
 
-## Métricas de Eficiencia y Adopción  
-### <u>(E. Card 01: Comando de Voz)</u>
+**Métricas de Eficiencia y Adopción**
 
-### Tiempo de Tarea (TT)
+**E. Card 01: Comando de Voz**
+
+**Tiempo de Tarea**
 
 | Campo | Descripción |
 |-------|-------------|
@@ -3438,7 +3439,7 @@ El equipo ha definido las siguientes métricas relevantes para el dominio de neg
 
 ---
 
-### Tasa de Error de Transcripción (TET)
+**Tasa de Error de Transcripción**
 
 | Campo | Descripción |
 |-------|-------------|
@@ -3448,10 +3449,11 @@ El equipo ha definido las siguientes métricas relevantes para el dominio de neg
 
 ---
 
-## Métrica de Rendimiento Técnico  
-### <u>(E. Card 02: Latencia de Consultas)</u>
+**Métrica de Rendimiento Técnico**
 
-### Latencia de Consultas Críticas (LCC) – P95
+**E. Card 02: Latencia de Consultas**
+
+**Latencia de Consultas Críticas (LCC)**
 
 | Campo | Descripción |
 |-------|-------------|
@@ -3461,10 +3463,11 @@ El equipo ha definido las siguientes métricas relevantes para el dominio de neg
 
 ---
 
-## Métrica de Valor Percibido  
-### <u>(E. Card 03: Reporte de Impacto)</u>
+**Métrica de Valor Percibido**
 
-### Valor Percibido del Reporte (VPR)
+**E. Card 03: Reporte de Impacto**
+
+**Valor Percibido del Reporte**
 
 | Campo | Descripción |
 |-------|-------------|
