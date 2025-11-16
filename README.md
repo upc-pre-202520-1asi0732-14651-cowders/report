@@ -3208,6 +3208,8 @@ Se ejecutaron evaluaciones de rendimiento, accesibilidad y mejores prácticas ut
 
 ### 8.2.8. Web and Mobile Tracking Plan
 
+Se mantendrá un plan detallado del seguimiento de actividades propuestas. Para ello, se crea el siguiente tablero usando la herramienta Trello: https://trello.com/invite/b/6919218181edf447b3fd38d4/ATTIb626c4b05a6e16b3c55bfe14fa5479682ECC842E/web-and-mobile-tracking-plan
+
 ## 8.3. Experimentation
 
 ### 8.3.1. To-Be User Stories
