@@ -2788,6 +2788,22 @@ ___________________________
 
 ### 6.3.2. Registro de Entrevistas
 
+#### Segmento #1: Productores Ganaderos Independientes
+
+Entrevistada:	Karla Ramírez <br>
+Sexo:	Femenino <br>
+Edad:	28 <br>
+Domicilio:	Cajamarca, Perú (Distrito de Namora) <br>
+Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar) <br>
+Duración de entrevista:	6:10 <br>
+
+<i>Resumen de la Entrevista</i> <br>
+Carla Ramírez es propietaria y encargada directa de una pequeña ganadería en Cajamarca, con más de 20 años de experiencia en el negocio familiar. Trabaja principalmente con ganado bovino de doble propósito (leche y carne) y gestiona aproximadamente 38 animales (vacas, terneros y ovejas).
+
+Su principio guía es: "Animal sano, familia tranquila y negocio seguro." Ella considera esenciales la paciencia, la constancia, la observación diaria, la honestidad y la responsabilidad en la alimentación para la calidad de su producto.
+
+Emocionalmente, al buscar información sobre nuevos métodos, siente curiosidad y motivación, aunque le genera frustración cuando la información es muy técnica. Ante problemas de salud animal, siente preocupación e impotencia, y la venta injusta le genera molestia. Se considera una usuaria promedio de tecnología, capaz de usar aplicaciones si están bien explicadas, superando las dificultades iniciales con la práctica.
+
 ### 6.3.3. Evaluaciones según heurísticas
 
 ## UX Heuristics & Principles Evaluation  
