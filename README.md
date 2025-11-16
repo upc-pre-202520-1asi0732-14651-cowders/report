@@ -3381,6 +3381,60 @@ Esta es una herramienta estratégica utilizada durante las fases de investigaci�
 
 ### 8.2.2. Domain Business Metrics
 
+Esta sección sirve para alinear la medición de nuestros experimentos. Su objetivo es asegurar que todas las hipótesis de experimentación se vinculen directamente con los objetivos de negocio a través de métricas concretas, medibles y predefinidas. Esto mitiga el riesgo de tomar decisiones basadas en *vanity metrics* o datos irrelevantes.
+
+El equipo ha definido las siguientes métricas relevantes para el dominio de negocio, que serán utilizadas para evaluar los experimentos. Cada métrica se describe con su fórmula de cálculo, técnica de recolección y meta deseada, y está directamente referenciada por las Experiment Cards.
+
+---
+
+## Métricas de Eficiencia y Adopción  
+### <u>(E. Card 01: Comando de Voz)</u>
+
+### Tiempo de Tarea (TT)
+
+| Campo | Descripción |
+|-------|-------------|
+| **Descripción y Propósito** | Mide el tiempo promedio (en segundos) que le toma al personal de campo completar una tarea crítica de registro simple (ej. Registrar Vacuna, Asignar a Establo). Propósito: evaluar el ahorro de tiempo generado por el Comando de Voz. |
+| **Fórmula** | `TT = (Σ (Tiempo de finalización - Tiempo de inicio)) / (Número total de tareas)` |
+| **Meta Deseada** | Reducir el TT en un 40% para tareas de registro simple al usar el Comando de Voz vs. formulario manual. |
+
+---
+
+### Tasa de Error de Transcripción (TET)
+
+| Campo | Descripción |
+|-------|-------------|
+| **Descripción y Propósito** | Porcentaje de comandos de voz que el sistema no logra transcribir o interpretar correctamente, requiriendo corrección o reintento. Propósito: asegurar la fiabilidad y usabilidad del Comando de Voz. |
+| **Fórmula** | `TET = (Número de comandos fallidos / Número total de comandos de voz) * 100` |
+| **Meta Deseada** | Mantener la TET por debajo del 5%. |
+
+---
+
+## Métrica de Rendimiento Técnico  
+### <u>(E. Card 02: Latencia de Consultas)</u>
+
+### Latencia de Consultas Críticas (LCC) – P95
+
+| Campo | Descripción |
+|-------|-------------|
+| **Descripción y Propósito** | Tiempo que tarda el backend en responder para el 95% (percentil 95) de las solicitudes a endpoints de consulta masiva. Propósito: validar el rendimiento bajo carga y escenarios de conectividad limitada. |
+| **Fórmula** | `LCC (P95) = Tiempo de respuesta (95º percentil)` |
+| **Meta Deseada** | Latencia P95 inferior a 2,000 ms (2 s). |
+
+---
+
+## Métrica de Valor Percibido  
+### <u>(E. Card 03: Reporte de Impacto)</u>
+
+### Valor Percibido del Reporte (VPR)
+
+| Campo | Descripción |
+|-------|-------------|
+| **Descripción y Propósito** | Puntuación promedio asignada por Empresas Ganaderas respecto a la utilidad y claridad del Informe de Impacto Socio-Ambiental. Propósito: evaluar la efectividad del nuevo diseño de reporte. |
+| **Fórmula** | `VPR = (Σ Puntuación de utilidad 1-5) / (Número total de encuestados)` |
+| **Meta Deseada** | Incremento de al menos 25% respecto al diseño anterior (tabla lineal simple). |
+
+
 ### 8.2.3. Measures
 
 ### 8.2.4. Conditions
