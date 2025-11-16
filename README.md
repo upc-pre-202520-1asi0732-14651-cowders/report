@@ -3379,6 +3379,44 @@ Esta es una herramienta estratégica utilizada durante las fases de investigaci�
 
 ### 8.2.1. Hypotheses
 
+Para el desarrollo de las hipótesis en esta etapa de diseño, se utilizarán diferentes herramientas y componentes de acuerdo con el caso.
+
+| EP01 | Gestión de Establos |
+| ---- | ------------------- |
+| Question     | ¿Los ganaderos pueden gestionar correctamente sus establos cuando la interfaz muestra información clara sobre capacidad, nombre y distribución del ganado?                    |
+| Hypothesis     | Los usuarios ganaderos pueden crear, visualizar, editar y eliminar establos sin dificultades cuando la interfaz presenta formularios simples y listados organizados.                    |
+| Data Analytics | Tiempo promedio para crear un establo. Tasa de errores en creación o edición. Porcentaje de búsquedas exitosas. Frecuencia de modificaciones realizadas por el usuario.                |
+
+| EP02 | Gestión de Bovinos |
+| ---- | ------------------- |
+| Question     |  ¿Los usuarios pueden registrar y gestionar la información de sus bovinos de forma precisa utilizando formularios guiados y validaciones en tiempo real?                   |
+| Hypothesis     |  Los ganaderos registrarán correctamente los datos de bovinos (arete, raza, sexo, nacimiento, salud) cuando existan validaciones claras que eviten duplicados o datos inconsistentes.                   |
+| Data Analytics |   Tiempo promedio para registrar un bovino. Porcentaje de registros completos. Frecuencia de edición por bovino. Tasa de búsquedas exitosas por arete o raza.              |
+
+| EP03 | Gestión de Vacunas |
+| ---- | ------------------- |
+| Question     |  ¿Los ganaderos pueden registrar y visualizar la información sanitaria de sus bovinos de manera eficiente mediante historiales claros y filtros adecuados?                   |
+| Hypothesis     |  Los usuarios podrán mantener un historial sanitario preciso si el sistema permite registrar vacunas rápidamente y visualizar información por fecha, tipo y bovino.                   |
+| Data Analytics |  Tiempo promedio para registrar una vacuna. Número de correcciones en registros. Búsquedas por fecha y tipo. Porcentaje de bovinos con historial actualizado.               |
+
+| EP04 | Gestión de Campañas |
+| ---- | ------------------- |
+| Question     |  ¿Los empresarios ganaderos pueden planificar y coordinar campañas de manera eficiente cuando la plataforma organiza campañas por estado, fechas y personal asignado?                   |
+| Hypothesis     | La organización del sistema por campañas activas y completadas mejora la planificación del usuario y facilita la coordinación de recursos humanos y sanitarios.                    |
+| Data Analytics | Tiempo promedio para crear campañas. Tasa de campañas editadas. Número de personal asignado por campaña. Búsquedas por rango de fechas. Porcentaje de campañas completadas.                |
+
+| EP05 | Gestión del Staff |
+| ---- | ------------------- |
+| Question     |  ¿Los empresarios ganaderos pueden gestionar eficientemente al personal utilizando una plataforma con roles claros, filtros por nombre y tarjetas informativas?                   |
+| Hypothesis     |  Los usuarios podrán registrar, buscar y asignar personal correctamente cuando la interfaz presente roles visibles, datos ordenados y un sistema de asignación intuitivo.                   |
+| Data Analytics | Tiempo promedio de registro. Búsquedas exitosas por nombre. Cantidad de asignaciones correctas por campaña. Errores al editar información. Porcentaje de personal inactivo eliminado.               |
+
+| EP06 | Información del Sitio Web |
+| ---- | ------------------- |
+| Question     |  ¿Los visitantes del sitio pueden comprender el valor de la plataforma y sus beneficios cuando se presenta una estructura clara de funcionalidades, misión y contacto?                   |
+| Hypothesis     | Los visitantes mostrarán mayor interés en VacApp cuando encuentren secciones claras sobre funcionalidades principales, beneficios ganaderos y canales de contacto.                    |
+| Data Analytics | Tiempo en secciones informativas. Clics en “Contacto”. Número de secciones vistas por usuario. Interacciones con la vista general. Conversión de visitantes hacia registro.                |
+
 ### 8.2.2. Domain Business Metrics
 
 Esta sección sirve para alinear la medición de nuestros experimentos. Su objetivo es asegurar que todas las hipótesis de experimentación se vinculen directamente con los objetivos de negocio a través de métricas concretas, medibles y predefinidas. Esto mitiga el riesgo de tomar decisiones basadas en *vanity metrics* o datos irrelevantes.
@@ -3437,15 +3475,189 @@ El equipo ha definido las siguientes métricas relevantes para el dominio de neg
 
 ### 8.2.3. Measures
 
+**EP01: Gestión de Establos**
+
+Medidas:
+**-	Tasa de éxito en gestión de establos (%):** Número de operaciones completadas (crear/editar/eliminar) sin errores / total de intentos.
+**-	Errores de validación por sesión:** Total de errores en formularios de establos / total de sesiones relacionadas.
+**-	Tiempo medio para registrar un establo (s):** Tiempo promedio desde que se abre el formulario hasta que se guarda exitosamente.
+**-	Número de pasos repetidos:** Veces que el usuario vuelve atrás, corrige o reinicia el formulario de establo.
+**-	Uso del buscador de establos (%):** Sesiones donde se utiliza la búsqueda de establos / total de sesiones en el módulo.
+    
+---
+
+**EP02: Gestión de Bovinos**
+
+Medidas:
+ **- Tasa de éxito en registro de bovinos (%):** Bovinos registrados sin errores / total de intentos de registro.
+ **-	Errores por arete duplicado (%):** Registros rechazados por arete repetido / total de intentos.
+ **-	Tiempo medio de registro de bovino (s):** Desde que se abre el formulario hasta que se guarda correctamente.
+**-	Porcentaje de bovinos con ficha completa:** Fichas con datos obligatorios completos (arete, raza, sexo, fecha, salud, establo) / total de bovinos.
+**-	Frecuencia de edición por bovino:** Número de ediciones realizadas / total de bovinos registrados.
+
+---
+
+**EP03: Gestión de Vacunas**
+
+Medidas:
+**-	Tasa de éxito en registro de vacunas (%):** Registros de vacunación guardados sin errores / total de intentos.
+**-	Errores de fecha futura (%):** Registros rechazados por fechas inválidas / total de intentos.
+**-	Tiempo medio para registrar una vacunación (s):** Desde la selección del bovino hasta el guardado del registro.
+**-	Porcentaje de bovinos con historial sanitario completo:** Bovinos con al menos una vacuna registrada según su edad / total de bovinos.
+**-	Uso de filtros en el historial (%):** Sesiones que utilizan filtros por fecha/tipo/bovino / sesiones totales en el módulo de vacunas.
+
+---
+
+**EP04: Gestión de Campañas**
+
+Medidas:
+**-	Tiempo medio para crear una campaña (s):** Desde abrir el formulario hasta guardar la campaña.
+**-	Tasa de campañas completadas (%):** Campañas marcadas como “completadas” / total de campañas creadas.
+**-	Tasa de edición posterior (%):** Campañas que fueron modificadas después de creadas / total de campañas.
+**-	Número medio de personal asignado por campaña:** Total de asignaciones de personal / total de campañas activas.
+**-	Tasa de uso de filtros por fecha (%):** Sesiones que usan búsqueda por rango de fechas / sesiones totales en el módulo.
+
+---
+
+**EP05: Gestión de Personal**
+
+Medidas:
+**-	Tasa de éxito en registro de personal (%):** Registros de personal creados sin errores / total de intentos.
+**-	Tiempo medio para registrar un empleado (s):** Desde abrir el formulario hasta guardar correctamente.
+**-	Búsquedas exitosas por nombre (%):** Búsquedas que devuelven al menos un resultado / total de búsquedas.
+**-	Porcentaje de personal con rol asignado correctamente:** Registros con rol no vacío y coherente con la operación / total de empleados.
+**-	Tasa de eliminación de personal inactivo (%):** Empleados marcados como inactivos y luego eliminados / total de empleados inactivos.
+
+---
+
+**EP06: Información Pública del Sitio Web**
+
+Medidas:
+**-	Tiempo medio en secciones informativas (s):** Tiempo promedio en páginas de “Funcionalidades”, “Beneficios”, “Misión y Visión”.
+**-	Tasa de clics en “Contacto” (%):** Clics en enlaces de contacto / total de sesiones de visitantes.
+**-	Número de secciones vistas por sesión:** Total de secciones informativas visitadas / sesiones de visitantes.
+**-	Tasa de conversión a registro (%):** Visitantes que pasan de la landing al formulario de registro / total de visitantes.
+**-	Interacción con la vista general de la plataforma:** Eventos de scroll, clicks o hovers en la demo/vista general / total de sesiones que la cargan.
+
 ### 8.2.4. Conditions
+
+**Público Objetivo:** El experimento estará dirigido principalmente a productores ganaderos independientes y empresas ganaderas del contexto peruano, además de visitantes interesados en soluciones digitales para la gestión de ganado.
+
+**Entorno de Pruebas:** Las pruebas se realizarán en un entorno controlado y remoto, utilizando navegadores web (Chrome, Edge, Firefox) y la aplicación móvil cuando corresponda. Se buscará simular condiciones reales de uso: conexión a internet variable, dispositivos de gama media y entornos rurales o semiurbanos.
+
+**Período de Pruebas:** El período de experimentación tendrá una duración estimada de dos a tres semanas, durante las cuales los usuarios podrán:
+-	Registrar y gestionar establos, bovinos y vacunas.
+-	Crear y monitorear campañas.
+-	Registrar, consultar y asignar personal.
+-	Navegar por la landing page de VacApp para conocer la propuesta de valor.
+    
+**Control de Variables Externas:** Se tomarán medidas para mitigar factores que puedan distorsionar los resultados, como:
+-	Problemas de conectividad frecuentes en zonas rurales.
+-	Cambios estacionales en la carga de trabajo ganadera (campañas de vacunación reales).
+-	Diferencias de experiencia digital entre usuarios.
+Cuando sea posible, se registrará el contexto (tipo de conexión, dispositivo, zona) para interpretar mejor los datos.
+
+**Condición Experimental:** Los usuarios interactuarán con una versión de VacApp que incluye:
+-	Formularios con validaciones, mensajes de error claros y ayudas contextuales.
+-	Listados con filtros y buscadores para establos, bovinos, vacunas, campañas y personal.
+-	Vistas de resumen (dashboards) básicas para facilitar la toma de decisiones.
+    
+**Condición de Control:**
+Un grupo reducido de usuarios utilizará una versión más básica del sistema, con:
+-	Menos ayudas visuales y mensajes de apoyo.
+-	Filtros limitados o búsqueda simplificada.
+Esto permitirá comparar si las mejoras en interfaz y validaciones influyen en la eficiencia y precisión de uso.
+
+**Consentimiento Informado:**
+Todos los participantes serán informados del propósito académico del experimento, del uso de sus datos de manera anónima y deberán aceptar un consentimiento informado antes de utilizar la plataforma en el contexto de pruebas.
+
+**Muestra Representativa:**
+Se buscará una muestra heterogénea, incluyendo:
+-	Ganaderos independientes.
+-	Representantes de empresas ganaderas.
+-	Usuarios con distintos niveles de familiaridad con herramientas digitales.
+Esto permitirá que los resultados sean más representativos del público objetivo real de VacApp.
+
+**Medición y Evaluación Continua:**
+Durante todo el periodo de pruebas se recopilarán métricas clave (tiempos, tasas de éxito, errores, búsquedas, conversiones) asociadas a las épicas EP01–EP06.
+Esta información se usará para:
+-	Ajustar la interfaz.
+-	Simplificar flujos de registro y consulta.
+-	Mejorar mensajes, validaciones y componentes críticos orientados a la productividad del ganadero.
 
 ### 8.2.5. Scale Calculations and Decisions
 
+**Rendimiento y Estabilidad del Sistema:** 
+Se evaluará el comportamiento técnico de VacApp durante las pruebas, midiendo tiempos de carga, latencia del backend, estabilidad del flujo de navegación y manejo de datos en módulos críticos como bovinos, establos y vacunas. El objetivo es asegurar que la plataforma pueda operar de manera estable incluso ante un crecimiento significativo del número de usuarios y registros.
+
+**Tasa de Finalización de Operaciones Críticas:**
+Se analizará cuántos usuarios completan exitosamente acciones clave dentro del sistema —registro de bovinos, asignaciones, búsqueda de información, registro de vacunas, creación de campañas, etc.— como indicador fundamental de usabilidad y claridad del flujo. Un porcentaje consistentemente alto implicará que la plataforma está lista para escalar.
+
+**Comprensión del Flujo de Gestión Ganadera:**
+Se medirá si los usuarios comprenden correctamente los procesos del sistema, como asignar bovinos a establos, registrar vacunas o editar información sanitaria. Una comprensión mínima del 75% será considerada el umbral adecuado para una expansión más amplia.
+
+**Retroalimentación de Ganaderos y Personal Operativo:**
+Se recopilará feedback directo sobre facilidad de uso, claridad de la interfaz, utilidad de los módulos y barreras encontradas. Las sugerencias y reportes de confusión o errores serán analizados para realizar ajustes necesarios antes de escalar la plataforma a un grupo más grande de usuarios.
+- Participación Activa en el Piloto:
+Se evaluará el nivel de uso real durante el periodo de pruebas, considerando métricas como:
+- Ingreso recurrente a la plataforma,
+- Registro y consulta de datos,
+- Uso de buscadores,
+- Interacción con campañas,
+- Asignación de bovinos y personal.
+Una participación activa por encima del 60% del total de usuarios del piloto será un factor clave para justificar el escalado.
+
+**Viabilidad Técnica y Organizacional:**
+Antes de escalar, se analizará si la infraestructura desplegada en Azure App Service y Netlify puede soportar mayor tráfico y procesamiento. También se evaluará la disponibilidad del equipo técnico y de soporte para atender incidencias, garantizar la continuidad operativa y realizar mejoras sin comprometer la experiencia del usuario.
+
+**Decisión de Escalado:**
+Si los criterios definidos se cumplen —rendimiento adecuado, buenas tasas de finalización, comprensión clara del sistema, retroalimentación positiva y participación activa—, se procederá con un escalado progresivo hacia un mayor número de ganaderos o empresas del sector.
+Si no se alcanzan los umbrales establecidos, se realizará una nueva iteración de mejoras y se continuará operando en un alcance limitado hasta asegurar que la plataforma está lista para una expansión sostenible.
+
 ### 8.2.6. Methods Selection
+
+Para evaluar el sistema VacApp se utilizará una combinación de métodos cuantitativos y cualitativos:
+
+**Pruebas de usabilidad:**
+Los usuarios realizarán tareas clave como registrar bovinos, crear establos, asignar personal, registrar vacunas y gestionar campañas, observando posibles dificultades en la navegación, formularios o flujos críticos tanto en la versión web como móvil.
+
+**Encuestas post-uso:**
+Se aplicarán encuestas breves para medir facilidad de uso, claridad en los procesos ganaderos (registro, asignación, vacunación), satisfacción general y percepción de eficiencia dentro de la plataforma.
+
+**Análisis de métricas:**
+Se recogerán datos como número de bovinos registrados, tiempo de navegación por módulo (bovinos, establos, vacunas, personal), uso de buscadores, puntos de abandono y errores frecuentes en flujos de gestión ganadera.
+
+**Pruebas A/B (si aplica):**
+Se compararán versiones con diferentes estructuras de formularios o mensajes de validación para evaluar su impacto en la velocidad de registro y en la comprensión de las acciones dentro del sistema.
+
+Estos métodos permitirán validar hipótesis, identificar oportunidades de mejora y tomar decisiones basadas en evidencia real sobre la experiencia y eficiencia de VacApp.
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+| Objetivo | KPI  | Métricas para medir |
+| -------- | ---- | ------------------- |
+| Validar la eficiencia y correcto funcionamiento del registro de establos         | Tasa de creación exitosa de establos     | Porcentaje de establos creados sin errores. Tiempo promedio de registro. Número de intentos fallidos por validaciones.                    |
+| Medir la claridad del flujo de edición y actualización de información ganadera         | Tasa de modificaciones exitosas en bovinos     |  Porcentaje de ediciones guardadas correctamente. Errores por campos inválidos. Tiempo promedio para editar una ficha.                   |
+|  Evaluar la precisión y utilidad del sistema de búsqueda de bovinos        | Tasa de búsquedas exitosas     |  Número de resultados relevantes. Tiempo promedio hasta encontrar un bovino. Número de búsquedas sin resultados.                   |
+| Validar la efectividad del registro de vacunas dentro del historial sanitario         | Tasa de registros de vacunación completados     |  Porcentaje de registros guardados sin errores. Número de errores por fechas inválidas. Tiempo promedio para registrar una vacuna.                   |
+| Medir la comprensión del flujo de asignación de vacunas y bovinos         | Tasa de asignación correcta     |  Porcentaje de asignaciones válidas. Número de intentos fallidos por restricciones (capacidad, duplicidad). Tiempo promedio del proceso.                   |
+| Evaluar la eficiencia de creación de campañas sanitarias         | Tasa de campañas creadas exitosamente     |  Tiempo promedio para crear una campaña. Porcentaje de campañas con campos completos. Número de errores por validación.                   |
+| Determinar la calidad del módulo de personal y su usabilidad         | Porcentaje de personal registrado correctamente     |  Número de registros válidos. Tiempo promedio del flujo. Errores frecuentes del formulario.                   |
+| Medir la efectividad de la asignación de personal a campañas         | Tasa de asignación de personal por campaña     |   Total de asignaciones realizadas. Intentos fallidos por personal duplicado. Tiempo promedio del proceso.                  |
+| Evaluar la capacidad del usuario para navegar y comprender la plataforma         | Tiempo promedio de navegación por módulo     |  Tiempo en secciones como Establos, Bovinos, Vacunas y Campañas. Puntos de abandono. Número de páginas visitadas por sesión.                   |
+| Medir el valor percibido por los usuarios que visitan la landing page         | Tasa de conversión de visitante a registro     | Porcentaje de visitantes que acceden al formulario. Tiempo en secciones clave (Misión, Beneficios). Número de clics en “Contacto”.                  |
+| Validar la funcionalidad total del sistema bajo condiciones reales         |  Nivel de estabilidad del sistema    |  Tiempos de carga promedio. Errores 4xx/5xx. Tiempo de respuesta del backend (Azure). Rendimiento del frontend (Netlify).                   |
+| Analizar la comprensión de la estructura de información sanitaria     | Tasa de consultas exitosas del historial de vacunación | Número de consultas sin errores. Tiempo promedio para encontrar vacunas. Frecuencia de uso de filtros.                |
+
+Se ejecutaron evaluaciones de rendimiento, accesibilidad y mejores prácticas utilizando Lighthouse en la aplicación VacApp con el propósito de analizar su funcionamiento y mejorar la experiencia de usuario. Estas pruebas permitieron identificar oportunidades de optimización en carga, navegación y usabilidad, asegurando que la plataforma responda adecuadamente a las necesidades tanto de ganaderos independientes como de empresas ganaderas. A continuación se presentan algunos ejemplos correspondientes a ambos segmentos objetivo.
+
+<img width="2048" height="1002" alt="Image" src="https://github.com/user-attachments/assets/1f4f8bb9-2c8c-410e-8991-3dfa4932bbd9" />
+
+<img width="2048" height="990" alt="Image" src="https://github.com/user-attachments/assets/9cf3bbbb-a16e-4fee-9885-168e316725d3" />
+
 ### 8.2.8. Web and Mobile Tracking Plan
+
+Se mantendrá un plan detallado del seguimiento de actividades propuestas. Para ello, se crea el siguiente tablero usando la herramienta Trello: https://trello.com/invite/b/6919218181edf447b3fd38d4/ATTIb626c4b05a6e16b3c55bfe14fa5479682ECC842E/web-and-mobile-tracking-plan
 
 ## 8.3. Experimentation
 
