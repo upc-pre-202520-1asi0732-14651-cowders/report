@@ -2691,7 +2691,7 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
   - Anderson José William Gamarrra Vega
 
-- Objetivo de la auditoría: Evaluar la usabilidad de las funciones principales de la plataforma de la Startup DebtGo para dentificar hallazgos críticos y proponer mejoras alineadas a principios de usabilidad reconocidos (heurísticas de Nielsen).
+- Objetivo de la auditoría: Evaluar la usabilidad de las funciones principales de la plataforma DebtGo, identificar hallazgos críticos y proponer mejoras alineadas a principios de usabilidad reconocidos (heurísticas de Nielsen).
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
@@ -2733,6 +2733,238 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 </table>
 
 #### 6.4.1.3. Contenido de auditoría realizada
+
+**DebtGo - Evaluación de Heurísticas y Principios UX**
+
+- Carrera: Ingeniería de Software
+
+- Curso: Diseño de Experimentos de Software - 1ASI0732
+
+- NRC: 14651
+
+- Profesores: Todos
+
+- Auditor: Cowders
+
+- Cliente: DebtGo
+
+- Sitio o App a Evaluar: DebtGo
+
+*TAREAS A EVALUAR:*
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de usuario
+
+2. Inicio de sesión
+
+3. Workspace
+
+4. Mensajería 
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Historial de Pagos
+
+2. Simuladores de Pagos
+
+*ESCALA DE SEVERIDAD:*
+
+<table>
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>
+        Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+*TABLA RESUMEN:*
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística violada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Sin opciones de inicio/registro con terceros (Login/Registro)</td>
+      <td>3</td>
+      <td>6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Validación y requisitos de contraseña poco visibles (Registro)</td>
+      <td>3</td>
+      <td>5. Error Prevention</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Búsqueda/filtros inexistentes en listados</td>
+      <td>2</td>
+      <td>7. Flexibility & Efficiency</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Persistencia de idioma</td>
+      <td>2</td>
+      <td>2. Match with Real World</td>
+    </tr>
+  </tbody>
+</table>
+
+*DESCRIPCIÓN DE PROBLEMAS:*
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #1: Sin opciones de registro/inicio con terceros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Solo se permite crear cuenta con correo y contraseña. Eleva fricción (recordar credenciales nuevas) y puede afectar la conversión en móviles.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Recomendación: Incorporar OAuth 2.0 (Google/Apple/Microsoft). Mantener _ fallback _ por email. Mostrar tiempos/beneficios (“Accede en 2 clics, sin crear otra clave”).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #2: Requisitos de contraseña poco visibles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 5. Error Prevention</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Los criterios (“≥8 caracteres, al menos 1 número…”) aparecen como lista estática y no se **marcan en vivo** al tipear; los errores no siempre indican cómo resolverlos.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Validación en tiempo real con checklist dinámico (verde/rojo), medidor de fortaleza, mensajes accionables y botón “mostrar contraseña” alineado a accesibilidad (ARIA).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #3: Sin búsqueda/filtros en listados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 7. Flexibility & Efficiency</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        En Services y Messages no hay Search ni Filters. La localización de conversaciones o servicios escala mal con volumen.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Añadir barra de búsqueda (por nombre/título) y filtros (estado, rango de precio/fecha). Paginación o carga incremental para rendimiento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #4: Persistencia de idioma</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 2. Real World</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        El selector EN/ES no indica claramente persistencia; al navegar entre vistas puede perderse la preferencia.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Guardar preferencia en localStorage / cookie, hidratar desde el backend cuando el usuario está autenticado y mostrar indicador breve de idioma activo.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 6.4.2. Auditoría recibida
 
@@ -2811,7 +3043,7 @@ En esta sección se presentan las pruebas esenciales aplicadas al sistema centra
 
 - Auditor: DebtGo
 
-- Cliente: Cowders (Equipo de Moobile)
+- Cliente: Cowders
 
 - Sitio o App a Evaluar: Moobile
 
