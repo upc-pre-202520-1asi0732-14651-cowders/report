@@ -2797,6 +2797,9 @@ Domicilio:	Cajamarca, Perú (Distrito de Namora) <br>
 Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar) <br>
 Duración de entrevista:	6:10 <br>
 
+[![Karla Ramirez](assets/chapter-6/Interviews/karla_ramirez.png)
+
+<br>
 <i>Resumen de la Entrevista</i> <br>
 Carla Ramírez es propietaria y encargada directa de una pequeña ganadería en Cajamarca, con más de 20 años de experiencia en el negocio familiar. Trabaja principalmente con ganado bovino de doble propósito (leche y carne) y gestiona aproximadamente 38 animales (vacas, terneros y ovejas).
 
