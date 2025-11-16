@@ -2673,7 +2673,7 @@ En esta captura se observa el archivo stylecop.json, donde se configura el compo
 
 **Pruebas de uso**
 
-En la siguiente imagen muestra la clase User, y se puede ver una advertencia con la regla SA1600, que indica que los elementos públicos deben estar documentados. En otras palabras, StyleCop espera que cada clase, propiedad o método tenga un comentario XML con un <summary> que describa su propósito. Esta regla fomenta una mejor documentación del código, especialmente útil en proyectos grandes o colaborativos.
+En la siguiente imagen muestra la clase User, y se puede ver una advertencia con la regla SA1600, que indica que los elementos públicos deben estar documentados. En otras palabras, StyleCop espera que cada clase, propiedad o método tenga un comentario XML con un que describa su propósito. Esta regla fomenta una mejor documentación del código, especialmente útil en proyectos grandes o colaborativos.
 
 <img alt="Overview 1" src="assets/chapter-6/Coding Standards & Code Conventions/Overview1.png"/>
 
