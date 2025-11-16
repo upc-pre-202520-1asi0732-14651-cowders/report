@@ -2692,8 +2692,6 @@ El análisis se ejecutó sobre la rama master del repositorio del proyecto, eval
 
 <img alt="Overview SonarQube" src="assets/chapter-6/Code Quality & Code Security/Overview_SonarQube.png"/>
 
-<br>
-
 **Seguridad:**
 El sistema no detectó problemas abiertos y asignó una calificación A, lo cual es un indicador positivo de que no existen vulnerabilidades críticas en el código. Sin embargo, se encontraron nueve security hotspots, que representan puntos de posible riesgo o prácticas que conviene revisar para garantizar la protección frente a ataques.
 
@@ -2703,11 +2701,7 @@ Se reportaron doce incidencias abiertas con una calificación A, lo que refleja 
 **Mantenibilidad (Maintainability):**
 Se obtuvo una calificación C, con un total de cien incidencias abiertas, lo que evidencia la necesidad de refactorizar ciertas partes del código que podrían dificultar su comprensión o mantenimiento futuro.
 
-<br>
-
 <img alt="Security SonarQube" src="assets/chapter-6/Code Quality & Code Security/Security_SonarQube.png"/>
-
-<br>
 
 En la sección de detalles de incidencias, SonarQube muestra un total de 112 problemas distribuidos entre diferentes niveles de severidad: cinco de gravedad alta, ochenta y uno de nivel medio, diecisiete de nivel bajo y nueve informativos. La mayoría de los hallazgos están relacionados con la mantenibilidad del código y no con vulnerabilidades directas. Entre los ejemplos más representativos se encuentran el uso incorrecto de excepciones genéricas, como en el caso de la instrucción "System.Exception should not be thrown by user code", que sugiere reemplazar las excepciones genéricas por tipos más específicos para facilitar el manejo de errores.
 
@@ -3474,7 +3468,6 @@ El equipo ha definido las siguientes métricas relevantes para el dominio de neg
 | **Descripción y Propósito** | Puntuación promedio asignada por Empresas Ganaderas respecto a la utilidad y claridad del Informe de Impacto Socio-Ambiental. Propósito: evaluar la efectividad del nuevo diseño de reporte. |
 | **Fórmula** | `VPR = (Σ Puntuación de utilidad 1-5) / (Número total de encuestados)` |
 | **Meta Deseada** | Incremento de al menos 25% respecto al diseño anterior (tabla lineal simple). |
-
 
 ### 8.2.3. Measures
 
