@@ -3185,6 +3185,27 @@ Estos métodos permitirán validar hipótesis, identificar oportunidades de mejo
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
+| Objetivo | KPI  | Métricas para medir |
+| -------- | ---- | ------------------- |
+| Validar la eficiencia y correcto funcionamiento del registro de establos         | Tasa de creación exitosa de establos     | Porcentaje de establos creados sin errores. Tiempo promedio de registro. Número de intentos fallidos por validaciones.                    |
+| Medir la claridad del flujo de edición y actualización de información ganadera         | Tasa de modificaciones exitosas en bovinos     |  Porcentaje de ediciones guardadas correctamente. Errores por campos inválidos. Tiempo promedio para editar una ficha.                   |
+|  Evaluar la precisión y utilidad del sistema de búsqueda de bovinos        | Tasa de búsquedas exitosas     |  Número de resultados relevantes. Tiempo promedio hasta encontrar un bovino. Número de búsquedas sin resultados.                   |
+| Validar la efectividad del registro de vacunas dentro del historial sanitario         | Tasa de registros de vacunación completados     |  Porcentaje de registros guardados sin errores. Número de errores por fechas inválidas. Tiempo promedio para registrar una vacuna.                   |
+| Medir la comprensión del flujo de asignación de vacunas y bovinos         | Tasa de asignación correcta     |  Porcentaje de asignaciones válidas. Número de intentos fallidos por restricciones (capacidad, duplicidad). Tiempo promedio del proceso.                   |
+| Evaluar la eficiencia de creación de campañas sanitarias         | Tasa de campañas creadas exitosamente     |  Tiempo promedio para crear una campaña. Porcentaje de campañas con campos completos. Número de errores por validación.                   |
+| Determinar la calidad del módulo de personal y su usabilidad         | Porcentaje de personal registrado correctamente     |  Número de registros válidos. Tiempo promedio del flujo. Errores frecuentes del formulario.                   |
+| Medir la efectividad de la asignación de personal a campañas         | Tasa de asignación de personal por campaña     |   Total de asignaciones realizadas. Intentos fallidos por personal duplicado. Tiempo promedio del proceso.                  |
+| Evaluar la capacidad del usuario para navegar y comprender la plataforma         | Tiempo promedio de navegación por módulo     |  Tiempo en secciones como Establos, Bovinos, Vacunas y Campañas. Puntos de abandono. Número de páginas visitadas por sesión.                   |
+| Medir el valor percibido por los usuarios que visitan la landing page         | Tasa de conversión de visitante a registro     | Porcentaje de visitantes que acceden al formulario. Tiempo en secciones clave (Misión, Beneficios). Número de clics en “Contacto”.                  |
+| Validar la funcionalidad total del sistema bajo condiciones reales         |  Nivel de estabilidad del sistema    |  Tiempos de carga promedio. Errores 4xx/5xx. Tiempo de respuesta del backend (Azure). Rendimiento del frontend (Netlify).                   |
+| Analizar la comprensión de la estructura de información sanitaria     | Tasa de consultas exitosas del historial de vacunación | Número de consultas sin errores. Tiempo promedio para encontrar vacunas. Frecuencia de uso de filtros.                |
+
+Se ejecutaron evaluaciones de rendimiento, accesibilidad y mejores prácticas utilizando Lighthouse en la aplicación VacApp con el propósito de analizar su funcionamiento y mejorar la experiencia de usuario. Estas pruebas permitieron identificar oportunidades de optimización en carga, navegación y usabilidad, asegurando que la plataforma responda adecuadamente a las necesidades tanto de ganaderos independientes como de empresas ganaderas. A continuación se presentan algunos ejemplos correspondientes a ambos segmentos objetivo.
+
+<img width="2048" height="1002" alt="Image" src="https://github.com/user-attachments/assets/1f4f8bb9-2c8c-410e-8991-3dfa4932bbd9" />
+
+<img width="2048" height="990" alt="Image" src="https://github.com/user-attachments/assets/9cf3bbbb-a16e-4fee-9885-168e316725d3" />
+
 ### 8.2.8. Web and Mobile Tracking Plan
 
 ## 8.3. Experimentation
