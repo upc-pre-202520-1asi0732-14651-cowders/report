@@ -567,10 +567,15 @@ Las entrevistas están agrupadas en el siguiente link subido a Microsoft Stream:
 #### Segmento #1: Productores Ganaderos Independientes
 
 Entrevistado: Edo
+
 Sexo: Masculino
+
 Edad: 25
+
 Domicilio: Ica, Peru
+
 Tiempo de experiencia en la ganadería: 5 años
+
 Inicio de la entrevista: 00:00
 
 [![image.png](https://i.postimg.cc/Hnks7VLb/image.png)](https://postimg.cc/Q9vr2N1M)
@@ -581,10 +586,15 @@ Edo es productor ganadero independiente con más de 5 años de experiencia. Expl
 ----
 
 Entrevistada: Merly
+
 Sexo: Femenino
+
 Edad: 24
-Domicilio: Lima, Peru
+
+Domicilio: Cajamarca, Peru
+
 Tiempo de experiencia en la ganadería: 10 años
+
 Inicio de la entrevista: 04:42
 
 [![image.png](https://i.postimg.cc/vB9SLz4s/image.png)](https://postimg.cc/mzLwT73X)
@@ -594,11 +604,16 @@ Merly es una productora ganadera independiente con experiencia en el rubro desde
 
 ----
 
-Entrevistada: Oscar Aranda
-Sexo: Femenino
+Entrevistado: Oscar Aranda
+
+Sexo: Masculino
+
 Edad: 21
+
 Domicilio: Lima, Peru
+
 Tiempo de experiencia en la ganadería: 2 años
+
 Inicio de la entrevista: 11:20
 
 [![image.png](https://i.postimg.cc/fR8rCy58/image.png)](https://postimg.cc/FYJps9MS)
@@ -609,10 +624,15 @@ Oscar ayuda a con el ganado a su familia. Deciden la dieta a partir de asesoría
 #### Segmento #2: Empresas Ganaderas
 
 Entrevistado: Estefano Charalla
+
 Sexo: Masculino
+
 Edad: 26
+
 Domicilio: Cajamarca, Peru
+
 Tiempo de experiencia en la ganadería: 4 años
+
 Inicio de la entrevista: 15:35
 
 ![Entrevista1](assets/chapter-2/Imgs_Entrevistas/Entrevista1_Segmento2.png)
@@ -623,10 +643,15 @@ Estefano Charalla, ingeniero ganadero de 26 años con 4 años de experiencia, li
 ----
 
 Entrevistada: Rosa Huamán
+
 Sexo: Femenino
+
 Edad: 30
+
 Domicilio: Abancay, Peru
+
 Tiempo de experiencia en la ganadería: 4 años
+
 Inicio de la entrevista: 21:20
 
 ![Entrevista2](assets/chapter-2/Imgs_Entrevistas/entrevista2_segmento2.jpeg)
@@ -641,10 +666,15 @@ Le interesaría interactuar con proveedores y compradores desde la aplicación, 
 ----
 
 Entrevistada: Ernesto
+
 Sexo: Masculino
+
 Edad: 28
+
 Domicilio: Ancash, Peru
+
 Tiempo de experiencia en la ganadería: 5 años
+
 Inicio de la entrevista: 28:10
 
 [![image.png](https://i.postimg.cc/J7sjgnxs/image.png)](https://postimg.cc/ThXy5TZx)
@@ -2794,13 +2824,125 @@ Duración de entrevista:	6:10
 
 ![Karla Ramirez](assets/chapter-6/Interviews/karla_ramirez.png)
 
-Resumen de la Entrevista
+*Resumen de la Entrevista*
 
 Carla Ramírez es propietaria y encargada directa de una pequeña ganadería en Cajamarca, con más de 20 años de experiencia en el negocio familiar. Trabaja principalmente con ganado bovino de doble propósito (leche y carne) y gestiona aproximadamente 38 animales (vacas, terneros y ovejas).
 
 Su principio guía es: "Animal sano, familia tranquila y negocio seguro." Ella considera esenciales la paciencia, la constancia, la observación diaria, la honestidad y la responsabilidad en la alimentación para la calidad de su producto.
 
 Emocionalmente, al buscar información sobre nuevos métodos, siente curiosidad y motivación, aunque le genera frustración cuando la información es muy técnica. Ante problemas de salud animal, siente preocupación e impotencia, y la venta injusta le genera molestia. Se considera una usuaria promedio de tecnología, capaz de usar aplicaciones si están bien explicadas, superando las dificultades iniciales con la práctica.
+
+---
+
+Entrevistado:	Oscar Aranda
+
+Sexo:	Masculino
+
+Edad:	21
+
+Domicilio:	Lima, Perú
+
+Tiempo de experiencia en la ganadería:	2 años
+
+Duración de entrevista:	05:21
+
+[![image.png](https://i.postimg.cc/x8WByySM/image.png)](https://postimg.cc/BPBhJFbn)
+
+*Resumen de la Entrevista*
+
+Oscar Aranda es un ganadero independiente, con 2 años de experiencia en el negocio familiar. 
+
+A nivel emocional, cuando investiga nuevas técnicas siente interés y entusiasmo, aunque puede experimentar cierta confusión si la información es demasiado especializada. Ante situaciones relacionadas con el bienestar animal, suele sentir inquietud y una sensación de no saber cómo actuar, y las experiencias de venta deshonesta le generan fastidio. Se considera a sí mismo un usuario intermedio de la tecnología: puede manejar distintas herramientas digitales siempre que cuenten con instrucciones claras y, aunque al principio encuentre algunos obstáculos, logra adaptarse con la práctica.
+
+---
+
+Entrevistado:	Esteban Sanchez
+
+Sexo:	Masculino
+
+Edad:	21
+
+Domicilio:	Junín, Perú
+
+Tiempo de experiencia en la ganadería:	5 años
+
+Duración de entrevista:	04:32
+
+[![image.png](https://i.postimg.cc/Fs0Jbryb/image.png)](https://postimg.cc/0b2QPqHr)
+
+*Resumen de la Entrevista*
+
+Esteban Sanchez es un ganadero independiente, con 5 años de experiencia en el negocio familiar. 
+
+En lo emocional, cuando explora formas innovadoras de trabajar, siente entusiasmo y una fuerte disposición a aprender, aunque a veces le invade la duda cuando la información es demasiado extensa. Ante dificultades relacionadas con el cuidado de los animales, suele experimentar nerviosismo y presión por resolverlas cuanto antes, y las prácticas comerciales poco transparentes le provocan enojo. Se describe como un usuario básico-avanzado de tecnología: utiliza sin problemas herramientas digitales comunes y, aunque en ocasiones necesite tiempo para familiarizarse con nuevas funciones, generalmente logra dominarlas tras varios intentos.
+
+---
+
+#### Segmento #2: Empresas Ganaderas
+
+Entrevistada:	Merly Salón
+
+Sexo:	Femenino
+
+Edad:	24
+
+Domicilio:	Cajamarca, Perú
+
+Tiempo de experiencia en la ganadería:	Más de 10 años
+
+Duración de entrevista:	06:44
+
+[![image.png](https://i.postimg.cc/T2BDWksJ/image.png)](https://postimg.cc/rzCmB9MD)
+
+*Resumen de la Entrevista*
+
+Merly Salon es la administradora general de su granja en Cajamarca. Su principio es que 'Animal sano es negocio honesto'. Ella está dispuesta a usar tecnología y se considera funcional con las aplicaciones. Sin embargo, su experiencia previa con un “software” era difícil, ya que no estaba diseñado para el trabajo en campo.
+
+Al usar Moobile, su incertidumbre desapareció, y ahora tiene una paz mental que destaca como el principal beneficio. La función de monitoreo de salud y los gráficos son fáciles de usar, ayudándola a tomar decisiones más rápidas. La plataforma le permitió compartir el historial digital del ganado, lo que aumentó la confianza de los compradores y justificó mejores precios. Merly confirma que Moobile cumple su objetivo al reducir el desperdicio y organizar sus operaciones. No obstante, insiste en que el Comando de Voz debe ser mucho más preciso y rápido para ser verdaderamente práctico cuando tiene las manos ocupadas.
+
+---
+
+Entrevistado:	Ernesto Casaverde
+
+Sexo:	Masculino
+
+Edad:	28
+
+Domicilio:	Ancash, Perú
+
+Tiempo de experiencia en la ganadería:	5 años
+
+Duración de entrevista:	09:41
+
+[![image.png](https://i.postimg.cc/yxxyYkW2/image.png)](https://postimg.cc/fS498Wcv)
+
+*Resumen de la Entrevista*
+
+Ernesto Casaverde es quien dirige la gestión general de su granja en Cajamarca. Aunque está abierto a adoptar herramientas tecnológicas y se siente capaz de manejar aplicaciones, su experiencia anterior con un software no fue la mejor, pues no estaba pensado para las condiciones del trabajo en campo.
+
+Con la llegada de Moobile, esa inseguridad inicial desapareció y ahora disfruta de una sensación de tranquilidad que considera su mayor beneficio. Las funciones de seguimiento de salud y los gráficos le resultan fáciles de interpretar, lo que le ayuda a tomar decisiones con mayor rapidez. Además, la plataforma le permitió compartir el historial digital de cada animal, generando más confianza entre los compradores y respaldando precios más altos. Ernesto señala que Moobile realmente cumple con su misión de reducir pérdidas y mantener sus tareas mejor organizadas. Sin embargo, recalca que el Comando de Voz aún necesita ser más exacto y ágil para que sea verdaderamente útil cuando está trabajando con las manos ocupadas.
+
+---
+
+Entrevistada:	Rosa Huamán
+
+Sexo:	Femenino
+
+Edad:	30
+
+Domicilio:	Cusco, Perú
+
+Tiempo de experiencia en la ganadería:	Más de 10 años
+
+Duración de entrevista:	07:26
+
+[![image.png](https://i.postimg.cc/tT05kXSw/image.png)](https://postimg.cc/p9ZzXttJ)
+
+*Resumen de la Entrevista*
+
+Rosa Huamán, ganadera de 30 años, dirige una pequeña empresa familiar en una zona rural de Cusco donde maneja unas 30 vacas, además de ovejas y gallinas. Antes de usar Moobile llevaba los registros en cuadernos y notas, lo que ocasionaba pérdida de información y dificultades para controlar costos, alimentación y salud del ganado. Esto le generaba estrés, especialmente porque cualquier error afecta directamente al bienestar animal y a los ingresos de la empresa.
+
+Tras probar Moobile, Rosa comenta que por fin cuenta con un sistema ordenado donde puede ver en tiempo real datos sobre alimentación, compras, ventas y registros sanitarios. Esto le ha permitido tomar decisiones más claras sobre gastos y crecimiento. También menciona que su equipo se adaptó rápido al sistema y ahora pueden registrar todo de manera más organizada, mejorando la comunicación y el control diario. Para Rosa, Moobile aporta un valor real porque evita la pérdida de información y hace que la gestión del ganado sea mucho más eficiente y segura para su negocio.
 
 ### 6.3.3. Evaluaciones según heurísticas
 
@@ -3540,21 +3682,19 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
   
 ## 7.1. Continuous Integration    
   
-Para el proyecto VacApp, desarrollado con React y TypeScript en el frontend y C#/.NET en el backend, se implementó un sistema de Integración Continua (CI) mediante GitHub Actions.
+Para el proyecto Moobile, desarrollado con React y TypeScript en el frontend y C#/.NET en el backend, se implementó un sistema de Integración Continua (CI) mediante GitHub Actions.
 Este pipeline automatiza tareas clave como la validación del código, la verificación de tipos, la ejecución de pruebas y la preparación para el despliegue.
 De esta manera, cada commit o pull request activa un flujo de validaciones automáticas que permiten detectar errores tempranamente, mantener la calidad del código y asegurar entregas más estables y confiables en los entornos de Azure App Service y Netlify.
 
 ### 7.1.1. Tools and Practices
   
-Para la implementación de VacApp, desplegamos el frontend en Netlify y el backend en Azure App Service, garantizando un entorno escalable, seguro y de fácil mantenimiento.
+Para la implementación de Moobile, desplegamos el frontend en Netlify y el backend en Azure App Service, garantizando un entorno escalable, seguro y de fácil mantenimiento.
 Adoptamos el flujo Gitflow para la gestión de ramas en GitHub, junto con Conventional Commits para mantener una estructura clara en los mensajes de commit y SemVer para el versionamiento semántico.
 Implementamos integración continua con GitHub Actions, que ejecuta automáticamente validaciones de código, análisis estático con ESLint, comprobación de tipos con TypeScript, y pruebas automatizadas tanto en el frontend como en el backend.
 
 Para el frontend, empleamos pruebas unitarias y de integración usando React Testing Library junto con Vitest, lo que permite verificar la funcionalidad de los componentes y la interacción del usuario en entornos simulados.
 En el backend, utilizamos NUnit como framework de testing principal, complementado con Selenium para realizar pruebas end-to-end sobre la interfaz de usuario, validando la integración entre el sistema web y los flujos de usuario reales.
 Esta infraestructura de pruebas nos permite detectar errores de manera temprana y asegurar la estabilidad del producto antes de su despliegue.
-
-
 
 | Característica     | NUnit | Selenium |
 | ------------------ | ----- | -------- |
@@ -3569,30 +3709,28 @@ Esta infraestructura de pruebas nos permite detectar errores de manera temprana 
 <br>
 
 **Workflow de Integración Continua**
-Para asegurar la calidad y consistencia en el desarrollo de VacApp, todos los miembros del equipo siguen el siguiente flujo de trabajo:
+Para asegurar la calidad y consistencia en el desarrollo de Moobile, todos los miembros del equipo siguen el siguiente flujo de trabajo:
 	
   
-  **1.	Desarrollo local:** Una vez finalizada una feature, el desarrollador ejecuta las pruebas automatizadas con NUnit y Selenium en su entorno local para garantizar la ausencia de errores o regresiones.
+**1.	Desarrollo local:** Una vez finalizada una feature, el desarrollador ejecuta las pruebas automatizadas con NUnit y Selenium en su entorno local para garantizar la ausencia de errores o regresiones.
 
 **2.	Pull Request:** Si las pruebas son exitosas, se crea una pull request hacia la rama develop, siguiendo el formato de commit definido por Conventional Commits e incluyendo el número de la PR (por ejemplo, #23).
   
-  **3.	Pipeline automático:** Al subir la PR al repositorio remoto, GitHub Actions ejecuta automáticamente los pipelines configurados para:
-	•	Validar el código con ESLint y TypeScript.
-	•	Correr las suites de pruebas con NUnit para el backend.
-	•	Ejecutar pruebas end-to-end con Selenium sobre entornos controlados.
+**3.	Pipeline automático:** Al subir la PR al repositorio remoto, GitHub Actions ejecuta automáticamente los pipelines configurados para:
+- Validar el código con ESLint y TypeScript.
+- Correr las suites de pruebas con NUnit para el backend.
+- Ejecutar pruebas end-to-end con Selenium sobre entornos controlados.
   
-  **4.	Revisión y pruebas de integración:** Una vez aprobada la PR, los cambios se integran a la rama release, donde se ejecutan pruebas de integración adicionales en un entorno similar a producción (Azure Test Environment).
+**4.	Revisión y pruebas de integración:** Una vez aprobada la PR, los cambios se integran a la rama release, donde se ejecutan pruebas de integración adicionales en un entorno similar a producción (Azure Test Environment).
 	
-  **5.	Despliegue a producción:** Si las pruebas son exitosas, se aprueba la pull request hacia main, lo que desencadena un despliegue automático:
-	•	Frontend: en Netlify.
-	•	Backend: en Azure App Service.
+**5.	Despliegue a producción:** Si las pruebas son exitosas, se aprueba la pull request hacia main, lo que desencadena un despliegue automático:
+- Frontend: en Netlify.
+- Backend: en Azure App Service.
 En caso de errores o fallas en los pipelines, el cambio se devuelve a la rama del desarrollador para su corrección antes de reiniciar el ciclo.  
   
 ### 7.1.2. Build & Test Suite Pipeline Components  
   
 Este documento describe los Épicos (Epics) principales de la plataforma **Moobile-Platform**, organizados bajo el formato de Historias de Usuario para definir flujos de trabajo clave desde la perspectiva del usuario ganadero.
-
---
 
 ## Epic 01: Gestión de Establos
 
@@ -3602,7 +3740,7 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="551" alt="image" src="https://github.com/user-attachments/assets/3ee378e8-3f43-466d-8d6d-fa13cb040a08" />
 
---
+---
 
 ## Epic 02: Gestión de Bovinos
 
@@ -3612,7 +3750,7 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/7fc836ea-1302-4f0c-9985-28bbd83cb5a9" />
 
---
+---
 
 ## Epic 03: Edición de Bovinos
 
@@ -3622,7 +3760,7 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="565" alt="image" src="https://github.com/user-attachments/assets/504861c5-2bca-42e2-8449-7e1b9f424e26" />
 
---
+---
 
 ## Epic 04: Gestión de Campañas
 
@@ -3632,7 +3770,7 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 <img width="886" height="620" alt="image" src="https://github.com/user-attachments/assets/d7386044-8ab9-44b7-bde3-16bbc1a48164" />
 
---
+---
 
 ## Epic 05: Gestión de Staff
 
@@ -3649,9 +3787,9 @@ entorno de pruebas automatizado y las pruebas de rendimiento y carga.
 
 ### 7.2.1. Tools and Practices
 
-Para la implementación de VacApp, se emplearon distintas herramientas que cubren desde el análisis estático del código hasta las pruebas automatizadas y la integración continua. El objetivo principal fue garantizar la calidad, estabilidad y mantenibilidad del sistema a través de un proceso de desarrollo controlado y validado en múltiples niveles.
+Para la implementación de Moobile, se emplearon distintas herramientas que cubren desde el análisis estático del código hasta las pruebas automatizadas y la integración continua. El objetivo principal fue garantizar la calidad, estabilidad y mantenibilidad del sistema a través de un proceso de desarrollo controlado y validado en múltiples niveles.
 
-**NUnit:** Framework principal de pruebas unitarias para el backend desarrollado en C# y .NET. Permite validar la lógica de negocio definida en los distintos bounded contexts del dominio de VacApp mediante una convención de nomenclatura descriptiva, asegurando legibilidad y consistencia. Las pruebas de Core Entities Unit Tests cubren las funcionalidades derivadas de las 28 User Stories implementadas, mientras que las Core Integration Tests validan la interacción entre componentes, con 3 pruebas por bounded context y 2 para el módulo IAM (Identity and Access Management).
+**NUnit:** Framework principal de pruebas unitarias para el backend desarrollado en C# y .NET. Permite validar la lógica de negocio definida en los distintos bounded contexts del dominio de Moobile mediante una convención de nomenclatura descriptiva, asegurando legibilidad y consistencia. Las pruebas de Core Entities Unit Tests cubren las funcionalidades derivadas de las 28 User Stories implementadas, mientras que las Core Integration Tests validan la interacción entre componentes, con 3 pruebas por bounded context y 2 para el módulo IAM (Identity and Access Management).
 
 <img width="220" alt="Image" src="https://github.com/user-attachments/assets/3064c1c8-897d-42ec-a4ea-bbe9cba54b76" />
 
@@ -3683,7 +3821,7 @@ Para la implementación de VacApp, se emplearon distintas herramientas que cubre
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
-A continuación, se describen las etapas del pipeline de despliegue implementado en el proyecto **VacApp**.  
+A continuación, se describen las etapas del pipeline de despliegue implementado en el proyecto **Moobile**.  
 Cada fase fue diseñada para garantizar una entrega continua, confiable y de alta calidad del software, asegurando la integración fluida entre el **frontend (React + TypeScript)** y el **backend (.NET + C#)**.
 
 **1. Code Commit**
@@ -3730,7 +3868,7 @@ El pipeline de **GitHub Actions** ejecuta el **despliegue automático a producci
 Este proceso asegura un flujo continuo y sin intervención manual, reduciendo tiempos de entrega y errores humanos.
 
 **10. Monitoreo Post-Despliegue**
-Una vez en producción, **VacApp** es monitoreada continuamente para verificar su rendimiento y estabilidad.  
+Una vez en producción, **Moobile** es monitoreada continuamente para verificar su rendimiento y estabilidad.  
 El backend utiliza **Azure Monitor** y **Application Insights** para el registro estructurado, métricas de uso y detección temprana de errores.  
 Asimismo, se supervisa la disponibilidad del frontend mediante herramientas integradas en **Netlify Analytics**, garantizando una respuesta rápida ante cualquier incidencia.
 
@@ -3742,7 +3880,7 @@ herramientas y procesos implementados para asegurar un flujo de trabajo eficient
 ### 7.3.1. Tools and Practices
 
 **GitHub Actions:**
-Es el motor principal de automatización CI/CD en el proyecto VacApp.
+Es el motor principal de automatización CI/CD en el proyecto Moobile.
 Se configuraron flujos de trabajo que se ejecutan automáticamente ante cada push o pull request en el repositorio.
 Estos pipelines realizan una serie de validaciones, incluyendo análisis estático de código con ESLint, verificación de tipos con TypeScript, ejecución de pruebas unitarias con NUnit, pruebas de integración en los distintos bounded contexts, y pruebas end-to-end con Selenium.
 En caso de que todas las verificaciones sean exitosas, se procede al despliegue automático del backend en Azure App Service y del frontend en Netlify, garantizando una entrega continua, estable y confiable del sistema.
@@ -3750,14 +3888,14 @@ En caso de que todas las verificaciones sean exitosas, se procede al despliegue 
 <img width="170" height="132" alt="Image" src="https://github.com/user-attachments/assets/e98893cf-36ab-448e-907c-a7c3cfacf6bf" />
 
 **Azure App Service:**
-Es la plataforma utilizada para el despliegue del backend de VacApp desarrollado en .NET.
+Es la plataforma utilizada para el despliegue del backend de Moobile desarrollado en .NET.
 Permite integrar directamente el flujo de despliegue con GitHub Actions, ofreciendo un entorno administrado con soporte para scaling, monitoreo de rendimiento y gestión de versiones.
 Su infraestructura automatizada facilita el despliegue sin intervención manual, reduciendo el riesgo de errores y mejorando los tiempos de entrega a producción.
 
 <img width="200" alt="image" src="https://github.com/user-attachments/assets/e4b90ae3-e64f-4e85-968f-8ad3d5bfdc6f" />
 
 **Netlify:**
-Es la plataforma utilizada para el despliegue del frontend de VacApp, desarrollado en React y TypeScript.
+Es la plataforma utilizada para el despliegue del frontend de Moobile, desarrollado en React y TypeScript.
 Netlify proporciona integración nativa con GitHub, lo que permite generar previews automáticos de cada rama y realizar el despliegue final al aprobar los cambios en la rama principal.
 Además, ofrece soporte para HTTPS, control de versiones y optimización automática del contenido estático, garantizando alto rendimiento en el entorno productivo.
 
@@ -4039,7 +4177,7 @@ Para el desarrollo de las hipótesis en esta etapa de diseño, se utilizarán di
 | EP06 | Información del Sitio Web |
 | ---- | ------------------- |
 | Question     |  ¿Los visitantes del sitio pueden comprender el valor de la plataforma y sus beneficios cuando se presenta una estructura clara de funcionalidades, misión y contacto?                   |
-| Hypothesis     | Los visitantes mostrarán mayor interés en VacApp cuando encuentren secciones claras sobre funcionalidades principales, beneficios ganaderos y canales de contacto.                    |
+| Hypothesis     | Los visitantes mostrarán mayor interés en Moobile cuando encuentren secciones claras sobre funcionalidades principales, beneficios ganaderos y canales de contacto.                    |
 | Data Analytics | Tiempo en secciones informativas. Clics en “Contacto”. Número de secciones vistas por usuario. Interacciones con la vista general. Conversión de visitantes hacia registro.                |
 
 ### 8.2.2. Domain Business Metrics
@@ -4176,7 +4314,7 @@ Medidas:
 -	Registrar y gestionar establos, bovinos y vacunas.
 -	Crear y monitorear campañas.
 -	Registrar, consultar y asignar personal.
--	Navegar por la landing page de VacApp para conocer la propuesta de valor.
+-	Navegar por la landing page de Moobile para conocer la propuesta de valor.
     
 **Control de Variables Externas:** Se tomarán medidas para mitigar factores que puedan distorsionar los resultados, como:
 -	Problemas de conectividad frecuentes en zonas rurales.
@@ -4184,7 +4322,7 @@ Medidas:
 -	Diferencias de experiencia digital entre usuarios.
 Cuando sea posible, se registrará el contexto (tipo de conexión, dispositivo, zona) para interpretar mejor los datos.
 
-**Condición Experimental:** Los usuarios interactuarán con una versión de VacApp que incluye:
+**Condición Experimental:** Los usuarios interactuarán con una versión de Moobile que incluye:
 -	Formularios con validaciones, mensajes de error claros y ayudas contextuales.
 -	Listados con filtros y buscadores para establos, bovinos, vacunas, campañas y personal.
 -	Vistas de resumen (dashboards) básicas para facilitar la toma de decisiones.
@@ -4203,7 +4341,7 @@ Se buscará una muestra heterogénea, incluyendo:
 -	Ganaderos independientes.
 -	Representantes de empresas ganaderas.
 -	Usuarios con distintos niveles de familiaridad con herramientas digitales.
-Esto permitirá que los resultados sean más representativos del público objetivo real de VacApp.
+Esto permitirá que los resultados sean más representativos del público objetivo real de Moobile.
 
 **Medición y Evaluación Continua:**
 Durante todo el periodo de pruebas se recopilarán métricas clave (tiempos, tasas de éxito, errores, búsquedas, conversiones) asociadas a las épicas EP01–EP06.
@@ -4215,7 +4353,7 @@ Esta información se usará para:
 ### 8.2.5. Scale Calculations and Decisions
 
 **Rendimiento y Estabilidad del Sistema:** 
-Se evaluará el comportamiento técnico de VacApp durante las pruebas, midiendo tiempos de carga, latencia del backend, estabilidad del flujo de navegación y manejo de datos en módulos críticos como bovinos, establos y vacunas. El objetivo es asegurar que la plataforma pueda operar de manera estable incluso ante un crecimiento significativo del número de usuarios y registros.
+Se evaluará el comportamiento técnico de Moobile durante las pruebas, midiendo tiempos de carga, latencia del backend, estabilidad del flujo de navegación y manejo de datos en módulos críticos como bovinos, establos y vacunas. El objetivo es asegurar que la plataforma pueda operar de manera estable incluso ante un crecimiento significativo del número de usuarios y registros.
 
 **Tasa de Finalización de Operaciones Críticas:**
 Se analizará cuántos usuarios completan exitosamente acciones clave dentro del sistema —registro de bovinos, asignaciones, búsqueda de información, registro de vacunas, creación de campañas, etc.— como indicador fundamental de usabilidad y claridad del flujo. Un porcentaje consistentemente alto implicará que la plataforma está lista para escalar.
@@ -4243,7 +4381,7 @@ Si no se alcanzan los umbrales establecidos, se realizará una nueva iteración 
 
 ### 8.2.6. Methods Selection
 
-Para evaluar el sistema VacApp se utilizará una combinación de métodos cuantitativos y cualitativos:
+Para evaluar el sistema Moobile se utilizará una combinación de métodos cuantitativos y cualitativos:
 
 **Pruebas de usabilidad:**
 Los usuarios realizarán tareas clave como registrar bovinos, crear establos, asignar personal, registrar vacunas y gestionar campañas, observando posibles dificultades en la navegación, formularios o flujos críticos tanto en la versión web como móvil.
@@ -4257,7 +4395,7 @@ Se recogerán datos como número de bovinos registrados, tiempo de navegación p
 **Pruebas A/B (si aplica):**
 Se compararán versiones con diferentes estructuras de formularios o mensajes de validación para evaluar su impacto en la velocidad de registro y en la comprensión de las acciones dentro del sistema.
 
-Estos métodos permitirán validar hipótesis, identificar oportunidades de mejora y tomar decisiones basadas en evidencia real sobre la experiencia y eficiencia de VacApp.
+Estos métodos permitirán validar hipótesis, identificar oportunidades de mejora y tomar decisiones basadas en evidencia real sobre la experiencia y eficiencia de Moobile.
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
@@ -4276,7 +4414,7 @@ Estos métodos permitirán validar hipótesis, identificar oportunidades de mejo
 | Validar la funcionalidad total del sistema bajo condiciones reales         |  Nivel de estabilidad del sistema    |  Tiempos de carga promedio. Errores 4xx/5xx. Tiempo de respuesta del backend (Azure). Rendimiento del frontend (Netlify).                   |
 | Analizar la comprensión de la estructura de información sanitaria     | Tasa de consultas exitosas del historial de vacunación | Número de consultas sin errores. Tiempo promedio para encontrar vacunas. Frecuencia de uso de filtros.                |
 
-Se ejecutaron evaluaciones de rendimiento, accesibilidad y mejores prácticas utilizando Lighthouse en la aplicación VacApp con el propósito de analizar su funcionamiento y mejorar la experiencia de usuario. Estas pruebas permitieron identificar oportunidades de optimización en carga, navegación y usabilidad, asegurando que la plataforma responda adecuadamente a las necesidades tanto de ganaderos independientes como de empresas ganaderas. A continuación se presentan algunos ejemplos correspondientes a ambos segmentos objetivo.
+Se ejecutaron evaluaciones de rendimiento, accesibilidad y mejores prácticas utilizando Lighthouse en la aplicación Moobile con el propósito de analizar su funcionamiento y mejorar la experiencia de usuario. Estas pruebas permitieron identificar oportunidades de optimización en carga, navegación y usabilidad, asegurando que la plataforma responda adecuadamente a las necesidades tanto de ganaderos independientes como de empresas ganaderas. A continuación se presentan algunos ejemplos correspondientes a ambos segmentos objetivo.
 
 <img width="2048" height="1002" alt="Image" src="https://github.com/user-attachments/assets/1f4f8bb9-2c8c-410e-8991-3dfa4932bbd9" />
 
