@@ -1,17 +1,17 @@
 <div align="center">
-  <h3><strong> Universidad Peruana de Ciencias Aplicadas </strong></h3>
-</div>
-
-<div align="center">
   <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png" alt="Imagen centrada" width="200"/>
 </div>
 
 <div align="center">
-  <h5> Ingeniería de Software </h5>
+  <h3> Universidad Peruana de Ciencias Aplicadas </h3>
 </div>
 
 <div align="center">
-  <h5> Diseño de Experimentos de Ingeniería de Software </h5>
+  <h5> Carrera de Ingeniería de Software - 202520</h5>
+</div>
+
+<div align="center">
+  <h5> 1ASI0732 - Diseño de Experimentos de Ingeniería de Software </h5>
 </div>
 
 <div align="center">
@@ -19,7 +19,7 @@
 </div>
 
 <div align="center">
-  <h5> Docente: Juan Carlos Tinoco Licas </h5>
+  <h5> Profesor: Juan Carlos Tinoco Licas </h5>
 </div>
 
 <div align="center">
@@ -39,26 +39,26 @@
 </div>
 
 <div>
-     <table align="center">
+    <table align="center">
         <tr>
-            <th style="text-align:center;">Apellidos y nombres</th>
             <th style="text-align:center;">Código</th>
+            <th style="text-align:center;">Apellidos y nombres</th>
         </tr>
         <tr>
-            <td>Bravo Gavilano, Jorge Rafael</td>
             <td>U202212535</td>
+            <td>Bravo Gavilano, Jorge Rafael</td>
         </tr>
         <tr>
-            <td>Gonzalez Custodio, Carlos Alberto</td>
             <td>U202020230</td>
+            <td>Gonzalez Custodio, Carlos Alberto</td>
         </tr>
         <tr>
-            <td>Roque Tello, Jack Eddie</td>
             <td>U20221C448</td>
+            <td>Roque Tello, Jack Eddie</td>
         </tr>
         <tr>
-            <td>Silva Morales, Renzo Cesar</td>
             <td>U20221C362</td>
+            <td>Silva Morales, Renzo Cesar</td>
         </tr>
     </table>
 </div>
@@ -73,6 +73,7 @@
 | :-: | :-: | :-: | :-: |
 |1\.0|10/09/2025|Moobile|Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation|
 |2\.0|09/10/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices|
+|3\.0|14/11/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment|
 
 # Contenido
 
@@ -2906,19 +2907,637 @@ Asegurar que todos los elementos gráficos que comunican información tengan eti
 
 #### 6.4.1.1. Información del grupo auditado
 
+- Nombre del grupo auditado: DebtGo
+
+- Responsable del equipo: Daniel Jhared Chavarri Zarzosa
+
+- Integrantes del grupo auditado:
+
+  - Maria Fernanda Peña Riofrio
+
+  - Daniel Jhared Chavarri Zarzosa
+
+  - Anderson José William Gamarrra Vega
+
+- Objetivo de la auditoría: Evaluar la usabilidad de las funciones principales de la plataforma DebtGo, identificar hallazgos críticos y proponer mejoras alineadas a principios de usabilidad reconocidos (heurísticas de Nielsen).
+
 #### 6.4.1.2. Cronograma de auditoría realizada
 
+<table>
+  <thead>
+    <tr>
+      <th>Actividad</th>
+      <th>Fecha de ejecución</th>
+      <th>Duración estimada</th>
+      <th>Responsables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Planificación de auditoría</td>
+      <td>08/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo Cowders</td>
+    </tr>
+    <tr>
+      <td>Evaluación heurística de la plataforma</td>
+      <td>12/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo Cowders</td>
+    </tr>
+    <tr>
+      <td>Documentación de hallazgos preliminares</td>
+      <td>13/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo Cowders</td>
+    </tr>
+    <tr>
+      <td>Entrega del informe de evaluación de heurísticas final</td>
+      <td>14/11/2025</td>
+      <td>-</td>
+      <td>Equipo Cowders</td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.4.1.3. Contenido de auditoría realizada
+
+**DebtGo - Evaluación de Heurísticas y Principios UX**
+
+- Carrera: Ingeniería de Software
+
+- Curso: Diseño de Experimentos de Software - 1ASI0732
+
+- NRC: 14651
+
+- Profesores: Todos
+
+- Auditor: Cowders
+
+- Cliente: DebtGo
+
+- Sitio o App a Evaluar: DebtGo
+
+*TAREAS A EVALUAR:*
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de usuario
+
+2. Inicio de sesión
+
+3. Workspace
+
+4. Mensajería 
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Historial de Pagos
+
+2. Simuladores de Pagos
+
+*ESCALA DE SEVERIDAD:*
+
+<table>
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>
+        Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+*TABLA RESUMEN:*
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística violada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Sin opciones de inicio/registro con terceros (Login/Registro)</td>
+      <td>3</td>
+      <td>6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Validación y requisitos de contraseña poco visibles (Registro)</td>
+      <td>3</td>
+      <td>5. Error Prevention</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Búsqueda/filtros inexistentes en listados</td>
+      <td>2</td>
+      <td>7. Flexibility & Efficiency</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Persistencia de idioma</td>
+      <td>2</td>
+      <td>2. Match with Real World</td>
+    </tr>
+  </tbody>
+</table>
+
+*DESCRIPCIÓN DE PROBLEMAS:*
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #1: Sin opciones de registro/inicio con terceros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Solo se permite crear cuenta con correo y contraseña. Eleva fricción (recordar credenciales nuevas) y puede afectar la conversión en móviles.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Recomendación: Incorporar OAuth 2.0 (Google/Apple/Microsoft). Mantener _ fallback _ por email. Mostrar tiempos/beneficios (“Accede en 2 clics, sin crear otra clave”).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #2: Requisitos de contraseña poco visibles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 5. Error Prevention</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Los criterios (“≥8 caracteres, al menos 1 número…”) aparecen como lista estática y no se **marcan en vivo** al tipear; los errores no siempre indican cómo resolverlos.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Validación en tiempo real con checklist dinámico (verde/rojo), medidor de fortaleza, mensajes accionables y botón “mostrar contraseña” alineado a accesibilidad (ARIA).
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #3: Sin búsqueda/filtros en listados</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 7. Flexibility & Efficiency</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        En Services y Messages no hay Search ni Filters. La localización de conversaciones o servicios escala mal con volumen.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Añadir barra de búsqueda (por nombre/título) y filtros (estado, rango de precio/fecha). Paginación o carga incremental para rendimiento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #4: Persistencia de idioma</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 2. Real World</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        El selector EN/ES no indica claramente persistencia; al navegar entre vistas puede perderse la preferencia.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Guardar preferencia en localStorage / cookie, hidratar desde el backend cuando el usuario está autenticado y mostrar indicador breve de idioma activo.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### 6.4.2. Auditoría recibida
 
 #### 6.4.2.1. Información del grupo auditor
 
+- Nombre del grupo auditor: DebtGo
+
+- Responsable del equipo: Daniel Jhared Chavarri Zarzosa
+
+- Integrantes del grupo auditor:
+
+  - Maria Fernanda Peña Riofrio
+
+  - Daniel Jhared Chavarri Zarzosa
+
+  - Anderson José William Gamarrra Vega
+
+- Objetivo de la auditoría: Evaluar la usabilidad de las funciones principales de la plataforma Moobile, identificar hallazgos críticos y proponer mejoras alineadas a principios de usabilidad reconocidos (heurísticas de Nielsen).
+
 #### 6.4.2.2. Cronograma de auditoría recibida
+
+<table>
+  <thead>
+    <tr>
+      <th>Actividad</th>
+      <th>Fecha de ejecución</th>
+      <th>Duración estimada</th>
+      <th>Responsables</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Planificación de auditoría</td>
+      <td>08/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+    <tr>
+      <td>Evaluación heurística de la plataforma</td>
+      <td>09/11/2025 - 12/11/2025</td>
+      <td>3 días</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+    <tr>
+      <td>Documentación de hallazgos preliminares</td>
+      <td>13/11/2025</td>
+      <td>1 día</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+    <tr>
+      <td>Reunión de retroalimentación</td>
+      <td>14/11/2025</td>
+      <td>2 horas</td>
+      <td>Auditores + equipo Cowders</td>
+    </tr>
+    <tr>
+      <td>Entrega del informe de evaluación de heurísticas final</td>
+      <td>14/11/2025</td>
+      <td>-</td>
+      <td>Equipo DebtGo</td>
+    </tr>
+  </tbody>
+</table>
 
 #### 6.4.2.3. Contenido de auditoría recibida
 
+**Moobile - Evaluación de Heurísticas y Principios UX**
+
+- Carrera: Ingeniería de Software
+
+- Curso: Diseño de Experimentos de Software - 1ASI0732
+
+- NRC: 14651
+
+- Profesores: Todos
+
+- Auditor: DebtGo
+
+- Cliente: Cowders
+
+- Sitio o App a Evaluar: Moobile
+
+*TAREAS A EVALUAR:*
+
+El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas:
+
+1. Registro de un usuario nuevo
+
+2. Visualización del perfil del usuario
+
+3. Gestión de bovinos
+
+4. Gestión de establos
+
+5. Gestión de vacunas
+
+6. Gestión de staff
+
+No están incluidas en esta versión de la evaluación las siguientes tareas:
+
+1. Gestión de campañas
+
+2. Funcionalidades con comandos de voz
+
+*ESCALA DE SEVERIDAD:*
+
+<table>
+  <thead>
+    <tr>
+      <th>Nivel</th>
+      <th>Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>
+        Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.
+      </td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>
+        Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.
+      </td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>
+        Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.
+      </td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>
+        Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+*TABLA RESUMEN:*
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Problema</th>
+      <th>Escala de severidad</th>
+      <th>Heurística violada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Falta de opciones de registro con terceros</td>
+      <td>3</td>
+      <td>6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Poca personalización del perfil</td>
+      <td>2</td>
+      <td>7. Flexibility and Efficiency of Use</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Falta de confirmación clara después de registrar bovinos, establos o staff</td>
+      <td>2</td>
+      <td>9. Help Users Recognize, Diagnose, and Recover from Errors</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Listados extensos sin buscador o filtros</td>
+      <td>3</td>
+      <td>7. Flexibility and Efficiency of Use</td>
+    </tr>
+  </tbody>
+</table>
+
+*DESCRIPCIÓN DE PROBLEMAS:*
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #1: Falta de opciones de registro con terceros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 6. Recognition Rather Than Recall</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        El proceso de registro solo permite crear una cuenta mediante nombre de usuario, correo y contraseña. Esto obliga al usuario a recordar datos y crear credenciales nuevas, generando fricción y aumentando la probabilidad de abandono del proceso de registro.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Incorporar botones de registro con Google o Apple para facilitar un acceso rápido, reducir carga cognitiva y mejorar la experiencia de ingreso.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #2: Poca personalización del perfil del usuario</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 7. Flexibility and Efficiency of Use</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        El perfil solo permite editar campos básicos como el nombre de usuario y el correo. Esto limita la capacidad del usuario de personalizar su experiencia, debilitando el sentido de identidad y control dentro de la aplicación.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Permitir editar información adicional como foto de perfil, datos personales o preferencias, brindando mayor flexibilidad y una experiencia más completa.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #3: Falta de confirmación clara después de registrar bovinos, establos o staff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 2</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 9. Help Users Recognize, Diagnose, and Recover from Errors</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Al completar un registro, la aplicación no muestra un mensaje de éxito claro ni retroalimentación visual inmediata. Esto genera incertidumbre sobre si la acción se realizó correctamente y puede llevar a duplicar registros o cometer errores.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Mostrar mensajes de confirmación visibles y consistentes, y actualizar el listado automáticamente después de registrar un elemento.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th>PROBLEMA #4: Listados extensos sin buscador o filtros</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Severidad:</strong> 3</td>
+    </tr>
+    <tr>
+      <td><strong>Heurística violada:</strong> 7. Flexibility and Efficiency of Use</td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Descripción:</strong>
+        <br>
+        Las secciones que contienen muchos elementos (bovinos, establos, vacunas o staff) se vuelven difíciles de navegar debido a la falta de filtros, buscador o herramientas de organización. Esto incrementa el tiempo necesario para encontrar información y afecta la eficiencia del sistema.
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <strong>Recomendación:</strong>
+        <br>
+        Agregar herramientas de búsqueda, filtros por categoría o paginación para facilitar la navegación y mejorar la eficiencia en tareas repetitivas o con grandes volúmenes de datos.
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
+
+<table>
+  <thead>
+    <tr>
+      <th>#</th>
+      <th>Hallazgo identificado</th>
+      <th>Modificación propuesta</th>
+      <th>Escala de severidad</th>
+      <th>Prioridad</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Falta de opciones de registro con terceros</td>
+      <td>Implementar autenticación con Google y Apple ID para reducir fricción en el registro y facilitar el ingreso.</td>
+      <td>3</td>
+      <td>Alta</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Poca personalización del perfil del usuario</td>
+      <td>Añadir opciones como foto de perfil, rol, información personal y preferencias para mejorar la experiencia personalizada.</td>
+      <td>2</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Falta de confirmación clara después de registrar bovinos, establos o staff</td>
+      <td>Incorporar mensajes de confirmación consistentes y refrescar automáticamente los listados al completar un registro.</td>
+      <td>2</td>
+      <td>Media</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>Listados extensos sin buscador o filtros</td>
+      <td>Agregar herramientas de búsqueda, filtros y/o paginación para optimizar la navegación y búsqueda de elementos.</td>
+      <td>3</td>
+      <td>Alta</td>
+    </tr>
+  </tbody>
+</table>
 
 # **Capítulo VII: DevOps Practices**
   
@@ -3674,7 +4293,261 @@ Se mantendrá un plan detallado del seguimiento de actividades propuestas. Para 
 
 ### 8.3.1. To-Be User Stories
 
+Esta sección reúne nuevas Historias de Usuario que aún no se integran al backlog oficial, pero que podrían incorporarse en futuras versiones del producto. Dichas historias provienen de experimentos, entrevistas, pruebas de usabilidad u observaciones hechas durante la validación y el proceso XDPD. Representan necesidades, oportunidades de mejora o funcionalidades propuestas para optimizar la experiencia del usuario o solucionar problemas identificados, y requieren ser analizadas antes de avanzar a su desarrollo.
+
+<table>
+  <thead>
+    <tr>
+      <th>ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Criterios de Aceptación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>TB US01</td>
+      <td>Registro con terceros</td>
+      <td>Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso con Google</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en la pantalla de registro
+        <br>
+        <strong>Cuando</strong> hace clic en el botón "Continuar con Google"
+        <br>
+        <strong>Entonces</strong> se abre el pop-up de Google y, tras aceptar, es redirigido a la aplicación como usuario registrado.
+        <br>
+        <br>
+        <strong>Escenario 2: Registro exitoso con Apple</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en la pantalla de registro
+        <br>
+        <strong>Cuando</strong> hace clic en el botón "Continuar con Apple"
+        <br>
+        <strong>Entonces</strong> se inicia la autenticación de Apple y, tras aceptarla, es redirigido a la aplicación como usuario registrado.
+        <br>
+        <br>
+        <strong>Escenario 3: Error de autenticación</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta registrarse con Google o Apple
+        <br>
+        <strong>Cuando</strong> el proveedor de terceros deniega la autenticación
+        <br>
+        <strong>Entonces</strong> la ventana emergente se cierra
+        <br>
+        <strong>Y</strong> el sistema muestra un mensaje de error "No pudimos completar el registro. Inténtalo de nuevo."
+        <br>
+        <br>
+        <strong>Escenario 4: Correo electrónico ya registrado</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta registrarse con un tercero (Google/Apple)
+        <br>
+        <strong>Y</strong> el correo asociado a esa cuenta ya existe en la base de datos de la aplicación con contraseña normal
+        <br>
+        <strong>Cuando</strong> el sistema intenta completar el registro
+        <br>
+        <strong>Entonces</strong> el sistema muestra un mensaje pidiendo al usuario iniciar sesión con su contraseña
+        <br>
+      </td>
+    </tr>
+  <tr>
+      <td>TB US02</td>
+      <td>Personalización ampliada del perfil</td>
+      <td>Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+      <td>
+        <strong>Escenario 1: Actualización de datos exitosa</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en la sección de edición de perfil
+        <br>
+        <strong>Y</strong> ha cambiado la foto y algún dato personal
+        <br>
+        <strong>Cuando</strong> hace clic en "Guardar"
+        <br>
+        <strong>Entonces</strong> la nueva información se actualiza de inmediato
+        <br>
+        <strong>Y</strong> se muestra un mensaje de confirmación flotante "Perfil actualizado exitosamente".
+        <br>
+        <br>
+        <strong>Escenario 2: Subida de foto con formato incorrecto</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta subir una foto
+        <br>
+        <strong>Cuando</strong> selecciona un archivo que no es una imagen
+        <br>
+        <strong>Entonces</strong> el sistema bloquea la subida
+        <br>
+        <strong>Y</strong> muestra un mensaje de error claro sobre los formatos aceptados.
+        <br>
+        <br>
+        <strong>Escenario 3: Campos obligatorios no llenados</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está editando su perfil
+        <br>
+        <strong>Y</strong> intenta borrar un campo que es obligatorio
+        <br>
+        <strong>Cuando</strong> hace clic en "Guardar"
+        <br>
+        <strong>Entonces</strong> el sistema no guarda los cambios
+        <br>
+        <strong>Y</strong> resalta el campo obligatorio vacío con un mensaje de error.
+      </td>
+    <tr>
+      <td>TB US03</td>
+      <td>Confirmación visual al registrar información</td>
+      <td>Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+      <td>
+        <strong>Escenario 1: Registro exitoso de un elemento</strong>
+        <br>
+        <strong>Dado que</strong> el usuario completa y envía el formulario de registro
+        <br>
+        <strong>Cuando</strong> el sistema guarda la información correctamente
+        <br>
+        <strong>Entonces</strong> se muestra un mensaje de éxito "Bovino registrado correctamente"
+        <br>
+        <strong>Y</strong> el listado de elementos se actualiza automáticamente para mostrar el nuevo registro.
+        <br>
+        <br>
+        <strong>Escenario 2: Intento de registro duplicado</strong>
+        <br>
+        <strong>Dado que</strong> el usuario intenta registrar un elemento
+        <br>
+        <strong>Y</strong> la clave o identificador único ya existe en el sistema
+        <br>
+        <strong>Cuando</strong> intenta guardar el formulario
+        <br>
+        <strong>Entonces</strong> el sistema previene la duplicación
+        <br>
+        <strong>Y</strong> muestra un mensaje de error "El ID de establo ya existe. Por favor, ingrese uno nuevo."
+      </td>
+    </tr>
+    <tr>
+      <td>TB US04</td>
+      <td>Buscador y filtros en listados</td>
+      <td>Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+      <td>
+        <strong>Escenario 1: Búsqueda por texto exitosa</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en un listado 
+        <br>
+        <strong>Cuando</strong> introduce texto en el campo de búsqueda 
+        <br>
+        <strong>Entonces</strong> la tabla se filtra en tiempo real
+        <br>
+        <strong>Y</strong> solo muestra los registros que coinciden con el texto introducido.
+        <br>
+        <br>
+        <strong>Escenario 2: Aplicación de filtro por estado</strong>
+        <br>
+        <strong>Dado que</strong> el listado tiene una opción de filtro por estado 
+        <br>
+        <strong>Cuando</strong> el usuario selecciona el filtro "Inactivo"
+        <br>
+        <strong>Entonces</strong> la tabla solo muestra los elementos que están en estado "Inactivo".
+        <br>
+        <br>
+        <strong>Escenario 3: Búsqueda sin resultados</strong>
+        <br>
+        <strong>Dado que</strong> el usuario introduce un término de búsqueda
+        <br>
+        <strong>Y</strong> no hay coincidencias en la tabla
+        <br>
+        <strong>Cuando</strong> la búsqueda se completa
+        <br>
+        <strong>Entonces</strong> la tabla aparece vacía
+        <br>
+        <strong>Y</strong> se muestra un mensaje informativo  "No se encontraron resultados para su búsqueda".
+      </td>
+    </tr>
+  <tr>
+      <td>TB US05</td>
+      <td>Navegación y acciones mediante comandos de voz</td>
+      <td>Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+      <td>
+        <strong>Escenario 1: Navegación exitosa a una sección</strong>
+        <br>
+        <strong>Dado que</strong> el micrófono de la app está activo
+        <br>
+        <strong>Cuando</strong> el usuario dice el comando "Vicky, quiero crear un establo"
+        <br>
+        <strong>Entonces</strong> la aplicación navega inmediatamente a la sección correspondiente.
+        <br>
+        <br>
+        <strong>Escenario 2: Ejecución de acción exitosa</strong>
+        <br>
+        <strong>Dado que</strong> el usuario está en una sección de listados
+        <br>
+        <strong>Cuando</strong> el usuario dice el comando "Vicky, quiero agregar un establo"
+        <br>
+        <strong>Entonces</strong> la aplicación abre la ventana o formulario de registro del elemento solicitado.
+        <br>
+        <br>
+        <strong>Escenario 3: Comando de voz no reconocido</strong>
+        <br>
+        <strong>Dado que</strong> el micrófono de la app está activo
+        <br>
+        <strong>Cuando</strong> el usuario dice un comando no definido o ininteligible
+        <br>
+        <strong>Entonces</strong> la aplicación permanece en la pantalla actual
+        <br>
+        <strong>Y</strong> muestra un mensaje de error de reconocimiento "Comando no reconocido, por favor, inténtalo de nuevo."
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### 8.3.2. To-Be Product Backlog
+
+Esta sección reúne una serie de elementos funcionales o técnicos que podrían integrarse al producto a partir de los aprendizajes obtenidos durante la etapa de experimentación. A diferencia del backlog vigente, este To-Be Product Backlog aún no cuenta con aprobación para su desarrollo. No obstante, consolida posibles funcionalidades, tareas o mejoras que se alinean con las nuevas historias de usuario (To-Be User Stories). Cada ítem descrito se basa en hipótesis validadas, ideas viables o necesidades recurrentes identificadas durante las pruebas con usuarios.
+
+<table>
+  <thead>
+    <tr>
+      <th>#Orden</th>
+      <th>User Story ID</th>
+      <th>Título</th>
+      <th>Descripción</th>
+      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><b>1</b></td>
+      <td>TB US05</td>
+      <td>Navegación y acciones mediante comandos de voz</td>
+      <td>Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+      <td><b>8</b></td>
+    </tr>
+    <tr>
+      <td><b>2</b></td>
+      <td>TB US01</td>
+      <td>Registro con terceros</td>
+      <td>Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+      <td><b>5</b></td>
+    </tr>
+    <tr>
+      <td><b>3</b></td>
+      <td>TB US04</td>
+      <td>Buscador y filtros en listados</td>
+      <td>Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+      <td><b>5</b></td>
+    </tr>
+    <tr>
+      <td><b>4</b></td>
+      <td>TB US02</td>
+      <td>Personalización ampliada del perfil</td>
+      <td>Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+      <td><b>3</b></td>
+    </tr>
+    <tr>
+      <td><b>5</b></td>
+      <td>TB US03</td>
+      <td>Confirmación visual al registrar información</td>
+      <td>Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+      <td><b>2</b></td>
+    </tr>
+  </tbody>
+</table>
   
 ## Conclusiones Y Recomendaciones
 
