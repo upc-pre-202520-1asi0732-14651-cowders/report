@@ -3031,64 +3031,66 @@ Para el desarrollo de las hipótesis en esta etapa de diseño, se utilizarán di
 **EP01: Gestión de Establos**
 
 Medidas:
-	**•	Tasa de éxito en gestión de establos (%):** Número de operaciones completadas (crear/editar/eliminar) sin errores / total de intentos.
-	**•	Errores de validación por sesión:** Total de errores en formularios de establos / total de sesiones relacionadas.
-	**•	Tiempo medio para registrar un establo (s):** Tiempo promedio desde que se abre el formulario hasta que se guarda exitosamente.
-	**•	Número de pasos repetidos:** Veces que el usuario vuelve atrás, corrige o reinicia el formulario de establo.
-	**•	Uso del buscador de establos (%):** Sesiones donde se utiliza la búsqueda de establos / total de sesiones en el módulo.
+**-	Tasa de éxito en gestión de establos (%):** Número de operaciones completadas (crear/editar/eliminar) sin errores / total de intentos.
+**-	Errores de validación por sesión:** Total de errores en formularios de establos / total de sesiones relacionadas.
+**-	Tiempo medio para registrar un establo (s):** Tiempo promedio desde que se abre el formulario hasta que se guarda exitosamente.
+**-	Número de pasos repetidos:** Veces que el usuario vuelve atrás, corrige o reinicia el formulario de establo.
+**-	Uso del buscador de establos (%):** Sesiones donde se utiliza la búsqueda de establos / total de sesiones en el módulo.
     
+---
+
 **EP02: Gestión de Bovinos**
 
 Medidas:
-	**•	Tasa de éxito en registro de bovinos (%):** Bovinos registrados sin errores / total de intentos de registro.
-	**•	Errores por arete duplicado (%):** Registros rechazados por arete repetido / total de intentos.
-	**•	Tiempo medio de registro de bovino (s):** Desde que se abre el formulario hasta que se guarda correctamente.
-	**•	Porcentaje de bovinos con ficha completa:** Fichas con datos obligatorios completos (arete, raza, sexo, fecha, salud, establo) / total de bovinos.
-	**•	Frecuencia de edición por bovino:** Número de ediciones realizadas / total de bovinos registrados.
+ **- Tasa de éxito en registro de bovinos (%):** Bovinos registrados sin errores / total de intentos de registro.
+ **-	Errores por arete duplicado (%):** Registros rechazados por arete repetido / total de intentos.
+ **-	Tiempo medio de registro de bovino (s):** Desde que se abre el formulario hasta que se guarda correctamente.
+**-	Porcentaje de bovinos con ficha completa:** Fichas con datos obligatorios completos (arete, raza, sexo, fecha, salud, establo) / total de bovinos.
+**-	Frecuencia de edición por bovino:** Número de ediciones realizadas / total de bovinos registrados.
 
-⸻
+---
 
 **EP03: Gestión de Vacunas**
 
 Medidas:
-	**•	Tasa de éxito en registro de vacunas (%):** Registros de vacunación guardados sin errores / total de intentos.
-	**•	Errores de fecha futura (%):** Registros rechazados por fechas inválidas / total de intentos.
-	**•	Tiempo medio para registrar una vacunación (s):** Desde la selección del bovino hasta el guardado del registro.
-	**•	Porcentaje de bovinos con historial sanitario completo:** Bovinos con al menos una vacuna registrada según su edad / total de bovinos.
-	**•	Uso de filtros en el historial (%):** Sesiones que utilizan filtros por fecha/tipo/bovino / sesiones totales en el módulo de vacunas.
+**-	Tasa de éxito en registro de vacunas (%):** Registros de vacunación guardados sin errores / total de intentos.
+**-	Errores de fecha futura (%):** Registros rechazados por fechas inválidas / total de intentos.
+**-	Tiempo medio para registrar una vacunación (s):** Desde la selección del bovino hasta el guardado del registro.
+**-	Porcentaje de bovinos con historial sanitario completo:** Bovinos con al menos una vacuna registrada según su edad / total de bovinos.
+**-	Uso de filtros en el historial (%):** Sesiones que utilizan filtros por fecha/tipo/bovino / sesiones totales en el módulo de vacunas.
 
-⸻
+---
 
 **EP04: Gestión de Campañas**
 
 Medidas:
-	**•	Tiempo medio para crear una campaña (s):** Desde abrir el formulario hasta guardar la campaña.
-	**•	Tasa de campañas completadas (%):** Campañas marcadas como “completadas” / total de campañas creadas.
-	**•	Tasa de edición posterior (%):** Campañas que fueron modificadas después de creadas / total de campañas.
-	**•	Número medio de personal asignado por campaña:** Total de asignaciones de personal / total de campañas activas.
-	**•	Tasa de uso de filtros por fecha (%):** Sesiones que usan búsqueda por rango de fechas / sesiones totales en el módulo.
+**-	Tiempo medio para crear una campaña (s):** Desde abrir el formulario hasta guardar la campaña.
+**-	Tasa de campañas completadas (%):** Campañas marcadas como “completadas” / total de campañas creadas.
+**-	Tasa de edición posterior (%):** Campañas que fueron modificadas después de creadas / total de campañas.
+**-	Número medio de personal asignado por campaña:** Total de asignaciones de personal / total de campañas activas.
+**-	Tasa de uso de filtros por fecha (%):** Sesiones que usan búsqueda por rango de fechas / sesiones totales en el módulo.
 
-⸻
+---
 
 **EP05: Gestión de Personal**
 
 Medidas:
-	**•	Tasa de éxito en registro de personal (%):** Registros de personal creados sin errores / total de intentos.
-	**•	Tiempo medio para registrar un empleado (s):** Desde abrir el formulario hasta guardar correctamente.
-	**•	Búsquedas exitosas por nombre (%):** Búsquedas que devuelven al menos un resultado / total de búsquedas.
-	**•	Porcentaje de personal con rol asignado correctamente:** Registros con rol no vacío y coherente con la operación / total de empleados.
-	**•	Tasa de eliminación de personal inactivo (%):** Empleados marcados como inactivos y luego eliminados / total de empleados inactivos.
+**-	Tasa de éxito en registro de personal (%):** Registros de personal creados sin errores / total de intentos.
+**-	Tiempo medio para registrar un empleado (s):** Desde abrir el formulario hasta guardar correctamente.
+**-	Búsquedas exitosas por nombre (%):** Búsquedas que devuelven al menos un resultado / total de búsquedas.
+**-	Porcentaje de personal con rol asignado correctamente:** Registros con rol no vacío y coherente con la operación / total de empleados.
+**-	Tasa de eliminación de personal inactivo (%):** Empleados marcados como inactivos y luego eliminados / total de empleados inactivos.
 
-⸻
+---
 
 **EP06: Información Pública del Sitio Web**
 
 Medidas:
-	**•	Tiempo medio en secciones informativas (s):** Tiempo promedio en páginas de “Funcionalidades”, “Beneficios”, “Misión y Visión”.
-	**•	Tasa de clics en “Contacto” (%):** Clics en enlaces de contacto / total de sesiones de visitantes.
-	**•	Número de secciones vistas por sesión:** Total de secciones informativas visitadas / sesiones de visitantes.
-	**•	Tasa de conversión a registro (%):** Visitantes que pasan de la landing al formulario de registro / total de visitantes.
-	**•	Interacción con la vista general de la plataforma:** Eventos de scroll, clicks o hovers en la demo/vista general / total de sesiones que la cargan.
+**-	Tiempo medio en secciones informativas (s):** Tiempo promedio en páginas de “Funcionalidades”, “Beneficios”, “Misión y Visión”.
+**-	Tasa de clics en “Contacto” (%):** Clics en enlaces de contacto / total de sesiones de visitantes.
+**-	Número de secciones vistas por sesión:** Total de secciones informativas visitadas / sesiones de visitantes.
+**-	Tasa de conversión a registro (%):** Visitantes que pasan de la landing al formulario de registro / total de visitantes.
+**-	Interacción con la vista general de la plataforma:** Eventos de scroll, clicks o hovers en la demo/vista general / total de sesiones que la cargan.
 
 ### 8.2.4. Conditions
 
@@ -3097,26 +3099,26 @@ Medidas:
 **Entorno de Pruebas:** Las pruebas se realizarán en un entorno controlado y remoto, utilizando navegadores web (Chrome, Edge, Firefox) y la aplicación móvil cuando corresponda. Se buscará simular condiciones reales de uso: conexión a internet variable, dispositivos de gama media y entornos rurales o semiurbanos.
 
 **Período de Pruebas:** El período de experimentación tendrá una duración estimada de dos a tres semanas, durante las cuales los usuarios podrán:
-	•	Registrar y gestionar establos, bovinos y vacunas.
-	•	Crear y monitorear campañas.
-	•	Registrar, consultar y asignar personal.
-	•	Navegar por la landing page de VacApp para conocer la propuesta de valor.
+-	Registrar y gestionar establos, bovinos y vacunas.
+-	Crear y monitorear campañas.
+-	Registrar, consultar y asignar personal.
+-	Navegar por la landing page de VacApp para conocer la propuesta de valor.
     
 **Control de Variables Externas:** Se tomarán medidas para mitigar factores que puedan distorsionar los resultados, como:
-	•	Problemas de conectividad frecuentes en zonas rurales.
-	•	Cambios estacionales en la carga de trabajo ganadera (campañas de vacunación reales).
-	•	Diferencias de experiencia digital entre usuarios.
+-	Problemas de conectividad frecuentes en zonas rurales.
+-	Cambios estacionales en la carga de trabajo ganadera (campañas de vacunación reales).
+-	Diferencias de experiencia digital entre usuarios.
 Cuando sea posible, se registrará el contexto (tipo de conexión, dispositivo, zona) para interpretar mejor los datos.
 
-**•	Condición Experimental:** Los usuarios interactuarán con una versión de VacApp que incluye:
-	•	Formularios con validaciones, mensajes de error claros y ayudas contextuales.
-	•	Listados con filtros y buscadores para establos, bovinos, vacunas, campañas y personal.
-	•	Vistas de resumen (dashboards) básicas para facilitar la toma de decisiones.
+**Condición Experimental:** Los usuarios interactuarán con una versión de VacApp que incluye:
+-	Formularios con validaciones, mensajes de error claros y ayudas contextuales.
+-	Listados con filtros y buscadores para establos, bovinos, vacunas, campañas y personal.
+-	Vistas de resumen (dashboards) básicas para facilitar la toma de decisiones.
     
 **Condición de Control:**
 Un grupo reducido de usuarios utilizará una versión más básica del sistema, con:
-	•	Menos ayudas visuales y mensajes de apoyo.
-	•	Filtros limitados o búsqueda simplificada.
+-	Menos ayudas visuales y mensajes de apoyo.
+-	Filtros limitados o búsqueda simplificada.
 Esto permitirá comparar si las mejoras en interfaz y validaciones influyen en la eficiencia y precisión de uso.
 
 **Consentimiento Informado:**
@@ -3124,17 +3126,17 @@ Todos los participantes serán informados del propósito académico del experime
 
 **Muestra Representativa:**
 Se buscará una muestra heterogénea, incluyendo:
-	•	Ganaderos independientes.
-	•	Representantes de empresas ganaderas.
-	•	Usuarios con distintos niveles de familiaridad con herramientas digitales.
+-	Ganaderos independientes.
+-	Representantes de empresas ganaderas.
+-	Usuarios con distintos niveles de familiaridad con herramientas digitales.
 Esto permitirá que los resultados sean más representativos del público objetivo real de VacApp.
 
 **Medición y Evaluación Continua:**
 Durante todo el periodo de pruebas se recopilarán métricas clave (tiempos, tasas de éxito, errores, búsquedas, conversiones) asociadas a las épicas EP01–EP06.
 Esta información se usará para:
-	•	Ajustar la interfaz.
-	•	Simplificar flujos de registro y consulta.
-	•	Mejorar mensajes, validaciones y componentes críticos orientados a la productividad del ganadero.
+-	Ajustar la interfaz.
+-	Simplificar flujos de registro y consulta.
+-	Mejorar mensajes, validaciones y componentes críticos orientados a la productividad del ganadero.
 
 ### 8.2.5. Scale Calculations and Decisions
 
@@ -3149,13 +3151,13 @@ Se medirá si los usuarios comprenden correctamente los procesos del sistema, co
 
 **Retroalimentación de Ganaderos y Personal Operativo:**
 Se recopilará feedback directo sobre facilidad de uso, claridad de la interfaz, utilidad de los módulos y barreras encontradas. Las sugerencias y reportes de confusión o errores serán analizados para realizar ajustes necesarios antes de escalar la plataforma a un grupo más grande de usuarios.
-	•	Participación Activa en el Piloto:
+- Participación Activa en el Piloto:
 Se evaluará el nivel de uso real durante el periodo de pruebas, considerando métricas como:
-	•	ingreso recurrente a la plataforma,
-	•	registro y consulta de datos,
-	•	uso de buscadores,
-	•	interacción con campañas,
-	•	asignación de bovinos y personal.
+- Ingreso recurrente a la plataforma,
+- Registro y consulta de datos,
+- Uso de buscadores,
+- Interacción con campañas,
+- Asignación de bovinos y personal.
 Una participación activa por encima del 60% del total de usuarios del piloto será un factor clave para justificar el escalado.
 
 **Viabilidad Técnica y Organizacional:**
