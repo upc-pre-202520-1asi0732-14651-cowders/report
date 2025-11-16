@@ -3250,16 +3250,130 @@ Las notificaciones deben presentarse de manera clara y directa, incluyendo los d
 # **Capítulo VIII: Experiment-Driven Development**
 
 ## 8.1. Experiment Planning
+Esta sección establece las bases para la experimentación sistemática dentro del desarrollo de productos y servicios. Su objetivo es definir el estado actual del problema, formular preguntas clave, identificar lagunas de conocimiento y establecer un marco estructurado para diseñar pruebas de software.
 
 ### 8.1.1. As-Is Summary
+El modelo AS-IS describe el flujo de trabajo actual de los productores (Segmento #1) y las empresas (Segmento #2) al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
+
+#### Segmento #1: Productores Ganaderos Independientes
+
+| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
+| :--- | :--- | :--- | :--- |
+| **1. Registro y Sanidad** | Anotar pesajes, vacunas y partos en un cuaderno o Excel básico. | ¿Es este registro el más actualizado? ¿Qué bovinos necesitan revacunarse el mes que viene? | Incertidumbre por la calidad del dato. Presión por la gestión de tiempo. |
+| **2. Localización de Ganado** | Recorrer físicamente el rancho o el establo para verificar un animal específico por su código. | ¿En qué establo dejé al animal? Necesito ir rápido, no tengo tiempo para buscar. | Frustración ante la lentitud. Dependencia de la memoria del personal. |
+| **3. Evaluación del Desempeño** | Cálculo manual del rendimiento por animal al final del mes. | ¿Está dando el rendimiento esperado? ¿Podría estar perdiendo dinero con este animal? | Duda sobre la rentabilidad. Cansancio por el esfuerzo manual. |
+
+El modelo AS-IS describe el flujo de trabajo actual del productor ganadero al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
+
+#### Segmento #2: Empresas Ganaderas
+
+| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
+| :--- | :--- | :--- | :--- |
+| **1. Trazabilidad y Reporte** | Consolidar datos de múltiples fuentes para generar informes de cumplimiento. | ¿Tenemos todos los datos que pide la certificadora? ¿Qué tan bien estamos cumpliendo con los estándares ambientales? | Estrés por la auditoría y los plazos. Burocracia interna. |
+| **2. Coordinación de Personal** | Asignar personal a campañas o establos por medio de llamadas, radios o listas impresas. | ¿Mi personal sabe a qué establo ir? ¿Cómo verifico que la tarea se hizo correctamente en campo? | Ansiedad por la falta de visibilidad en tiempo real. Desconfianza en la ejecución. |
+| **3. Propuesta de Valor al Cliente** | Intentar comunicar el manejo ético o ambiental del ganado sin datos concretos o digitales. | ¿Cómo les demuestro a los clientes que somos sostenibles? Necesito algo más que palabras para ganar este contrato. | Desconexión con el mercado premium. Pérdida de Oportunidad. |
+
+El flujo de trabajo AS-IS, tanto para productores independientes como para empresas, se caracteriza por la fragmentación de la información y la alta dependencia de procesos manuales. La meta de Moobile es reducir el tiempo de la entrada de datos para transformar la ineficiencia en valor.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
+A continuación, se presentan las premisas, lagunas de conocimiento y afirmaciones que hemos formulado e identificado de acuerdo al core business.
+
+#### Premisas y Suposiciones (Assumptions)
+
+| Premisa | Justificación | Enfoque Tecnológico | Tipo |
+| :--- | :--- | :--- | :--- |
+| **Comando de Voz como herramienta de entrada preferida.** | El ambiente de trabajo ganadero a menudo requiere manos libres, ya que la manipulación de dispositivos táctiles es inconveniente o imposible. | Priorizar la optimización del comando de voz en el frontend y la baja latencia del backend para asegurar una precisión en la interpretación de comandos clave. | Assumption |
+| **Sistema de Alertas generará acción correctiva.** | La salud de los bovinos se puede cuidar si la información es oportuna y accionable, lo cual es esencial para reducir pérdidas por enfermedad. | Implementación de un servicio de notificación en la aplicación (Staff Administration BC). | Assumption |
+
+#### Lagunas de Conocimiento (Knowledge Gaps)
+
+| Laguna | Justificación | Enfoque Tecnológico | Tipo |
+| :--- | :--- | :--- | :--- |
+| **Tasa máxima de latencia aceptable.** | Una latencia alta frustrará la adopción en campo, especialmente en zonas con conectividad limitada. | Se requiere diseñar Pruebas de Carga/Estrés para medir la latencia bajo simulación de usuarios concurrentes. | Knowledge Gap |
+
+#### Afirmaciones y Decisiones de Diseño (Claims)
+
+| Afirmación | Justificación | Enfoque Tecnológico | Tipo |
+| :--- | :--- | :--- | :--- |
+| **Arquitectura basada en DDD.** | La separación por Bounded Contexts aísla fallos, facilita la escalabilidad de equipos y permite la evolución independiente de módulos críticos. | Mantener la cohesión de los Agregados dentro de cada Bounded Context y usar el Shared Context solo para primitivas y Value Objects universales. | Claim |
+| **Asignación de Personal a Campañas.** | La centralización digital elimina la ambigüedad de los métodos manuales y proporciona trazabilidad instantánea sobre quién, dónde y qué tarea debe realizarse. | Implementar la funcionalidades que aseguren validaciones de disponibilidad y carga de trabajo. | Claim |
 
 ### 8.1.3. Experiment-Ready Questions
+Esta sección corresponde a preguntas listas para ser ejecutadas en un experimento, las cuales serán afinadas al utilizar la técnica de 5Ws y H.
+
+#### 1. ¿El Componente de Comando de Voz reduce el tiempo en el registro de tareas en campo?
+
+| The Five Ws and One H | Detalle para Moobile-Platform |
+| :--- | :--- |
+| **What** | Comparar la tasa de éxito y el tiempo necesario para registrar una Vacuna o Asignar un Bovino a un Establo utilizando el Comando de Voz frente al uso del formulario manual (UI). |
+| **Why** | Para validar la principal suposición de usabilidad y asegurar que la inversión en el Comando de voz se traduce en eficiencia para el personal de campo. |
+| **When** | Durante las pruebas de campo del personal de Staff que realiza tareas rutinarias de registro. |
+| **Where** | En el Frontend donde se activa el comando de voz. |
+| **Who** | Personal de Staff y Usuarios Ganaderos que operan directamente en el establo y están acostumbrados a registrar datos. |
+| **How** | Medir el Tiempo de Tarea y la Tasa de Error de Transcripción en dos grupos: Grupo A (Voz) vs. Grupo B (Manual). |
+
+#### 2. ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el Backend?
+
+| The Five Ws and One H | Detalle para Moobile-Platform |
+| :--- | :--- |
+| **What** | Determinar la latencia máxima aceptable para la consulta de datos complejos. |
+| **Why** | Para establecer un servicio de rendimiento para la gestión de ranchos y mitigar el riesgo de abandono en zonas de baja conectividad. |
+| **When** | Durante las pruebas de Carga/Estrés del sistema, simulando 50 usuarios concurrentes en los endpoints de consulta. |
+| **Where** | En el entorno de pre-producción del backend. |
+| **Who** | Ingenieros de Software y QA que monitorean el rendimiento bajo presión. |
+| **How** | Usar herramientas de load testing para medir la latencia, buscando un valor inferior a 2,000 ms (2 segundos). |
+
+#### 3. ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental?
+
+| The Five Ws and One H | Detalle para Moobile-Platform |
+| :--- | :--- |
+| **What** | Evaluar la Usabilidad y el Valor Percibido de los informes de impacto ambiental y social generados. |
+| **Why** | Para validar la principal propuesta de valor al segmento de Empresas Ganaderas y asegurar que el output sea accionable para el cliente final. |
+| **When** | Durante las entrevistas de validación con las Empresas Ganaderas, mostrando prototipos de reportes. |
+| **Where** | En el módulo de Reporte, centrándose en la claridad de las visualizaciones de métricas complejas. |
+| **Who** | Empresarios Ganaderos y Stakeholders de Trazabilidad. |
+| **How** | Usar encuestas de valor para calificar la utilidad y claridad del informe para la toma de decisiones. |
 
 ### 8.1.4. Question Backlog
 
+Esta es una herramienta estratégica utilizada durante las fases de investigación, validación de hipótesis y descubrimiento de producto. Con ella, nuestro objetivo es estructurar y priorizar las preguntas clave que el equipo de desarrollo necesita responder para garantizar que la solución propuesta se sincronice con las necesidades, comportamientos y expectativas reales de los usuarios.
+
+#### Preguntas Prioritarias para Experimentación de Moobile
+
+1.  **¿El componente de Comando de Voz reduce el tiempo para el registro de tareas en campo** en comparación con la entrada manual a través del formulario? **(Riesgo: Usabilidad)**
+2.  **¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva** (ej., listar 1,000+ bovinos) en el *backend*? **(Riesgo: Rendimiento/Escalabilidad)**
+3.  **¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental** para las Empresas Ganaderas? **(Riesgo: Propuesta de Valor)**
+4.  **¿El sistema de Alertas y Notificaciones sobre el estado de salud de los bovinos es lo suficientemente oportuno para generar una acción correctiva?** **(Riesgo: Valor y Gestión de Staff)**
+5.  **¿La Asignación de Personal a Campañas a través de la plataforma reduce los errores de coordinación en comparación con los métodos manuales?** **(Riesgo: Eficiencia Operativa)**
+
 ### 8.1.5. Experiment Cards
+
+#### Experiment Card 01: Usabilidad del Comando de Voz
+
+| Sección | Contenido |
+| :--- | :--- |
+| **Question** | ¿El componente de Comando de Voz reduce significativamente el tiempo y el esfuerzo necesario para tareas críticas (registrar una vacuna o mover un bovino) en comparación con la entrada manual a través del formulario? |
+| **Why** | Es vital validar que la inversión en el comando de voz se traduzca en eficiencia y facilidad de uso para el personal de campo, mitigando el riesgo de baja adopción. |
+| **What** | Implementar la funcionalidad de registro de una tarea simple (ej., Asignar Bovino a Establo) y medir el rendimiento con dos grupos: Grupo A (solo voz) vs. Grupo B (solo UI táctil). |
+| **Hypothesis** | Si implementamos la funcionalidad de Comando de Voz, entonces **el Tiempo de Tarea (TT) para el registro se reducirá en al menos un 40%**, con una Tasa de Error de Transcripción (TET) inferior al 5%. |
+
+#### Experiment Card 02: Rendimiento y Latencia de Consultas
+
+| Sección | Contenido |
+| :--- | :--- |
+| **Question** | ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el backend? |
+| **Why** | La latencia alta en la consulta de datos complejos puede frustrar a los usuarios en zonas de baja conectividad y es un riesgo de escalabilidad no medido. |
+| **What** | Ejecutar pruebas de carga/estrés simulando 50 usuarios concurrentes en los *endpoints* de consulta y midiendo la latencia en la base de datos simulada. |
+| **Hypothesis** | Si se logra una latencia inferior a **2,000 ms (2 segundos)** al consultar varias entidades, entonces el rendimiento será aceptable para la mayoría de los escenarios de conectividad en campo. |
+
+#### Experiment Card 03: Valor Percibido del Reporte de Impacto
+
+| Sección | Contenido |
+| :--- | :--- |
+| **Question** | ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental y es percibido como valioso por las Empresas Ganaderas? |
+| **Why** | Es crucial validar la principal propuesta de valor diferenciadora de Moobile, asegurando que los reportes generen *insights* accionables y refuercen la confianza con el cliente final. |
+| **What** | Crear dos versiones de prototipos de informes y presentarlos a empresas para medir la claridad, utilidad y Valor Percibido. |
+| **Hypothesis** | Si presentamos los datos de impacto ambiental y social en un **dashboard circular y jerárquico**, entonces el Valor Percibido por las empresas aumentará en al menos un **25%** respecto al formato de tabla lineal simple. |
 
 ## 8.2. Experiment Design
 
