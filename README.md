@@ -2723,16 +2723,16 @@ Estas revisiones facilitaron una retroalimentación interna entre los miembros d
 
 ### 6.3.1. Diseño de Entrevistas
 
-#### LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES
+**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
 
-1. **<u>Información Personal</u>**
+**1. Información Personal**
 
 - ¿Cuál es su nombre, edad y rol principal en su operación ganadera?
 - ¿En qué región del Perú reside y dónde se encuentra su granja o propiedad?
 - ¿Qué tipos de ganado posee  y aproximadamente cuántos animales gestiona en total?
 - ¿Cuál es la antigüedad de su negocio o experiencia personal en la ganadería?
 
-2. **<u>Personalidad, Aspecto Emocional y Habilidades del Usuario</u>**
+**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
 
 - Defina una frase o un principio que resuma su enfoque sobre el cuidado y bienestar de sus animales.
 - Describa algunas cualidades o fortalezas que considera esenciales para garantizar la calidad natural y alta calidad de sus productos de venta.
@@ -2740,7 +2740,7 @@ Estas revisiones facilitaron una retroalimentación interna entre los miembros d
 - ¿Cómo se siente cuando un problema de salud animal ocurre sin previo aviso o cuando la venta no es "honesta" en términos de precio o calidad?
 - ¿Se considera hábil en el uso de aplicaciones móviles, software o tecnología para la gestión de su granja? ¿Tuvo dificultades para aprender a usar las herramientas digitales que ya emplea?
 
-3. **<u>Evaluación del Problema</u>**
+**3. Evaluación del Problema**
 
 - Después de usar Moobile para gestionar sus operaciones, ¿siente que la plataforma ha cumplido con su objetivo de ayudarle a garantizar un estado y cuidado óptimo para sus animales? ¿Por qué sí o por qué no?
 - ¿Qué tan útil encontró la funcionalidad de monitoreo de salud, nutrición y reproducción? ¿Cree que la información proporcionada es suficiente y fácil de interpretar para tomar mejores decisiones en su día a día?
@@ -2748,18 +2748,18 @@ Estas revisiones facilitaron una retroalimentación interna entre los miembros d
 - ¿La plataforma le ayudó a gestionar mejor sus operaciones y reducir el uso ineficiente de insumos? 
 - Si tuviera que describir Moobile a otro productor independiente, ¿qué beneficio principal destacaría de la plataforma? ¿Hay alguna funcionalidad clave que deba ser mejorada o agregada?
 
-___________________________
+---
 
-#### LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS
+**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS**
 
-1. **<u>Información Personal</u>**
+**1. Información Personal**
 
 - ¿Cuál es su nombre, cargo y área de responsabilidad dentro de la empresa ganadera?
 - ¿Cuál es el enfoque principal de su empresa y cuántos animales gestionan aproximadamente?
 - ¿En qué departamento o región de Perú opera la empresa?
 - ¿Cuál es el tamaño aproximado de su equipo de gestión y veterinario?
 
-2. **<u>Personalidad, Aspecto Emocional y Habilidades del Usuario</u>**
+**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
 
 - Defina una frase o un lema que represente el compromiso ético y sostenible de su empresa en la producción ganadera.
 - Describa alguna cualidad o fortaleza que considere representativa de la cultura de su empresa respecto a la precisión y el cuidado individual del ganado.
@@ -2767,7 +2767,7 @@ ___________________________
 - ¿Cómo se siente cuando no encuentra un sistema integral de gestión veterinaria o una solución que le permita el acceso constante y adecuado a la información de salud? ¿Buscan desarrollar algo internamente o buscan alternativas externas?
 - ¿Se considera la empresa hábil y abierta a la adopción de nuevas soluciones tecnológicas o software especializados para la ganadería? ¿Cree que es indispensable que una empresa ganadera corporativa se adecúe al entorno digital? ¿Por qué?
 
-3. **<u>Evaluación del Problema</u>**
+**3. Evaluación del Problema**
 
 - ¿La plataforma Moobile ha logrado proporcionar ese sistema integral de gestión veterinaria que buscaban? ¿Se garantiza ahora un acceso constante y adecuado a la atención médica veterinaria para todos sus animales?
 - ¿Las herramientas de Moobile para la gestión de la nutrición han ayudado a asegurar una alimentación precisa y óptima para los animales? ¿Esto ha mejorado el bienestar animal de manera medible en la empresa?
@@ -2779,17 +2779,22 @@ ___________________________
 
 #### Segmento #1: Productores Ganaderos Independientes
 
-Entrevistada:	Karla Ramírez <br>
-Sexo:	Femenino <br>
-Edad:	28 <br>
-Domicilio:	Cajamarca, Perú (Distrito de Namora) <br>
-Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar) <br>
-Duración de entrevista:	6:10 <br>
+Entrevistada:	Karla Ramírez
 
-[![Karla Ramirez](assets/chapter-6/Interviews/karla_ramirez.png)
+Sexo:	Femenino
 
-<br>
-<i>Resumen de la Entrevista</i> <br>
+Edad:	28
+
+Domicilio:	Cajamarca, Perú (Distrito de Namora)
+
+Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar)
+
+Duración de entrevista:	6:10
+
+![Karla Ramirez](assets/chapter-6/Interviews/karla_ramirez.png)
+
+Resumen de la Entrevista
+
 Carla Ramírez es propietaria y encargada directa de una pequeña ganadería en Cajamarca, con más de 20 años de experiencia en el negocio familiar. Trabaja principalmente con ganado bovino de doble propósito (leche y carne) y gestiona aproximadamente 38 animales (vacas, terneros y ovejas).
 
 Su principio guía es: "Animal sano, familia tranquila y negocio seguro." Ella considera esenciales la paciencia, la constancia, la observación diaria, la honestidad y la responsabilidad en la alimentación para la calidad de su producto.
@@ -2798,10 +2803,11 @@ Emocionalmente, al buscar información sobre nuevos métodos, siente curiosidad 
 
 ### 6.3.3. Evaluaciones según heurísticas
 
-## UX Heuristics & Principles Evaluation  
+**UX Heuristics & Principles Evaluation**  
 
 **Usability – Inclusive Design – Information Architecture**
-### Tareas a Evaluar
+
+**Tareas a Evaluar**
 
 El alcance de esta evaluación incluye la revisión de la usabilidad de las siguientes tareas, enfocadas en la gestión del ganado (EP02) y la navegación:
 
@@ -2845,9 +2851,12 @@ Los errores serán puntuados tomando en cuenta la siguiente escala:
 
 ## Descripción de Problemas
 
-### Problema #1  
-**El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio.**  
-**Severidad:** 3  
+**Problema #1**
+
+**El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio.**
+
+**Severidad:** 3
+
 **Heurística violada:** Usabilidad - Consistencia y estándares  
 
 **Problema:**  
@@ -2858,9 +2867,12 @@ Reubicar el control de comando de voz dentro del encabezado principal (junto al 
 
 ---
 
-### Problema #2  
-**Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil).**  
-**Severidad:** 2  
+**Problema #2**
+
+**Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil).**
+
+**Severidad:** 2
+
 **Heurística violada:** Usabilidad - Visibilidad del estado del sistema  
 
 **Problema:**  
@@ -2871,9 +2883,12 @@ Incluir una barra o *stepper* de progreso en la parte superior del formulario qu
 
 ---
 
-### Problema #3  
-**Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles.**  
-**Severidad:** 3  
+**Problema #3**
+
+**Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles.**
+
+**Severidad:** 3
+
 **Heurística violada:** Inclusive Design - Proporciona experiencias comparables  
 
 **Problema:**  
