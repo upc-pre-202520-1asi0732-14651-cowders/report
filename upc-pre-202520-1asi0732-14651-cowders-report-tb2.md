@@ -5296,20 +5296,77 @@ Estos métodos permitirán validar hipótesis, identificar oportunidades de mejo
 
 ### 8.2.7. Data Analytics: Goals, KPIs and Metrics Selection
 
-| Objetivo | KPI  | Métricas para medir |
-| -------- | ---- | ------------------- |
-| Validar la eficiencia y correcto funcionamiento del registro de establos         | Tasa de creación exitosa de establos     | Porcentaje de establos creados sin errores. Tiempo promedio de registro. Número de intentos fallidos por validaciones.                    |
-| Medir la claridad del flujo de edición y actualización de información ganadera         | Tasa de modificaciones exitosas en bovinos     |  Porcentaje de ediciones guardadas correctamente. Errores por campos inválidos. Tiempo promedio para editar una ficha.                   |
-|  Evaluar la precisión y utilidad del sistema de búsqueda de bovinos        | Tasa de búsquedas exitosas     |  Número de resultados relevantes. Tiempo promedio hasta encontrar un bovino. Número de búsquedas sin resultados.                   |
-| Validar la efectividad del registro de vacunas dentro del historial sanitario         | Tasa de registros de vacunación completados     |  Porcentaje de registros guardados sin errores. Número de errores por fechas inválidas. Tiempo promedio para registrar una vacuna.                   |
-| Medir la comprensión del flujo de asignación de vacunas y bovinos         | Tasa de asignación correcta     |  Porcentaje de asignaciones válidas. Número de intentos fallidos por restricciones (capacidad, duplicidad). Tiempo promedio del proceso.                   |
-| Evaluar la eficiencia de creación de campañas sanitarias         | Tasa de campañas creadas exitosamente     |  Tiempo promedio para crear una campaña. Porcentaje de campañas con campos completos. Número de errores por validación.                   |
-| Determinar la calidad del módulo de personal y su usabilidad         | Porcentaje de personal registrado correctamente     |  Número de registros válidos. Tiempo promedio del flujo. Errores frecuentes del formulario.                   |
-| Medir la efectividad de la asignación de personal a campañas         | Tasa de asignación de personal por campaña     |   Total de asignaciones realizadas. Intentos fallidos por personal duplicado. Tiempo promedio del proceso.                  |
-| Evaluar la capacidad del usuario para navegar y comprender la plataforma         | Tiempo promedio de navegación por módulo     |  Tiempo en secciones como Establos, Bovinos, Vacunas y Campañas. Puntos de abandono. Número de páginas visitadas por sesión.                   |
-| Medir el valor percibido por los usuarios que visitan la landing page         | Tasa de conversión de visitante a registro     | Porcentaje de visitantes que acceden al formulario. Tiempo en secciones clave (Misión, Beneficios). Número de clics en “Contacto”.                  |
-| Validar la funcionalidad total del sistema bajo condiciones reales         |  Nivel de estabilidad del sistema    |  Tiempos de carga promedio. Errores 4xx/5xx. Tiempo de respuesta del backend (Azure). Rendimiento del frontend (Netlify).                   |
-| Analizar la comprensión de la estructura de información sanitaria     | Tasa de consultas exitosas del historial de vacunación | Número de consultas sin errores. Tiempo promedio para encontrar vacunas. Frecuencia de uso de filtros.                |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="35%">Objetivo</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="25%">KPI</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="40%">Métricas para medir</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Validar la eficiencia y correcto funcionamiento del registro de establos</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de creación exitosa de establos</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Porcentaje de establos creados sin errores. Tiempo promedio de registro. Número de intentos fallidos por validaciones.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Medir la claridad del flujo de edición y actualización de información ganadera</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de modificaciones exitosas en bovinos</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Porcentaje de ediciones guardadas correctamente. Errores por campos inválidos. Tiempo promedio para editar una ficha.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Evaluar la precisión y utilidad del sistema de búsqueda de bovinos</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de búsquedas exitosas</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Número de resultados relevantes. Tiempo promedio hasta encontrar un bovino. Número de búsquedas sin resultados.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Validar la efectividad del registro de vacunas dentro del historial sanitario</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de registros de vacunación completados</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Porcentaje de registros guardados sin errores. Número de errores por fechas inválidas. Tiempo promedio para registrar una vacuna.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Medir la comprensión del flujo de asignación de vacunas y bovinos</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de asignación correcta</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Porcentaje de asignaciones válidas. Número de intentos fallidos por restricciones (capacidad, duplicidad). Tiempo promedio del proceso.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Evaluar la eficiencia de creación de campañas sanitarias</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de campañas creadas exitosamente</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio para crear una campaña. Porcentaje de campañas con campos completos. Número de errores por validación.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Determinar la calidad del módulo de personal y su usabilidad</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Porcentaje de personal registrado correctamente</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Número de registros válidos. Tiempo promedio del flujo. Errores frecuentes del formulario.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Medir la efectividad de la asignación de personal a campañas</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de asignación de personal por campaña</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Total de asignaciones realizadas. Intentos fallidos por personal duplicado. Tiempo promedio del proceso.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Evaluar la capacidad del usuario para navegar y comprender la plataforma</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio de navegación por módulo</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo en secciones como Establos, Bovinos, Vacunas y Campañas. Puntos de abandono. Número de páginas visitadas por sesión.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Medir el valor percibido por los usuarios que visitan la landing page</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de conversión de visitante a registro</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Porcentaje de visitantes que acceden al formulario. Tiempo en secciones clave (Misión, Beneficios). Número de clics en “Contacto”.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Validar la funcionalidad total del sistema bajo condiciones reales</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Nivel de estabilidad del sistema</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempos de carga promedio. Errores 4xx/5xx. Tiempo de respuesta del backend (Azure). Rendimiento del frontend (Netlify).</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Analizar la comprensión de la estructura de información sanitaria</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tasa de consultas exitosas del historial de vacunación</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Número de consultas sin errores. Tiempo promedio para encontrar vacunas. Frecuencia de uso de filtros.</td>
+    </tr>
+  </tbody>
+</table>
 
 Se ejecutaron evaluaciones de rendimiento, accesibilidad y mejores prácticas utilizando Lighthouse en la aplicación Moobile con el propósito de analizar su funcionamiento y mejorar la experiencia de usuario. Estas pruebas permitieron identificar oportunidades de optimización en carga, navegación y usabilidad, asegurando que la plataforma responda adecuadamente a las necesidades tanto de ganaderos independientes como de empresas ganaderas. A continuación se presentan algunos ejemplos correspondientes a ambos segmentos objetivo.
 
@@ -5327,21 +5384,21 @@ Se mantendrá un plan detallado del seguimiento de actividades propuestas. Para 
 
 Esta sección reúne nuevas Historias de Usuario que aún no se integran al backlog oficial, pero que podrían incorporarse en futuras versiones del producto. Dichas historias provienen de experimentos, entrevistas, pruebas de usabilidad u observaciones hechas durante la validación y el proceso XDPD. Representan necesidades, oportunidades de mejora o funcionalidades propuestas para optimizar la experiencia del usuario o solucionar problemas identificados, y requieren ser analizadas antes de avanzar a su desarrollo.
 
-<table>
-  <thead>
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
     <tr>
-      <th>ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Criterios de Aceptación</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="center" width="100">ID</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="left" width="200">Título</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="left">Descripción</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="left">Criterios de Aceptación</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>TB US01</td>
-      <td>Registro con terceros</td>
-      <td>Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
-      <td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US01</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Registro con terceros</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">
         <strong>Escenario 1: Registro exitoso con Google</strong>
         <br>
         <strong>Dado que</strong> el usuario está en la pantalla de registro
@@ -5383,11 +5440,11 @@ Esta sección reúne nuevas Historias de Usuario que aún no se integran al back
         <br>
       </td>
     </tr>
-  <tr>
-      <td>TB US02</td>
-      <td>Personalización ampliada del perfil</td>
-      <td>Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
-      <td>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US02</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Personalización ampliada del perfil</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">
         <strong>Escenario 1: Actualización de datos exitosa</strong>
         <br>
         <strong>Dado que</strong> el usuario está en la sección de edición de perfil
@@ -5424,11 +5481,12 @@ Esta sección reúne nuevas Historias de Usuario que aún no se integran al back
         <br>
         <strong>Y</strong> resalta el campo obligatorio vacío con un mensaje de error.
       </td>
+    </tr>
     <tr>
-      <td>TB US03</td>
-      <td>Confirmación visual al registrar información</td>
-      <td>Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
-      <td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US03</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Confirmación visual al registrar información</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">
         <strong>Escenario 1: Registro exitoso de un elemento</strong>
         <br>
         <strong>Dado que</strong> el usuario completa y envía el formulario de registro
@@ -5454,10 +5512,10 @@ Esta sección reúne nuevas Historias de Usuario que aún no se integran al back
       </td>
     </tr>
     <tr>
-      <td>TB US04</td>
-      <td>Buscador y filtros en listados</td>
-      <td>Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
-      <td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US04</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Buscador y filtros en listados</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">
         <strong>Escenario 1: Búsqueda por texto exitosa</strong>
         <br>
         <strong>Dado que</strong> el usuario está en un listado 
@@ -5488,14 +5546,14 @@ Esta sección reúne nuevas Historias de Usuario que aún no se integran al back
         <br>
         <strong>Entonces</strong> la tabla aparece vacía
         <br>
-        <strong>Y</strong> se muestra un mensaje informativo  "No se encontraron resultados para su búsqueda".
+        <strong>Y</strong> se muestra un mensaje informativo  "No se encontraron resultados para su búsqueda".
       </td>
     </tr>
-  <tr>
-      <td>TB US05</td>
-      <td>Navegación y acciones mediante comandos de voz</td>
-      <td>Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
-      <td>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US05</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Navegación y acciones mediante comandos de voz</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">
         <strong>Escenario 1: Navegación exitosa a una sección</strong>
         <br>
         <strong>Dado que</strong> el micrófono de la app está activo
@@ -5532,53 +5590,132 @@ Esta sección reúne nuevas Historias de Usuario que aún no se integran al back
 
 Esta sección reúne una serie de elementos funcionales o técnicos que podrían integrarse al producto a partir de los aprendizajes obtenidos durante la etapa de experimentación. A diferencia del backlog vigente, este To-Be Product Backlog aún no cuenta con aprobación para su desarrollo. No obstante, consolida posibles funcionalidades, tareas o mejoras que se alinean con las nuevas historias de usuario (To-Be User Stories). Cada ítem descrito se basa en hipótesis validadas, ideas viables o necesidades recurrentes identificadas durante las pruebas con usuarios.
 
-<table>
-  <thead>
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
     <tr>
-      <th>#Orden</th>
-      <th>User Story ID</th>
-      <th>Título</th>
-      <th>Descripción</th>
-      <th>Story Points (1 / 2 / 3 / 5 / 8)</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="center">#Orden</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="center">User Story ID</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="left">Título</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="left">Descripción</th>
+      <th style="border: 1px solid #cccccc; padding: 8px;" align="center">Story Points (1 / 2 / 3 / 5 / 8)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><b>1</b></td>
-      <td>TB US05</td>
-      <td>Navegación y acciones mediante comandos de voz</td>
-      <td>Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
-      <td><b>8</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>1</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US05</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Navegación y acciones mediante comandos de voz</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>8</b></td>
     </tr>
     <tr>
-      <td><b>2</b></td>
-      <td>TB US01</td>
-      <td>Registro con terceros</td>
-      <td>Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
-      <td><b>5</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>2</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US01</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Registro con terceros</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>5</b></td>
     </tr>
     <tr>
-      <td><b>3</b></td>
-      <td>TB US04</td>
-      <td>Buscador y filtros en listados</td>
-      <td>Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
-      <td><b>5</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>3</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US04</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Buscador y filtros en listados</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>5</b></td>
     </tr>
     <tr>
-      <td><b>4</b></td>
-      <td>TB US02</td>
-      <td>Personalización ampliada del perfil</td>
-      <td>Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
-      <td><b>3</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>4</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US02</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Personalización ampliada del perfil</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>3</b></td>
     </tr>
     <tr>
-      <td><b>5</b></td>
-      <td>TB US03</td>
-      <td>Confirmación visual al registrar información</td>
-      <td>Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
-      <td><b>2</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>5</b></td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center">TB US03</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Confirmación visual al registrar información</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;">Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+      <td style="border: 1px solid #cccccc; padding: 8px;" align="center"><b>2</b></td>
     </tr>
   </tbody>
+</table>
+
+### 8.3.3. Pipeline-supported, Experiment-Driven To-Be Software Platform Lifecycle
+
+#### 8.3.3.1. To-Be Sprint Backlogs
+
+<table style="width:100%; border-collapse: collapse; font-family: sans-serif; font-size: 12px;">
+    <thead>
+        <tr>
+            <th colspan="1" style="border: 1px solid black; padding: 8px; text-align: center; background-color: #d9d9d9;">Sprint #</th>
+            <th colspan="7" style="border: 1px solid black; padding: 8px; text-align: center; background-color: #d9d9d9;">Sprint 1</th>
+        </tr>
+        <tr>
+            <th colspan="2" style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">User Story</th>
+            <th colspan="6" style="border: 1px solid black; padding: 8px; text-align: center; background-color: #f2f2f2;">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Id</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Title</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Id</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Title</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Description</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Estimation (Hours)</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Assigned To</th>
+            <th style="border: 1px solid black; padding: 5px; background-color: #f2f2f2;">Status (To-do / In-Process / To-Review / Done)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">TB US05</td>
+            <td style="border: 1px solid black; padding: 8px;">Navegación y acciones por voz</td>
+            <td style="border: 1px solid black; padding: 8px;">T1</td>
+            <td style="border: 1px solid black; padding: 8px;">Integrar API de Voz</td>
+            <td style="border: 1px solid black; padding: 8px;">Como usuario de la aplicación, quiero poder usar comandos de voz para navegar a diferentes secciones y realizar acciones básicas como agregar establos, bovinos o consultar listados, para interactuar con la app de manera más rápida, accesible y sin depender únicamente del teclado, pantalla o los controles tradicionales.</td>
+            <td style="border: 1px solid black; padding: 8px;">8</td>
+            <td style="border: 1px solid black; padding: 8px;">Renzo Silva</td>
+            <td style="border: 1px solid black; padding: 8px;">Done</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">TB US01</td>
+            <td style="border: 1px solid black; padding: 8px;">Registro con terceros</td>
+            <td style="border: 1px solid black; padding: 8px;">T2</td>
+            <td style="border: 1px solid black; padding: 8px;">Configurar OAuth</td>
+            <td style="border: 1px solid black; padding: 8px;">Como nuevo usuario, quiero poder registrarme usando mis cuentas de Google o Apple para ahorrar tiempo y evitar crear otra contraseña.</td>
+            <td style="border: 1px solid black; padding: 8px;">5</td>
+            <td style="border: 1px solid black; padding: 8px;">Jack Roque</td>
+            <td style="border: 1px solid black; padding: 8px;">To-do</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">TB US04</td>
+            <td style="border: 1px solid black; padding: 8px;">Buscador y filtros</td>
+            <td style="border: 1px solid black; padding: 8px;">T3</td>
+            <td style="border: 1px solid black; padding: 8px;">Filtros en la aplicación</td>
+            <td style="border: 1px solid black; padding: 8px;">Como usuario que gestiona muchos registros, quiero filtrar y buscar dentro de los listados para encontrar información de manera rápida y eficiente.</td>
+            <td style="border: 1px solid black; padding: 8px;">4</td>
+            <td style="border: 1px solid black; padding: 8px;">Carlos Gonzalez</td>
+            <td style="border: 1px solid black; padding: 8px;">To-do</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">TB US02</td>
+            <td style="border: 1px solid black; padding: 8px;">Personalización perfil</td>
+            <td style="border: 1px solid black; padding: 8px;">T4</td>
+            <td style="border: 1px solid black; padding: 8px;">Gestión de Imágenes</td>
+            <td style="border: 1px solid black; padding: 8px;">Como usuario registrado, quiero personalizar más información en mi perfil (foto, datos personales, preferencias) para tener una identidad más completa dentro de la aplicación.</td>
+            <td style="border: 1px solid black; padding: 8px;">6</td>
+            <td style="border: 1px solid black; padding: 8px;">Rafael Bravo</td>
+            <td style="border: 1px solid black; padding: 8px;">To-do</td>
+        </tr>
+        <tr>
+            <td style="border: 1px solid black; padding: 8px;">TB US03</td>
+            <td style="border: 1px solid black; padding: 8px;">Confirmación visual</td>
+            <td style="border: 1px solid black; padding: 8px;">T5</td>
+            <td style="border: 1px solid black; padding: 8px;">Feedback UI</td>
+            <td style="border: 1px solid black; padding: 8px;">Como usuario gestionando mis bovinos, establos o staff, quiero recibir mensajes claros de confirmación después de registrar un elemento para saber que mi acción fue exitosa y evitar duplicados.</td>
+            <td style="border: 1px solid black; padding: 8px;">3</td>
+            <td style="border: 1px solid black; padding: 8px;">Renzo Silva</td>
+            <td style="border: 1px solid black; padding: 8px;">To-do</td>
+        </tr>
+    </tbody>
 </table>
   
 ## Conclusiones Y Recomendaciones
