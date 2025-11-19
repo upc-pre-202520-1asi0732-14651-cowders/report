@@ -3,39 +3,39 @@
 </div>
 
 <div align="center">
-  <h3> Universidad Peruana de Ciencias Aplicadas </h3>
+  <h2><strong> Universidad Peruana de Ciencias Aplicadas </strong></h2>
 </div>
 
 <div align="center">
-  <h5> Carrera de Ingeniería de Software - 202520</h5>
+  <h4> Carrera de Ingeniería de Software - 202520</h4>
 </div>
 
 <div align="center">
-  <h5> 1ASI0732 - Diseño de Experimentos de Ingeniería de Software </h5>
+  <h4> 1ASI0732 - Diseño de Experimentos de Ingeniería de Software </h4>
 </div>
 
 <div align="center">
-  <h5> NRC: 14651 </h5>
+  <h4> NRC: 14651 </h4>
 </div>
 
 <div align="center">
-  <h5> Profesor: Juan Carlos Tinoco Licas </h5>
+  <h4> Profesor: Juan Carlos Tinoco Licas </h4>
 </div>
 
 <div align="center">
-  <h5> Informe del Trabajo Final </h5>
+  <h4> Informe del Trabajo Final </h4>
 </div>
 
 <div align="center">
-  <h5> Startup: Cowders </h5>
+  <h4> Startup: Cowders </h4>
 </div>
 
 <div align="center">
-  <h5> Producto: Moobile </h5>
+  <h4> Producto: Moobile </h4>
 </div>
 
 <div align="center">
-  <h3>Integrantes:</h3>
+  <h4>Integrantes:</h4>
 </div>
 
 <div>
@@ -68,8 +68,12 @@
 </div>
 
 <div align="center">
-  <h5> Noviembre 2025 </h5>
+  <h4> Noviembre 2025 </h5>
 </div>
+
+<br></br>
+<br></br>
+<br></br>
 
 ## Registro de versiones del informe
 
