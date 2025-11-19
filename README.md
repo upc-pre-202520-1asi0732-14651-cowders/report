@@ -39,47 +39,79 @@
 </div>
 
 <div>
-    <table align="center">
-        <tr>
-            <th style="text-align:center;">Código</th>
-            <th style="text-align:center;">Apellidos y nombres</th>
-        </tr>
-        <tr>
-            <td>U202212535</td>
-            <td>Bravo Gavilano, Jorge Rafael</td>
-        </tr>
-        <tr>
-            <td>U202020230</td>
-            <td>Gonzalez Custodio, Carlos Alberto</td>
-        </tr>
-        <tr>
-            <td>U20221C448</td>
-            <td>Roque Tello, Jack Eddie</td>
-        </tr>
-        <tr>
-            <td>U20221C362</td>
-            <td>Silva Morales, Renzo Cesar</td>
-        </tr>
-    </table>
+  <table style="width: 50%; border-collapse: collapse; margin: 20px auto;">
+    <thead>
+      <tr style="background-color: #f2f2f2;">
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">Código</th>
+        <th style="padding: 10px; border: 1px solid #ddd; text-align: center;">Apellidos y nombres</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U202212535</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Bravo Gavilano, Jorge Rafael</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U202020230</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Gonzalez Custodio, Carlos Alberto</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U20221C448</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Roque Tello, Jack Eddie</td>
+      </tr>
+      <tr>
+        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U20221C362</td>
+        <td style="padding: 10px; border: 1px solid #ddd;">Silva Morales, Renzo Cesar</td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 <div align="center">
-<h5> Setiembre 2025 </h5>
+  <h5> Noviembre 2025 </h5>
 </div>
 
 ## Registro de versiones del informe
 
-|**Versión**|**Fecha**|**Autor**|**Descripción de modificación**|
-| :-: | :-: | :-: | :-: |
-|1\.0|10/09/2025|Moobile|Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation|
-|2\.0|09/10/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices|
-|3\.0|14/11/2025|Moobile|Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment|
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 10%;">Versión</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Fecha</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Autor</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 60%;">Descripción de modificación</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">1.0</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">10/09/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2.0</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">09/10/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3.0</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">14/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment</td>
+    </tr>
+  </tbody>
+</table>
+
+# Project Report Collaboration Insights
 
 # Contenido
 
 ## Tabla de contenidos
 
 - [Registro de versiones del informe](#registro-de-versiones-del-informe)
+- [Project Report Collaboration Insights](#project-report-collaboration-insights)
 - [Contenido](#contenido)
   - [Tabla de contenidos](#tabla-de-contenidos)
 - [Student Outcome](#student-outcome)
@@ -261,10 +293,109 @@
 
 # Student Outcome
 
-|**Criterio específico**|**Acciones realizadas**|**Conclusiones**|
-| :-: | :-: | :-: |
-| Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software | Bravo Gavilano, Jorge Rafael<br>*TB1*<br>Asumí la responsabilidad ética y profesional del trabajo del Capítulo V al asegurar trazabilidad, orden y calidad en todo el ciclo: definí y apliqué la gestión de configuración, configuré el entorno de desarrollo, establecí control de versiones con ramas y revisiones, formalicé guía de estilo y convenciones para un código legible y mantenible, y documenté la configuración de despliegue.<br><br> *TP1* <br> En esta segunda entrega asumí la responsabilidad ética y profesional al desarrollar las *Core Entities Unit Tests* con NUnit para verificar la funcionalidad de las 28 User Stories implementadas, asegurando la trazabilidad y fiabilidad del sistema. Además, actualicé los *Sprint Backlogs* garantizando la coherencia entre los requisitos, las pruebas y la implementación. Mi compromiso se centró en mantener la calidad y transparencia en la validación del producto.<br><br> *TB2* <br> Asumí la responsabilidad ética y profesional al diseñar la sección de *Continuous Monitoring* (Capítulo VII). El trabajo se centró en definir las herramientas, prácticas y componentes de *Alerting* y *Notification* para los subsistemas críticos (Ranch y IAM), garantizando la fiabilidad y la respuesta inmediata ante fallos, lo que refleja un compromiso ético con la disponibilidad y la calidad del servicio.<br><br>Gonzalez Custodio, Carlos Alberto<br>*TB1*<br>Hice las actividades que me asignaron para el Capítulo IV demostrando capacidad de trabajo colaborativo y comunicación efectiva: recopilé y validé los requisitos con mis compañeros, organicé la información en modelos visuales para facilitar la comprensión del equipo.<br> *TP1* <br> En esta entrega asumí mi responsabilidad profesional al desarrollar y ejecutar las *Core Integration Tests* con NUnit, verificando la correcta interacción de los módulos en los cinco *bounded contexts*. También colaboró en la definición del pipeline de *Build & Test Suite* dentro de las prácticas de DevOps, promoviendo buenas prácticas de integración y asegurando la estabilidad del sistema.<br><br> *TB2* <br> Asumí mi responsabilidad profesional al desarrollar y finalizar el Capítulo VIII, específicamente el Experiment Planning para Moobile. El trabajo se centró en la creación de la estrategia de validación de riesgos, incluyendo el análisis AS-IS (para ambos segmentos), la identificación de Raw Material, y el diseño de Experiment Cards con hipótesis claras y métricas para la ejecución. Realicé también una entrevista clave para validar el riesgo de usabilidad del usuario final.<br><br>Roque Tello, Jack Eddie<br>*TB1*<br>En el desarrollo de Moobile reconozco mi responsabilidad ética y profesional al diseñar la arquitectura y los diagramas del sistema. Apliqué principios de Domain-Driven Design para mantener la solución ordenada y enfocada en las verdaderas necesidades de los ganaderos, evitando decisiones rápidas que pudieran generar errores o malas prácticas. Además, al manejar datos sensibles como la trazabilidad del ganado, su salud y las suscripciones, tuve claro lo importante que es asegurar la privacidad y la seguridad, garantizando siempre la integridad y confianza de los usuarios.<br><br> *TP1* <br> Ejercí mi responsabilidad ética y profesional al implementar las pruebas *Behavior-Driven Development (BDD)* con Cucumber, garantizando que las historias de usuario fueran verificables mediante comportamientos reales del sistema. Asimismo, documentó las herramientas y prácticas aplicadas en Continuous Integration, Continuous Delivery y Continuous Deployment, asegurando la calidad, transparencia y reproducibilidad del proceso de entrega del producto.<br><br> *TB2* <br> Asumí la responsabilidad profesional al diseñar la sección *Experiment Design* (8.2), la cual incluyó la cuantificación de todas las hipótesis, la definición de métricas de negocio precisas (ej. *Scale Calculations*), y el establecimiento del Plan de *Tracking* (*Web and Mobile Tracking Plan*), asegurando la objetividad y fiabilidad de la experimentación.<br><br>Silva Morales, Renzo Cesar<br>*TB1*<br>Asumo las responsabilidad ética y profesional del equipo al liderarlo, colaborando con los capítulos I, II, III y IV, además de encargarme del despliegue del backend y frontend, y el desarrollo de la aplicación móvil.<br><br>*TP1*<br>Demostró responsabilidad ética y profesional al ejecutar las *Core System Tests* con Selenium, verificando la estabilidad del sistema y la correcta interacción con el usuario. Elaboré el *Acuerdo de Servicio (SaaS)* definiendo compromisos de soporte y disponibilidad, y participé en la creación del video de producto, promoviendo transparencia y responsabilidad en la comunicación de los resultados del equipo.<br><br> *TB2* <br> Asumí la responsabilidad profesional al desarrollar las *To-Be User Stories* (8.3.1) y el *To-Be Product Backlog* (8.3.2), asegurando que la visión del producto se alinee con los resultados esperados de la experimentación. Esto garantiza la trazabilidad entre las hipótesis validadas y las funcionalidades que serán desarrolladas en el futuro. | *TB1* <br>En la presente entrega, cada integrante asumió con responsabilidad ética y profesional las tareas asignadas, garantizando la calidad, seguridad y coherencia del proyecto Moobile. Desde la definición de la arquitectura, la gestión de configuración, el control de versiones y el despliegue, hasta la recopilación de requisitos, elaboración de diagramas y desarrollo de la aplicación móvil, se demostró un compromiso colectivo con la trazabilidad, la colaboración efectiva y la orientación hacia las necesidades reales de los usuarios. En conjunto, estas acciones reflejan un trabajo integral, organizado y ético que sienta bases sólidas para el desarrollo y la confianza en la solución propuesta. <br><br> *TP1* <br>En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br> *TB2* <br> El equipo demostró responsabilidad profesional y colaboración al completar la fase de Experiment Planning (Capítulo VIII). Se estableció un marco sólido para validar hipótesis críticas de usabilidad y rendimiento, asegurando que los próximos esfuerzos de desarrollo se enfoquen en la funcionalidad que maximice el valor y la adopción por parte del usuario final. |
-| Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales | Bravo Gavilano, Jorge Rafael<br>*TB1*<br>En la implementación y despliegue del producto, fundamenté decisiones técnicas mediante criterios de impacto. En lo económico, evalué costo total de propiedad y eficiencia operativa para optimizar recursos; en lo ambiental, prioricé pipelines y configuraciones que reducen consumo innecesario y facilitan escalabilidad; en lo social, incorporé accesibilidad, usabilidad y calidad de servicio para favorecer inclusión y mantenimiento.<br><br> *TP1* <br> En esta segunda entrega, emití juicios informados al planificar y ejecutar las pruebas unitarias, analizando el impacto económico y ambiental de las herramientas y configuraciones utilizadas. Priorizando la eficiencia y escalabilidad, optimicé la carga de ejecución en los pipelines de integración, y al actualizar los *Sprint Backlogs*, valoré el impacto social del producto en los ganaderos, buscando maximizar su utilidad práctica y sostenibilidad a largo plazo.<br><br> *TB2* <br> Emití juicios informados al definir la estructura del *Continuous Monitoring* (Capítulo VII), priorizando las métricas críticas que impactan la rentabilidad operativa (ej. uso de recursos y latencia del sistema) y la satisfacción del usuario (tiempo de respuesta de consultas). Esto asegura que el monitoreo se alinee con los objetivos económicos y la calidad de servicio de Moobile.<br><br>Gonzalez Custodio, Carlos Alberto<br>*TB1*<br>Apliqué pensamiento crítico y habilidades analíticas para garantizar su fiabilidad, desarrollé habilidades de empatía y colaboración al fomentar un ambiente de respeto y apoyo mutuo dentro del equipo. Este proceso me permitió integrar innovación y adaptabilidad, contribuyendo a que el equipo avanzara con mayor seguridad y confianza.<br><br> *TP1* <br>Emití juicios informados al diseñar las pruebas de integración y documentar el *Build & Test Suite Pipeline* dentro de DevOps, considerando el impacto económico y ambiental de las decisiones técnicas. Implementé configuraciones que reducen el uso de recursos y tiempos de compilación, buscando una entrega más eficiente y sostenible. Además, mantuve la comunicación efectiva con el equipo para asegurar decisiones consensuadas y fundamentadas.<br><br> *TB2* <br> Emití juicios informados al diseñar la estrategia de Experiment Planning, priorizando experimentos que mitigan riesgos de: 1. Rendimiento/Escalabilidad (midiendo latencia aceptable para consultas masivas en el *backend*) y 2. Impacto Socio-Económico (validando si el diseño del reporte de impacto genera valor para el Segmento 2). Esto aseguró que el esfuerzo de desarrollo se enfocara en la sostenibilidad y el valor real del mercado.<br><br>Roque Tello, Jack Eddie<br>*TB1*<br>Al trabajar en Moobile emití juicios informados pensando en cómo las decisiones de diseño impactan en lo económico, social, ambiental y global. Busqué que la aplicación ayude a los ganaderos a mejorar su rentabilidad, que promueva un uso más eficiente de los recursos y que pueda proyectarse como una solución sostenible y adaptable a distintos contextos.<br><br> *TP1* <br>Durante esta entrega, apliqué pensamiento crítico al definir las estrategias de Continuous Integration, Continuous Delivery y Continuous Deployment, valorando su impacto en la eficiencia energética y la escalabilidad del sistema. Las pruebas *BDD* con Cucumber me permitieron validar escenarios centrados en la experiencia del usuario, asegurando un producto funcional y sostenible que aporta valor real a los ganaderos.<br><br> *TB2* <br> Emití juicios informados al diseñar la sección *Experiment Design* (8.2), al seleccionar las *Domain Business Metrics* y *KPIs* (8.2.7), enfocando la recolección de datos en la validación de la Propuesta de Valor (Impacto Socio-Ambiental) y la rentabilidad operativa (TT/TET). Esto garantizó que la experimentación fuera rentable y alineada con los objetivos de sostenibilidad del negocio.<br><br>Silva Morales, Renzo Cesar<br>*TB1*<br>Emití juicios informandos considerando el impacto de la solución de software a nivel global en el sector del ganado vacuno. Mi objetivo al desarrollar la aplicación fue que ayudara a los ganaderos a aumentar su rentabilidad, promoviera un uso más eficiente de los recursos y se posicionara como una solución sostenible, adaptable a diferentes contextos y necesidades del sector.<br><br> *TP1* <br>Emití juicios informados al analizar los resultados de las *Core System Tests* y desarrollar el *Acuerdo de Servicio (SaaS)*, evaluando la sostenibilidad y el impacto social del sistema. Promovió la accesibilidad, estabilidad y escalabilidad del software, priorizando su utilidad para el sector ganadero y su contribución al desarrollo tecnológico responsable. Además, reforcé la documentación y comunicación de resultados para mantener la transparencia con los usuarios finales.<br><br> *TB2* <br> Emití juicios informados al desarrollar el estado futuro (*To-Be Product Backlog*), asegurando que solo las funcionalidades que maximicen el valor (ej. Usabilidad validada por la entrevista y los *Experiment Cards*) fueran priorizadas para el desarrollo. Este enfoque garantiza que la inversión se alinee con la sostenibilidad del producto y el impacto positivo en la rentabilidad del ganadero. | *TB1* <br>En la presente entrega, cada integrante asumió con responsabilidad ética y profesional las tareas asignadas, garantizando la calidad, seguridad y coherencia del proyecto Moobile. Desde la definición de la arquitectura, la gestión de configuración, el control de versiones y el despliegue, hasta la recopilación de requisitos, elaboración de diagramas y desarrollo de la aplicación móvil, se demostró un compromiso colectivo con la trazabilidad, la colaboración efectiva y la orientación hacia las necesidades reales de los usuarios. En conjunto, estas acciones reflejan un trabajo integral, organizado y ético que sienta bases sólidas para el desarrollo y la confianza en la solución propuesta. <br><br> *TP1* <br>En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br> *TB2* <br> El equipo demostró pensamiento crítico y capacidad de análisis al completar la planificación y diseño de la fase de Experimentación (Capítulo VIII). Se priorizó la mitigación de riesgos de Rendimiento y la validación de la Propuesta de Valor, asegurando que las decisiones de desarrollo futuras se enfoquen en la eficiencia operativa, la sostenibilidad del producto y el impacto positivo en la rentabilidad del sector ganadero. |
+ABET – EAC - Student Outcome 4
+
+Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en situaciones de Ingeniería y hacer juicios informados, que deben considerar el impacto de las soluciones de ingeniería en contextos globales, económicos, ambientales y sociales.
+
+<table border="1" cellpadding="10" cellspacing="0" style="border-collapse: collapse; width: 100%;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="width: 15%;">Criterio específico</th>
+      <th style="width: 60%;">Acciones realizadas</th>
+      <th style="width: 25%;">Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td valign="top"><strong>4.c.1 Reconoce responsabilidad ética y profesional en situaciones de ingeniería de software</strong></td>
+      <td valign="top">
+        <strong>Bravo Gavilano, Jorge Rafael</strong><br><br>
+        <em>TB1</em><br>
+        Asumí la responsabilidad ética y profesional del trabajo del Capítulo V al asegurar trazabilidad, orden y calidad en todo el ciclo: definí y apliqué la gestión de configuración, configuré el entorno de desarrollo, establecí control de versiones con ramas y revisiones, formalicé guía de estilo y convenciones para un código legible y mantenible, y documenté la configuración de despliegue.<br><br>
+        <em>TP1</em><br>
+        En esta segunda entrega asumí la responsabilidad ética y profesional al desarrollar las <em>Core Entities Unit Tests</em> con NUnit para verificar la funcionalidad de las 28 User Stories implementadas, asegurando la trazabilidad y fiabilidad del sistema. Además, actualicé los <em>Sprint Backlogs</em> garantizando la coherencia entre los requisitos, las pruebas y la implementación. Mi compromiso se centró en mantener la calidad y transparencia en la validación del producto.<br><br>
+        <em>TB2</em><br>
+        Asumí la responsabilidad ética y profesional al diseñar la sección de <em>Continuous Monitoring</em>. El trabajo se centró en definir las herramientas, prácticas y componentes de <em>Alerting</em> y <em>Notification</em> para los subsistemas críticos de Ranch e IAM, garantizando la fiabilidad y la respuesta inmediata ante fallos, lo que refleja un compromiso ético con la disponibilidad y la calidad del servicio.<br>
+        <hr>
+        <strong>Gonzalez Custodio, Carlos Alberto</strong><br><br>
+        <em>TB1</em><br>
+        Hice las actividades que me asignaron demostrando capacidad de trabajo colaborativo y comunicación efectiva: recopilé y validé los requisitos con mis compañeros, organicé la información en modelos visuales para facilitar la comprensión del equipo.<br><br>
+        <em>TP1</em><br>
+        En esta entrega asumí mi responsabilidad profesional al desarrollar y ejecutar las <em>Core Integration Tests</em> con NUnit, verificando la correcta interacción de los módulos en los cinco <em>bounded contexts</em>. También colaboró en la definición del pipeline de <em>Build & Test Suite</em> dentro de las prácticas de DevOps, promoviendo buenas prácticas de integración y asegurando la estabilidad del sistema.<br><br>
+        <em>TB2</em><br>
+        Asumí mi responsabilidad profesional al desarrollar y finalizar el Experiment Planning para Moobile. El trabajo se centró en la creación de la estrategia de validación de riesgos, incluyendo el análisis AS-IS (para ambos segmentos), la identificación de Raw Material, y el diseño de Experiment Cards con hipótesis claras y métricas para la ejecución. Realicé también una entrevista clave para validar el riesgo de usabilidad del usuario final.<br>
+        <hr>
+        <strong>Roque Tello, Jack Eddie</strong><br><br>
+        <em>TB1</em><br>
+        En el desarrollo de Moobile reconozco mi responsabilidad ética y profesional al diseñar la arquitectura y los diagramas del sistema. Apliqué principios de Domain-Driven Design para mantener la solución ordenada y enfocada en las verdaderas necesidades de los ganaderos, evitando decisiones rápidas que pudieran generar errores o malas prácticas. Además, al manejar datos sensibles como la trazabilidad del ganado, su salud y las suscripciones, tuve claro lo importante que es asegurar la privacidad y la seguridad, garantizando siempre la integridad y confianza de los usuarios.<br><br>
+        <em>TP1</em><br>
+        Ejercí mi responsabilidad ética y profesional al implementar las pruebas <em>Behavior-Driven Development (BDD)</em> con Cucumber, garantizando que las historias de usuario fueran verificables mediante comportamientos reales del sistema. Asimismo, documentó las herramientas y prácticas aplicadas en Continuous Integration, Continuous Delivery y Continuous Deployment, asegurando la calidad, transparencia y reproducibilidad del proceso de entrega del producto.<br><br>
+        <em>TB2</em><br>
+        Asumí la responsabilidad profesional al diseñar la sección <em>Experiment Design</em>, la cual incluyó la cuantificación de todas las hipótesis, la definición de métricas de negocio precisas, y el establecimiento del Plan de Tracking, asegurando la objetividad y fiabilidad de la experimentación.<br>
+        <hr>
+        <strong>Silva Morales, Renzo Cesar</strong><br><br>
+        <em>TB1</em><br>
+        Asumo las responsabilidad ética y profesional del equipo al liderarlo, colaborando con la documentación del proyecto, además de encargarme del despliegue del backend y frontend, y el desarrollo de la aplicación móvil.<br><br>
+        <em>TP1</em><br>
+        Demostró responsabilidad ética y profesional al ejecutar las <em>Core System Tests</em> con Selenium, verificando la estabilidad del sistema y la correcta interacción con el usuario. Elaboré el <em>Acuerdo de Servicio (SaaS)</em> definiendo compromisos de soporte y disponibilidad, y participé en la creación del video de producto, promoviendo transparencia y responsabilidad en la comunicación de los resultados del equipo.<br><br>
+        <em>TB2</em><br>
+        Asumí la responsabilidad profesional al desarrollar las <em>To-Be User Stories</em> y el <em>To-Be Product Backlog</em>, asegurando que la visión del producto se alinee con los resultados esperados de la experimentación. Esto garantiza la trazabilidad entre las hipótesis validadas y las funcionalidades que serán desarrolladas en el futuro.
+      </td>
+      <td valign="top">
+        <em>TB1</em><br>
+        En la presente entrega, cada integrante asumió con responsabilidad ética y profesional las tareas asignadas, garantizando la calidad, seguridad y coherencia del proyecto Moobile. Desde la definición de la arquitectura, la gestión de configuración, el control de versiones y el despliegue, hasta la recopilación de requisitos, elaboración de diagramas y desarrollo de la aplicación móvil, se demostró un compromiso colectivo con la trazabilidad, la colaboración efectiva y la orientación hacia las necesidades reales de los usuarios. En conjunto, estas acciones reflejan un trabajo integral, organizado y ético que sienta bases sólidas para el desarrollo y la confianza en la solución propuesta.<br><br>
+        <em>TP1</em><br>
+        En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br>
+        <em>TB2</em><br>
+        El equipo demostró responsabilidad profesional y colaboración al completar la fase de Experiment Planning (Capítulo VIII). Se estableció un marco sólido para validar hipótesis críticas de usabilidad y rendimiento, asegurando que los próximos esfuerzos de desarrollo se enfoquen en la funcionalidad que maximice el valor y la adopción por parte del usuario final.
+      </td>
+    </tr>
+    <tr>
+      <td valign="top"><strong>4.c.2 Emite juicios informados considerando el impacto de las soluciones de ingeniería de software en contextos globales, económicos, ambientales y sociales</strong></td>
+      <td valign="top">
+        <strong>Bravo Gavilano, Jorge Rafael</strong><br><br>
+        <em>TB1</em><br>
+        En la implementación y despliegue del producto, fundamenté decisiones técnicas mediante criterios de impacto. En lo económico, evalué costo total de propiedad y eficiencia operativa para optimizar recursos; en lo ambiental, prioricé pipelines y configuraciones que reducen consumo innecesario y facilitan escalabilidad; en lo social, incorporé accesibilidad, usabilidad y calidad de servicio para favorecer inclusión y mantenimiento.<br><br>
+        <em>TP1</em><br>
+        En esta segunda entrega, emití juicios informados al planificar y ejecutar las pruebas unitarias, analizando el impacto económico y ambiental de las herramientas y configuraciones utilizadas. Priorizando la eficiencia y escalabilidad, optimicé la carga de ejecución en los pipelines de integración, y al actualizar los <em>Sprint Backlogs</em>, valoré el impacto social del producto en los ganaderos, buscando maximizar su utilidad práctica y sostenibilidad a largo plazo.<br><br>
+        <em>TB2</em><br>
+        Emití juicios informados al definir la estructura del <em>Continuous Monitoring</em>, priorizando las métricas críticas que impactan la rentabilidad operativa y la satisfacción del usuario. Esto asegura que el monitoreo se alinee con los objetivos económicos y la calidad de servicio de Moobile.<br>
+        <hr>
+        <strong>Gonzalez Custodio, Carlos Alberto</strong><br><br>
+        <em>TB1</em><br>
+        Apliqué pensamiento crítico y habilidades analíticas para garantizar su fiabilidad, desarrollé habilidades de empatía y colaboración al fomentar un ambiente de respeto y apoyo mutuo dentro del equipo. Este proceso me permitió integrar innovación y adaptabilidad, contribuyendo a que el equipo avanzara con mayor seguridad y confianza.<br><br>
+        <em>TP1</em><br>
+        Emití juicios informados al diseñar las pruebas de integración y documentar el <em>Build & Test Suite Pipeline</em> dentro de DevOps, considerando el impacto económico y ambiental de las decisiones técnicas. Implementé configuraciones que reducen el uso de recursos y tiempos de compilación, buscando una entrega más eficiente y sostenible. Además, mantuve la comunicación efectiva con el equipo para asegurar decisiones consensuadas y fundamentadas.<br><br>
+        <em>TB2</em><br>
+        Emití juicios informados al diseñar la estrategia de Experiment Planning, priorizando experimentos que mitigan riesgos de Rendimiento/Escalabilidad y el Impacto Socio-Económico. Esto aseguró que el esfuerzo de desarrollo se enfocara en la sostenibilidad y el valor real del mercado.<br>
+        <hr>
+        <strong>Roque Tello, Jack Eddie</strong><br><br>
+        <em>TB1</em><br>
+        Al trabajar en Moobile emití juicios informados pensando en cómo las decisiones de diseño impactan en lo económico, social, ambiental y global. Busqué que la aplicación ayude a los ganaderos a mejorar su rentabilidad, que promueva un uso más eficiente de los recursos y que pueda proyectarse como una solución sostenible y adaptable a distintos contextos.<br><br>
+        <em>TP1</em><br>
+        Durante esta entrega, apliqué pensamiento crítico al definir las estrategias de Continuous Integration, Continuous Delivery y Continuous Deployment, valorando su impacto en la eficiencia energética y la escalabilidad del sistema. Las pruebas <em>BDD</em> con Cucumber me permitieron validar escenarios centrados en la experiencia del usuario, asegurando un producto funcional y sostenible que aporta valor real a los ganaderos.<br><br>
+        <em>TB2</em><br>
+        Emití juicios informados al diseñar la sección <em>Experiment Design</em>, al seleccionar las <em>Domain Business Metrics</em> y <em>KPIs</em>, enfocando la recolección de datos en la validación de la Propuesta de Valor y la rentabilidad operativa. Esto garantizó que la experimentación fuera rentable y alineada con los objetivos de sostenibilidad del negocio.<br>
+        <hr>
+        <strong>Silva Morales, Renzo Cesar</strong><br><br>
+        <em>TB1</em><br>
+        Emití juicios informandos considerando el impacto de la solución de software a nivel global en el sector del ganado vacuno. Mi objetivo al desarrollar la aplicación fue que ayudara a los ganaderos a aumentar su rentabilidad, promoviera un uso más eficiente de los recursos y se posicionara como una solución sostenible, adaptable a diferentes contextos y necesidades del sector.<br><br>
+        <em>TP1</em><br>
+        Emití juicios informados al analizar los resultados de las <em>Core System Tests</em> y desarrollar el <em>Acuerdo de Servicio (SaaS)</em>, evaluando la sostenibilidad y el impacto social del sistema. Promovió la accesibilidad, estabilidad y escalabilidad del software, priorizando su utilidad para el sector ganadero y su contribución al desarrollo tecnológico responsable. Además, reforcé la documentación y comunicación de resultados para mantener la transparencia con los usuarios finales.<br><br>
+        <em>TB2</em><br>
+        Emití juicios informados al desarrollar el estado futuro en el To-Be Product Backlog, asegurando que solo las funcionalidades que maximicen el valor fueran priorizadas para el desarrollo. Este enfoque garantiza que la inversión se alinee con la sostenibilidad del producto y el impacto positivo en la rentabilidad del ganadero.
+      </td>
+      <td valign="top">
+        <em>TB1</em><br>
+        En la presente entrega, cada integrante asumió con responsabilidad ética y profesional las tareas asignadas, garantizando la calidad, seguridad y coherencia del proyecto Moobile. Desde la definición de la arquitectura, la gestión de configuración, el control de versiones y el despliegue, hasta la recopilación de requisitos, elaboración de diagramas y desarrollo de la aplicación móvil, se demostró un compromiso colectivo con la trazabilidad, la colaboración efectiva y la orientación hacia las necesidades reales de los usuarios. En conjunto, estas acciones reflejan un trabajo integral, organizado y ético que sienta bases sólidas para el desarrollo y la confianza en la solución propuesta.<br><br>
+        <em>TP1</em><br>
+        En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br>
+        <em>TB2</em><br>
+        El equipo demostró pensamiento crítico y capacidad de análisis al completar la planificación y diseño de la fase de Experimentación. Se priorizó la mitigación de riesgos de Rendimiento y la validación de la Propuesta de Valor, asegurando que las decisiones de desarrollo futuras se enfoquen en la eficiencia operativa, la sostenibilidad del producto y el impacto positivo en la rentabilidad del sector ganadero.
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 --------
 
@@ -286,12 +417,37 @@ Nuestra visión es ser la plataforma tecnológica líder en el sector ganadero, 
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
-| Nombre                   | Descripción | Foto |
-|--------------------------|-------------|------|
-| Jorge Rafael Bravo Gavilano |Estoy actualmente en el séptimo ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre la ciberseguridad y programación web.| <img src="./assets/chapter-1/Foto_Rafael_Perfil.png" width="350" height="170"> |
-| Carlos Alberto Gonzalez Custodio | Soy estudiante de Ingeniería de Software, me encuentro actualmente cursando el 7to ciclo. Me encanta enriquecer mis conocimientos con nuevos desafíos y tengo un gran interés por el desarrollo web.  | <img src="./assets/chapter-1/img-Carlos-Gonzalez.jpg" width="350" height="170"> |
-| Jack Eddie Roque Tello | Soy estudiante de Ingeniería de Software en la UPC (sexto ciclo), con experiencia en JavaScript, C++, Java y Ruby, además de bases sólidas en algoritmos, estructuras de datos y desarrollo web. Me considero proactivo, responsable y con buenas habilidades interpersonales para el trabajo en equipo. Estoy motivado por aportar mis conocimientos, pensamiento crítico y compromiso a este proyecto, contribuyendo a un ambiente colaborativo para lograr un producto de alto impacto social y tecnológico. | <img src="./assets/chapter-1/foto-jack.jpeg" width="350" height="170"> |
-| Renzo Cesar Silva Morales | Mi nombre es Renzo Cesar Silva Morales, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos. | <img src="./assets/chapter-1/foto-renzo.jpg" width="350" height="170"> |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0;">
+  <thead>
+    <tr style="background-color: #f2f2f2;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 25%;">Nombre</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 50%;">Descripción</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 25%;">Foto</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Jorge Rafael Bravo Gavilano</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estoy actualmente en el séptimo ciclo de mi carrera en Ingeniería de Software. Disfruto de jugar videojuegos e ir al gimnasio en mi tiempo libre. Me considero una persona responsable y enfocada en siempre realizar un buen trabajo. Estoy interesado en aprender sobre la ciberseguridad y programación web.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><img src="./assets/chapter-1/Foto_Rafael_Perfil.png" width="350" height="170" alt="Foto de Jorge Rafael Bravo Gavilano"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Carlos Alberto Gonzalez Custodio</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Soy estudiante de Ingeniería de Software, me encuentro actualmente cursando el 7to ciclo. Me encanta enriquecer mis conocimientos con nuevos desafíos y tengo un gran interés por el desarrollo web.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><img src="./assets/chapter-1/img-Carlos-Gonzalez.jpg" width="350" height="170" alt="Foto de Carlos Alberto Gonzalez Custodio"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Jack Eddie Roque Tello</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Soy estudiante de Ingeniería de Software en la UPC (sexto ciclo), con experiencia en JavaScript, C++, Java y Ruby, además de bases sólidas en algoritmos, estructuras de datos y desarrollo web. Me considero proactivo, responsable y con buenas habilidades interpersonales para el trabajo en equipo. Estoy motivado por aportar mis conocimientos, pensamiento crítico y compromiso a este proyecto, contribuyendo a un ambiente colaborativo para lograr un producto de alto impacto social y tecnológico.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><img src="./assets/chapter-1/foto-jack.jpeg" width="350" height="170" alt="Foto de Jack Eddie Roque Tello"></td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Renzo Cesar Silva Morales</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Mi nombre es Renzo Cesar Silva Morales, actualmente estoy cursando el octavo ciclo de la carrera de Ingeniería de Software en la UPC (Universidad Peruana de Ciencias Aplicadas). Me considero una persona perseverante, responsable, con la capacidad de aprender y adaptarme de forma rápida para enfrentar diversos desafíos tecnológicos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><img src="./assets/chapter-1/foto-renzo.jpg" width="350" height="170" alt="Foto de Renzo Cesar Silva Morales"></td>
+    </tr>
+  </tbody>
+</table>
 
 ## 1.2. Solution Profile
 
@@ -449,52 +605,106 @@ En el Perú, el bienestar animal en las empresas ganaderas es a menudo insuficie
 
 ### 2.1.1. Análisis competitivo
 
-<table>
-   <tr>
-      <td align="center" colspan="6">Competitive Analysis Landscaspe</td>
-   </tr>
-   <tr>
-      <td colspan="2">¿Porqué llevar a cabo este análisis?</td><td colspan="4">¿Cómo podemos proporcionar un buen servicio entre los restaurantes y los consumidores de manera que la comunicación entre ambos sea efectiva y agradable?</td>
-   </tr>
-   <tr align="center">
-      <td colspan="2"><td>Moobile</td><td>Control Ganadero</td><td>Agroptima</td><td>App Ganadera</td>
-   </tr>
-   <tr>
-      <td rowspan="2">Perfil</td><td>Overview</td><td> Moobile es una plataforma móvil accesible que optimiza la gestión ganadera con enfoque en sostenibilidad, bienestar animal y eficiencia, adaptada a pequeños y grandes productores. </td><td> Es una aplicación español, británico y brasileño en el sector de la ganadería. </td><td> Agroptima es un sitio web multiplataforma cofundado por la unión europea para los países de España, Francia e Inglaterra </td><td> Es una empresa fundada en Colombia que cuenta con una para la gestión de ganado. </td>
-   </tr>
-   <tr>
-      <td>Ventaja competitiva. ¿Qué valor ofrece a los clientes?</td><td>La plataforma se diferencia al integrar tecnología accesible con enfoque en sostenibilidad y bienestar animal, ofreciendo soluciones prácticas para productores de todos los tamaños. </td><td> es una app para la gestión de vacas y enfocada para móviles </td><td> cuenta con multiplataforma cuenta con algoritmos matemáticos para una mayor gestión del ganado. </td><td> Tiene gran variedad de herramientas y gran cantidad de distribuidores </td>
-   </tr>
-   <tr>
-      <td rowspan="2">Perfil de Marketing</td><td>Mercado Objetivo</td><td> Productores ganaderos, tanto independientes como empresas, que buscan optimizar el cuidado del ganado y mejorar su rentabilidad. </td><td> Para ganaderos españoles, brasileños e ingleses. </td><td> Para ganaderos españoles,franceses e ingleses. </td><td> Para ganaderos colombianos </td>
-   </tr>
-   <tr>
-      <td>Estrategias de Marketing</td><td> Difusión en redes sociales y anuncios pagados </td><td> Estrategia de posicionamiento </td><td> Estrategia de segmentación </td><td> Estrategia </td>
-   </tr>
-   <tr>
-      <td rowspan="3">Perfil de Producto</td><td>Productos & Servicios</td><td> Aplicación móvil con herramientas de gestión de ganado, monitoreo de salud, alimentación y reproducción.
-
- </td><td> Web app de gestión de ganado. </td><td> Web app de gestión de ganado. </td><td> Web app de gestión de ganado. </td>
-   </tr>
-   <tr>
-      <td>Precios & Costos</td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td><td> Subscripcion Bajo costo </td>
-   </tr>
-   <tr>
-      <td>Canales de distribución (Web y/o Móvil)</td><td> App </td><td> App </td><td> Web y móvil </td><td> App </td>
-   </tr>
-
-   <tr>
-      <td rowspan="5">Análisis SWOT</td><td>Fortalezas</td><td> Contamos con lo último en tecnología e implementamos lo nuevo en desarrollo para mejorar la productividad del servicio </td><td> Es una app netamente para la gestión de vacas cuenta con buena personalización </td><td> Es famoso por ser bueno en gestión ya que usa algoritmos matemáticos para un mejor cálculo del ganado. </td><td> Su ecosistema está basado en un país de origen conoce muy bien a sus clientes y se adapta a ellos </td>
-   </tr>
-   <tr>
-      <td>Debilidades</td><td> Está en pleno desarrollo puede ser un éxito o fracaso </td><td> Solo es de móvil eso limita que sea multiplataforma </td><td> Solo opera en Europa y se basa en reglas ya establecidas por la unión europea </td><td> Solo es una app y para la zona de Colombia por lo tanto solo está disponible en su país de origen </td>
-   </tr>
-   <tr>
-      <td>Oportunidades</td><td> Puede hacer productivos a los ganaderos y empresas de este rubro mejorando sus tomas de decisiones y eficiencia </td><td> Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios. </td><td> Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios. </td><td> Si eres colombiano estarás contento con la app ya que es de uso nacional. </td>
-   </tr>
-   <tr>
-      <td>Amenazas</td><td> Competencia de otras aplicaciones móviles y el riesgo de cambios regulatorios en la industria ganadera que puedan afectar las operaciones de la plataforma. </td><td> No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla. </td><td> No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla. </td><td> Falta de apoyo económico los gobiernos locales de Colombia no ven viable esta innovación puede llegar a su desaparición </td>
-   </tr>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr>
+      <td colspan="6" style="padding: 12px; border: 1px solid #333; background-color: #404040; color: white; text-align: center; font-weight: bold; font-size: 1.2em;">Competitive Analysis Landscape</td>
+    </tr>
+    <tr>
+      <td colspan="2" style="padding: 10px; border: 1px solid #ddd; background-color: #f7f7f7; font-weight: bold; vertical-align: top;">¿Porqué llevar a cabo este análisis?</td>
+      <td colspan="4" style="padding: 10px; border: 1px solid #ddd; background-color: #f7f7f7; vertical-align: top;">¿Cómo podemos proporcionar un buen servicio entre los restaurantes y los consumidores de manera que la comunicación entre ambos sea efectiva y agradable?</td>
+    </tr>
+    <tr style="background-color: #eeeeee; font-weight: bold; text-align: center;">
+      <td colspan="2" style="padding: 10px; border: 1px solid #ddd;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Control Ganadero</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Agroptima</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">App Ganadera</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td rowspan="2" style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top; text-align: center;">Perfil</td>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Overview</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Moobile es una plataforma móvil accesible que optimiza la gestión ganadera con enfoque en sostenibilidad, bienestar animal y eficiencia, adaptada a pequeños y grandes productores.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Es una aplicación español, británico y brasileño en el sector de la ganadería.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Agroptima es un sitio web multiplataforma cofundado por la unión europea para los países de España, Francia e Inglaterra</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Es una empresa fundada en Colombia que cuenta con una para la gestión de ganado.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Ventaja competitiva. ¿Qué valor ofrece a los clientes?</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">La plataforma se diferencia al integrar tecnología accesible con enfoque en sostenibilidad y bienestar animal, ofreciendo soluciones prácticas para productores de todos los tamaños.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">es una app para la gestión de vacas y enfocada para móviles</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">cuenta con multiplataforma cuenta con algoritmos matemáticos para una mayor gestión del ganado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Tiene gran variedad de herramientas y gran cantidad de distribuidores</td>
+    </tr>
+    <tr>
+      <td rowspan="2" style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top; text-align: center;">Perfil de Marketing</td>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Mercado Objetivo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Productores ganaderos, tanto independientes como empresas, que buscan optimizar el cuidado del ganado y mejorar su rentabilidad.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Para ganaderos españoles, brasileños e ingleses.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Para ganaderos españoles,franceses e ingleses.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Para ganaderos colombianos</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Estrategias de Marketing</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Difusión en redes sociales y anuncios pagados</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estrategia de posicionamiento</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estrategia de segmentación</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estrategia</td>
+    </tr>
+    <tr>
+      <td rowspan="3" style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top; text-align: center;">Perfil de Producto</td>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Productos & Servicios</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Aplicación móvil con herramientas de gestión de ganado, monitoreo de salud, alimentación y reproducción.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Web app de gestión de ganado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Web app de gestión de ganado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Web app de gestión de ganado.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Precios & Costos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">Subscripcion Bajo costo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">Subscripcion Bajo costo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">Subscripcion Bajo costo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">Subscripcion Bajo costo</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Canales de distribución (Web y/o Móvil)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">App</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">App</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">Web y móvil</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top; text-align: center;">App</td>
+    </tr>
+    <tr>
+      <td rowspan="4" style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top; text-align: center;">Análisis SWOT</td>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Fortalezas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Contamos con lo último en tecnología e implementamos lo nuevo en desarrollo para mejorar la productividad del servicio</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Es una app netamente para la gestión de vacas cuenta con buena personalización</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Es famoso por ser bueno en gestión ya que usa algoritmos matemáticos para un mejor cálculo del ganado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Su ecosistema está basado en un país de origen conoce muy bien a sus clientes y se adapta a ellos</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Debilidades</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Está en pleno desarrollo puede ser un éxito o fracaso</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Solo es de móvil eso limita que sea multiplataforma</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Solo opera en Europa y se basa en reglas ya establecidas por la unión europea</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Solo es una app y para la zona de Colombia por lo tanto solo está disponible en su país de origen</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Oportunidades</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Puede hacer productivos a los ganaderos y empresas de este rubro mejorando sus tomas de decisiones y eficiencia</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Si planeas ir a Europa es buena idea ya que ese es su público objetivo y contará con más servicios.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Si eres colombiano estarás contento con la app ya que es de uso nacional.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; background-color: #fafafa; font-weight: bold; vertical-align: top;">Amenazas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Competencia de otras aplicaciones móviles y el riesgo de cambios regulatorios en la industria ganadera que puedan afectar las operaciones de la plataforma.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">No cuenta con muchos clientes la ganadería sigue siendo a la antigua por tanto no hace falta usarla.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Falta de apoyo económico los gobiernos locales de Colombia no ven viable esta innovación puede llegar a su desaparición</td>
+    </tr>
+  </tbody>
 </table>
 
 ### 2.1.2. Estrategias y tácticas frente a competidores
@@ -706,18 +916,67 @@ Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analiza
 
 ### 2.3.2. User Task Matrix
 
-| Tarea                                       | Ganadero Independiente                       | Empresa Ganadera                          |
-|---------------------------------------------|----------------------------------------------|-------------------------------------------|
-| Registrar nuevos animales                   | Alta (Manualmente con papel y lápiz)        | Alta (Manualmente con registros en cuadernos) |
-| Controlar la alimentación del ganado        | Alta (Registro manual en cuadernos)          | Alta (Registro manual en registros de alimentación) |
-| Programar citas con el veterinario          | Media (Llamadas telefónicas)                | Alta (Agenda manual de citas)             |
-| Gestionar vacunaciones                      | Alta (Registro manual en registros de vacunación) | Alta (Registro manual en cuadernos de vacunación) |
-| Realizar seguimiento del estado de salud    | Alta (Observación manual del ganado)        | Alta (Registro manual de síntomas y signos) |
-| Verificar el pronóstico del tiempo          | Media (Consultando en línea o escuchando el pronóstico) | Alta (Consultando en línea o por radio) |
-| Consultar información sobre razas de ganado| Media (Investigación en línea o en libros)  | Alta (Investigación en línea o en libros) |
-| Mantenimiento de infraestructura y equipos  | Alta (Reparaciones manuales y limpieza)     | Alta (Reparaciones manuales y limpieza)   |
-| Manejo de la reproducción y cría de ganado | Alta (Observación y gestión manual del ciclo reproductivo) | Alta (Observación y gestión manual del ciclo reproductivo) |
-| Registro de movimientos de ganado           | Alta (Registro manual de traslados, compra y venta) | Alta (Registro manual de traslados, compra y venta) |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Tarea</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Ganadero Independiente</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Empresa Ganadera</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Registrar nuevos animales</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Manualmente con papel y lápiz)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Manualmente con registros en cuadernos)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Controlar la alimentación del ganado</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual en cuadernos)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual en registros de alimentación)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Programar citas con el veterinario</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Media (Llamadas telefónicas)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Agenda manual de citas)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Gestionar vacunaciones</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual en registros de vacunación)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual en cuadernos de vacunación)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Realizar seguimiento del estado de salud</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Observación manual del ganado)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual de síntomas y signos)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Verificar el pronóstico del tiempo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Media (Consultando en línea o escuchando el pronóstico)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Consultando en línea o por radio)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Consultar información sobre razas de ganado</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Media (Investigación en línea o en libros)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Investigación en línea o en libros)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Mantenimiento de infraestructura y equipos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Reparaciones manuales y limpieza)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Reparaciones manuales y limpieza)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Manejo de la reproducción y cría de ganado</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Observación y gestión manual del ciclo reproductivo)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Observación y gestión manual del ciclo reproductivo)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Registro de movimientos de ganado</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual de traslados, compra y venta)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Alta (Registro manual de traslados, compra y venta)</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 2.3.3. User Journey Mapping
 
@@ -741,21 +1000,68 @@ Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analiza
 
 ## 2.4. Ubiquitous Language
 
-| Palabra                         | Descripción                                                                                                                                                     |
-|-------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Animal Health (Salud Animal) | Mantener la salud y prevenir enfermedades en el ganado.                                                                                                       |
-| Balanced Feeding (Alimentación Equilibrada) | Proporcionar una dieta equilibrada que cumpla con los requisitos nutricionales específicos de los animales.                                                    |
-| Artificial Insemination (Inseminación Artificial) | Introducir esperma en el tracto reproductivo de una hembra sin necesidad de apareamiento natural.                                                             |
-| Rectal Palpation (Palpación Rectal) | Examen para evaluar la condición reproductiva de una hembra, especialmente en el ganado vacuno.                                                               |
-| Deworming (Desparasitación) | Administrar medicamentos antiparasitarios para controlar y prevenir la infestación de parásitos internos y externos en el ganado.                              |
-| Branding (Marcado) | Identificación de ganado mediante la aplicación de un sello metálico caliente en la piel del animal.                                                          |
-| Weaning (Destete) | Separación gradual de los terneros de sus madres para cesar la lactancia y promover la independencia alimentaria.                                             |
-| Grazing Rotation (Rotación de Pastoreo) | Mover el ganado entre diferentes áreas de pastoreo para optimizar el uso del suelo y prevenir el sobrepastoreo.                                               |
-| Dystocia (Distocia) | Dificultades durante el parto que pueden requerir intervención veterinaria.                                                                                   |
-| Dusting (Aplicación de Polvos) | Aplicación de insecticidas en polvo o en aerosol sobre el pelaje del ganado para controlar infestaciones de insectos y parásitos externos.                    |
-| Campaign (Campaña) | Período durante el cual se llevan a cabo actividades específicas en la gestión de ganadería, con objetivos definidos y metas establecidas.                   |
-| Batch (Lote) | Grupo de animales criados o tratados juntos, que se manejan y monitorean como una unidad durante un período específico de tiempo.                              |
-| Fumigation (Fumigación) | Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno.                |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Palabra</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 70%;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Animal Health (Salud Animal)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Mantener la salud y prevenir enfermedades en el ganado.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Balanced Feeding (Alimentación Equilibrada)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Proporcionar una dieta equilibrada que cumpla con los requisitos nutricionales específicos de los animales.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Artificial Insemination (Inseminación Artificial)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Introducir esperma en el tracto reproductivo de una hembra sin necesidad de apareamiento natural.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Rectal Palpation (Palpación Rectal)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Examen para evaluar la condición reproductiva de una hembra, especialmente en el ganado vacuno.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Deworming (Desparasitación)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Administrar medicamentos antiparasitarios para controlar y prevenir la infestación de parásitos internos y externos en el ganado.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Branding (Marcado)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Identificación de ganado mediante la aplicación de un sello metálico caliente en la piel del animal.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Weaning (Destete)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Separación gradual de los terneros de sus madres para cesar la lactancia y promover la independencia alimentaria.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Grazing Rotation (Rotación de Pastoreo)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Mover el ganado entre diferentes áreas de pastoreo para optimizar el uso del suelo y prevenir el sobrepastoreo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Dystocia (Distocia)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Dificultades durante el parto que pueden requerir intervención veterinaria.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Dusting (Aplicación de Polvos)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Aplicación de insecticidas en polvo o en aerosol sobre el pelaje del ganado para controlar infestaciones de insectos y parásitos externos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Campaign (Campaña)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Período durante el cual se llevan a cabo actividades específicas en la gestión de ganadería, con objetivos definidos y metas establecidas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Batch (Lote)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Grupo de animales criados o tratados juntos, que se manejan y monitorean como una unidad durante un período específico de tiempo.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Fumigation (Fumigación)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Aplicación de productos químicos o biológicos para eliminar o controlar plagas, insectos, parásitos o enfermedades en el ganado y su entorno.</td>
+    </tr>
+  </tbody>
+</table>
 
 # **Capítulo III: Requirements Specification**
 
@@ -857,37 +1163,215 @@ Las User Stories representan una herramienta fundamental dentro de las metodolog
 
 El Product Backlog es un elemento esencial en la gestión ágil de proyectos, ya que representa una lista priorizada de funcionalidades, mejoras y tareas necesarias para el desarrollo del producto. Este backlog fue construido a partir de las necesidades identificadas en las entrevistas, el To-Be Scenario Mapping y las User Stories, permitiendo organizar y planificar el trabajo del equipo de forma estructurada y alineada con los objetivos del proyecto. Cada ítem del backlog está enfocado en generar valor para el usuario final y facilitar una entrega incremental y efectiva de la solución.
 
-| # Orden | User Story ID | Título | Descripción | Story Points |
-|---------|---------------|--------|-------------|--------------|
-| 1 | US01 | Creación de Establos | Como usuario ganadero, quiero crear nuevos establos para organizar adecuadamente los espacios de alojamiento de los bovinos según sus características. | 3 |
-| 2 | US02 | Visualización de Establos | Como usuario ganadero, quiero visualizar la información de todos mis establos para tener un panorama general de las instalaciones disponibles. | 2 |
-| 3 | US06 | Registro de Bovinos | Como usuario ganadero, quiero registrar nuevos bovinos en el sistema para mantener un inventario actualizado de mi ganado. | 5 |
-| 4 | US07 | Visualización de Bovinos | Como usuario ganadero, quiero visualizar la información completa de mis bovinos para revisar sus datos y estado actual. | 3 |
-| 5 | US11 | Asignación de Bovinos a Establos | Como usuario ganadero, quiero asignar bovinos a establos específicos para organizar la distribución del ganado en las instalaciones. | 3 |
-| 6 | US03 | Edición de Establos | Como usuario ganadero, quiero editar la información de los establos existentes para mantener actualizados sus datos y características. | 2 |
-| 7 | US08 | Edición de Bovinos | Como usuario ganadero, quiero editar la información de los bovinos para actualizar sus datos cuando sea necesario (peso, edad, estado reproductivo, etc.). | 3 |
-| 8 | US12 | Registro de Vacunas | Como usuario ganadero, quiero registrar las vacunas aplicadas a mis bovinos para mantener un historial sanitario completo. | 5 |
-| 9 | US13 | Visualización de Vacunas | Como usuario ganadero, quiero visualizar el historial de vacunación de cada bovino para conocer su estado sanitario actual. | 3 |
-| 10 | US17 | Asignación de Vacunas a Bovinos | Como usuario ganadero, quiero asignar vacunas específicas a bovinos individuales para llevar un control detallado de los tratamientos aplicados. | 3 |
-| 11 | US05 | Búsqueda de Establos | Como usuario ganadero, quiero buscar establos por nombre o capacidad para localizar rápidamente la información que necesito. | 2 |
-| 12 | US10 | Búsqueda de Bovinos | Como usuario ganadero, quiero buscar bovinos por nombre y raza para localizar rápidamente información específica. | 2 |
-| 13 | US16 | Búsqueda de Vacunas | Como usuario ganadero, quiero buscar registros de vacunación por bovino, fecha o tipo de vacuna para acceder rápidamente a la información sanitaria. | 3 |
-| 14 | US18 | Creación de Campañas | Como empresario ganadero, quiero crear nuevas campañas sanitarias o de mejoramiento para organizar actividades coordinadas en mi operación ganadera. | 5 |
-| 15 | US19 | Visualización de Campañas | Como empresario ganadero, quiero visualizar todas las campañas activas y pasadas para tener un control general de las actividades realizadas. | 3 |
-| 16 | US23 | Registro de Personal | Como empresario ganadero, quiero registrar nuevo personal en el sistema para mantener un control de todos los trabajadores de mi operación. | 3 |
-| 17 | US24 | Visualización de Personal | Como empresario ganadero, quiero visualizar la información de todo mi personal para revisar datos de contacto, roles y responsabilidades asignadas. | 2 |
-| 18 | US28 | Asignación de Personal a Campañas | Como empresario ganadero, quiero asignar personal específico a las campañas para coordinar los recursos humanos necesarios en cada actividad. | 3 |
-| 19 | US14 | Edición de Registros de Vacunas | Como usuario ganadero, quiero editar los registros de vacunación para corregir errores o actualizar información cuando sea necesario. | 2 |
-| 20 | US20 | Edición de Campañas | Como empresario ganadero, quiero editar la información de las campañas para actualizar objetivos, fechas o recursos asignados. | 3 |
-| 21 | US25 | Edición de Personal | Como empresario ganadero, quiero editar la información del personal para actualizar datos personales, roles o responsabilidades cuando sea necesario. | 2 |
-| 22 | US22 | Búsqueda de Campañas | Como empresario ganadero, quiero buscar campañas por fecha para localizar rápidamente información específica de las actividades. | 2 |
-| 23 | US27 | Búsqueda de Personal | Como empresario ganadero, quiero buscar personal por nombre para localizar rápidamente información específica de los trabajadores. | 2 |
-| 24 | US04 | Eliminación de Establos | Como usuario ganadero, quiero eliminar establos que ya no utilizo para mantener organizado mi registro de instalaciones. | 2 |
-| 25 | US09 | Eliminación de Bovinos | Como usuario ganadero, quiero eliminar bovinos del registro cuando ya no formen parte del ganado (venta, muerte, etc.). | 3 |
-| 26 | US15 | Eliminación de Registros de Vacunas | Como usuario ganadero, quiero eliminar registros de vacunas incorrectos para mantener la precisión del historial sanitario. | 2 |
-| 27 | US21 | Eliminación de Campañas | Como empresario ganadero, quiero eliminar campañas canceladas o incorrectas para mantener organizado el registro de actividades. | 2 |
-| 28 | US26 | Eliminación de Personal | Como empresario ganadero, quiero eliminar registros de personal que ya no trabaja en mi operación para mantener actualizada la base de datos. | 2 |
-
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 5%;"># Orden</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 8%;">User Story ID</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 20%;">Título</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 55%;">Descripción</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 12%;">Story Points</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US01</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Creación de Establos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero crear nuevos establos para organizar adecuadamente los espacios de alojamiento de los bovinos según sus características.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US02</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Visualización de Establos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero visualizar la información de todos mis establos para tener un panorama general de las instalaciones disponibles.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US06</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Registro de Bovinos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero registrar nuevos bovinos en el sistema para mantener un inventario actualizado de mi ganado.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US07</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Visualización de Bovinos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero visualizar la información completa de mis bovinos para revisar sus datos y estado actual.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US11</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Asignación de Bovinos a Establos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero asignar bovinos a establos específicos para organizar la distribución del ganado en las instalaciones.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">6</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US03</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Edición de Establos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero editar la información de los establos existentes para mantener actualizados sus datos y características.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">7</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US08</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Edición de Bovinos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero editar la información de los bovinos para actualizar sus datos cuando sea necesario (peso, edad, estado reproductivo, etc.).</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">8</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US12</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Registro de Vacunas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero registrar las vacunas aplicadas a mis bovinos para mantener un historial sanitario completo.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">9</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US13</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Visualización de Vacunas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero visualizar el historial de vacunación de cada bovino para conocer su estado sanitario actual.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">10</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US17</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Asignación de Vacunas a Bovinos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero asignar vacunas específicas a bovinos individuales para llevar un control detallado de los tratamientos aplicados.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">11</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US05</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Búsqueda de Establos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero buscar establos por nombre o capacidad para localizar rápidamente la información que necesito.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">12</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US10</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Búsqueda de Bovinos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero buscar bovinos por nombre y raza para localizar rápidamente información específica.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">13</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US16</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Búsqueda de Vacunas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero buscar registros de vacunación por bovino, fecha o tipo de vacuna para acceder rápidamente a la información sanitaria.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">14</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US18</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Creación de Campañas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero crear nuevas campañas sanitarias o de mejoramiento para organizar actividades coordinadas en mi operación ganadera.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">5</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">15</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US19</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Visualización de Campañas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero visualizar todas las campañas activas y pasadas para tener un control general de las actividades realizadas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">16</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US23</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Registro de Personal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero registrar nuevo personal en el sistema para mantener un control de todos los trabajadores de mi operación.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">17</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US24</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Visualización de Personal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero visualizar la información de todo mi personal para revisar datos de contacto, roles y responsabilidades asignadas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">18</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US28</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Asignación de Personal a Campañas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero asignar personal específico a las campañas para coordinar los recursos humanos necesarios en cada actividad.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">19</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US14</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Edición de Registros de Vacunas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero editar los registros de vacunación para corregir errores o actualizar información cuando sea necesario.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">20</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US20</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Edición de Campañas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero editar la información de las campañas para actualizar objetivos, fechas o recursos asignados.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">21</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US25</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Edición de Personal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero editar la información del personal para actualizar datos personales, roles o responsabilidades cuando sea necesario.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">22</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US22</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Búsqueda de Campañas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero buscar campañas por fecha para localizar rápidamente información específica de las actividades.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">23</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US27</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Búsqueda de Personal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero buscar personal por nombre para localizar rápidamente información específica de los trabajadores.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">24</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US04</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Eliminación de Establos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero eliminar establos que ya no utilizo para mantener organizado mi registro de instalaciones.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">25</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US09</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Eliminación de Bovinos</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero eliminar bovinos del registro cuando ya no formen parte del ganado (venta, muerte, etc.).</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">26</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US15</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Eliminación de Registros de Vacunas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como usuario ganadero, quiero eliminar registros de vacunas incorrectos para mantener la precisión del historial sanitario.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">27</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US21</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Eliminación de Campañas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero eliminar campañas canceladas o incorrectas para mantener organizado el registro de actividades.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">28</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">US26</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Eliminación de Personal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Como empresario ganadero, quiero eliminar registros de personal que ya no trabaja en mi operación para mantener actualizada la base de datos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 3.4. Impact Mapping
 
@@ -1221,49 +1705,197 @@ Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Andro
 
 ### 4.9.2. Class Dictionary
 
-# Moobile - Class Dictionary
+**Core System Classes**
 
-## Core System Classes
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 10%;">Class</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 35%;">Attributes</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 25%;">Methods</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>User</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">UserId: Guid, Email: Email, PasswordHash: PasswordHash, FullName: string, IsActive: bool</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Register(email, rawPassword), Authenticate(rawPassword): bool, AssignRole(role), Deactivate()</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Usuario del sistema (ganadero, operador, veterinario). Puede autenticarse y tener roles específicos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Admin</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><em>Inherits from User</em></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Promote(user), UpdateSystemSetting(key, value)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Usuario con privilegios administrativos del sistema.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Role</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">RoleId: Guid, Name: string, Permissions: List&lt;Permission&gt;</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">AddPermission(p), RemovePermission(p)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Rol RBAC con conjunto de permisos para control de acceso granular.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Permission</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Code: string, Description: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Permiso granular que un rol puede tener para acceder a funcionalidades específicas.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Bovine</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">BovineId: Guid, TagId: TagId, Breed: string, Sex: string, BirthDate: DateTime, HealthStatus: HealthStatus, CurrentWeightKg: decimal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Register(), UpdateHealth(status), RecordWeight(weightKg, when), AssignStable(stable), ApplyVaccination(vr)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Animal (vaca/res) con identificación, salud y métricas. Entidad central del dominio ganadero.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Stable</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">StableId: Guid, Name: string, Capacity: int, Location: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">AddBovine(b), RemoveBovine(b), HasSpace(): bool</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Establo/corral donde se alojan bovinos. Gestiona capacidad y ubicación física.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Vaccine</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">VaccineId: Guid, Name: string, Manufacturer: string, RecommendedDose: Dose, MinAgeDays: int</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Catálogo de vacunas disponibles (metadatos). Define protocolos de vacunación.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>VaccinationRecord</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">VaccinationRecordId: Guid, BovineId: Guid, VaccineId: Guid, AppliedDose: Dose, AppliedAt: DateTime, Notes: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Aplicación concreta de una vacuna a un bovino (historial). Registra trazabilidad sanitaria.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Staff</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">StaffId: Guid, FullName: string, Position: string, EmployeeStatus: EmployeeStatus, ContactInfo: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">AssignToStable(stable), UpdateStatus(s)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Colaborador/empleado de la operación ganadera. Gestiona recursos humanos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Campaign</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">CampaignId: Guid, Name: string, Period: DateRange, Status: CampaignStatus</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Activate(), End(), AddChannel(c), AddGoal(g)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Agrupa comunicaciones/acciones orientadas a objetivos específicos (vacunación, tratamiento).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Channel</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">ChannelId: Guid, Name: string, Kind: string (SMS/Email/Push)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Canal por el cual se ejecuta la campaña. Define medio de comunicación.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Goal</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">GoalId: Guid, Name: string, Metric: string, TargetValue: decimal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Objetivo/Meta medible de campaña (ej. "Vacunar 95% del ganado").</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>VoiceCommand</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">CommandId: Guid, Transcript: Transcript, Confidence: ConfidenceScore, CommandType: CommandType, IssuedBy: User, IssuedAt: DateTime</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Interpret(): DomainAction, IsConfident(threshold): bool</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Orden de voz emitida por un usuario; se interpreta a una acción de dominio. Facilita el uso para ganaderos.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>DomainAction</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Name: string, Parameters: Dictionary&lt;string,string&gt;</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Acción concreta a ejecutar en el dominio (ej. "ApplyVaccine", "RegisterBovine"). Resultado de la interpretación del comando de voz.</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Class** | **Attributes** | **Methods** | **Description** |
-|-----------|----------------|-------------|-----------------|
-| **User** | UserId: Guid, Email: Email, PasswordHash: PasswordHash, FullName: string, IsActive: bool | Register(email, rawPassword), Authenticate(rawPassword): bool, AssignRole(role), Deactivate() | Usuario del sistema (ganadero, operador, veterinario). Puede autenticarse y tener roles específicos. |
-| **Admin** | *Inherits from User* | Promote(user), UpdateSystemSetting(key, value) | Usuario con privilegios administrativos del sistema. |
-| **Role** | RoleId: Guid, Name: string, Permissions: List<Permission> | AddPermission(p), RemovePermission(p) | Rol RBAC con conjunto de permisos para control de acceso granular. |
-| **Permission** | Code: string, Description: string | - | Permiso granular que un rol puede tener para acceder a funcionalidades específicas. |
-| **Bovine** | BovineId: Guid, TagId: TagId, Breed: string, Sex: string, BirthDate: DateTime, HealthStatus: HealthStatus, CurrentWeightKg: decimal | Register(), UpdateHealth(status), RecordWeight(weightKg, when), AssignStable(stable), ApplyVaccination(vr) | Animal (vaca/res) con identificación, salud y métricas. Entidad central del dominio ganadero. |
-| **Stable** | StableId: Guid, Name: string, Capacity: int, Location: string | AddBovine(b), RemoveBovine(b), HasSpace(): bool | Establo/corral donde se alojan bovinos. Gestiona capacidad y ubicación física. |
-| **Vaccine** | VaccineId: Guid, Name: string, Manufacturer: string, RecommendedDose: Dose, MinAgeDays: int | - | Catálogo de vacunas disponibles (metadatos). Define protocolos de vacunación. |
-| **VaccinationRecord** | VaccinationRecordId: Guid, BovineId: Guid, VaccineId: Guid, AppliedDose: Dose, AppliedAt: DateTime, Notes: string | - | Aplicación concreta de una vacuna a un bovino (historial). Registra trazabilidad sanitaria. |
-| **Staff** | StaffId: Guid, FullName: string, Position: string, EmployeeStatus: EmployeeStatus, ContactInfo: string | AssignToStable(stable), UpdateStatus(s) | Colaborador/empleado de la operación ganadera. Gestiona recursos humanos. |
-| **Campaign** | CampaignId: Guid, Name: string, Period: DateRange, Status: CampaignStatus | Activate(), End(), AddChannel(c), AddGoal(g) | Agrupa comunicaciones/acciones orientadas a objetivos específicos (vacunación, tratamiento). |
-| **Channel** | ChannelId: Guid, Name: string, Kind: string (SMS/Email/Push) | - | Canal por el cual se ejecuta la campaña. Define medio de comunicación. |
-| **Goal** | GoalId: Guid, Name: string, Metric: string, TargetValue: decimal | - | Objetivo/Meta medible de campaña (ej. "Vacunar 95% del ganado"). |
-| **VoiceCommand** | CommandId: Guid, Transcript: Transcript, Confidence: ConfidenceScore, CommandType: CommandType, IssuedBy: User, IssuedAt: DateTime | Interpret(): DomainAction, IsConfident(threshold): bool | Orden de voz emitida por un usuario; se interpreta a una acción de dominio. Facilita el uso para ganaderos. |
-| **DomainAction** | Name: string, Parameters: Dictionary<string,string> | - | Acción concreta a ejecutar en el dominio (ej. "ApplyVaccine", "RegisterBovine"). Resultado de la interpretación del comando de voz. |
+**Value Objects**
 
-## Value Objects
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 20%;">Value Object</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Attributes</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 20%;">Methods</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Email</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value: string (validado por formato)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value Object para email con validación incorporada.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>PasswordHash</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Hash seguro (BCrypt/Argon2) de la contraseña.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>TagId</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Identificador físico del animal (arete/chip RFID). Único por bovino.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Dose</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value: string (p. ej. "5 ml IM")</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Dosis aplicada/recomendada con unidad y vía de administración.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>DateRange</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Start: DateTime, End: DateTime</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Contains(dt): bool</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Intervalo temporal válido de la campaña con validaciones.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Transcript</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value: string</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Texto reconocido del comando de voz (español/quechua).</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>ConfidenceScore</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Value: double (0–1)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Puntaje de confianza del reconocimiento de voz.</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Value Object** | **Attributes** | **Methods** | **Description** |
-|------------------|----------------|-------------|-----------------|
-| **Email** | Value: string (validado por formato) | - | Value Object para email con validación incorporada. |
-| **PasswordHash** | Value: string | - | Hash seguro (BCrypt/Argon2) de la contraseña. |
-| **TagId** | Value: string | - | Identificador físico del animal (arete/chip RFID). Único por bovino. |
-| **Dose** | Value: string (p. ej. "5 ml IM") | - | Dosis aplicada/recomendada con unidad y vía de administración. |
-| **DateRange** | Start: DateTime, End: DateTime | Contains(dt): bool | Intervalo temporal válido de la campaña con validaciones. |
-| **Transcript** | Value: string | - | Texto reconocido del comando de voz (español/quechua). |
-| **ConfidenceScore** | Value: double (0–1) | - | Puntaje de confianza del reconocimiento de voz. |
+**Enumerations**
 
-## Enumerations
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 20%;">Enum</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Values</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>HealthStatus</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Healthy, AtRisk, Sick, Recovered</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estado sanitario actual del bovino.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>CampaignStatus</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Draft, Active, Finished</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Ciclo de vida de la campaña.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>EmployeeStatus</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Active, Inactive, Suspended</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estado laboral del empleado.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>CommandType</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Query, Create, Update, Delete</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Tipo de intención del comando (consultar, crear, actualizar, eliminar).</td>
+    </tr>
+  </tbody>
+</table>
 
-| **Enum** | **Values** | **Description** |
-|----------|------------|-----------------|
-| **HealthStatus** | Healthy, AtRisk, Sick, Recovered | Estado sanitario actual del bovino. |
-| **CampaignStatus** | Draft, Active, Finished | Ciclo de vida de la campaña. |
-| **EmployeeStatus** | Active, Inactive, Suspended | Estado laboral del empleado. |
-| **CommandType** | Query, Create, Update, Delete | Tipo de intención del comando (consultar, crear, actualizar, eliminar). |
-
-## Domain Relationships
+**Domain Relationships**
 
 - **User** puede tener multiples **Roles**
 - **Role** contiene multiples **Permissions**
@@ -1769,14 +2401,39 @@ Durante el transcurso del Sprint 1, el equipo trabajó de manera conjunta en el 
 
 A continuación, gracias a la sección de Insights de GitHub, se incluyen gráficos que reflejan el nivel de participación de cada miembro del equipo en el repositorio del Informe.
 
-#### Tabla de identificación del equipo
+**Tabla de identificación del equipo**
 
-| Username (GitHub) | Nombre completo          | Código de estudiante |
-| ----------------- | ------------------------ | -------------------- |
-| @rrenzosilva       | Renzo Silva Morales | U20221C362           |
-| @UPC-Skylar        | Jack Roque Tello     | U20221C448           |
-| @Rafooo6           | Jorge Bravo Gavilano   | U202212535           |
-| @CarlosGC-LP       | Carlos Gonzalez Custodio  | U202020230           |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Username (GitHub)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Nombre completo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Código de estudiante</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@rrenzosilva</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Renzo Silva Morales</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u20221c362</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@UPC-Skylar</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Jack Roque Tello</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u20221c448</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@Rafooo6</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Jorge Bravo Gavilano</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u202212535</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@CarlosGC-LP</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Carlos Gonzalez Custodio</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u202020230</td>
+    </tr>
+  </tbody>
+</table>
 
 #### Analíticos de GitHub
 
@@ -2660,30 +3317,120 @@ Url del repositorio: https://github.com/upc-pre-202520-1asi0732-14651-cowders/mo
 
 En esta sección se presentan las pruebas esenciales aplicadas al sistema central, con el fin de verificar su funcionamiento adecuado. Dichas pruebas están orientadas a la validación de la lógica central del sistema, asegurando que los componentes críticos operen conforme a los requerimientos previamente establecidos.
 
-| EP01: Gestión de Establos |
-| :------------: |
-| **Como** usuario ganadero, <br> **Quiero** gestionar los establos <br> **Para** mantener organizadas las instalaciones donde se alojan los bovinos. |
-| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/26LK97nn/image.png)](https://postimg.cc/47ZPmtL3) |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; font-size: 1.1em;">EP01: Gestión de Establos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <p style="margin: 0 0 10px 0; line-height: 1.5;">
+          <strong>Como</strong> usuario ganadero, <br>
+          <strong>Quiero</strong> gestionar los establos <br>
+          <strong>Para</strong> mantener organizadas las instalaciones donde se alojan los bovinos.
+        </p>
+        <p style="font-weight: bold; margin-bottom: 5px;">Prueba con Selenium:</p>
+        <a href="https://postimg.cc/47ZPmtL3" target="_blank">
+          <img src="https://i.postimg.cc/26LK97nn/image.png" alt="Captura de pantalla de la prueba de Selenium para Gestión de Establos" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| EP02: Gestión de Bovinos |
-| :------------: |
-| **Como** usuario ganadero, <br> **Quiero** gestionar la información de mis bovinos <br> **Para** llevar un control detallado del ganado. |
-| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/pT9L040s/image.png)](https://postimg.cc/gXWpjSbh) |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; font-size: 1.1em;">EP02: Gestión de Bovinos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <p style="margin: 0 0 10px 0; line-height: 1.5;">
+          <strong>Como</strong> usuario ganadero, <br>
+          <strong>Quiero</strong> gestionar la información de mis bovinos <br>
+          <strong>Para</strong> llevar un control detallado del ganado.
+        </p>
+        <p style="font-weight: bold; margin-bottom: 5px;">Prueba con Selenium:</p>
+        <a href="https://postimg.cc/gXWpjSbh" target="_blank">
+          <img src="https://i.postimg.cc/pT9L040s/image.png" alt="Captura de pantalla de la prueba de Selenium para Gestión de Bovinos" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| EP03: Gestión de Vacunas |
-| :------------: |
-| **Como** usuario ganadero, <br> **Quiero** gestionar las vacunas aplicadas a mis bovinos <br> **Para** llevar un control sanitario adecuado. |
-| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/9FstJHLV/image.png)](https://postimg.cc/YhfWCZcy) |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; font-size: 1.1em;">EP03: Gestión de Vacunas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <p style="margin: 0 0 10px 0; line-height: 1.5;">
+          <strong>Como</strong> usuario ganadero, <br>
+          <strong>Quiero</strong> gestionar las vacunas aplicadas a mis bovinos <br>
+          <strong>Para</strong> llevar un control sanitario adecuado.
+        </p>
+        <p style="font-weight: bold; margin-bottom: 5px;">Prueba con Selenium:</p>
+        <a href="https://postimg.cc/YhfWCZcy" target="_blank">
+          <img src="https://i.postimg.cc/9FstJHLV/image.png" alt="Captura de pantalla de la prueba de Selenium para Gestión de Vacunas" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| EP04: Gestión de Campañas |
-| :------------: |
-| **Como** empresario ganadero, <br> **Quiero** gestionar campañas sanitarias y de mejoramiento <br> **Para** coordinar actividades a gran escala. |
-| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/HkHJdb9M/image.png)](https://postimg.cc/HVZWtcKW) |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; font-size: 1.1em;">EP04: Gestión de Campañas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <p style="margin: 0 0 10px 0; line-height: 1.5;">
+          <strong>Como</strong> empresario ganadero, <br>
+          <strong>Quiero</strong> gestionar campañas sanitarias y de mejoramiento <br>
+          <strong>Para</strong> coordinar actividades a gran escala.
+        </p>
+        <p style="font-weight: bold; margin-bottom: 5px;">Prueba con Selenium:</p>
+        <a href="https://postimg.cc/HVZWtcKW" target="_blank">
+          <img src="https://i.postimg.cc/HkHJdb9M/image.png" alt="Captura de pantalla de la prueba de Selenium para Gestión de Campañas" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
-| EP05: Gestión de Staff |
-| :------------: |
-| **Como** empresario ganadero, <br> **Quiero** gestionar el personal que trabaja en mi operación ganadera <br> **Para** organizar eficientemente los recursos humanos. |
-| Prueba con Selenium: <br> [![image.png](https://i.postimg.cc/jqHR62fb/image.png)](https://postimg.cc/fkb4Dw52) |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; font-size: 1.1em;">EP05: Gestión de Staff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 15px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <p style="margin: 0 0 10px 0; line-height: 1.5;">
+          <strong>Como</strong> empresario ganadero, <br>
+          <strong>Quiero</strong> gestionar el personal que trabaja en mi operación ganadera <br>
+          <strong>Para</strong> organizar eficientemente los recursos humanos.
+        </p>
+        <p style="font-weight: bold; margin-bottom: 5px;">Prueba con Selenium:</p>
+        <a href="https://postimg.cc/fkb4Dw52" target="_blank">
+          <img src="https://i.postimg.cc/jqHR62fb/image.png" alt="Captura de pantalla de la prueba de Selenium para Gestión de Staff" style="max-width: 100%; height: auto; border: 1px solid #ccc;">
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ## 6.2. Static testing & Verification
 
@@ -2811,7 +3558,7 @@ Estas revisiones facilitaron una retroalimentación interna entre los miembros d
 Las entrevistas están agrupadas en el siguiente link subido a Microsoft Stream:
 [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQACi555PL4XQZJweVdRuxnmAVGVpbwFIPhpXbyoXytFCik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uHlg3O](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQACi555PL4XQZJweVdRuxnmAVGVpbwFIPhpXbyoXytFCik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uHlg3O)
 
-#### Segmento #1: Productores Ganaderos Independientes
+**Segmento #1: Productores Ganaderos Independientes**
 
 Entrevistada:	Karla Ramírez
 
@@ -2881,7 +3628,7 @@ En lo emocional, cuando explora formas innovadoras de trabajar, siente entusiasm
 
 ---
 
-#### Segmento #2: Empresas Ganaderas
+**Segmento #2: Empresas Ganaderas**
 
 Entrevistada:	Merly Salón
 
@@ -2974,24 +3721,79 @@ El alcance de esta evaluación incluye la revisión de la usabilidad de las sigu
 
 Los errores serán puntuados tomando en cuenta la siguiente escala:
 
-| Nivel | Descripción |
-|-------|--------------|
-| **1** | Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible. |
-| **2** | Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Debe corregirse con prioridad baja en la siguiente versión. |
-| **3** | Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta. |
-| **4** | Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del lanzamiento. |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Nivel</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 85%;">Descripción</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema superficial: puede ser fácilmente superado por el usuario o ocurre con poca frecuencia. No necesita ser arreglado salvo que haya tiempo disponible.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema menor: ocurre un poco más frecuentemente o es más difícil de superar. Debe corregirse con prioridad baja en la siguiente versión.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema mayor: ocurre con frecuencia o los usuarios no pueden resolverlo. Debe corregirse con prioridad alta.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>4</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema muy grave: impide al usuario continuar usando la herramienta. Debe corregirse antes del lanzamiento.</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
 ### Tabla Resumen
 
-| # | Problema | Escala de Severidad | Heurística / Principio Violado |
-|---|-----------|----------------------|--------------------------------|
-| 1 | El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio. | 3 | Usability: Consistencia y estándares |
-| 2 | Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil). | 2 | Usability: Visibilidad del estado del sistema |
-| 3 | Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles. | 3 | Inclusive Design: Proporciona experiencias comparables |
-| 4 | La navegación móvil inferior no incluye un acceso directo a la búsqueda o a la asignación de animales/vacunas. | 3 | Information Architecture: Is it findable? |
-| 5 | No se muestra claramente la capacidad restante del Establo en la vista de asignación de bovinos. | 2 | Usability: Prevención de errores |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 5%;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Problema</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Escala de Severidad</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 35%;">Heurística / Principio Violado</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">El botón flotante FAB (micrófono) para Voice Commands oculta contenido importante en la vista de escritorio.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Usability: Consistencia y estándares</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Falta de un indicador visual de progreso en el formulario de Registro de Bovino (Web/Móvil).</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Usability: Visibilidad del estado del sistema</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Los iconos de las tarjetas resumen (e.g., Total Bovines, Total Stables) no tienen etiquetas "alt" visibles.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Inclusive Design: Proporciona experiencias comparables</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">La navegación móvil inferior no incluye un acceso directo a la búsqueda o a la asignación de animales/vacunas.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Information Architecture: Is it findable?</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">5</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">No se muestra claramente la capacidad restante del Establo en la vista de asignación de bovinos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Usability: Prevención de errores</td>
+    </tr>
+  </tbody>
+</table>
 
 ---
 
@@ -3065,39 +3867,39 @@ Asegurar que todos los elementos gráficos que comunican información tengan eti
 
 #### 6.4.1.2. Cronograma de auditoría realizada
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>Actividad</th>
-      <th>Fecha de ejecución</th>
-      <th>Duración estimada</th>
-      <th>Responsables</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 45%;">Actividad</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Fecha de ejecución</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Duración estimada</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Responsables</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Planificación de auditoría</td>
-      <td>08/11/2025</td>
-      <td>1 día</td>
-      <td>Equipo Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Planificación de auditoría</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">08/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1 día</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo Cowders</td>
     </tr>
     <tr>
-      <td>Evaluación heurística de la plataforma</td>
-      <td>12/11/2025</td>
-      <td>1 día</td>
-      <td>Equipo Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Evaluación heurística de la plataforma</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">12/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1 día</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo Cowders</td>
     </tr>
     <tr>
-      <td>Documentación de hallazgos preliminares</td>
-      <td>13/11/2025</td>
-      <td>1 día</td>
-      <td>Equipo Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Documentación de hallazgos preliminares</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">13/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1 día</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo Cowders</td>
     </tr>
     <tr>
-      <td>Entrega del informe de evaluación de heurísticas final</td>
-      <td>14/11/2025</td>
-      <td>-</td>
-      <td>Equipo Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Entrega del informe de evaluación de heurísticas final</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">14/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo Cowders</td>
     </tr>
   </tbody>
 </table>
@@ -3140,76 +3942,68 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 *ESCALA DE SEVERIDAD:*
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>Nivel</th>
-      <th>Descripción</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Nivel</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 85%;">Descripción</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>
-        Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>
-        Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>
-        Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>
-        Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>4</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.</td>
     </tr>
   </tbody>
 </table>
 
 *TABLA RESUMEN:*
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>#</th>
-      <th>Problema</th>
-      <th>Escala de severidad</th>
-      <th>Heurística violada</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 5%;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 45%;">Problema</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Escala de severidad</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Heurística violada</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>Sin opciones de inicio/registro con terceros (Login/Registro)</td>
-      <td>3</td>
-      <td>6. Recognition Rather Than Recall</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Sin opciones de inicio/registro con terceros (Login/Registro)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">6. Recognition Rather Than Recall (Reconocimiento en lugar de recuerdo)</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Validación y requisitos de contraseña poco visibles (Registro)</td>
-      <td>3</td>
-      <td>5. Error Prevention</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Validación y requisitos de contraseña poco visibles (Registro)</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">5. Error Prevention (Prevención de errores)</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>Búsqueda/filtros inexistentes en listados</td>
-      <td>2</td>
-      <td>7. Flexibility & Efficiency</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Búsqueda/filtros inexistentes en listados</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">7. Flexibility & Efficiency (Flexibilidad y eficiencia de uso)</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Persistencia de idioma</td>
-      <td>2</td>
-      <td>2. Match with Real World</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Persistencia de idioma</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">2. Match with Real World (Coincidencia entre el sistema y el mundo real)</td>
     </tr>
   </tbody>
 </table>
@@ -3356,45 +4150,45 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 #### 6.4.2.2. Cronograma de auditoría recibida
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>Actividad</th>
-      <th>Fecha de ejecución</th>
-      <th>Duración estimada</th>
-      <th>Responsables</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 35%;">Actividad</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 25%;">Fecha de ejecución</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Duración estimada</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Responsables</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Planificación de auditoría</td>
-      <td>08/11/2025</td>
-      <td>1 día</td>
-      <td>Equipo DebtGo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Planificación de auditoría</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">08/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1 día</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo DebtGo</td>
     </tr>
     <tr>
-      <td>Evaluación heurística de la plataforma</td>
-      <td>09/11/2025 - 12/11/2025</td>
-      <td>3 días</td>
-      <td>Equipo DebtGo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Evaluación heurística de la plataforma</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">09/11/2025 - 12/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3 días</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo DebtGo</td>
     </tr>
     <tr>
-      <td>Documentación de hallazgos preliminares</td>
-      <td>13/11/2025</td>
-      <td>1 día</td>
-      <td>Equipo DebtGo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Documentación de hallazgos preliminares</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">13/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1 día</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo DebtGo</td>
     </tr>
     <tr>
-      <td>Reunión de retroalimentación</td>
-      <td>14/11/2025</td>
-      <td>2 horas</td>
-      <td>Auditores + equipo Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Reunión de retroalimentación</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">14/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2 horas</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Auditores + equipo Cowders</td>
     </tr>
     <tr>
-      <td>Entrega del informe de evaluación de heurísticas final</td>
-      <td>14/11/2025</td>
-      <td>-</td>
-      <td>Equipo DebtGo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Entrega del informe de evaluación de heurísticas final</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">14/11/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">-</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Equipo DebtGo</td>
     </tr>
   </tbody>
 </table>
@@ -3441,76 +4235,68 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 *ESCALA DE SEVERIDAD:*
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>Nivel</th>
-      <th>Descripción</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Nivel</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 85%;">Descripción</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>
-        Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>1</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema superficial: puede ser fácilmente superado por el usuario o puede ocurrir con muy poca frecuencia. No necesita ser arreglado a no ser que exista disponibilidad de tiempo.</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>
-        Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>2</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema menor: puede ocurrir un poco más frecuentemente o es un poco más difícil de superar para el usuario. Se le debería asignar una prioridad baja para resolverlo de cara al siguiente release.</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>
-        Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>3</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema mayor: ocurre frecuentemente o los usuarios no son capaces de resolver por sí mismos. Es importante corregirlo y asignarle una prioridad alta.</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>
-        Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.
-      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;"><strong>4</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Problema muy grave: error de gran impacto que impide al usuario continuar con el uso de la herramienta. Es imperativo corregirlo antes del lanzamiento.</td>
     </tr>
   </tbody>
 </table>
 
 *TABLA RESUMEN:*
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>#</th>
-      <th>Problema</th>
-      <th>Escala de severidad</th>
-      <th>Heurística violada</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 5%;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Problema</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 20%;">Escala de severidad</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 35%;">Heurística violada</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>Falta de opciones de registro con terceros</td>
-      <td>3</td>
-      <td>6. Recognition Rather Than Recall</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Falta de opciones de registro con terceros</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">6. Recognition Rather Than Recall (Reconocimiento en lugar de recuerdo)</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Poca personalización del perfil</td>
-      <td>2</td>
-      <td>7. Flexibility and Efficiency of Use</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Poca personalización del perfil</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">7. Flexibility and Efficiency of Use (Flexibilidad y eficiencia de uso)</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>Falta de confirmación clara después de registrar bovinos, establos o staff</td>
-      <td>2</td>
-      <td>9. Help Users Recognize, Diagnose, and Recover from Errors</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Falta de confirmación clara después de registrar bovinos, establos o staff</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">9. Help Users Recognize, Diagnose, and Recover from Errors (Ayudar a los usuarios a reconocer, diagnosticar y recuperarse de errores)</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Listados extensos sin buscador o filtros</td>
-      <td>3</td>
-      <td>7. Flexibility and Efficiency of Use</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Listados extensos sin buscador o filtros</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">7. Flexibility and Efficiency of Use (Flexibilidad y eficiencia de uso)</td>
     </tr>
   </tbody>
 </table>
@@ -3639,44 +4425,44 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
 
 #### 6.4.2.4. Resumen de modificaciones para subsanar hallazgos
 
-<table>
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
   <thead>
-    <tr>
-      <th>#</th>
-      <th>Hallazgo identificado</th>
-      <th>Modificación propuesta</th>
-      <th>Escala de severidad</th>
-      <th>Prioridad</th>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 5%;">#</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Hallazgo identificado</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Modificación propuesta</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 10%;">Escala de severidad</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 15%;">Prioridad</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>1</td>
-      <td>Falta de opciones de registro con terceros</td>
-      <td>Implementar autenticación con Google y Apple ID para reducir fricción en el registro y facilitar el ingreso.</td>
-      <td>3</td>
-      <td>Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">1</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Falta de opciones de registro con terceros</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Implementar autenticación con Google y Apple ID para reducir fricción en el registro y facilitar el ingreso.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Alta</td>
     </tr>
     <tr>
-      <td>2</td>
-      <td>Poca personalización del perfil del usuario</td>
-      <td>Añadir opciones como foto de perfil, rol, información personal y preferencias para mejorar la experiencia personalizada.</td>
-      <td>2</td>
-      <td>Media</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Poca personalización del perfil del usuario</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Añadir opciones como foto de perfil, rol, información personal y preferencias para mejorar la experiencia personalizada.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Media</td>
     </tr>
     <tr>
-      <td>3</td>
-      <td>Falta de confirmación clara después de registrar bovinos, establos o staff</td>
-      <td>Incorporar mensajes de confirmación consistentes y refrescar automáticamente los listados al completar un registro.</td>
-      <td>2</td>
-      <td>Media</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Falta de confirmación clara después de registrar bovinos, establos o staff</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Incorporar mensajes de confirmación consistentes (ej., toasts o snackbars) y refrescar automáticamente los listados al completar un registro.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">2</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Media</td>
     </tr>
     <tr>
-      <td>4</td>
-      <td>Listados extensos sin buscador o filtros</td>
-      <td>Agregar herramientas de búsqueda, filtros y/o paginación para optimizar la navegación y búsqueda de elementos.</td>
-      <td>3</td>
-      <td>Alta</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">4</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Listados extensos sin buscador o filtros</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Agregar herramientas de búsqueda, filtros contextuales y/o paginación para optimizar la navegación y búsqueda de elementos.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">3</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">Alta</td>
     </tr>
   </tbody>
 </table>
@@ -3699,15 +4485,56 @@ Para el frontend, empleamos pruebas unitarias y de integración usando React Tes
 En el backend, utilizamos NUnit como framework de testing principal, complementado con Selenium para realizar pruebas end-to-end sobre la interfaz de usuario, validando la integración entre el sistema web y los flujos de usuario reales.
 Esta infraestructura de pruebas nos permite detectar errores de manera temprana y asegurar la estabilidad del producto antes de su despliegue.
 
-| Característica     | NUnit | Selenium |
-| ------------------ | ----- | -------- |
-|                    |  <img width="150" alt="Image" src="https://github.com/user-attachments/assets/f58716a2-722e-4795-80ab-df5e720049cb" />  |    <img width="100" alt="Image" src="https://github.com/user-attachments/assets/061eb064-a4f3-43fe-beb5-870c6308c337" />   |
-| Tipo | Framework de testing unitario para .NET| Framework de testing end-to-end para aplicaciones web |
-| Lenguaje principal | C#  | Multilenguaje (C#, Java, Python, etc.)         |
-| Enfoque            | Pruebas unitarias y de integración en el backend       | Pruebas funcionales simulando la interacción del usuario         |
-| Ventajas Clave     | Estructura modular basada en fixtures, assertions y test cases parametrizados. Integración directa con Azure DevOps y GitHub Actions.      |  Ejecución de pruebas en navegadores reales, automatización de flujos completos y validación visual del frontend.        |
-| Compatibilidad     | Integración con .NET y Azure Pipelines      | Soporte para múltiples navegadores y entornos CI/C         |
-| Tipos de Prueba    | Unitarias, integración, regresión | End-to-End, UI, smoke y regresión visual|
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 25%;">Característica</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 35%;">NUnit</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: center; width: 40%;">Selenium</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: left; vertical-align: top;"></td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <img width="150" alt="Logo de NUnit" src="https://github.com/user-attachments/assets/f58716a2-722e-4795-80ab-df5e720049cb" />
+      </td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center; vertical-align: top;">
+        <img width="100" alt="Logo de Selenium" src="https://github.com/user-attachments/assets/061eb064-a4f3-43fe-beb5-870c6308c337" />
+      </td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Tipo</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Framework de testing unitario para .NET</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Framework de testing end-to-end para aplicaciones web</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Lenguaje principal</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">C#</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Multilenguaje (C#, Java, Python, etc.)</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Enfoque</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Pruebas unitarias y de integración en el backend</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Pruebas funcionales simulando la interacción del usuario</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Ventajas Clave</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Estructura modular basada en fixtures, assertions y test cases parametrizados. Integración directa con Azure DevOps y GitHub Actions.</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Ejecución de pruebas en navegadores reales, automatización de flujos completos y validación visual del frontend.</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Compatibilidad</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Integración con .NET y Azure Pipelines</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Soporte para múltiples navegadores y entornos CI/C</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Tipos de Prueba</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Unitarias, integración, regresión</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">End-to-End, UI, smoke y regresión visual</td>
+    </tr>
+  </tbody>
+</table>
 
 <br>
 
@@ -3737,9 +4564,22 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 ## Epic 01: Gestión de Establos
 
-| Rol | Objetivo | Razón |
-| :--- | :--- | :--- |
-| **Como usuario ganadero,** | **Quiero gestionar los establos en la plataforma** | **Para mantener organizadas las instalaciones** donde se alojan los bovinos. |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Rol</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Objetivo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 34%;">Razón</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Como usuario ganadero,</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Quiero gestionar los establos en la plataforma</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Para mantener organizadas las instalaciones</strong> donde se alojan los bovinos.</td>
+    </tr>
+  </tbody>
+</table>
 
 <img width="886" height="551" alt="image" src="https://github.com/user-attachments/assets/3ee378e8-3f43-466d-8d6d-fa13cb040a08" />
 
@@ -3747,9 +4587,22 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 ## Epic 02: Gestión de Bovinos
 
-| Rol | Objetivo | Razón |
-| :--- | :--- | :--- |
-| **Como usuario ganadero,** | **Quiero gestionar los bovinos registrados en mis establos** | **Para mantener un control organizado y actualizado** del ganado en la plataforma. |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Rol</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Objetivo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 34%;">Razón</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Como usuario ganadero,</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Quiero gestionar los bovinos registrados en mis establos</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Para mantener un control organizado y actualizado</strong> del ganado en la plataforma.</td>
+    </tr>
+  </tbody>
+</table>
 
 <img width="886" height="555" alt="image" src="https://github.com/user-attachments/assets/7fc836ea-1302-4f0c-9985-28bbd83cb5a9" />
 
@@ -3757,9 +4610,22 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 ## Epic 03: Edición de Bovinos
 
-| Rol | Objetivo | Razón |
-| :--- | :--- | :--- |
-| **Como usuario ganadero,** | **Quiero editar la información de los bovinos,** | **Para actualizar sus datos cuando sea necesario** (peso, edad, raza o estado reproductivo). |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Rol</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Objetivo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 34%;">Razón</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Como usuario ganadero,</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Quiero editar la información de los bovinos,</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Para actualizar sus datos cuando sea necesario</strong> (peso, edad, raza o estado reproductivo).</td>
+    </tr>
+  </tbody>
+</table>
 
 <img width="886" height="565" alt="image" src="https://github.com/user-attachments/assets/504861c5-2bca-42e2-8449-7e1b9f424e26" />
 
@@ -3767,9 +4633,22 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 ## Epic 04: Gestión de Campañas
 
-| Rol | Objetivo | Razón |
-| :--- | :--- | :--- |
-| **Como empresario ganadero,** | **Quiero gestionar campañas sanitarias y de mejoramiento** | **Para coordinar actividades a gran escala** (ej., vacunación, suplementación) y asegurar el cuidado óptimo. |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Rol</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Objetivo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 34%;">Razón</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Como empresario ganadero,</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Quiero gestionar campañas sanitarias y de mejoramiento</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Para coordinar actividades a gran escala</strong> (ej., vacunación, suplementación) y asegurar el cuidado óptimo.</td>
+    </tr>
+  </tbody>
+</table>
 
 <img width="886" height="620" alt="image" src="https://github.com/user-attachments/assets/d7386044-8ab9-44b7-bde3-16bbc1a48164" />
 
@@ -3777,9 +4656,22 @@ Este documento describe los Épicos (Epics) principales de la plataforma **Moobi
 
 ## Epic 05: Gestión de Staff
 
-| Rol | Objetivo | Razón |
-| :--- | :--- | :--- |
-| **Como empresario ganadero,** | **Quiero gestionar el personal que trabaja en mi operación ganadera** | **Para organizar eficientemente los recursos humanos** y asignar tareas. |
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Rol</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 33%;">Objetivo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 34%;">Razón</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Como empresario ganadero,</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Quiero gestionar el personal que trabaja en mi operación ganadera</strong></td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;"><strong>Para organizar eficientemente los recursos humanos</strong> y asignar tareas.</td>
+    </tr>
+  </tbody>
+</table>
 
 <img width="886" height="634" alt="image" src="https://github.com/user-attachments/assets/7c866db4-f04e-48c6-a965-06e0a2858013" />
 
@@ -3819,8 +4711,6 @@ Para la implementación de Moobile, se emplearon distintas herramientas que cubr
 **Netlify:** Plataforma utilizada para el despliegue del frontend desarrollado en React y TypeScript. Ofrece integración continua con GitHub, lo que permite realizar despliegues automáticos tras cada merge en la rama principal. Además, proporciona un entorno de hosting rápido, seguro y con soporte para HTTPS, control de versiones y previsualización de cambios antes del despliegue final.
 
 <img width="200" alt="Image" src="https://github.com/user-attachments/assets/bd3f8e61-bc2b-4be1-8a8e-2500840f4e07" />
-
----
 
 ### 7.2.2. Stages Deployment Pipeline Components
 
@@ -3949,13 +4839,13 @@ En esta sección se busca visualizar el proceso de supervisión del comportamien
 
 Para implementar el monitoreo continuo efectivo en nuestra aplicación, consideramos fundamental aplicar un conjunto de herramientas junto a buenas prácticas. A continuación, detallaremos las principales:
 
-#### **a. Herramientas de monitoreo:**
+**a. Herramientas de monitoreo:**
 
 La imagen muestra la interfaz de configuración de Sematext Synthetics, específicamente la pantalla para crear un Browser Monitor. Esta herramienta permite realizar pruebas sintéticas sobre aplicaciones web simulando la interacción de un usuario real desde diferentes ubicaciones del mundo. En la captura se observa la creación de un monitor llamado MobileApp, donde es posible definir el tipo de dispositivo, establecer el intervalo de ejecución, configurar reintentos automáticos en caso de fallos y seleccionar las regiones geográficas desde donde se ejecutarán las pruebas. Sematext Synthetics facilita el monitoreo continuo del rendimiento, la detección temprana de errores y la validación de la disponibilidad del servicio bajo distintas condiciones de red y localización.
 
 <img alt="Create Browser Monitoring" src="assets/chapter-7/ToolsAndPractices/Sematex.png" />
 
-#### **b. Métricas clave:**
+**b. Métricas clave:**
 
 Es esencial identificar y monitorear métricas relevantes, como: 
     - Tiempo de respuesta en ms 
@@ -3963,11 +4853,11 @@ Es esencial identificar y monitorear métricas relevantes, como:
     - Disponibilidad del sistema 
     - Volumen de tráfico (tamaño de la transacción) 
 
-#### **c. Registros (Logging):**
+**c. Registros (Logging):**
 
 El uso de mecanismos de registro que almacenen eventos y logs de la aplicación permite identificar comportamientos anómalos y agiliza el proceso de diagnóstico y resolución de fallos.
 
-#### **d. Monitorización de la infraestructura:**
+**d. Monitorización de la infraestructura:**
 
 Además de la aplicación, es importante supervisar las diferentes tecnologías ligadas a la aplicación: 
     - Servidores 
@@ -3996,13 +4886,13 @@ El flujo de notificaciones se encarga de distribuir las alertas generadas por el
 
 <img alt="Configure alerts" src="assets/chapter-7/NotificationPipelineComponents/NotificationOverview.png" />
 
-#### **a. Canal de comunicación:**
+**a. Canal de comunicación:**
 Las alertas pueden enviarse mediante distintos medios, según la importancia del evento y las preferencias del equipo. Entre los canales que utilizamos con mayor frecuencia se encuentran:
 
   - Correo electrónico
   - SMS
 
-#### **b. Formato del mensaje:**
+**b. Formato del mensaje:**
 Las notificaciones deben presentarse de manera clara y directa, incluyendo los datos necesarios para permitir una respuesta ágil. Esto contempla:
 
   - Descripción del incidente o alerta
@@ -4067,7 +4957,7 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 ### 8.1.3. Experiment-Ready Questions
 Esta sección corresponde a preguntas listas para ser ejecutadas en un experimento, las cuales serán afinadas al utilizar la técnica de 5Ws y H.
 
-#### 1. ¿El Componente de Comando de Voz reduce el tiempo en el registro de tareas en campo?
+**1. ¿El Componente de Comando de Voz reduce el tiempo en el registro de tareas en campo?**
 
 | The Five Ws and One H | Detalle para Moobile-Platform |
 | :--- | :--- |
@@ -4078,7 +4968,7 @@ Esta sección corresponde a preguntas listas para ser ejecutadas en un experimen
 | **Who** | Personal de Staff y Usuarios Ganaderos que operan directamente en el establo y están acostumbrados a registrar datos. |
 | **How** | Medir el Tiempo de Tarea y la Tasa de Error de Transcripción en dos grupos: Grupo A (Voz) vs. Grupo B (Manual). |
 
-#### 2. ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el Backend?
+**2. ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el Backend?**
 
 | The Five Ws and One H | Detalle para Moobile-Platform |
 | :--- | :--- |
@@ -4089,7 +4979,7 @@ Esta sección corresponde a preguntas listas para ser ejecutadas en un experimen
 | **Who** | Ingenieros de Software y QA que monitorean el rendimiento bajo presión. |
 | **How** | Usar herramientas de load testing para medir la latencia, buscando un valor inferior a 2,000 ms (2 segundos). |
 
-#### 3. ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental?
+**3. ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental?**
 
 | The Five Ws and One H | Detalle para Moobile-Platform |
 | :--- | :--- |
