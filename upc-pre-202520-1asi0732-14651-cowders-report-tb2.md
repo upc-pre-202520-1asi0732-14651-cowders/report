@@ -4915,90 +4915,273 @@ Esta sección establece las bases para la experimentación sistemática dentro d
 ### 8.1.1. As-Is Summary
 El modelo AS-IS describe el flujo de trabajo actual de los productores (Segmento #1) y las empresas (Segmento #2) al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
 
-#### Segmento #1: Productores Ganaderos Independientes
+**Segmento #1: Productores Ganaderos Independientes**
 
-| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
-| :--- | :--- | :--- | :--- |
-| **1. Registro y Sanidad** | Anotar pesajes, vacunas y partos en un cuaderno o Excel básico. | ¿Es este registro el más actualizado? ¿Qué bovinos necesitan revacunarse el mes que viene? | Incertidumbre por la calidad del dato. Presión por la gestión de tiempo. |
-| **2. Localización de Ganado** | Recorrer físicamente el rancho o el establo para verificar un animal específico por su código. | ¿En qué establo dejé al animal? Necesito ir rápido, no tengo tiempo para buscar. | Frustración ante la lentitud. Dependencia de la memoria del personal. |
-| **3. Evaluación del Desempeño** | Cálculo manual del rendimiento por animal al final del mes. | ¿Está dando el rendimiento esperado? ¿Podría estar perdiendo dinero con este animal? | Duda sobre la rentabilidad. Cansancio por el esfuerzo manual. |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Fases</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Doing (Acción)</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Thinking (Pensamiento)</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Feeling (Emoción)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>1. Registro y Sanidad</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Anotar pesajes, vacunas y partos en un cuaderno o Excel básico.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Es este registro el más actualizado? ¿Qué bovinos necesitan revacunarse el mes que viene?</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Incertidumbre por la calidad del dato. Presión por la gestión de tiempo.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>2. Localización de Ganado</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Recorrer físicamente el rancho o el establo para verificar un animal específico por su código.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿En qué establo dejé al animal? Necesito ir rápido, no tengo tiempo para buscar.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Frustración ante la lentitud. Dependencia de la memoria del personal.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>3. Evaluación del Desempeño</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Cálculo manual del rendimiento por animal al final del mes.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Está dando el rendimiento esperado? ¿Podría estar perdiendo dinero con este animal?</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Duda sobre la rentabilidad. Cansancio por el esfuerzo manual.</td>
+    </tr>
+  </tbody>
+</table>
 
 El modelo AS-IS describe el flujo de trabajo actual del productor ganadero al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
 
-#### Segmento #2: Empresas Ganaderas
+**Segmento #2: Empresas Ganaderas**
 
-| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
-| :--- | :--- | :--- | :--- |
-| **1. Trazabilidad y Reporte** | Consolidar datos de múltiples fuentes para generar informes de cumplimiento. | ¿Tenemos todos los datos que pide la certificadora? ¿Qué tan bien estamos cumpliendo con los estándares ambientales? | Estrés por la auditoría y los plazos. Burocracia interna. |
-| **2. Coordinación de Personal** | Asignar personal a campañas o establos por medio de llamadas, radios o listas impresas. | ¿Mi personal sabe a qué establo ir? ¿Cómo verifico que la tarea se hizo correctamente en campo? | Ansiedad por la falta de visibilidad en tiempo real. Desconfianza en la ejecución. |
-| **3. Propuesta de Valor al Cliente** | Intentar comunicar el manejo ético o ambiental del ganado sin datos concretos o digitales. | ¿Cómo les demuestro a los clientes que somos sostenibles? Necesito algo más que palabras para ganar este contrato. | Desconexión con el mercado premium. Pérdida de Oportunidad. |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Fases</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Doing (Acción)</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Thinking (Pensamiento)</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Feeling (Emoción)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>1. Trazabilidad y Reporte</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Consolidar datos de múltiples fuentes para generar informes de cumplimiento.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Tenemos todos los datos que pide la certificadora? ¿Qué tan bien estamos cumpliendo con los estándares ambientales?</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Estrés por la auditoría y los plazos. Burocracia interna.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>2. Coordinación de Personal</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Asignar personal a campañas o establos por medio de llamadas, radios o listas impresas.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Mi personal sabe a qué establo ir? ¿Cómo verifico que la tarea se hizo correctamente en campo?</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Ansiedad por la falta de visibilidad en tiempo real. Desconfianza en la ejecución.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>3. Propuesta de Valor al Cliente</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Intentar comunicar el manejo ético o ambiental del ganado sin datos concretos o digitales.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Cómo les demuestro a los clientes que somos sostenibles? Necesito algo más que palabras para ganar este contrato.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Desconexión con el mercado premium. Pérdida de Oportunidad.</td>
+    </tr>
+  </tbody>
+</table>
 
 El flujo de trabajo AS-IS, tanto para productores independientes como para empresas, se caracteriza por la fragmentación de la información y la alta dependencia de procesos manuales. La meta de Moobile es reducir el tiempo de la entrada de datos para transformar la ineficiencia en valor.
 
 ### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
 A continuación, se presentan las premisas, lagunas de conocimiento y afirmaciones que hemos formulado e identificado de acuerdo al core business.
 
-#### Premisas y Suposiciones (Assumptions)
+**Premisas y Suposiciones (Assumptions)**
 
-| Premisa | Justificación | Enfoque Tecnológico | Tipo |
-| :--- | :--- | :--- | :--- |
-| **Comando de Voz como herramienta de entrada preferida.** | El ambiente de trabajo ganadero a menudo requiere manos libres, ya que la manipulación de dispositivos táctiles es inconveniente o imposible. | Priorizar la optimización del comando de voz en el frontend y la baja latencia del backend para asegurar una precisión en la interpretación de comandos clave. | Assumption |
-| **Sistema de Alertas generará acción correctiva.** | La salud de los bovinos se puede cuidar si la información es oportuna y accionable, lo cual es esencial para reducir pérdidas por enfermedad. | Implementación de un servicio de notificación en la aplicación (Staff Administration BC). | Assumption |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Premisa</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="40%">Justificación</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Enfoque Tecnológico</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="center" width="10%">Tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Comando de Voz como herramienta de entrada preferida.</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">El ambiente de trabajo ganadero a menudo requiere manos libres, ya que la manipulación de dispositivos táctiles es inconveniente o imposible.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Priorizar la optimización del comando de voz en el frontend y la baja latencia del backend para asegurar una precisión en la interpretación de comandos clave.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;" align="center">Assumption</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Sistema de Alertas generará acción correctiva.</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">La salud de los bovinos se puede cuidar si la información es oportuna y accionable, lo cual es esencial para reducir pérdidas por enfermedad.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Implementación de un servicio de notificación en la aplicación (Staff Administration BC).</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;" align="center">Assumption</td>
+    </tr>
+  </tbody>
+</table>
 
-#### Lagunas de Conocimiento (Knowledge Gaps)
+**Lagunas de Conocimiento (Knowledge Gaps)**
 
-| Laguna | Justificación | Enfoque Tecnológico | Tipo |
-| :--- | :--- | :--- | :--- |
-| **Tasa máxima de latencia aceptable.** | Una latencia alta frustrará la adopción en campo, especialmente en zonas con conectividad limitada. | Se requiere diseñar Pruebas de Carga/Estrés para medir la latencia bajo simulación de usuarios concurrentes. | Knowledge Gap |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Laguna</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="40%">Justificación</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Enfoque Tecnológico</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="center" width="10%">Tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Tasa máxima de latencia aceptable.</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Una latencia alta frustrará la adopción en campo, especialmente en zonas con conectividad limitada.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Se requiere diseñar Pruebas de Carga/Estrés para medir la latencia bajo simulación de usuarios concurrentes.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;" align="center">Knowledge Gap</td>
+    </tr>
+  </tbody>
+</table>
 
-#### Afirmaciones y Decisiones de Diseño (Claims)
+**Afirmaciones y Decisiones de Diseño (Claims)**
 
-| Afirmación | Justificación | Enfoque Tecnológico | Tipo |
-| :--- | :--- | :--- | :--- |
-| **Arquitectura basada en DDD.** | La separación por Bounded Contexts aísla fallos, facilita la escalabilidad de equipos y permite la evolución independiente de módulos críticos. | Mantener la cohesión de los Agregados dentro de cada Bounded Context y usar el Shared Context solo para primitivas y Value Objects universales. | Claim |
-| **Asignación de Personal a Campañas.** | La centralización digital elimina la ambigüedad de los métodos manuales y proporciona trazabilidad instantánea sobre quién, dónde y qué tarea debe realizarse. | Implementar la funcionalidades que aseguren validaciones de disponibilidad y carga de trabajo. | Claim |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="25%">Afirmación</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="35%">Justificación</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="30%">Enfoque Tecnológico</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="center" width="10%">Tipo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Arquitectura basada en DDD.</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">La separación por Bounded Contexts aísla fallos, facilita la escalabilidad de equipos y permite la evolución independiente de módulos críticos.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Mantener la cohesión de los Agregados dentro de cada Bounded Context y usar el Shared Context solo para primitivas y Value Objects universales.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;" align="center">Claim</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Asignación de Personal a Campañas.</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">La centralización digital elimina la ambigüedad de los métodos manuales y proporciona trazabilidad instantánea sobre quién, dónde y qué tarea debe realizarse.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Implementar la funcionalidades que aseguren validaciones de disponibilidad y carga de trabajo.</td>
+      <td style="border: 1px solid #cccccc; padding: 10px;" align="center">Claim</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 8.1.3. Experiment-Ready Questions
 Esta sección corresponde a preguntas listas para ser ejecutadas en un experimento, las cuales serán afinadas al utilizar la técnica de 5Ws y H.
 
 **1. ¿El Componente de Comando de Voz reduce el tiempo en el registro de tareas en campo?**
 
-| The Five Ws and One H | Detalle para Moobile-Platform |
-| :--- | :--- |
-| **What** | Comparar la tasa de éxito y el tiempo necesario para registrar una Vacuna o Asignar un Bovino a un Establo utilizando el Comando de Voz frente al uso del formulario manual (UI). |
-| **Why** | Para validar la principal suposición de usabilidad y asegurar que la inversión en el Comando de voz se traduce en eficiencia para el personal de campo. |
-| **When** | Durante las pruebas de campo del personal de Staff que realiza tareas rutinarias de registro. |
-| **Where** | En el Frontend donde se activa el comando de voz. |
-| **Who** | Personal de Staff y Usuarios Ganaderos que operan directamente en el establo y están acostumbrados a registrar datos. |
-| **How** | Medir el Tiempo de Tarea y la Tasa de Error de Transcripción en dos grupos: Grupo A (Voz) vs. Grupo B (Manual). |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">The Five Ws and One H</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="80%">Detalle para Moobile-Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>What</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Comparar la tasa de éxito y el tiempo necesario para registrar una Vacuna o Asignar un Bovino a un Establo utilizando el Comando de Voz frente al uso del formulario manual (UI).</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Why</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Para validar la principal suposición de usabilidad y asegurar que la inversión en el Comando de voz se traduce en eficiencia para el personal de campo.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>When</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Durante las pruebas de campo del personal de Staff que realiza tareas rutinarias de registro.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Where</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">En el Frontend donde se activa el comando de voz.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Who</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Personal de Staff y Usuarios Ganaderos que operan directamente en el establo y están acostumbrados a registrar datos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>How</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Medir el Tiempo de Tarea y la Tasa de Error de Transcripción en dos grupos: Grupo A (Voz) vs. Grupo B (Manual).</td>
+    </tr>
+  </tbody>
+</table>
 
 **2. ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el Backend?**
 
-| The Five Ws and One H | Detalle para Moobile-Platform |
-| :--- | :--- |
-| **What** | Determinar la latencia máxima aceptable para la consulta de datos complejos. |
-| **Why** | Para establecer un servicio de rendimiento para la gestión de ranchos y mitigar el riesgo de abandono en zonas de baja conectividad. |
-| **When** | Durante las pruebas de Carga/Estrés del sistema, simulando 50 usuarios concurrentes en los endpoints de consulta. |
-| **Where** | En el entorno de pre-producción del backend. |
-| **Who** | Ingenieros de Software y QA que monitorean el rendimiento bajo presión. |
-| **How** | Usar herramientas de load testing para medir la latencia, buscando un valor inferior a 2,000 ms (2 segundos). |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">The Five Ws and One H</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="80%">Detalle para Moobile-Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>What</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Determinar la latencia máxima aceptable para la consulta de datos complejos.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Why</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Para establecer un servicio de rendimiento para la gestión de ranchos y mitigar el riesgo de abandono en zonas de baja conectividad.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>When</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Durante las pruebas de Carga/Estrés del sistema, simulando 50 usuarios concurrentes en los endpoints de consulta.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Where</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">En el entorno de pre-producción del backend.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Who</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Ingenieros de Software y QA que monitorean el rendimiento bajo presión.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>How</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Usar herramientas de load testing para medir la latencia, buscando un valor inferior a **2,000 ms (2 segundos)**.</td>
+    </tr>
+  </tbody>
+</table>
 
 **3. ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental?**
 
-| The Five Ws and One H | Detalle para Moobile-Platform |
-| :--- | :--- |
-| **What** | Evaluar la Usabilidad y el Valor Percibido de los informes de impacto ambiental y social generados. |
-| **Why** | Para validar la principal propuesta de valor al segmento de Empresas Ganaderas y asegurar que el output sea accionable para el cliente final. |
-| **When** | Durante las entrevistas de validación con las Empresas Ganaderas, mostrando prototipos de reportes. |
-| **Where** | En el módulo de Reporte, centrándose en la claridad de las visualizaciones de métricas complejas. |
-| **Who** | Empresarios Ganaderos y Stakeholders de Trazabilidad. |
-| **How** | Usar encuestas de valor para calificar la utilidad y claridad del informe para la toma de decisiones. |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">The Five Ws and One H</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="80%">Detalle para Moobile-Platform</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>What</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Evaluar la Usabilidad y el Valor Percibido de los informes de impacto ambiental y social generados.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Why</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Para validar la principal propuesta de valor al segmento de Empresas Ganaderas y asegurar que el output sea accionable para el cliente final.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>When</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Durante las entrevistas de validación con las Empresas Ganaderas, mostrando prototipos de reportes.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Where</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">En el módulo de Reporte, centrándose en la claridad de las visualizaciones de métricas complejas.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Who</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Empresarios Ganaderos y Stakeholders de Trazabilidad.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>How</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Usar encuestas de valor para calificar la utilidad y claridad del informe para la toma de decisiones.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 8.1.4. Question Backlog
 
 Esta es una herramienta estratégica utilizada durante las fases de investigación, validación de hipótesis y descubrimiento de producto. Con ella, nuestro objetivo es estructurar y priorizar las preguntas clave que el equipo de desarrollo necesita responder para garantizar que la solución propuesta se sincronice con las necesidades, comportamientos y expectativas reales de los usuarios.
 
-#### Preguntas Prioritarias para Experimentación de Moobile
+**Preguntas Prioritarias para Experimentación de Moobile**
 
 1.  **¿El componente de Comando de Voz reduce el tiempo para el registro de tareas en campo** en comparación con la entrada manual a través del formulario? **(Riesgo: Usabilidad)**
 2.  **¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva** (ej., listar 1,000+ bovinos) en el *backend*? **(Riesgo: Rendimiento/Escalabilidad)**
@@ -5008,32 +5191,92 @@ Esta es una herramienta estratégica utilizada durante las fases de investigaci�
 
 ### 8.1.5. Experiment Cards
 
-#### Experiment Card 01: Usabilidad del Comando de Voz
+**Experiment Card 01: Usabilidad del Comando de Voz**
 
-| Sección | Contenido |
-| :--- | :--- |
-| **Question** | ¿El componente de Comando de Voz reduce significativamente el tiempo y el esfuerzo necesario para tareas críticas (registrar una vacuna o mover un bovino) en comparación con la entrada manual a través del formulario? |
-| **Why** | Es vital validar que la inversión en el comando de voz se traduzca en eficiencia y facilidad de uso para el personal de campo, mitigando el riesgo de baja adopción. |
-| **What** | Implementar la funcionalidad de registro de una tarea simple (ej., Asignar Bovino a Establo) y medir el rendimiento con dos grupos: Grupo A (solo voz) vs. Grupo B (solo UI táctil). |
-| **Hypothesis** | Si implementamos la funcionalidad de Comando de Voz, entonces **el Tiempo de Tarea (TT) para el registro se reducirá en al menos un 40%**, con una Tasa de Error de Transcripción (TET) inferior al 5%. |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Sección</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="80%">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿El componente de Comando de Voz reduce significativamente el tiempo y el esfuerzo necesario para tareas críticas (registrar una vacuna o mover un bovino) en comparación con la entrada manual a través del formulario?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Why</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Es vital validar que la inversión en el comando de voz se traduzca en eficiencia y facilidad de uso para el personal de campo, mitigando el riesgo de baja adopción.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>What</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Implementar la funcionalidad de registro de una tarea simple (ej., Asignar Bovino a Establo) y medir el rendimiento con dos grupos: Grupo A (solo voz) vs. Grupo B (solo UI táctil).</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Si implementamos la funcionalidad de Comando de Voz, entonces <strong>el Tiempo de Tarea (TT) para el registro se reducirá en al menos un 40%</strong>, con una Tasa de Error de Transcripción (TET) inferior al 5%.</td>
+    </tr>
+  </tbody>
+</table>
 
-#### Experiment Card 02: Rendimiento y Latencia de Consultas
+**Experiment Card 02: Rendimiento y Latencia de Consultas**
 
-| Sección | Contenido |
-| :--- | :--- |
-| **Question** | ¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el backend? |
-| **Why** | La latencia alta en la consulta de datos complejos puede frustrar a los usuarios en zonas de baja conectividad y es un riesgo de escalabilidad no medido. |
-| **What** | Ejecutar pruebas de carga/estrés simulando 50 usuarios concurrentes en los *endpoints* de consulta y midiendo la latencia en la base de datos simulada. |
-| **Hypothesis** | Si se logra una latencia inferior a **2,000 ms (2 segundos)** al consultar varias entidades, entonces el rendimiento será aceptable para la mayoría de los escenarios de conectividad en campo. |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Sección</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="80%">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Cuál es el umbral de Latencia aceptable para las operaciones de Consulta Masiva en el backend?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Why</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">La latencia alta en la consulta de datos complejos puede frustrar a los usuarios en zonas de baja conectividad y es un riesgo de escalabilidad no medido.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>What</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Ejecutar pruebas de carga/estrés simulando 50 usuarios concurrentes en los <em>endpoints</em> de consulta y midiendo la latencia en la base de datos simulada.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Si se logra una latencia inferior a <strong>2,000 ms (2 segundos)</strong> al consultar varias entidades, entonces el rendimiento será aceptable para la mayoría de los escenarios de conectividad en campo.</td>
+    </tr>
+  </tbody>
+</table>
 
-#### Experiment Card 03: Valor Percibido del Reporte de Impacto
+**Experiment Card 03: Valor Percibido del Reporte de Impacto**
 
-| Sección | Contenido |
-| :--- | :--- |
-| **Question** | ¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental y es percibido como valioso por las Empresas Ganaderas? |
-| **Why** | Es crucial validar la principal propuesta de valor diferenciadora de Moobile, asegurando que los reportes generen *insights* accionables y refuercen la confianza con el cliente final. |
-| **What** | Crear dos versiones de prototipos de informes y presentarlos a empresas para medir la claridad, utilidad y Valor Percibido. |
-| **Hypothesis** | Si presentamos los datos de impacto ambiental y social en un **dashboard circular y jerárquico**, entonces el Valor Percibido por las empresas aumentará en al menos un **25%** respecto al formato de tabla lineal simple. |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="20%">Sección</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="80%">Contenido</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿El diseño del informe facilita la toma de decisiones sobre el Impacto Socio-Ambiental y es percibido como valioso por las Empresas Ganaderas?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Why</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Es crucial validar la principal propuesta de valor diferenciadora de Moobile, asegurando que los reportes generen <em>insights</em> accionables y refuercen la confianza con el cliente final.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>What</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Crear dos versiones de prototipos de informes y presentarlos a empresas para medir la claridad, utilidad y Valor Percibido.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Si presentamos los datos de impacto ambiental y social en un <strong>dashboard circular y jerárquico</strong>, entonces el Valor Percibido por las empresas aumentará en al menos un <strong>25%</strong> respecto al formato de tabla lineal simple.</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 8.2. Experiment Design
 
@@ -5041,41 +5284,137 @@ Esta es una herramienta estratégica utilizada durante las fases de investigaci�
 
 Para el desarrollo de las hipótesis en esta etapa de diseño, se utilizarán diferentes herramientas y componentes de acuerdo con el caso.
 
-| EP01 | Gestión de Establos |
-| ---- | ------------------- |
-| Question     | ¿Los ganaderos pueden gestionar correctamente sus establos cuando la interfaz muestra información clara sobre capacidad, nombre y distribución del ganado?                    |
-| Hypothesis     | Los usuarios ganaderos pueden crear, visualizar, editar y eliminar establos sin dificultades cuando la interfaz presenta formularios simples y listados organizados.                    |
-| Data Analytics | Tiempo promedio para crear un establo. Tasa de errores en creación o edición. Porcentaje de búsquedas exitosas. Frecuencia de modificaciones realizadas por el usuario.                |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th colspan="2" style="border: 1px solid #cccccc; padding: 10px;" align="left">EP01 | Gestión de Establos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px; width: 20%;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Los ganaderos pueden gestionar correctamente sus establos cuando la interfaz muestra información clara sobre capacidad, nombre y distribución del ganado?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Los usuarios ganaderos pueden crear, visualizar, editar y eliminar establos sin dificultades cuando la interfaz presenta formularios simples y listados organizados.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Data Analytics</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio para crear un establo. Tasa de errores en creación o edición. Porcentaje de búsquedas exitosas. Frecuencia de modificaciones realizadas por el usuario.</td>
+    </tr>
+  </tbody>
+</table>
 
-| EP02 | Gestión de Bovinos |
-| ---- | ------------------- |
-| Question     |  ¿Los usuarios pueden registrar y gestionar la información de sus bovinos de forma precisa utilizando formularios guiados y validaciones en tiempo real?                   |
-| Hypothesis     |  Los ganaderos registrarán correctamente los datos de bovinos (arete, raza, sexo, nacimiento, salud) cuando existan validaciones claras que eviten duplicados o datos inconsistentes.                   |
-| Data Analytics |   Tiempo promedio para registrar un bovino. Porcentaje de registros completos. Frecuencia de edición por bovino. Tasa de búsquedas exitosas por arete o raza.              |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th colspan="2" style="border: 1px solid #cccccc; padding: 10px;" align="left">EP02 | Gestión de Bovinos</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px; width: 20%;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Los usuarios pueden registrar y gestionar la información de sus bovinos de forma precisa utilizando formularios guiados y validaciones en tiempo real?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Los ganaderos registrarán correctamente los datos de bovinos (arete, raza, sexo, nacimiento, salud) cuando existan validaciones claras que eviten duplicados o datos inconsistentes.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Data Analytics</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio para registrar un bovino. Porcentaje de registros completos. Frecuencia de edición por bovino. Tasa de búsquedas exitosas por arete o raza.</td>
+    </tr>
+  </tbody>
+</table>
 
-| EP03 | Gestión de Vacunas |
-| ---- | ------------------- |
-| Question     |  ¿Los ganaderos pueden registrar y visualizar la información sanitaria de sus bovinos de manera eficiente mediante historiales claros y filtros adecuados?                   |
-| Hypothesis     |  Los usuarios podrán mantener un historial sanitario preciso si el sistema permite registrar vacunas rápidamente y visualizar información por fecha, tipo y bovino.                   |
-| Data Analytics |  Tiempo promedio para registrar una vacuna. Número de correcciones en registros. Búsquedas por fecha y tipo. Porcentaje de bovinos con historial actualizado.               |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th colspan="2" style="border: 1px solid #cccccc; padding: 10px;" align="left">EP03 | Gestión de Vacunas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px; width: 20%;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Los ganaderos pueden registrar y visualizar la información sanitaria de sus bovinos de manera eficiente mediante historiales claros y filtros adecuados?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Los usuarios podrán mantener un historial sanitario preciso si el sistema permite registrar vacunas rápidamente y visualizar información por fecha, tipo y bovino.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Data Analytics</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio para registrar una vacuna. Número de correcciones en registros. Búsquedas por fecha y tipo. Porcentaje de bovinos con historial actualizado.</td>
+    </tr>
+  </tbody>
+</table>
 
-| EP04 | Gestión de Campañas |
-| ---- | ------------------- |
-| Question     |  ¿Los empresarios ganaderos pueden planificar y coordinar campañas de manera eficiente cuando la plataforma organiza campañas por estado, fechas y personal asignado?                   |
-| Hypothesis     | La organización del sistema por campañas activas y completadas mejora la planificación del usuario y facilita la coordinación de recursos humanos y sanitarios.                    |
-| Data Analytics | Tiempo promedio para crear campañas. Tasa de campañas editadas. Número de personal asignado por campaña. Búsquedas por rango de fechas. Porcentaje de campañas completadas.                |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th colspan="2" style="border: 1px solid #cccccc; padding: 10px;" align="left">EP04 | Gestión de Campañas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px; width: 20%;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Los empresarios ganaderos pueden planificar y coordinar campañas de manera eficiente cuando la plataforma organiza campañas por estado, fechas y personal asignado?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">La organización del sistema por campañas activas y completadas mejora la planificación del usuario y facilita la coordinación de recursos humanos y sanitarios.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Data Analytics</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio para crear campañas. Tasa de campañas editadas. Número de personal asignado por campaña. Búsquedas por rango de fechas. Porcentaje de campañas completadas.</td>
+    </tr>
+  </tbody>
+</table>
 
-| EP05 | Gestión del Staff |
-| ---- | ------------------- |
-| Question     |  ¿Los empresarios ganaderos pueden gestionar eficientemente al personal utilizando una plataforma con roles claros, filtros por nombre y tarjetas informativas?                   |
-| Hypothesis     |  Los usuarios podrán registrar, buscar y asignar personal correctamente cuando la interfaz presente roles visibles, datos ordenados y un sistema de asignación intuitivo.                   |
-| Data Analytics | Tiempo promedio de registro. Búsquedas exitosas por nombre. Cantidad de asignaciones correctas por campaña. Errores al editar información. Porcentaje de personal inactivo eliminado.               |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th colspan="2" style="border: 1px solid #cccccc; padding: 10px;" align="left">EP05 | Gestión del Staff</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px; width: 20%;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Los empresarios ganaderos pueden gestionar eficientemente al personal utilizando una plataforma con roles claros, filtros por nombre y tarjetas informativas?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Los usuarios podrán registrar, buscar y asignar personal correctamente cuando la interfaz presente roles visibles, datos ordenados y un sistema de asignación intuitivo.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Data Analytics</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo promedio de registro. Búsquedas exitosas por nombre. Cantidad de asignaciones correctas por campaña. Errores al editar información. Porcentaje de personal inactivo eliminado.</td>
+    </tr>
+  </tbody>
+</table>
 
-| EP06 | Información del Sitio Web |
-| ---- | ------------------- |
-| Question     |  ¿Los visitantes del sitio pueden comprender el valor de la plataforma y sus beneficios cuando se presenta una estructura clara de funcionalidades, misión y contacto?                   |
-| Hypothesis     | Los visitantes mostrarán mayor interés en Moobile cuando encuentren secciones claras sobre funcionalidades principales, beneficios ganaderos y canales de contacto.                    |
-| Data Analytics | Tiempo en secciones informativas. Clics en “Contacto”. Número de secciones vistas por usuario. Interacciones con la vista general. Conversión de visitantes hacia registro.                |
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th colspan="2" style="border: 1px solid #cccccc; padding: 10px;" align="left">EP06 | Información del Sitio Web</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px; width: 20%;"><strong>Question</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">¿Los visitantes del sitio pueden comprender el valor de la plataforma y sus beneficios cuando se presenta una estructura clara de funcionalidades, misión y contacto?</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Hypothesis</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Los visitantes mostrarán mayor interés en Moobile cuando encuentren secciones claras sobre funcionalidades principales, beneficios ganaderos y canales de contacto.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Data Analytics</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Tiempo en secciones informativas. Clics en “Contacto”. Número de secciones vistas por usuario. Interacciones con la vista general. Conversión de visitantes hacia registro.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### 8.2.2. Domain Business Metrics
 
