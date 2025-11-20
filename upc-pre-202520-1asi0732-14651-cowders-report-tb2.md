@@ -90,25 +90,127 @@
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">1.0</td>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">10/09/2025</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos I: Introducción, II: Requirements Elicitation & Analysis, III: Requirements Specification, IV: Product Design y V: Product Implementation</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">2.0</td>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">09/10/2025</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos VI: Product Verification & Validation y VII: DevOps Practices</td>
     </tr>
     <tr>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">3.0</td>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">14/11/2025</td>
-      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Moobile</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment</td>
     </tr>
   </tbody>
 </table>
 
 # Project Report Collaboration Insights
+
+URL del repositorio para el reporte del proyecto: [https://github.com/upc-pre-202520-1asi0732-14651-cowders/report](https://github.com/upc-pre-202520-1asi0732-14651-cowders/report)
+
+**TB1**
+Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="25%">Integrante</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="75%">Tareas Asignadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jorge Bravo</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Diseño de mockups y wireframes. Descripción de user flows. Capítulo V, Software Development Environment Configuration, Source Code Management, Style Guide & Conventions. User Stories. Product Backlog</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Gonzales</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Impact Mapping, registro y análisis de entrevistas. User Task Matrix. As-Is To-be Scenarios. Empathy Mapping. Technical User Stories. User Stories. Product Backlog. Bibliografía.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Roque</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Antecedentes y problemática 5W y 2H. Lean UX Process, Problem Statement, Assumptions e Hypothesis statements. Lean UX Canvas. Segmentos Objetivos. Análisis de competidores. Diseño de entrevistas. Conclusiones y recomendaciones.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Silva</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">General Style Guidelines. Landing Page, Services & Applications implementation. Software Deployment Configuration.</td>
+    </tr>
+  </tbody>
+</table>
+
+**TP1**
+Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="25%">Integrante</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="75%">Tareas Asignadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Rafael Bravo</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">General Style Guidelines, Web Applications Prototyping y Mockups.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Gonzales</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Resumen de entrevistas, Análisis de entrevistas, User Personas y Development Evidence for Sprint Review.</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Roque</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Problem Statement y Lean UX Assumptions</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Silva</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Collaboration Insights, Impact Mapping, Sprint Backlog, Execution Evidence for Sprint Review.</td>
+    </tr>
+  </tbody>
+</table>
+
+**TB2**
+Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="25%">Integrante</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="75%">Tareas Asignadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Rafael Bravo</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Static testing & Verification, Static Code Analysis, Reviews, Validation Interviews, Continuous Monitoring</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Gonzalez</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog, Experiment Cards</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Roque</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Hypotheses, Domain Business Metrics, Measures, Conditions, Scale Calculations and Decisions, Methods Selection, Data Analytics, Web and Mobile Tracking Plan</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Silva</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">Auditoría de Experiencias de Usuario, Auditoría realizada, Auditoría recibida, To-Be User Stories, To-Be Product Backlog, To-Be Sprint Backlog</td>
+    </tr>
+  </tbody>
+</table>
+
+**Github Collaboration Insights**
+Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
+
+Los integrantes son:
+
+- Rafael Bravo (Rafooo6)
+- Carlos Gonzalez (CarlosGC-LP)
+- Jack Roque (UPC-Skylar)
+- Renzo Silva (rrenzosilva)
 
 # Contenido
 
