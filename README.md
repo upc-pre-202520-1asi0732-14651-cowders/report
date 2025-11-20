@@ -112,6 +112,8 @@
 
 URL del repositorio para el reporte del proyecto: [https://github.com/upc-pre-202520-1asi0732-14651-cowders/report](https://github.com/upc-pre-202520-1asi0732-14651-cowders/report)
 
+[![image.png](https://i.postimg.cc/HL21tcz7/image.png)](https://postimg.cc/3ydq8wPK)
+
 **TB1**
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -141,6 +143,8 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
     </tr>
   </tbody>
 </table>
+
+[![image.png](https://i.postimg.cc/HL21tcz7/image.png)](https://postimg.cc/3ydq8wPK)
 
 **TP1**
 Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
@@ -172,6 +176,8 @@ Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la im
   </tbody>
 </table>
 
+[![image.png](https://i.postimg.cc/HL21tcz7/image.png)](https://postimg.cc/3ydq8wPK)
+
 **TB2**
 Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
@@ -202,6 +208,8 @@ Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la im
   </tbody>
 </table>
 
+[![image.png](https://i.postimg.cc/FRCRDnpR/image.png)](https://postimg.cc/cgY0JhVy)
+
 **Github Collaboration Insights**
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
@@ -211,6 +219,30 @@ Los integrantes son:
 - Carlos Gonzalez (CarlosGC-LP)
 - Jack Roque (UPC-Skylar)
 - Renzo Silva (rrenzosilva)
+
+Se explican las ramas más prominentes:
+
+main: Es representada por el color blanco. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
+develop: Es representada por el color azul. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+
+[![image.png](https://i.postimg.cc/QNB5vpTv/image.png)](https://postimg.cc/4ngm9Hw1)
+
+Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
+
+**TB1**
+[![image.png](https://i.postimg.cc/HkfscyxF/image.png)](https://postimg.cc/87mVxsLb)
+
+[![image.png](https://i.postimg.cc/sx63VBqB/image.png)](https://postimg.cc/XBCRLvV3)
+
+**TP1**
+[![image.png](https://i.postimg.cc/Y0sB55LQ/image.png)](https://postimg.cc/Wqgyrfn4)
+
+[![image.png](https://i.postimg.cc/pX3tqtHr/image.png)](https://postimg.cc/hf8wt6hR)
+
+**TB2**
+[![image.png](https://i.postimg.cc/YqG54ymz/image.png)](https://postimg.cc/7f4sd995)
+
+[![image.png](https://i.postimg.cc/nzh5ndJS/image.png)](https://postimg.cc/94s1pYzy)
 
 # Contenido
 
