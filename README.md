@@ -684,6 +684,23 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
+Durante la investigación, las preguntas iniciales de las entrevistas fueron rediseñadas y organizadas para obtener respuestas más específicas y útiles en el análisis de la experiencia del usuario con la plataforma Moobile. Esta metodología facilitó una identificación más precisa de las opiniones, necesidades y desafíos de los ganaderos en relación con las herramientas de gestión operativa y sostenibilidad que ofrece la aplicación.
+
+## Preguntas Desarrolladas
+Para evaluar la experiencia de los productores ganaderos con la solución tecnológica, se formularon las siguientes preguntas en el estudio:
+
+- ¿Qué te pareció la experiencia de digitalizar la gestión de tu ganado a través de una aplicación móvil? ¿La encontraste accesible para utilizarla durante tus labores en el campo?
+- Al interactuar con los módulos de salud y nutrición, ¿consideras que las alertas y registros te permitieron mejorar la atención y el cuidado de tus animales? ¿Por qué?
+- ¿Cómo valorarías la experiencia de uso de las herramientas de seguimiento reproductivo? ¿Te resultó sencillo registrar los ciclos y visualizar el estado de tu ganado?
+- ¿Qué opinión te merece la sección dedicada a la evaluación del impacto ambiental y social? ¿Consideras que esta información aporta valor agregado a la gestión de tu empresa ganadera?
+- ¿Qué opinas del panel de control general mostrado en la aplicación? ¿Te resultó intuitivo para visualizar el estado general de tus operaciones y productividad?
+- ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables?
+- ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno?
+
+De todas las características que experimentaste en la plataforma, como el monitoreo de salud, gestión nutricional y métricas de sostenibilidad, ¿cuáles consideras que optimizaron significativamente tu eficiencia como productor?
+
+Estas preguntas fueron aplicadas a un grupo de 12 usuarios potenciales (entre ganaderos independientes y gestores de empresas ganaderas). Los participantes brindaron sus respuestas fundamentándose en su interacción con las diferentes funcionalidades del producto orientadas a la productividad y sostenibilidad. Los hallazgos obtenidos se detallan a continuación.
+
 
 ### 8.4.2. Re-scored and Re-prioritized Question Backlog
 
