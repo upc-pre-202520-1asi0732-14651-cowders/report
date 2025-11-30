@@ -637,7 +637,6 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 
 - Cuando intentó registrarse en Moobile, ¿qué tan conveniente le pareció poder usar Google o Apple en lugar de crear una contraseña nueva?
 - ¿Este tipo de registro rápido le genera más confianza o preferiría un método tradicional? ¿Por qué?
-- ¿Qué tan importante es para usted personalizar su perfil con foto, datos personales o preferencias? ¿Le ayudaría a sentirse más identificado con la plataforma?
 - ¿Ha experimentado alguna vez incertidumbre al no saber si un bovino, establo o dato fue registrado correctamente?
 - ¿Qué tan útil encuentra recibir mensajes o señales visuales para confirmar que su acción fue exitosa?
 - Cuando maneja varios animales o registros, ¿qué tanto le ayuda poder buscar y filtrar rápidamente?
@@ -666,18 +665,12 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 **3. Evaluación del Problema**
 
 - ¿Qué tan útil es para su equipo poder registrarse o acceder mediante Google/Apple, especialmente cuando trabajan varios usuarios en distintas sedes?
-- ¿La opción de personalizar perfiles (fotos, roles, preferencias) ayuda a distinguir responsabilidades y organizar mejor al personal dentro de Moobile?
-- ¿La empresa ha tenido problemas con registros duplicados o datos incompletos?
 - ¿Qué impacto tendría recibir confirmaciones visuales claras en la reducción de errores administrativos?
 - ¿Qué tan crítico es para la empresa tener herramientas rápidas de búsqueda y filtrado para manejar grandes volúmenes de información animal?
 - ¿Qué filtros considera indispensables para mejorar la eficiencia operativa?
-- ¿Cree que la navegación mediante comandos de voz podría ser útil para el personal veterinario o de campo cuando tiene las manos ocupadas?
+- ¿Cree que la navegación mediante comandos de voz podría ser útil para el personal?
 - ¿En qué áreas de la operación sería más provechoso este tipo de funcionalidad?
 - ¿Hay alguna función clave que la empresa considera indispensable agregar para una adopción completa?
----
-
-
-
 
 #### 8.3.4.2. Registro de Entrevistas
 
