@@ -6242,6 +6242,8 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 #### 8.3.3.6. Team Collaboration Insights
 
+[![image.png](https://i.postimg.cc/hjsn8hL5/image.png)](https://postimg.cc/FdYwNrny)
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
