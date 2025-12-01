@@ -71,9 +71,7 @@
   <h4> Noviembre 2025 </h5>
 </div>
 
-<br></br>
-<br></br>
-<br></br>
+<div style="page-break-after: always;"></div>
 
 ## Registro de versiones del informe
 
