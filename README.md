@@ -6432,6 +6432,20 @@ Estas preguntas fueron aplicadas a un grupo de 12 usuarios potenciales (entre ga
 
 ![Pregunta7](assets/AnalysisAndInterpretationOfResults/Pregunta7.png)
 
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+En esta sección se presenta la versión re-evaluada y priorizada del backlog de preguntas utilizado para analizar la experiencia de los usuarios con la aplicación de gestión ganadera. El proceso de reasignación de prioridades se llevó a cabo considerando el impacto de cada pregunta en la comprensión del uso real de la plataforma, su relevancia para la toma de decisiones y su contribución a la mejora continua del producto. De este modo, se organiza un conjunto de interrogantes que orientan de manera estratégica la validación del sistema, permitiendo identificar con mayor precisión las necesidades, percepciones y desafíos enfrentados por los productores ganaderos durante su interacción con la aplicación.
+
+| Prioridad (1, 2, 3, 5, 8) | Pregunta |
+|---------------------------|----------|
+| Prioridad: 8 | ¿Qué te pareció la experiencia de digitalizar la gestión de tu ganado a través de una aplicación móvil? ¿La encontraste accesible para utilizarla durante tus labores en el campo? |
+| Prioridad: 5 | Al interactuar con los módulos de salud y nutrición, ¿consideras que las alertas y registros te permitieron mejorar la atención y el cuidado de tus animales? ¿Por qué? |
+| Prioridad: 5 | ¿Cómo valorarías la experiencia de uso de las herramientas de seguimiento reproductivo? ¿Te resultó sencillo registrar los ciclos y visualizar el estado de tu ganado? |
+| Prioridad: 3 | ¿Qué opinión te merece la sección dedicada a la evaluación del impacto ambiental y social? ¿Consideras que esta información aporta valor agregado a la gestión de tu empresa ganadera? |
+| Prioridad: 5 | ¿Qué opinas del panel de control general mostrado en la aplicación? ¿Te resultó intuitivo para visualizar el estado general de tus operaciones y productividad? |
+| Prioridad: 3 | ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables? |
+| Prioridad: 3 | ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno? |
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
