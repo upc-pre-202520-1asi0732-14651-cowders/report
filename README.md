@@ -71,9 +71,7 @@
   <h4> Noviembre 2025 </h5>
 </div>
 
-<br></br>
-<br></br>
-<br></br>
+<div style="page-break-after: always;"></div>
 
 ## Registro de versiones del informe
 
@@ -6197,7 +6195,53 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
         </tr>
     </tbody>
 </table>
-  
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+[![image.png](https://i.postimg.cc/9XsFFwQn/image.png)](https://postimg.cc/DmdKxZsr)
+
+[![image.png](https://i.postimg.cc/0j7gNQtx/image.png)](https://postimg.cc/2Lj9czRX)
+
+[![image.png](https://i.postimg.cc/TP1ZDQkZ/image.png)](https://postimg.cc/8F8K8dgH)
+
+[![image.png](https://i.postimg.cc/YCqP5bwh/image.png)](https://postimg.cc/6ygzRVqX)
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+[![image.png](https://i.postimg.cc/sxHWvj1m/image.png)](https://postimg.cc/fSXyPhcS)
+
+[![image.png](https://i.postimg.cc/G2cTK8y7/image.png)](https://postimg.cc/f3rbTb5m)
+
+[![image.png](https://i.postimg.cc/Ssq1GrdD/image.png)](https://postimg.cc/yJQT10wZ)
+
+[![image.png](https://i.postimg.cc/pVscDKFs/image.png)](https://postimg.cc/NLrxt9bX)
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+[![image.png](https://i.postimg.cc/tgnTQp9p/image.png)](https://postimg.cc/Jymmjwy2)
+
+[![image.png](https://i.postimg.cc/TwXTzbkJ/image.png)](https://postimg.cc/v13R94w4)
+
+[![image.png](https://i.postimg.cc/HnhRgDY1/image.png)](https://postimg.cc/YLQb6PLd)
+
+[![image.png](https://i.postimg.cc/nVPPMxJ6/image.png)](https://postimg.cc/5j83kZj3)
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+[![image.png](https://i.postimg.cc/0QQ2rpmk/image.png)](https://postimg.cc/3ysHc0nV)
+
+[![image.png](https://i.postimg.cc/T2BgMwMr/image.png)](https://postimg.cc/fkjJYMbL)
+
+[![image.png](https://i.postimg.cc/WbMDBwwY/image.png)](https://postimg.cc/8jzPWW3L)
+
+[![image.png](https://i.postimg.cc/D01ZK7Ln/image.png)](https://postimg.cc/GThrFwX5)
+
+[![image.png](https://i.postimg.cc/FHTKvWdB/image.png)](https://postimg.cc/dhTFm992)
+
+#### 8.3.3.6. Team Collaboration Insights
+
+[![image.png](https://i.postimg.cc/hjsn8hL5/image.png)](https://postimg.cc/FdYwNrny)
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
