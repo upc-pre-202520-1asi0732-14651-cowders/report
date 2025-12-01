@@ -674,25 +674,53 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 
 #### 8.3.4.2. Registro de Entrevistas
 
-Entrevistada:	Karla Ramírez
+**SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
 
-Sexo:	Femenino
+Entrevistada: Karla Ramírez
 
-Edad:	28
+Sexo: Femenino
 
-Domicilio:	Cajamarca, Perú (Distrito de Namora)
+Edad: 28
 
-Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar)
+Domicilio: Cajamarca, Perú (Distrito de Namora)
 
-Duración de entrevista:	07:11
+Tiempo de experiencia en la ganadería: Más de 20 años  (Negocio familiar)
+
+Duración de entrevista: 07:11
 
 ![Karla Ramirez](assets/RegistroEntrevistas/entrevista_chapter8.png)
 
-*Resumen de la Entrevista*
+*Resumen de la Entrevista:*
 
 Karla Ramírez es propietaria y encargada de la gestión de una pequeña ganadería en el distrito de Namora, Cajamarca. Maneja un rebaño de aproximadamente 38 animales, compuesto principalmente por ganado bovino de doble propósito (leche y carne) y algunas ovejas. Su filosofía de trabajo se resume en la frase: "Cuidar bien a mis animales es asegurar el futuro de mi familia", priorizando el orden, la disciplina y la constancia.
 
 En el ámbito tecnológico, Karla tiene una experiencia básica (uso de celular para fotos y redes), pero se siente frustrada y estresada cuando la tecnología es compleja o la búsqueda de información es lenta, ya que valora mucho el tiempo en el campo. Respecto a la aplicación "Moobile", valoró positivamente el inicio de sesión con cuentas externas (Google/Apple) por su rapidez y conveniencia. Considera indispensables las confirmaciones visuales de guardado para evitar inseguridad sobre sus datos, el uso de filtros (por tipo de animal, edad y estado) y ve gran utilidad en los comandos de voz para operar con las manos ocupadas. Sugiere la incorporación de recordatorios automáticos para vacunas y resúmenes diarios de actividades.
+
+--
+
+Entrevistado: Oscar Aranda
+
+Sexo: Masculino
+
+Edad: 21
+
+Domicilio: Lima, Perú (Distrito de Cañete)
+
+Tiempo de experiencia en la ganadería: Más de 2 años (Negocio familiar)
+
+Duración de entrevista: 04:33
+
+[![image.png](https://i.postimg.cc/h4LgnPXp/image.png)](https://postimg.cc/gr21qpqZ)
+
+*Resumen de la Entrevista:*
+
+Oscar Aranda es un productor ganadero independiente con dos años de experiencia en la actividad. Reside en Lima y administra una granja ubicada también en la región, donde maneja un hato de aproximadamente 35 bovinos de carne. Su responsabilidad principal incluye la gestión operativa y sanitaria de los animales, apoyándose recientemente en herramientas digitales para mejorar el control diario.
+
+Su enfoque de trabajo se basa en el orden y la constancia, cualidades que complementa con organización y disciplina para mantener un manejo adecuado del hato. Oscar reconoce que experimenta frustración cuando no encuentra información con rapidez y que la falta de confirmación en los registros digitales le genera incertidumbre. Aunque tiene experiencia básica con aplicaciones móviles, admite enfrentar algunas dificultades cuando incorpora nuevas tecnologías.
+
+Durante la entrevista, consideró conveniente y confiable el registro mediante Google o Apple en la plataforma Moobile, valorando su rapidez y seguridad. Afirmó haber experimentado dudas en ocasiones al no saber si un animal o dato quedó registrado correctamente, por lo que considera esencial recibir confirmaciones visuales o mensajes que aseguren el éxito de las acciones. Asimismo, destaca la importancia de contar con sistemas de búsqueda y filtros eficientes, especialmente por ID del animal, estado sanitario y ubicación.
+
+Oscar expresó interés en funcionalidades adicionales como comandos de voz, que serían particularmente útiles cuando trabaja con las manos ocupadas o en campo abierto. Finalmente, sugirió mejoras como alertas automáticas de vacunación, recordatorios sanitarios y reportes más completos en tiempo real para optimizar su labor diaria.
 
 
 ## 8.4. Experiment Aftermath & Analysis
