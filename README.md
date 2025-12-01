@@ -674,6 +674,27 @@ A continuación, se presentan las premisas, lagunas de conocimiento y afirmacion
 
 #### 8.3.4.2. Registro de Entrevistas
 
+Entrevistada:	Karla Ramírez
+
+Sexo:	Femenino
+
+Edad:	28
+
+Domicilio:	Cajamarca, Perú (Distrito de Namora)
+
+Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar)
+
+Duración de entrevista:	07:11
+
+![Karla Ramirez](assets/chapter-6/Interviews/karla_ramirez.png)
+
+*Resumen de la Entrevista*
+
+Karla Ramírez es propietaria y encargada de la gestión de una pequeña ganadería en el distrito de Namora, Cajamarca. Maneja un rebaño de aproximadamente 38 animales, compuesto principalmente por ganado bovino de doble propósito (leche y carne) y algunas ovejas. Su filosofía de trabajo se resume en la frase: "Cuidar bien a mis animales es asegurar el futuro de mi familia", priorizando el orden, la disciplina y la constancia.
+
+En el ámbito tecnológico, Karla tiene una experiencia básica (uso de celular para fotos y redes), pero se siente frustrada y estresada cuando la tecnología es compleja o la búsqueda de información es lenta, ya que valora mucho el tiempo en el campo. Respecto a la aplicación "Moobile", valoró positivamente el inicio de sesión con cuentas externas (Google/Apple) por su rapidez y conveniencia. Considera indispensables las confirmaciones visuales de guardado para evitar inseguridad sobre sus datos, el uso de filtros (por tipo de animal, edad y estado) y ve gran utilidad en los comandos de voz para operar con las manos ocupadas. Sugiere la incorporación de recordatorios automáticos para vacunas y resúmenes diarios de actividades.
+
+
 ## 8.4. Experiment Aftermath & Analysis
 
 ### 8.4.1. Analysis and Interpretation of Results
