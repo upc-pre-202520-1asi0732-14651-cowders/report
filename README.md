@@ -6446,6 +6446,16 @@ En esta sección se presenta la versión re-evaluada y priorizada del backlog de
 | Prioridad: 3 | ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables? |
 | Prioridad: 3 | ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno? |
 
+## 8.5. Continuous Learning 
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Se aplicó una encuesta a través de Google Forms con el propósito de recoger las percepciones de los usuarios y validar las hipótesis planteadas durante la etapa de diseño. Esta herramienta permitió analizar la experiencia de uso y obtener datos clave que sustentaron las mejoras incorporadas en la aplicación.
+
+**Link de la entrevista:**  
+
+[https://forms.gle/ETBCp6fgChQTyZ2t9](https://forms.gle/ETBCp6fgChQTyZ2t9)
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
