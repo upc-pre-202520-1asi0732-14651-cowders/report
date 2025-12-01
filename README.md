@@ -6210,6 +6210,14 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 #### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
 
+[![image.png](https://i.postimg.cc/sxHWvj1m/image.png)](https://postimg.cc/fSXyPhcS)
+
+[![image.png](https://i.postimg.cc/G2cTK8y7/image.png)](https://postimg.cc/f3rbTb5m)
+
+[![image.png](https://i.postimg.cc/Ssq1GrdD/image.png)](https://postimg.cc/yJQT10wZ)
+
+[![image.png](https://i.postimg.cc/pVscDKFs/image.png)](https://postimg.cc/NLrxt9bX)
+
 #### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
