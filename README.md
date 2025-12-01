@@ -6204,7 +6204,7 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 ![Video About](assets/chapter-8/Img-video-about.png)
 
-Link del video: https://1drv.ms/v/c/cf6c13e7c81f83b1/EW8ggDXJrElFgzMyaQQraEgBbf0Frr77Ny_73qP0BbrLHw?e=GjsDZ6
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK
 
 ## Conclusiones Y Recomendaciones
 
@@ -6226,7 +6226,7 @@ Link del video: https://1drv.ms/v/c/cf6c13e7c81f83b1/EW8ggDXJrElFgzMyaQQraEgBbf0
 
 ![Video Validation](assets/chapter-8/Img-validation.png)
 
-Link del video: [https://1drv.ms/v/c/cf6c13e7c81f83b1/EVhyQ5otC8lImzXBuhtZF8kBG_nO8h3_u8_p33ImghP3yg?e=Amxcci](https://1drv.ms/v/c/cf6c13e7c81f83b1/EVhyQ5otC8lImzXBuhtZF8kB3kaQrnG__gngQWq6i7tf6w?e=hTZkAY)
+Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCnQ2XkLl5RTre5VWuQbSElAROyd9OhxSOZkX01ujs61BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7U24Q0
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
