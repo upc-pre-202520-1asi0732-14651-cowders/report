@@ -6226,7 +6226,7 @@ Link del video: https://1drv.ms/v/c/cf6c13e7c81f83b1/EW8ggDXJrElFgzMyaQQraEgBbf0
 
 ![Video Validation](assets/chapter-8/Img-validation.png)
 
-Link del video: https://1drv.ms/v/c/cf6c13e7c81f83b1/EVhyQ5otC8lImzXBuhtZF8kBG_nO8h3_u8_p33ImghP3yg?e=Amxcci
+Link del video: [https://1drv.ms/v/c/cf6c13e7c81f83b1/EVhyQ5otC8lImzXBuhtZF8kBG_nO8h3_u8_p33ImghP3yg?e=Amxcci](https://1drv.ms/v/c/cf6c13e7c81f83b1/EVhyQ5otC8lImzXBuhtZF8kB3kaQrnG__gngQWq6i7tf6w?e=hTZkAY)
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
