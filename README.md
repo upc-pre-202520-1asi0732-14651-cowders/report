@@ -6204,7 +6204,7 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 ![Video About](assets/chapter-8/Img-video-about.png)
 
-Link del video: https://youtu.be/ImVCmPKNrIo
+Link del video: [https://youtu.be/ImVCmPKNrIo](https://1drv.ms/v/c/cf6c13e7c81f83b1/EW8ggDXJrElFgzMyaQQraEgBC4N4bBGWT8-HhJbSYdwLTw?e=6H0Xbj)
 
 ## Conclusiones Y Recomendaciones
 
@@ -6223,6 +6223,10 @@ Link del video: https://youtu.be/ImVCmPKNrIo
 ----
 
 ## Video App Validation
+
+![Video Validation](assets/chapter-8/Img-validation.png)
+
+Link del video: [[https://youtu.be/ImVCmPKNrIo](https://1drv.ms/v/c/cf6c13e7c81f83b1/EW8ggDXJrElFgzMyaQQraEgBC4N4bBGWT8-HhJbSYdwLTw?e=6H0Xbj)](https://1drv.ms/v/c/cf6c13e7c81f83b1/EVhyQ5otC8lImzXBuhtZF8kBG_nO8h3_u8_p33ImghP3yg?e=lt2sec)
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
