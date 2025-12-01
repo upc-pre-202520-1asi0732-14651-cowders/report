@@ -56,10 +56,6 @@
         <td style="padding: 10px; border: 1px solid #ddd;">Gonzalez Custodio, Carlos Alberto</td>
       </tr>
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U20221C448</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Roque Tello, Jack Eddie</td>
-      </tr>
-      <tr>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U20221C362</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Silva Morales, Renzo Cesar</td>
       </tr>
@@ -102,6 +98,12 @@
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">14/11/2025</td>
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.0</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">01/12/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción del Capítulo VIII: Experiment-DrivenDevelopment</td>
     </tr>
   </tbody>
 </table>
@@ -248,6 +250,8 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 [![image.png](https://i.postimg.cc/YqG54ymz/image.png)](https://postimg.cc/7f4sd995)
 
 [![image.png](https://i.postimg.cc/nzh5ndJS/image.png)](https://postimg.cc/94s1pYzy)
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -434,6 +438,8 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 
 - [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 
 ABET – EAC - Student Outcome 4
@@ -458,7 +464,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En esta segunda entrega asumí la responsabilidad ética y profesional al desarrollar las <em>Core Entities Unit Tests</em> con NUnit para verificar la funcionalidad de las 28 User Stories implementadas, asegurando la trazabilidad y fiabilidad del sistema. Además, actualicé los <em>Sprint Backlogs</em> garantizando la coherencia entre los requisitos, las pruebas y la implementación. Mi compromiso se centró en mantener la calidad y transparencia en la validación del producto.<br><br>
         <em>TB2</em><br>
-        Asumí la responsabilidad ética y profesional al diseñar la sección de <em>Continuous Monitoring</em>. El trabajo se centró en definir las herramientas, prácticas y componentes de <em>Alerting</em> y <em>Notification</em> para los subsistemas críticos de Ranch e IAM, garantizando la fiabilidad y la respuesta inmediata ante fallos, lo que refleja un compromiso ético con la disponibilidad y la calidad del servicio.<br>
+        Asumí la responsabilidad ética y profesional al diseñar la sección de <em>Continuous Monitoring</em>. El trabajo se centró en definir las herramientas, prácticas y componentes de <em>Alerting</em> y <em>Notification</em> para los subsistemas críticos de Ranch e IAM, garantizando la fiabilidad y la respuesta inmediata ante fallos, lo que refleja un compromiso ético con la disponibilidad y la calidad del servicio.<br><br>
+        <em>TF1</em><br>
+        Demostré responsabilidad profesional al diseñar y conducir las To-Be Validation Interviews. Garantizó el cumplimiento de principios éticos durante la elaboración del guion, el consentimiento de los entrevistados y el manejo de la información recopilada. Su rigurosidad permitió obtener evidencia confiable y respetuosa para validar hipótesis del producto.<br>
         <hr>
         <strong>Gonzalez Custodio, Carlos Alberto</strong><br><br>
         <em>TB1</em><br>
@@ -466,15 +474,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En esta entrega asumí mi responsabilidad profesional al desarrollar y ejecutar las <em>Core Integration Tests</em> con NUnit, verificando la correcta interacción de los módulos en los cinco <em>bounded contexts</em>. También colaboró en la definición del pipeline de <em>Build & Test Suite</em> dentro de las prácticas de DevOps, promoviendo buenas prácticas de integración y asegurando la estabilidad del sistema.<br><br>
         <em>TB2</em><br>
-        Asumí mi responsabilidad profesional al desarrollar y finalizar el Experiment Planning para Moobile. El trabajo se centró en la creación de la estrategia de validación de riesgos, incluyendo el análisis AS-IS (para ambos segmentos), la identificación de Raw Material, y el diseño de Experiment Cards con hipótesis claras y métricas para la ejecución. Realicé también una entrevista clave para validar el riesgo de usabilidad del usuario final.<br>
-        <hr>
-        <strong>Roque Tello, Jack Eddie</strong><br><br>
-        <em>TB1</em><br>
-        En el desarrollo de Moobile reconozco mi responsabilidad ética y profesional al diseñar la arquitectura y los diagramas del sistema. Apliqué principios de Domain-Driven Design para mantener la solución ordenada y enfocada en las verdaderas necesidades de los ganaderos, evitando decisiones rápidas que pudieran generar errores o malas prácticas. Además, al manejar datos sensibles como la trazabilidad del ganado, su salud y las suscripciones, tuve claro lo importante que es asegurar la privacidad y la seguridad, garantizando siempre la integridad y confianza de los usuarios.<br><br>
-        <em>TP1</em><br>
-        Ejercí mi responsabilidad ética y profesional al implementar las pruebas <em>Behavior-Driven Development (BDD)</em> con Cucumber, garantizando que las historias de usuario fueran verificables mediante comportamientos reales del sistema. Asimismo, documentó las herramientas y prácticas aplicadas en Continuous Integration, Continuous Delivery y Continuous Deployment, asegurando la calidad, transparencia y reproducibilidad del proceso de entrega del producto.<br><br>
-        <em>TB2</em><br>
-        Asumí la responsabilidad profesional al diseñar la sección <em>Experiment Design</em>, la cual incluyó la cuantificación de todas las hipótesis, la definición de métricas de negocio precisas, y el establecimiento del Plan de Tracking, asegurando la objetividad y fiabilidad de la experimentación.<br>
+        Asumí mi responsabilidad profesional al desarrollar y finalizar el Experiment Planning para Moobile. El trabajo se centró en la creación de la estrategia de validación de riesgos, incluyendo el análisis AS-IS (para ambos segmentos), la identificación de Raw Material, y el diseño de Experiment Cards con hipótesis claras y métricas para la ejecución. Realicé también una entrevista clave para validar el riesgo de usabilidad del usuario final.<br><br>
+        <em>TF1</em><br>
+        Asumí con responsabilidad la fase de To-Be Software Platform Pre-launch, elaborando el video introductorio del producto y asegurando una comunicación clara y honesta sobre el estado de la plataforma. Su trabajo garantizó que la presentación pública reflejara con precisión las capacidades reales del sistema, manteniendo la integridad del proyecto..<br>
         <hr>
         <strong>Silva Morales, Renzo Cesar</strong><br><br>
         <em>TB1</em><br>
@@ -482,7 +484,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         Demostró responsabilidad ética y profesional al ejecutar las <em>Core System Tests</em> con Selenium, verificando la estabilidad del sistema y la correcta interacción con el usuario. Elaboré el <em>Acuerdo de Servicio (SaaS)</em> definiendo compromisos de soporte y disponibilidad, y participé en la creación del video de producto, promoviendo transparencia y responsabilidad en la comunicación de los resultados del equipo.<br><br>
         <em>TB2</em><br>
-        Asumí la responsabilidad profesional al desarrollar las <em>To-Be User Stories</em> y el <em>To-Be Product Backlog</em>, asegurando que la visión del producto se alinee con los resultados esperados de la experimentación. Esto garantiza la trazabilidad entre las hipótesis validadas y las funcionalidades que serán desarrolladas en el futuro.
+        Asumí la responsabilidad profesional al desarrollar las <em>To-Be User Stories</em> y el <em>To-Be Product Backlog</em>, asegurando que la visión del producto se alinee con los resultados esperados de la experimentación. Esto garantiza la trazabilidad entre las hipótesis validadas y las funcionalidades que serán desarrolladas en el futuro.<br><br>
+        <em>TF1</em><br>
+        Evidencié responsabilidad ética y profesional al liderar la elaboración de los To-Be User Stories, el To-Be Product Backlog y el diseño del Experiment-Driven Lifecycle. Aseguró que la planificación técnica fuera transparente, ordenada y alineada con necesidades reales de los usuarios, promoviendo buenas prácticas de ingeniería y reduciendo riesgos durante la fase de experimentación.<br>
       </td>
       <td valign="top">
         <em>TB1</em><br>
@@ -490,7 +494,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br>
         <em>TB2</em><br>
-        El equipo demostró responsabilidad profesional y colaboración al completar la fase de Experiment Planning (Capítulo VIII). Se estableció un marco sólido para validar hipótesis críticas de usabilidad y rendimiento, asegurando que los próximos esfuerzos de desarrollo se enfoquen en la funcionalidad que maximice el valor y la adopción por parte del usuario final.
+        El equipo demostró responsabilidad profesional y colaboración al completar la fase de Experiment Planning (Capítulo VIII). Se estableció un marco sólido para validar hipótesis críticas de usabilidad y rendimiento, asegurando que los próximos esfuerzos de desarrollo se enfoquen en la funcionalidad que maximice el valor y la adopción por parte del usuario final.<br><br>
+        <em>TF1</em><br>
+        En la presente entrega, el equipo TF asumió con responsabilidad ética y profesional todas las tareas correspondientes a la fase de Experimentación del proyecto Moobile. Desde la construcción de historias de usuario y del To-Be Product Backlog, el diseño del pipeline de experimentación, la elaboración de entrevistas de validación y la preparación del pre-lanzamiento, cada integrante demostró rigor técnico, transparencia y compromiso con la trazabilidad del proceso.
       </td>
     </tr>
     <tr>
@@ -502,7 +508,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En esta segunda entrega, emití juicios informados al planificar y ejecutar las pruebas unitarias, analizando el impacto económico y ambiental de las herramientas y configuraciones utilizadas. Priorizando la eficiencia y escalabilidad, optimicé la carga de ejecución en los pipelines de integración, y al actualizar los <em>Sprint Backlogs</em>, valoré el impacto social del producto en los ganaderos, buscando maximizar su utilidad práctica y sostenibilidad a largo plazo.<br><br>
         <em>TB2</em><br>
-        Emití juicios informados al definir la estructura del <em>Continuous Monitoring</em>, priorizando las métricas críticas que impactan la rentabilidad operativa y la satisfacción del usuario. Esto asegura que el monitoreo se alinee con los objetivos económicos y la calidad de servicio de Moobile.<br>
+        Emití juicios informados al definir la estructura del <em>Continuous Monitoring</em>, priorizando las métricas críticas que impactan la rentabilidad operativa y la satisfacción del usuario. Esto asegura que el monitoreo se alinee con los objetivos económicos y la calidad de servicio de Moobile.<br><br>
+        <em>TF1</em><br>
+        Apliqué pensamiento crítico al analizar los resultados de las entrevistas, evaluando cómo la solución impacta en la accesibilidad tecnológica, el uso eficiente de recursos y la mejora de procesos productivos. Sus juicios integraron dimensiones sociales y económicas claves para asegurar que el producto responda a necesidades reales del sector ganadero y su contexto global.<br>
         <hr>
         <strong>Gonzalez Custodio, Carlos Alberto</strong><br><br>
         <em>TB1</em><br>
@@ -510,15 +518,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         Emití juicios informados al diseñar las pruebas de integración y documentar el <em>Build & Test Suite Pipeline</em> dentro de DevOps, considerando el impacto económico y ambiental de las decisiones técnicas. Implementé configuraciones que reducen el uso de recursos y tiempos de compilación, buscando una entrega más eficiente y sostenible. Además, mantuve la comunicación efectiva con el equipo para asegurar decisiones consensuadas y fundamentadas.<br><br>
         <em>TB2</em><br>
-        Emití juicios informados al diseñar la estrategia de Experiment Planning, priorizando experimentos que mitigan riesgos de Rendimiento/Escalabilidad y el Impacto Socio-Económico. Esto aseguró que el esfuerzo de desarrollo se enfocara en la sostenibilidad y el valor real del mercado.<br>
-        <hr>
-        <strong>Roque Tello, Jack Eddie</strong><br><br>
-        <em>TB1</em><br>
-        Al trabajar en Moobile emití juicios informados pensando en cómo las decisiones de diseño impactan en lo económico, social, ambiental y global. Busqué que la aplicación ayude a los ganaderos a mejorar su rentabilidad, que promueva un uso más eficiente de los recursos y que pueda proyectarse como una solución sostenible y adaptable a distintos contextos.<br><br>
-        <em>TP1</em><br>
-        Durante esta entrega, apliqué pensamiento crítico al definir las estrategias de Continuous Integration, Continuous Delivery y Continuous Deployment, valorando su impacto en la eficiencia energética y la escalabilidad del sistema. Las pruebas <em>BDD</em> con Cucumber me permitieron validar escenarios centrados en la experiencia del usuario, asegurando un producto funcional y sostenible que aporta valor real a los ganaderos.<br><br>
-        <em>TB2</em><br>
-        Emití juicios informados al diseñar la sección <em>Experiment Design</em>, al seleccionar las <em>Domain Business Metrics</em> y <em>KPIs</em>, enfocando la recolección de datos en la validación de la Propuesta de Valor y la rentabilidad operativa. Esto garantizó que la experimentación fuera rentable y alineada con los objetivos de sostenibilidad del negocio.<br>
+        Emití juicios informados al diseñar la estrategia de Experiment Planning, priorizando experimentos que mitigan riesgos de Rendimiento/Escalabilidad y el Impacto Socio-Económico. Esto aseguró que el esfuerzo de desarrollo se enfocara en la sostenibilidad y el valor real del mercado.<br><br>
+        <em>TF1</em><br>
+        Emití juicios fundamentados al preparar la comunicación del valor del producto, considerando impactos económicos y sociales en el sector ganadero. Su evaluación destacó cómo la solución contribuye a la modernización, sostenibilidad y competitividad del sector, integrando una visión responsable del impacto global del software.
         <hr>
         <strong>Silva Morales, Renzo Cesar</strong><br><br>
         <em>TB1</em><br>
@@ -526,7 +528,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         Emití juicios informados al analizar los resultados de las <em>Core System Tests</em> y desarrollar el <em>Acuerdo de Servicio (SaaS)</em>, evaluando la sostenibilidad y el impacto social del sistema. Promovió la accesibilidad, estabilidad y escalabilidad del software, priorizando su utilidad para el sector ganadero y su contribución al desarrollo tecnológico responsable. Además, reforcé la documentación y comunicación de resultados para mantener la transparencia con los usuarios finales.<br><br>
         <em>TB2</em><br>
-        Emití juicios informados al desarrollar el estado futuro en el To-Be Product Backlog, asegurando que solo las funcionalidades que maximicen el valor fueran priorizadas para el desarrollo. Este enfoque garantiza que la inversión se alinee con la sostenibilidad del producto y el impacto positivo en la rentabilidad del ganadero.
+        Emití juicios informados al desarrollar el estado futuro en el To-Be Product Backlog, asegurando que solo las funcionalidades que maximicen el valor fueran priorizadas para el desarrollo. Este enfoque garantiza que la inversión se alinee con la sostenibilidad del producto y el impacto positivo en la rentabilidad del ganadero.<br><br>
+        <em>TF1</em><br>
+        Emití juicios informados al priorizar elementos del backlog que generan impacto en eficiencia operativa y sostenibilidad dentro del sector ganadero. Su análisis integró factores económicos y sociales, orientando los esfuerzos de desarrollo hacia la maximización del valor para productores y usuarios finales.
       </td>
       <td valign="top">
         <em>TB1</em><br>
@@ -534,13 +538,15 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br>
         <em>TB2</em><br>
-        El equipo demostró pensamiento crítico y capacidad de análisis al completar la planificación y diseño de la fase de Experimentación. Se priorizó la mitigación de riesgos de Rendimiento y la validación de la Propuesta de Valor, asegurando que las decisiones de desarrollo futuras se enfoquen en la eficiencia operativa, la sostenibilidad del producto y el impacto positivo en la rentabilidad del sector ganadero.
+        El equipo demostró pensamiento crítico y capacidad de análisis al completar la planificación y diseño de la fase de Experimentación. Se priorizó la mitigación de riesgos de Rendimiento y la validación de la Propuesta de Valor, asegurando que las decisiones de desarrollo futuras se enfoquen en la eficiencia operativa, la sostenibilidad del producto y el impacto positivo en la rentabilidad del sector ganadero.<br><br>
+        <em>TF1</em><br>
+        En esta entrega, el equipo TF emitió juicios informados al planificar y ejecutar la fase de Experimentación del proyecto Moobile, evaluando de manera crítica el impacto de la plataforma en contextos económicos, sociales y productivos del sector ganadero. Las entrevistas, el backlog estratégico y la definición de la propuesta de valor se realizaron considerando eficiencia operativa, accesibilidad tecnológica y sostenibilidad del producto a largo plazo.
       </td>
     </tr>
   </tbody>
 </table>
 
---------
+<div style="page-break-after: always;"></div>
 
 # **Part I: As-Is Software Project**
 
@@ -741,6 +747,8 @@ En el Perú, el bienestar animal en las empresas ganaderas es a menudo insuficie
 - Altruismo
 - Perseverante
 - Honestidad
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
@@ -1254,6 +1262,8 @@ Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analiza
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # **Capítulo III: Requirements Specification**
 
 ## 3.1. To-Be Scenario Mapping
@@ -1579,6 +1589,8 @@ A continuación presentaremos 3 Business Goals que consideramos importantes en n
 **Business Goal 3**
 
 <img src="./assets/chapter-3/goal3.png"> 
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo IV: Product Design**
 
@@ -2106,6 +2118,8 @@ Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Andro
 <img src="./assets/chapter-4/relational_database_diagram.png">
 
 ***Figura 4.10.1 Extraído de Plant UML***
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo V: Product Implementation**
 
@@ -2641,6 +2655,8 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 [![image.png](https://i.postimg.cc/L8nWVjYX/image.png)](https://postimg.cc/4YRwf71k)
 
 Link para ver el video: [Click aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
+
+<div style="page-break-after: always;"></div>
 
 # **Part II: Verification, Validation & Pipeline**
   
@@ -4658,6 +4674,8 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # **Capítulo VII: DevOps Practices**
   
 ## 7.1. Continuous Integration    
@@ -5091,6 +5109,8 @@ Las notificaciones deben presentarse de manera clara y directa, incluyendo los d
   - Componente o fuente afectada
   - Enlaces a paneles de control o registros relevantes
   - Recomendaciones o pasos sugeridos para su resolución
+
+<div style="page-break-after: always;"></div>
 
 # **Part III: Experiment-Driven Lifecycle**
 
