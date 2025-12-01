@@ -1256,146 +1256,6 @@ Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analiza
 
 # **Capítulo III: Requirements Specification**
 
-**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
-
-**1. Información Personal**
-
-- ¿Cuál es su nombre, cargo y área de responsabilidad dentro de la empresa ganadera?
-- ¿En qué región o provincia del Perú reside y dónde se ubica su establo, granja o propiedad?
-- ¿Qué tipo de ganado maneja actualmente y cuántos animales administra de forma regular?
-- ¿Cuánto tiempo lleva dedicándose a la ganadería y cómo ha evolucionado su forma de gestionarla con los años?
-
-**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
-
-- Si pudiera resumir su filosofía o enfoque sobre la gestión ganadera en una frase, ¿cuál sería?
-- ¿Qué cualidades personales cree que le ayudan más a mantener el orden y control sobre sus animales y su información diaria?
-- ¿Qué emociones experimenta cuando necesita consultar información de sus animales y no la encuentra rápido? (frustración, estrés, calma, motivación, etc.)
-- ¿Cómo se siente cuando una aplicación o herramienta digital no confirma si su registro fue completado correctamente?
-- ¿Considera que tiene experiencia manejando aplicaciones móviles? ¿Alguna vez tuvo complicaciones al usar nuevas tecnologías para la gestión de su granja?
-
-**3. Evaluación del Problema**
-
-- Cuando intentó registrarse en Moobile, ¿qué tan conveniente le pareció poder usar Google o Apple en lugar de crear una contraseña nueva?
-- ¿Este tipo de registro rápido le genera más confianza o preferiría un método tradicional? ¿Por qué?
-- ¿Ha experimentado alguna vez incertidumbre al no saber si un bovino, establo o dato fue registrado correctamente?
-- ¿Qué tan útil encuentra recibir mensajes o señales visuales para confirmar que su acción fue exitosa?
-- Cuando maneja varios animales o registros, ¿qué tanto le ayuda poder buscar y filtrar rápidamente?
-- ¿Qué filtros considera indispensables para encontrar información de forma eficiente?
-- ¿Le gustaría poder usar comandos de voz para navegar por Moobile sin depender tanto del teclado o pantalla?
-- ¿En qué situaciones cree que esta función sería más útil (manos ocupadas, campo abierto, tareas rápidas, etc.)?
-- ¿Qué mejoras o funciones nuevas le gustaría que se agreguen para facilitar aún más su trabajo diario?
-
-**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS**
-
-**1. Información Personal**
-
-- ¿Cuál es su nombre, cargo y principal responsabilidad dentro de la empresa ganadera?
-- ¿Cuál es la línea principal de trabajo de su empresa y cuántos animales manejan aproximadamente?
-- ¿En qué departamento o región del Perú operan actualmente?
-- ¿De cuántas personas se compone el equipo administrativo, veterinario o técnico que gestiona la información del ganado?
-
-**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
-
-- ¿Podría definir un lema que represente el compromiso de su empresa con la gestión moderna, eficiente y responsable del ganado?
-- ¿Qué fortalezas considera que caracterizan a su empresa en cuanto a organización, precisión técnica y registro de datos?
-- ¿Qué emociones genera en la gerencia cuando la información del ganado no está bien organizada o no se encuentra rápido?
-- ¿Cómo afecta internamente que su equipo no reciba confirmaciones claras al registrar información o cuando se generan duplicados?
-- ¿Consideran que su empresa está preparada o abierta a adoptar herramientas tecnológicas avanzadas como comandos de voz o integraciones digitales? ¿Por qué?
-
-**3. Evaluación del Problema**
-
-- ¿Qué tan útil es para su equipo poder registrarse o acceder mediante Google/Apple, especialmente cuando trabajan varios usuarios en distintas sedes?
-- ¿Qué impacto tendría recibir confirmaciones visuales claras en la reducción de errores administrativos?
-- ¿Qué tan crítico es para la empresa tener herramientas rápidas de búsqueda y filtrado para manejar grandes volúmenes de información animal?
-- ¿Qué filtros considera indispensables para mejorar la eficiencia operativa?
-- ¿Cree que la navegación mediante comandos de voz podría ser útil para el personal?
-- ¿En qué áreas de la operación sería más provechoso este tipo de funcionalidad?
-- ¿Hay alguna función clave que la empresa considera indispensable agregar para una adopción completa?
-
-#### 8.3.4.2. Registro de Entrevistas
-
-**SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
-
-Entrevistada: Karla Ramírez
-
-Sexo: Femenino
-
-Edad: 28
-
-Domicilio: Cajamarca, Perú (Distrito de Namora)
-
-Tiempo de experiencia en la ganadería: Más de 20 años  (Negocio familiar)
-
-Duración de entrevista: 07:11
-
-![Karla Ramirez](assets/RegistroEntrevistas/entrevista_chapter8.png)
-
-*Resumen de la Entrevista:*
-
-Karla Ramírez es propietaria y encargada de la gestión de una pequeña ganadería en el distrito de Namora, Cajamarca. Maneja un rebaño de aproximadamente 38 animales, compuesto principalmente por ganado bovino de doble propósito (leche y carne) y algunas ovejas. Su filosofía de trabajo se resume en la frase: "Cuidar bien a mis animales es asegurar el futuro de mi familia", priorizando el orden, la disciplina y la constancia.
-
-En el ámbito tecnológico, Karla tiene una experiencia básica (uso de celular para fotos y redes), pero se siente frustrada y estresada cuando la tecnología es compleja o la búsqueda de información es lenta, ya que valora mucho el tiempo en el campo. Respecto a la aplicación "Moobile", valoró positivamente el inicio de sesión con cuentas externas (Google/Apple) por su rapidez y conveniencia. Considera indispensables las confirmaciones visuales de guardado para evitar inseguridad sobre sus datos, el uso de filtros (por tipo de animal, edad y estado) y ve gran utilidad en los comandos de voz para operar con las manos ocupadas. Sugiere la incorporación de recordatorios automáticos para vacunas y resúmenes diarios de actividades.
-
---
-
-Entrevistado: Oscar Aranda
-
-Sexo: Masculino
-
-Edad: 21
-
-Domicilio: Lima, Perú (Distrito de Cañete)
-
-Tiempo de experiencia en la ganadería: Más de 2 años (Negocio familiar)
-
-Duración de entrevista: 04:33
-
-[![image.png](https://i.postimg.cc/h4LgnPXp/image.png)](https://postimg.cc/gr21qpqZ)
-
-*Resumen de la Entrevista:*
-
-Oscar Aranda es un productor ganadero independiente con dos años de experiencia en la actividad. Reside en Lima y administra una granja ubicada también en la región, donde maneja un hato de aproximadamente 35 bovinos de carne. Su responsabilidad principal incluye la gestión operativa y sanitaria de los animales, apoyándose recientemente en herramientas digitales para mejorar el control diario.
-
-Su enfoque de trabajo se basa en el orden y la constancia, cualidades que complementa con organización y disciplina para mantener un manejo adecuado del hato. Oscar reconoce que experimenta frustración cuando no encuentra información con rapidez y que la falta de confirmación en los registros digitales le genera incertidumbre. Aunque tiene experiencia básica con aplicaciones móviles, admite enfrentar algunas dificultades cuando incorpora nuevas tecnologías.
-
-Durante la entrevista, consideró conveniente y confiable el registro mediante Google o Apple en la plataforma Moobile, valorando su rapidez y seguridad. Afirmó haber experimentado dudas en ocasiones al no saber si un animal o dato quedó registrado correctamente, por lo que considera esencial recibir confirmaciones visuales o mensajes que aseguren el éxito de las acciones. Asimismo, destaca la importancia de contar con sistemas de búsqueda y filtros eficientes, especialmente por ID del animal, estado sanitario y ubicación.
-
-Oscar expresó interés en funcionalidades adicionales como comandos de voz, que serían particularmente útiles cuando trabaja con las manos ocupadas o en campo abierto. Finalmente, sugirió mejoras como alertas automáticas de vacunación, recordatorios sanitarios y reportes más completos en tiempo real para optimizar su labor diaria.
-
-
-## 8.4. Experiment Aftermath & Analysis
-
-### 8.4.1. Analysis and Interpretation of Results
-Durante la investigación, las preguntas iniciales de las entrevistas fueron rediseñadas y organizadas para obtener respuestas más específicas y útiles en el análisis de la experiencia del usuario con la plataforma Moobile. Esta metodología facilitó una identificación más precisa de las opiniones, necesidades y desafíos de los ganaderos en relación con las herramientas de gestión operativa y sostenibilidad que ofrece la aplicación.
-
-## Preguntas Desarrolladas
-Para evaluar la experiencia de los productores ganaderos con la solución tecnológica, se formularon las siguientes preguntas en el estudio:
-
-- ¿Qué te pareció la experiencia de digitalizar la gestión de tu ganado a través de una aplicación móvil? ¿La encontraste accesible para utilizarla durante tus labores en el campo?
-- Al interactuar con los módulos de salud y nutrición, ¿consideras que las alertas y registros te permitieron mejorar la atención y el cuidado de tus animales? ¿Por qué?
-- ¿Cómo valorarías la experiencia de uso de las herramientas de seguimiento reproductivo? ¿Te resultó sencillo registrar los ciclos y visualizar el estado de tu ganado?
-- ¿Qué opinión te merece la sección dedicada a la evaluación del impacto ambiental y social? ¿Consideras que esta información aporta valor agregado a la gestión de tu empresa ganadera?
-- ¿Qué opinas del panel de control general mostrado en la aplicación? ¿Te resultó intuitivo para visualizar el estado general de tus operaciones y productividad?
-- ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables?
-- ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno?
-
-Estas preguntas fueron aplicadas a un grupo de 12 usuarios potenciales (entre ganaderos independientes y gestores de empresas ganaderas). Los participantes brindaron sus respuestas fundamentándose en su interacción con las diferentes funcionalidades del producto orientadas a la productividad y sostenibilidad. Los hallazgos obtenidos se detallan a continuación.
-
-![Pregunta1](assets/AnalysisAndInterpretationOfResults/Pregunta1.png)
-
-![Pregunta2](assets/AnalysisAndInterpretationOfResults/Pregunta2.png)
-
-![Pregunta3](assets/AnalysisAndInterpretationOfResults/Pregunta3.png)
-
-![Pregunta4](assets/AnalysisAndInterpretationOfResults/Pregunta4.png)
-
-![Pregunta5](assets/AnalysisAndInterpretationOfResults/Pregunta5.png)
-
-![Pregunta6](assets/AnalysisAndInterpretationOfResults/Pregunta6.png)
-
-![Pregunta7](assets/AnalysisAndInterpretationOfResults/Pregunta7.png)
-
----
 ## 3.1. To-Be Scenario Mapping
 
 El To-Be Scenario Mapping permite visualizar el escenario ideal de interacción entre el usuario y el sistema, describiendo cómo deberían llevarse a cabo los procesos una vez implementada la solución. Esta técnica ayuda a identificar los cambios esperados en comparación con la situación actual, resaltando mejoras en la experiencia del usuario, la eficiencia operativa y el logro de los objetivos del proyecto. Este mapeo es fundamental para asegurar que el diseño del sistema esté alineado con las necesidades reales de los usuarios y con los objetivos estratégicos de la solución.
@@ -6429,6 +6289,148 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 #### 8.3.3.6. Team Collaboration Insights
 
 [![image.png](https://i.postimg.cc/hjsn8hL5/image.png)](https://postimg.cc/FdYwNrny)
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
+
+**1. Información Personal**
+
+- ¿Cuál es su nombre, cargo y área de responsabilidad dentro de la empresa ganadera?
+- ¿En qué región o provincia del Perú reside y dónde se ubica su establo, granja o propiedad?
+- ¿Qué tipo de ganado maneja actualmente y cuántos animales administra de forma regular?
+- ¿Cuánto tiempo lleva dedicándose a la ganadería y cómo ha evolucionado su forma de gestionarla con los años?
+
+**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
+
+- Si pudiera resumir su filosofía o enfoque sobre la gestión ganadera en una frase, ¿cuál sería?
+- ¿Qué cualidades personales cree que le ayudan más a mantener el orden y control sobre sus animales y su información diaria?
+- ¿Qué emociones experimenta cuando necesita consultar información de sus animales y no la encuentra rápido? (frustración, estrés, calma, motivación, etc.)
+- ¿Cómo se siente cuando una aplicación o herramienta digital no confirma si su registro fue completado correctamente?
+- ¿Considera que tiene experiencia manejando aplicaciones móviles? ¿Alguna vez tuvo complicaciones al usar nuevas tecnologías para la gestión de su granja?
+
+**3. Evaluación del Problema**
+
+- Cuando intentó registrarse en Moobile, ¿qué tan conveniente le pareció poder usar Google o Apple en lugar de crear una contraseña nueva?
+- ¿Este tipo de registro rápido le genera más confianza o preferiría un método tradicional? ¿Por qué?
+- ¿Ha experimentado alguna vez incertidumbre al no saber si un bovino, establo o dato fue registrado correctamente?
+- ¿Qué tan útil encuentra recibir mensajes o señales visuales para confirmar que su acción fue exitosa?
+- Cuando maneja varios animales o registros, ¿qué tanto le ayuda poder buscar y filtrar rápidamente?
+- ¿Qué filtros considera indispensables para encontrar información de forma eficiente?
+- ¿Le gustaría poder usar comandos de voz para navegar por Moobile sin depender tanto del teclado o pantalla?
+- ¿En qué situaciones cree que esta función sería más útil (manos ocupadas, campo abierto, tareas rápidas, etc.)?
+- ¿Qué mejoras o funciones nuevas le gustaría que se agreguen para facilitar aún más su trabajo diario?
+
+**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS**
+
+**1. Información Personal**
+
+- ¿Cuál es su nombre, cargo y principal responsabilidad dentro de la empresa ganadera?
+- ¿Cuál es la línea principal de trabajo de su empresa y cuántos animales manejan aproximadamente?
+- ¿En qué departamento o región del Perú operan actualmente?
+- ¿De cuántas personas se compone el equipo administrativo, veterinario o técnico que gestiona la información del ganado?
+
+**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
+
+- ¿Podría definir un lema que represente el compromiso de su empresa con la gestión moderna, eficiente y responsable del ganado?
+- ¿Qué fortalezas considera que caracterizan a su empresa en cuanto a organización, precisión técnica y registro de datos?
+- ¿Qué emociones genera en la gerencia cuando la información del ganado no está bien organizada o no se encuentra rápido?
+- ¿Cómo afecta internamente que su equipo no reciba confirmaciones claras al registrar información o cuando se generan duplicados?
+- ¿Consideran que su empresa está preparada o abierta a adoptar herramientas tecnológicas avanzadas como comandos de voz o integraciones digitales? ¿Por qué?
+
+**3. Evaluación del Problema**
+
+- ¿Qué tan útil es para su equipo poder registrarse o acceder mediante Google/Apple, especialmente cuando trabajan varios usuarios en distintas sedes?
+- ¿Qué impacto tendría recibir confirmaciones visuales claras en la reducción de errores administrativos?
+- ¿Qué tan crítico es para la empresa tener herramientas rápidas de búsqueda y filtrado para manejar grandes volúmenes de información animal?
+- ¿Qué filtros considera indispensables para mejorar la eficiencia operativa?
+- ¿Cree que la navegación mediante comandos de voz podría ser útil para el personal?
+- ¿En qué áreas de la operación sería más provechoso este tipo de funcionalidad?
+- ¿Hay alguna función clave que la empresa considera indispensable agregar para una adopción completa?
+
+#### 8.3.4.2. Registro de Entrevistas
+
+**SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
+
+Entrevistada: Karla Ramírez
+
+Sexo: Femenino
+
+Edad: 28
+
+Domicilio: Cajamarca, Perú (Distrito de Namora)
+
+Tiempo de experiencia en la ganadería: Más de 20 años  (Negocio familiar)
+
+Duración de entrevista: 07:11
+
+![Karla Ramirez](assets/RegistroEntrevistas/entrevista_chapter8.png)
+
+*Resumen de la Entrevista:*
+
+Karla Ramírez es propietaria y encargada de la gestión de una pequeña ganadería en el distrito de Namora, Cajamarca. Maneja un rebaño de aproximadamente 38 animales, compuesto principalmente por ganado bovino de doble propósito (leche y carne) y algunas ovejas. Su filosofía de trabajo se resume en la frase: "Cuidar bien a mis animales es asegurar el futuro de mi familia", priorizando el orden, la disciplina y la constancia.
+
+En el ámbito tecnológico, Karla tiene una experiencia básica (uso de celular para fotos y redes), pero se siente frustrada y estresada cuando la tecnología es compleja o la búsqueda de información es lenta, ya que valora mucho el tiempo en el campo. Respecto a la aplicación "Moobile", valoró positivamente el inicio de sesión con cuentas externas (Google/Apple) por su rapidez y conveniencia. Considera indispensables las confirmaciones visuales de guardado para evitar inseguridad sobre sus datos, el uso de filtros (por tipo de animal, edad y estado) y ve gran utilidad en los comandos de voz para operar con las manos ocupadas. Sugiere la incorporación de recordatorios automáticos para vacunas y resúmenes diarios de actividades.
+
+--
+
+Entrevistado: Oscar Aranda
+
+Sexo: Masculino
+
+Edad: 21
+
+Domicilio: Lima, Perú (Distrito de Cañete)
+
+Tiempo de experiencia en la ganadería: Más de 2 años (Negocio familiar)
+
+Duración de entrevista: 04:33
+
+[![image.png](https://i.postimg.cc/h4LgnPXp/image.png)](https://postimg.cc/gr21qpqZ)
+
+*Resumen de la Entrevista:*
+
+Oscar Aranda es un productor ganadero independiente con dos años de experiencia en la actividad. Reside en Lima y administra una granja ubicada también en la región, donde maneja un hato de aproximadamente 35 bovinos de carne. Su responsabilidad principal incluye la gestión operativa y sanitaria de los animales, apoyándose recientemente en herramientas digitales para mejorar el control diario.
+
+Su enfoque de trabajo se basa en el orden y la constancia, cualidades que complementa con organización y disciplina para mantener un manejo adecuado del hato. Oscar reconoce que experimenta frustración cuando no encuentra información con rapidez y que la falta de confirmación en los registros digitales le genera incertidumbre. Aunque tiene experiencia básica con aplicaciones móviles, admite enfrentar algunas dificultades cuando incorpora nuevas tecnologías.
+
+Durante la entrevista, consideró conveniente y confiable el registro mediante Google o Apple en la plataforma Moobile, valorando su rapidez y seguridad. Afirmó haber experimentado dudas en ocasiones al no saber si un animal o dato quedó registrado correctamente, por lo que considera esencial recibir confirmaciones visuales o mensajes que aseguren el éxito de las acciones. Asimismo, destaca la importancia de contar con sistemas de búsqueda y filtros eficientes, especialmente por ID del animal, estado sanitario y ubicación.
+
+Oscar expresó interés en funcionalidades adicionales como comandos de voz, que serían particularmente útiles cuando trabaja con las manos ocupadas o en campo abierto. Finalmente, sugirió mejoras como alertas automáticas de vacunación, recordatorios sanitarios y reportes más completos en tiempo real para optimizar su labor diaria.
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+Durante la investigación, las preguntas iniciales de las entrevistas fueron rediseñadas y organizadas para obtener respuestas más específicas y útiles en el análisis de la experiencia del usuario con la plataforma Moobile. Esta metodología facilitó una identificación más precisa de las opiniones, necesidades y desafíos de los ganaderos en relación con las herramientas de gestión operativa y sostenibilidad que ofrece la aplicación.
+
+## Preguntas Desarrolladas
+Para evaluar la experiencia de los productores ganaderos con la solución tecnológica, se formularon las siguientes preguntas en el estudio:
+
+- ¿Qué te pareció la experiencia de digitalizar la gestión de tu ganado a través de una aplicación móvil? ¿La encontraste accesible para utilizarla durante tus labores en el campo?
+- Al interactuar con los módulos de salud y nutrición, ¿consideras que las alertas y registros te permitieron mejorar la atención y el cuidado de tus animales? ¿Por qué?
+- ¿Cómo valorarías la experiencia de uso de las herramientas de seguimiento reproductivo? ¿Te resultó sencillo registrar los ciclos y visualizar el estado de tu ganado?
+- ¿Qué opinión te merece la sección dedicada a la evaluación del impacto ambiental y social? ¿Consideras que esta información aporta valor agregado a la gestión de tu empresa ganadera?
+- ¿Qué opinas del panel de control general mostrado en la aplicación? ¿Te resultó intuitivo para visualizar el estado general de tus operaciones y productividad?
+- ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables?
+- ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno?
+
+Estas preguntas fueron aplicadas a un grupo de 12 usuarios potenciales (entre ganaderos independientes y gestores de empresas ganaderas). Los participantes brindaron sus respuestas fundamentándose en su interacción con las diferentes funcionalidades del producto orientadas a la productividad y sostenibilidad. Los hallazgos obtenidos se detallan a continuación.
+
+![Pregunta1](assets/AnalysisAndInterpretationOfResults/Pregunta1.png)
+
+![Pregunta2](assets/AnalysisAndInterpretationOfResults/Pregunta2.png)
+
+![Pregunta3](assets/AnalysisAndInterpretationOfResults/Pregunta3.png)
+
+![Pregunta4](assets/AnalysisAndInterpretationOfResults/Pregunta4.png)
+
+![Pregunta5](assets/AnalysisAndInterpretationOfResults/Pregunta5.png)
+
+![Pregunta6](assets/AnalysisAndInterpretationOfResults/Pregunta6.png)
+
+![Pregunta7](assets/AnalysisAndInterpretationOfResults/Pregunta7.png)
 
 ## Conclusiones Y Recomendaciones
 
