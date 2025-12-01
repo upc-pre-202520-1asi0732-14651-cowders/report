@@ -6201,7 +6201,9 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 ### 8.6. To-Be Software Platform Pre-launch
 
 #### 8.3.3.1. About-the-Product Intro Video
-  
+
+Link del video: https://youtu.be/ImVCmPKNrIo
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
