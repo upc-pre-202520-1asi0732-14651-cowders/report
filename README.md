@@ -6197,7 +6197,25 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
         </tr>
     </tbody>
 </table>
-  
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+[![image.png](https://i.postimg.cc/9XsFFwQn/image.png)](https://postimg.cc/DmdKxZsr)
+
+[![image.png](https://i.postimg.cc/0j7gNQtx/image.png)](https://postimg.cc/2Lj9czRX)
+
+[![image.png](https://i.postimg.cc/TP1ZDQkZ/image.png)](https://postimg.cc/8F8K8dgH)
+
+[![image.png](https://i.postimg.cc/YCqP5bwh/image.png)](https://postimg.cc/6ygzRVqX)
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+#### 8.3.3.6. Team Collaboration Insights
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
