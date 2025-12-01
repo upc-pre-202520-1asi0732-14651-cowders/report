@@ -686,7 +686,7 @@ Tiempo de experiencia en la ganadería:	Más de 20 años  (Negocio familiar)
 
 Duración de entrevista:	07:11
 
-![Karla Ramirez](assets/chapter-6/RegistroEntrevistas/entrevista_chapter8.png)
+![Karla Ramirez](assets/RegistroEntrevistas/entrevista_chapter8.png)
 
 *Resumen de la Entrevista*
 
