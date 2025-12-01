@@ -6197,6 +6197,10 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
         </tr>
     </tbody>
 </table>
+
+### 8.6. To-Be Software Platform Pre-launch
+
+#### 8.3.3.1. About-the-Product Intro Video
   
 ## Conclusiones Y Recomendaciones
 
@@ -6213,6 +6217,8 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
     Con un dominio modelado en DDD, API versionada y módulos desacoplados (bovinos, establos, vacunas, campañas y staff), el equipo puede liberar un MVP, instrumentar métricas (activación, tiempo ahorrado, cobertura sanitaria) y ejecutar experimentos controlados para validar hipótesis y priorizar mejoras con evidencia.
 
 ----
+
+## Video App Validation
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
