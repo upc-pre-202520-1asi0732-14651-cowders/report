@@ -6222,6 +6222,16 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 #### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
 
+[![image.png](https://i.postimg.cc/0QQ2rpmk/image.png)](https://postimg.cc/3ysHc0nV)
+
+[![image.png](https://i.postimg.cc/T2BgMwMr/image.png)](https://postimg.cc/fkjJYMbL)
+
+[![image.png](https://i.postimg.cc/WbMDBwwY/image.png)](https://postimg.cc/8jzPWW3L)
+
+[![image.png](https://i.postimg.cc/D01ZK7Ln/image.png)](https://postimg.cc/GThrFwX5)
+
+[![image.png](https://i.postimg.cc/FHTKvWdB/image.png)](https://postimg.cc/dhTFm992)
+
 #### 8.3.3.6. Team Collaboration Insights
 
 ## Conclusiones Y Recomendaciones
