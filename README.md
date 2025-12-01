@@ -6200,11 +6200,13 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 ### 8.6. To-Be Software Platform Pre-launch
 
-#### 8.3.3.1. About-the-Product Intro Video
+#### 8.6.1. About-the-Product Intro Video
 
 ![Video About](assets/chapter-8/Img-video-about.png)
 
-Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK)
+
+# Conclusiones
 
 ## Conclusiones Y Recomendaciones
 
@@ -6220,13 +6222,23 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc
 4. **La arquitectura y el backlog posibilitan iteración rápida guiada por datos.**
     Con un dominio modelado en DDD, API versionada y módulos desacoplados (bovinos, establos, vacunas, campañas y staff), el equipo puede liberar un MVP, instrumentar métricas (activación, tiempo ahorrado, cobertura sanitaria) y ejecutar experimentos controlados para validar hipótesis y priorizar mejoras con evidencia.
 
-----
+---
 
 ## Video App Validation
 
 ![Video Validation](assets/chapter-8/Img-validation.png)
 
-Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCnQ2XkLl5RTre5VWuQbSElAROyd9OhxSOZkX01ujs61BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7U24Q0
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCnQ2XkLl5RTre5VWuQbSElAROyd9OhxSOZkX01ujs61BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7U24Q0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCnQ2XkLl5RTre5VWuQbSElAROyd9OhxSOZkX01ujs61BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7U24Q0)
+
+---
+
+## Video About-The-Team
+
+[![image.png](https://i.postimg.cc/Fs5g8Q6z/image.png)](https://postimg.cc/bdgtS4pf)
+
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN)
+
+---
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
@@ -6284,4 +6296,12 @@ Link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc
 
   - Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
 
-  - Link de Youtube: [https://youtu.be/UvyjXTcFnHk](https://youtu.be/UvyjXTcFnHk)
+  - Youtube: [https://youtu.be/UvyjXTcFnHk](https://youtu.be/UvyjXTcFnHk)
+
+- **About-the-Product Intro Video:**
+
+  - Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK)
+
+- **About-the-Team:**
+
+  - Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN)
