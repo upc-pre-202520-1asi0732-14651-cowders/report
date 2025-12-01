@@ -6202,6 +6202,8 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 #### 8.3.3.1. About-the-Product Intro Video
 
+![Video About](assets/chapter-8/Img-video-about.png)
+
 Link del video: https://youtu.be/ImVCmPKNrIo
 
 ## Conclusiones Y Recomendaciones
