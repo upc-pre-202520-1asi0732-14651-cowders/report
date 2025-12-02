@@ -56,10 +56,6 @@
         <td style="padding: 10px; border: 1px solid #ddd;">Gonzalez Custodio, Carlos Alberto</td>
       </tr>
       <tr>
-        <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U20221C448</td>
-        <td style="padding: 10px; border: 1px solid #ddd;">Roque Tello, Jack Eddie</td>
-      </tr>
-      <tr>
         <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">U20221C362</td>
         <td style="padding: 10px; border: 1px solid #ddd;">Silva Morales, Renzo Cesar</td>
       </tr>
@@ -71,9 +67,7 @@
   <h4> Noviembre 2025 </h5>
 </div>
 
-<br></br>
-<br></br>
-<br></br>
+<div style="page-break-after: always;"></div>
 
 ## Registro de versiones del informe
 
@@ -105,6 +99,12 @@
       <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
       <td style="padding: 10px; border: 1px solid #ddd;">Redacción de los Capítulos VI: Product Verification & Validation, VII: DevOps Practices y VIII: Experiment-DrivenDevelopment</td>
     </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">4.0</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">01/12/2025</td>
+      <td style="padding: 10px; border: 1px solid #ddd; text-align: center;">Cowders</td>
+      <td style="padding: 10px; border: 1px solid #ddd;">Redacción del Capítulo VIII: Experiment-DrivenDevelopment</td>
+    </tr>
   </tbody>
 </table>
 
@@ -112,7 +112,10 @@
 
 URL del repositorio para el reporte del proyecto: [https://github.com/upc-pre-202520-1asi0732-14651-cowders/report](https://github.com/upc-pre-202520-1asi0732-14651-cowders/report)
 
-**TB1**
+[![image.png](https://i.postimg.cc/HL21tcz7/image.png)](https://postimg.cc/3ydq8wPK)
+
+**TB1:**
+
 Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <table style="border-collapse: collapse; width: 100%;">
@@ -142,7 +145,10 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
   </tbody>
 </table>
 
-**TP1**
+[![image.png](https://i.postimg.cc/HL21tcz7/image.png)](https://postimg.cc/3ydq8wPK)
+
+**TP1:**
+
 Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <table style="border-collapse: collapse; width: 100%;">
@@ -172,7 +178,10 @@ Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la im
   </tbody>
 </table>
 
-**TB2**
+[![image.png](https://i.postimg.cc/HL21tcz7/image.png)](https://postimg.cc/3ydq8wPK)
+
+**TB2:**
+
 Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
 
 <table style="border-collapse: collapse; width: 100%;">
@@ -202,7 +211,10 @@ Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la im
   </tbody>
 </table>
 
-**Github Collaboration Insights**
+[![image.png](https://i.postimg.cc/FRCRDnpR/image.png)](https://postimg.cc/cgY0JhVy)
+
+**Github Collaboration Insights:**
+
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
 Los integrantes son:
@@ -211,6 +223,35 @@ Los integrantes son:
 - Carlos Gonzalez (CarlosGC-LP)
 - Jack Roque (UPC-Skylar)
 - Renzo Silva (rrenzosilva)
+
+Se explican las ramas más prominentes:
+
+main: Es representada por el color blanco. Se trata de la rama principal del proyecto y se actualiza para cada entregable.
+develop: Es representada por el color azul. Se trata de la rama principal para el proceso del desarrollo del proyecto.
+
+[![image.png](https://i.postimg.cc/QNB5vpTv/image.png)](https://postimg.cc/4ngm9Hw1)
+
+Los siguientes gráficos representan analíticos de commits en el repositorio del informe. En los gráficos se incluye la cantidad de lineas de texto añadidas por cada integrante del equipo.
+
+**TB1:**
+
+[![image.png](https://i.postimg.cc/HkfscyxF/image.png)](https://postimg.cc/87mVxsLb)
+
+[![image.png](https://i.postimg.cc/sx63VBqB/image.png)](https://postimg.cc/XBCRLvV3)
+
+**TP1:**
+
+[![image.png](https://i.postimg.cc/Y0sB55LQ/image.png)](https://postimg.cc/Wqgyrfn4)
+
+[![image.png](https://i.postimg.cc/pX3tqtHr/image.png)](https://postimg.cc/hf8wt6hR)
+
+**TB2:**
+
+[![image.png](https://i.postimg.cc/YqG54ymz/image.png)](https://postimg.cc/7f4sd995)
+
+[![image.png](https://i.postimg.cc/nzh5ndJS/image.png)](https://postimg.cc/94s1pYzy)
+
+<div style="page-break-after: always;"></div>
 
 # Contenido
 
@@ -397,6 +438,8 @@ Los integrantes son:
 
 - [Anexos](#anexos)
 
+<div style="page-break-after: always;"></div>
+
 # Student Outcome
 
 ABET – EAC - Student Outcome 4
@@ -421,7 +464,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En esta segunda entrega asumí la responsabilidad ética y profesional al desarrollar las <em>Core Entities Unit Tests</em> con NUnit para verificar la funcionalidad de las 28 User Stories implementadas, asegurando la trazabilidad y fiabilidad del sistema. Además, actualicé los <em>Sprint Backlogs</em> garantizando la coherencia entre los requisitos, las pruebas y la implementación. Mi compromiso se centró en mantener la calidad y transparencia en la validación del producto.<br><br>
         <em>TB2</em><br>
-        Asumí la responsabilidad ética y profesional al diseñar la sección de <em>Continuous Monitoring</em>. El trabajo se centró en definir las herramientas, prácticas y componentes de <em>Alerting</em> y <em>Notification</em> para los subsistemas críticos de Ranch e IAM, garantizando la fiabilidad y la respuesta inmediata ante fallos, lo que refleja un compromiso ético con la disponibilidad y la calidad del servicio.<br>
+        Asumí la responsabilidad ética y profesional al diseñar la sección de <em>Continuous Monitoring</em>. El trabajo se centró en definir las herramientas, prácticas y componentes de <em>Alerting</em> y <em>Notification</em> para los subsistemas críticos de Ranch e IAM, garantizando la fiabilidad y la respuesta inmediata ante fallos, lo que refleja un compromiso ético con la disponibilidad y la calidad del servicio.<br><br>
+        <em>TF1</em><br>
+        Demostré responsabilidad profesional al diseñar y conducir las To-Be Validation Interviews. Garantizó el cumplimiento de principios éticos durante la elaboración del guion, el consentimiento de los entrevistados y el manejo de la información recopilada. Su rigurosidad permitió obtener evidencia confiable y respetuosa para validar hipótesis del producto.<br>
         <hr>
         <strong>Gonzalez Custodio, Carlos Alberto</strong><br><br>
         <em>TB1</em><br>
@@ -429,15 +474,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En esta entrega asumí mi responsabilidad profesional al desarrollar y ejecutar las <em>Core Integration Tests</em> con NUnit, verificando la correcta interacción de los módulos en los cinco <em>bounded contexts</em>. También colaboró en la definición del pipeline de <em>Build & Test Suite</em> dentro de las prácticas de DevOps, promoviendo buenas prácticas de integración y asegurando la estabilidad del sistema.<br><br>
         <em>TB2</em><br>
-        Asumí mi responsabilidad profesional al desarrollar y finalizar el Experiment Planning para Moobile. El trabajo se centró en la creación de la estrategia de validación de riesgos, incluyendo el análisis AS-IS (para ambos segmentos), la identificación de Raw Material, y el diseño de Experiment Cards con hipótesis claras y métricas para la ejecución. Realicé también una entrevista clave para validar el riesgo de usabilidad del usuario final.<br>
-        <hr>
-        <strong>Roque Tello, Jack Eddie</strong><br><br>
-        <em>TB1</em><br>
-        En el desarrollo de Moobile reconozco mi responsabilidad ética y profesional al diseñar la arquitectura y los diagramas del sistema. Apliqué principios de Domain-Driven Design para mantener la solución ordenada y enfocada en las verdaderas necesidades de los ganaderos, evitando decisiones rápidas que pudieran generar errores o malas prácticas. Además, al manejar datos sensibles como la trazabilidad del ganado, su salud y las suscripciones, tuve claro lo importante que es asegurar la privacidad y la seguridad, garantizando siempre la integridad y confianza de los usuarios.<br><br>
-        <em>TP1</em><br>
-        Ejercí mi responsabilidad ética y profesional al implementar las pruebas <em>Behavior-Driven Development (BDD)</em> con Cucumber, garantizando que las historias de usuario fueran verificables mediante comportamientos reales del sistema. Asimismo, documentó las herramientas y prácticas aplicadas en Continuous Integration, Continuous Delivery y Continuous Deployment, asegurando la calidad, transparencia y reproducibilidad del proceso de entrega del producto.<br><br>
-        <em>TB2</em><br>
-        Asumí la responsabilidad profesional al diseñar la sección <em>Experiment Design</em>, la cual incluyó la cuantificación de todas las hipótesis, la definición de métricas de negocio precisas, y el establecimiento del Plan de Tracking, asegurando la objetividad y fiabilidad de la experimentación.<br>
+        Asumí mi responsabilidad profesional al desarrollar y finalizar el Experiment Planning para Moobile. El trabajo se centró en la creación de la estrategia de validación de riesgos, incluyendo el análisis AS-IS (para ambos segmentos), la identificación de Raw Material, y el diseño de Experiment Cards con hipótesis claras y métricas para la ejecución. Realicé también una entrevista clave para validar el riesgo de usabilidad del usuario final.<br><br>
+        <em>TF1</em><br>
+        Asumí con responsabilidad la fase de To-Be Software Platform Pre-launch, elaborando el video introductorio del producto y asegurando una comunicación clara y honesta sobre el estado de la plataforma. Su trabajo garantizó que la presentación pública reflejara con precisión las capacidades reales del sistema, manteniendo la integridad del proyecto..<br>
         <hr>
         <strong>Silva Morales, Renzo Cesar</strong><br><br>
         <em>TB1</em><br>
@@ -445,7 +484,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         Demostró responsabilidad ética y profesional al ejecutar las <em>Core System Tests</em> con Selenium, verificando la estabilidad del sistema y la correcta interacción con el usuario. Elaboré el <em>Acuerdo de Servicio (SaaS)</em> definiendo compromisos de soporte y disponibilidad, y participé en la creación del video de producto, promoviendo transparencia y responsabilidad en la comunicación de los resultados del equipo.<br><br>
         <em>TB2</em><br>
-        Asumí la responsabilidad profesional al desarrollar las <em>To-Be User Stories</em> y el <em>To-Be Product Backlog</em>, asegurando que la visión del producto se alinee con los resultados esperados de la experimentación. Esto garantiza la trazabilidad entre las hipótesis validadas y las funcionalidades que serán desarrolladas en el futuro.
+        Asumí la responsabilidad profesional al desarrollar las <em>To-Be User Stories</em> y el <em>To-Be Product Backlog</em>, asegurando que la visión del producto se alinee con los resultados esperados de la experimentación. Esto garantiza la trazabilidad entre las hipótesis validadas y las funcionalidades que serán desarrolladas en el futuro.<br><br>
+        <em>TF1</em><br>
+        Evidencié responsabilidad ética y profesional al liderar la elaboración de los To-Be User Stories, el To-Be Product Backlog y el diseño del Experiment-Driven Lifecycle. Aseguró que la planificación técnica fuera transparente, ordenada y alineada con necesidades reales de los usuarios, promoviendo buenas prácticas de ingeniería y reduciendo riesgos durante la fase de experimentación.<br>
       </td>
       <td valign="top">
         <em>TB1</em><br>
@@ -453,7 +494,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br>
         <em>TB2</em><br>
-        El equipo demostró responsabilidad profesional y colaboración al completar la fase de Experiment Planning (Capítulo VIII). Se estableció un marco sólido para validar hipótesis críticas de usabilidad y rendimiento, asegurando que los próximos esfuerzos de desarrollo se enfoquen en la funcionalidad que maximice el valor y la adopción por parte del usuario final.
+        El equipo demostró responsabilidad profesional y colaboración al completar la fase de Experiment Planning (Capítulo VIII). Se estableció un marco sólido para validar hipótesis críticas de usabilidad y rendimiento, asegurando que los próximos esfuerzos de desarrollo se enfoquen en la funcionalidad que maximice el valor y la adopción por parte del usuario final.<br><br>
+        <em>TF1</em><br>
+        En la presente entrega, el equipo TF asumió con responsabilidad ética y profesional todas las tareas correspondientes a la fase de Experimentación del proyecto Moobile. Desde la construcción de historias de usuario y del To-Be Product Backlog, el diseño del pipeline de experimentación, la elaboración de entrevistas de validación y la preparación del pre-lanzamiento, cada integrante demostró rigor técnico, transparencia y compromiso con la trazabilidad del proceso.
       </td>
     </tr>
     <tr>
@@ -465,7 +508,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En esta segunda entrega, emití juicios informados al planificar y ejecutar las pruebas unitarias, analizando el impacto económico y ambiental de las herramientas y configuraciones utilizadas. Priorizando la eficiencia y escalabilidad, optimicé la carga de ejecución en los pipelines de integración, y al actualizar los <em>Sprint Backlogs</em>, valoré el impacto social del producto en los ganaderos, buscando maximizar su utilidad práctica y sostenibilidad a largo plazo.<br><br>
         <em>TB2</em><br>
-        Emití juicios informados al definir la estructura del <em>Continuous Monitoring</em>, priorizando las métricas críticas que impactan la rentabilidad operativa y la satisfacción del usuario. Esto asegura que el monitoreo se alinee con los objetivos económicos y la calidad de servicio de Moobile.<br>
+        Emití juicios informados al definir la estructura del <em>Continuous Monitoring</em>, priorizando las métricas críticas que impactan la rentabilidad operativa y la satisfacción del usuario. Esto asegura que el monitoreo se alinee con los objetivos económicos y la calidad de servicio de Moobile.<br><br>
+        <em>TF1</em><br>
+        Apliqué pensamiento crítico al analizar los resultados de las entrevistas, evaluando cómo la solución impacta en la accesibilidad tecnológica, el uso eficiente de recursos y la mejora de procesos productivos. Sus juicios integraron dimensiones sociales y económicas claves para asegurar que el producto responda a necesidades reales del sector ganadero y su contexto global.<br>
         <hr>
         <strong>Gonzalez Custodio, Carlos Alberto</strong><br><br>
         <em>TB1</em><br>
@@ -473,15 +518,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         Emití juicios informados al diseñar las pruebas de integración y documentar el <em>Build & Test Suite Pipeline</em> dentro de DevOps, considerando el impacto económico y ambiental de las decisiones técnicas. Implementé configuraciones que reducen el uso de recursos y tiempos de compilación, buscando una entrega más eficiente y sostenible. Además, mantuve la comunicación efectiva con el equipo para asegurar decisiones consensuadas y fundamentadas.<br><br>
         <em>TB2</em><br>
-        Emití juicios informados al diseñar la estrategia de Experiment Planning, priorizando experimentos que mitigan riesgos de Rendimiento/Escalabilidad y el Impacto Socio-Económico. Esto aseguró que el esfuerzo de desarrollo se enfocara en la sostenibilidad y el valor real del mercado.<br>
-        <hr>
-        <strong>Roque Tello, Jack Eddie</strong><br><br>
-        <em>TB1</em><br>
-        Al trabajar en Moobile emití juicios informados pensando en cómo las decisiones de diseño impactan en lo económico, social, ambiental y global. Busqué que la aplicación ayude a los ganaderos a mejorar su rentabilidad, que promueva un uso más eficiente de los recursos y que pueda proyectarse como una solución sostenible y adaptable a distintos contextos.<br><br>
-        <em>TP1</em><br>
-        Durante esta entrega, apliqué pensamiento crítico al definir las estrategias de Continuous Integration, Continuous Delivery y Continuous Deployment, valorando su impacto en la eficiencia energética y la escalabilidad del sistema. Las pruebas <em>BDD</em> con Cucumber me permitieron validar escenarios centrados en la experiencia del usuario, asegurando un producto funcional y sostenible que aporta valor real a los ganaderos.<br><br>
-        <em>TB2</em><br>
-        Emití juicios informados al diseñar la sección <em>Experiment Design</em>, al seleccionar las <em>Domain Business Metrics</em> y <em>KPIs</em>, enfocando la recolección de datos en la validación de la Propuesta de Valor y la rentabilidad operativa. Esto garantizó que la experimentación fuera rentable y alineada con los objetivos de sostenibilidad del negocio.<br>
+        Emití juicios informados al diseñar la estrategia de Experiment Planning, priorizando experimentos que mitigan riesgos de Rendimiento/Escalabilidad y el Impacto Socio-Económico. Esto aseguró que el esfuerzo de desarrollo se enfocara en la sostenibilidad y el valor real del mercado.<br><br>
+        <em>TF1</em><br>
+        Emití juicios fundamentados al preparar la comunicación del valor del producto, considerando impactos económicos y sociales en el sector ganadero. Su evaluación destacó cómo la solución contribuye a la modernización, sostenibilidad y competitividad del sector, integrando una visión responsable del impacto global del software.
         <hr>
         <strong>Silva Morales, Renzo Cesar</strong><br><br>
         <em>TB1</em><br>
@@ -489,7 +528,9 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         Emití juicios informados al analizar los resultados de las <em>Core System Tests</em> y desarrollar el <em>Acuerdo de Servicio (SaaS)</em>, evaluando la sostenibilidad y el impacto social del sistema. Promovió la accesibilidad, estabilidad y escalabilidad del software, priorizando su utilidad para el sector ganadero y su contribución al desarrollo tecnológico responsable. Además, reforcé la documentación y comunicación de resultados para mantener la transparencia con los usuarios finales.<br><br>
         <em>TB2</em><br>
-        Emití juicios informados al desarrollar el estado futuro en el To-Be Product Backlog, asegurando que solo las funcionalidades que maximicen el valor fueran priorizadas para el desarrollo. Este enfoque garantiza que la inversión se alinee con la sostenibilidad del producto y el impacto positivo en la rentabilidad del ganadero.
+        Emití juicios informados al desarrollar el estado futuro en el To-Be Product Backlog, asegurando que solo las funcionalidades que maximicen el valor fueran priorizadas para el desarrollo. Este enfoque garantiza que la inversión se alinee con la sostenibilidad del producto y el impacto positivo en la rentabilidad del ganadero.<br><br>
+        <em>TF1</em><br>
+        Emití juicios informados al priorizar elementos del backlog que generan impacto en eficiencia operativa y sostenibilidad dentro del sector ganadero. Su análisis integró factores económicos y sociales, orientando los esfuerzos de desarrollo hacia la maximización del valor para productores y usuarios finales.
       </td>
       <td valign="top">
         <em>TB1</em><br>
@@ -497,13 +538,15 @@ Criterio: La capacidad de reconocer responsabilidades éticas y profesionales en
         <em>TP1</em><br>
         En la segunda entrega, el equipo mantuvo una conducta ética y profesional en la ejecución de pruebas, la integración y la entrega del producto. Cada miembro asumió su rol con responsabilidad, garantizando la trazabilidad de las historias de usuario, la fiabilidad del sistema y la documentación de las prácticas de DevOps. Se consolidó un trabajo colaborativo, orientado a la mejora continua y la transparencia, reflejando un alto nivel de compromiso profesional y técnico.<br><br>
         <em>TB2</em><br>
-        El equipo demostró pensamiento crítico y capacidad de análisis al completar la planificación y diseño de la fase de Experimentación. Se priorizó la mitigación de riesgos de Rendimiento y la validación de la Propuesta de Valor, asegurando que las decisiones de desarrollo futuras se enfoquen en la eficiencia operativa, la sostenibilidad del producto y el impacto positivo en la rentabilidad del sector ganadero.
+        El equipo demostró pensamiento crítico y capacidad de análisis al completar la planificación y diseño de la fase de Experimentación. Se priorizó la mitigación de riesgos de Rendimiento y la validación de la Propuesta de Valor, asegurando que las decisiones de desarrollo futuras se enfoquen en la eficiencia operativa, la sostenibilidad del producto y el impacto positivo en la rentabilidad del sector ganadero.<br><br>
+        <em>TF1</em><br>
+        En esta entrega, el equipo TF emitió juicios informados al planificar y ejecutar la fase de Experimentación del proyecto Moobile, evaluando de manera crítica el impacto de la plataforma en contextos económicos, sociales y productivos del sector ganadero. Las entrevistas, el backlog estratégico y la definición de la propuesta de valor se realizaron considerando eficiencia operativa, accesibilidad tecnológica y sostenibilidad del producto a largo plazo.
       </td>
     </tr>
   </tbody>
 </table>
 
---------
+<div style="page-break-after: always;"></div>
 
 # **Part I: As-Is Software Project**
 
@@ -704,6 +747,8 @@ En el Perú, el bienestar animal en las empresas ganaderas es a menudo insuficie
 - Altruismo
 - Perseverante
 - Honestidad
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo II: Requirements Elicitation & Analysis**
 
@@ -1169,6 +1214,8 @@ Para desarrollar nuestros User Persona, utilizamos los datos obtenidos y analiza
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # **Capítulo III: Requirements Specification**
 
 ## 3.1. To-Be Scenario Mapping
@@ -1494,6 +1541,8 @@ A continuación presentaremos 3 Business Goals que consideramos importantes en n
 **Business Goal 3**
 
 <img src="./assets/chapter-3/goal3.png"> 
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo IV: Product Design**
 
@@ -2021,6 +2070,8 @@ Al ser contruida en Flutter, la aplicación mantiene el mismo diseño para Andro
 <img src="./assets/chapter-4/relational_database_diagram.png">
 
 ***Figura 4.10.1 Extraído de Plant UML***
+
+<div style="page-break-after: always;"></div>
 
 # **Capítulo V: Product Implementation**
 
@@ -2556,6 +2607,8 @@ Este video resume de manera clara las principales funcionalidades de la aplicaci
 [![image.png](https://i.postimg.cc/L8nWVjYX/image.png)](https://postimg.cc/4YRwf71k)
 
 Link para ver el video: [Click aquí](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
+
+<div style="page-break-after: always;"></div>
 
 # **Part II: Verification, Validation & Pipeline**
   
@@ -4573,6 +4626,8 @@ No están incluidas en esta versión de la evaluación las siguientes tareas:
   </tbody>
 </table>
 
+<div style="page-break-after: always;"></div>
+
 # **Capítulo VII: DevOps Practices**
   
 ## 7.1. Continuous Integration    
@@ -5006,6 +5061,8 @@ Las notificaciones deben presentarse de manera clara y directa, incluyendo los d
   - Componente o fuente afectada
   - Enlaces a paneles de control o registros relevantes
   - Recomendaciones o pasos sugeridos para su resolución
+
+<div style="page-break-after: always;"></div>
 
 # **Part III: Experiment-Driven Lifecycle**
 
@@ -6158,7 +6215,292 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
         </tr>
     </tbody>
 </table>
+
+#### 8.3.3.2. Implemented To-Be Landing Page Evidence
+
+[![image.png](https://i.postimg.cc/9XsFFwQn/image.png)](https://postimg.cc/DmdKxZsr)
+
+[![image.png](https://i.postimg.cc/0j7gNQtx/image.png)](https://postimg.cc/2Lj9czRX)
+
+[![image.png](https://i.postimg.cc/TP1ZDQkZ/image.png)](https://postimg.cc/8F8K8dgH)
+
+[![image.png](https://i.postimg.cc/YCqP5bwh/image.png)](https://postimg.cc/6ygzRVqX)
+
+#### 8.3.3.3. Implemented To-Be Frontend-Web Application Evidence
+
+[![image.png](https://i.postimg.cc/sxHWvj1m/image.png)](https://postimg.cc/fSXyPhcS)
+
+[![image.png](https://i.postimg.cc/G2cTK8y7/image.png)](https://postimg.cc/f3rbTb5m)
+
+[![image.png](https://i.postimg.cc/Ssq1GrdD/image.png)](https://postimg.cc/yJQT10wZ)
+
+[![image.png](https://i.postimg.cc/pVscDKFs/image.png)](https://postimg.cc/NLrxt9bX)
+
+#### 8.3.3.4. Implemented To-Be Native-Mobile Application Evidence
+
+[![image.png](https://i.postimg.cc/tgnTQp9p/image.png)](https://postimg.cc/Jymmjwy2)
+
+[![image.png](https://i.postimg.cc/TwXTzbkJ/image.png)](https://postimg.cc/v13R94w4)
+
+[![image.png](https://i.postimg.cc/HnhRgDY1/image.png)](https://postimg.cc/YLQb6PLd)
+
+[![image.png](https://i.postimg.cc/nVPPMxJ6/image.png)](https://postimg.cc/5j83kZj3)
+
+#### 8.3.3.5. Implemented To-Be RESTful API and/or Serverless Backend Evidence
+
+[![image.png](https://i.postimg.cc/0QQ2rpmk/image.png)](https://postimg.cc/3ysHc0nV)
+
+[![image.png](https://i.postimg.cc/T2BgMwMr/image.png)](https://postimg.cc/fkjJYMbL)
+
+[![image.png](https://i.postimg.cc/WbMDBwwY/image.png)](https://postimg.cc/8jzPWW3L)
+
+[![image.png](https://i.postimg.cc/D01ZK7Ln/image.png)](https://postimg.cc/GThrFwX5)
+
+[![image.png](https://i.postimg.cc/FHTKvWdB/image.png)](https://postimg.cc/dhTFm992)
+
+#### 8.3.3.6. Team Collaboration Insights
+
+Durante el transcurso del proyecto, el equipo trabajó de manera conjunta en el repositorio del Informe, empleando herramientas como GitHub, Trello y Google Meet para organizar tareas, compartir avances y aclarar dudas de forma constante.
+
+A continuación, gracias a la sección de Insights de GitHub, se incluyen gráficos que reflejan el nivel de participación de cada miembro del equipo en el repositorio del Informe.
+
+**Tabla de identificación del equipo**
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Username (GitHub)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Nombre completo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Código de estudiante</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@rrenzosilva</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Renzo Silva Morales</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u20221c362</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@Rafooo6</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Jorge Bravo Gavilano</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u202212535</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@CarlosGC-LP</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Carlos Gonzalez Custodio</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u202020230</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Analíticos de GitHub
+
+##### Informe
+
+[![image.png](https://i.postimg.cc/R0vWtjmB/image.png)](https://postimg.cc/9DNX5gz8)
+
+##### Repositorios
+
+[![image.png](https://i.postimg.cc/hjsn8hL5/image.png)](https://postimg.cc/FdYwNrny)
+
+### 8.3.4. To-Be Validation Interviews
+
+#### 8.3.4.1. Diseño de Entrevistas
+
+**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
+
+**1. Información Personal**
+
+- ¿Cuál es su nombre, cargo y área de responsabilidad dentro de la empresa ganadera?
+- ¿En qué región o provincia del Perú reside y dónde se ubica su establo, granja o propiedad?
+- ¿Qué tipo de ganado maneja actualmente y cuántos animales administra de forma regular?
+- ¿Cuánto tiempo lleva dedicándose a la ganadería y cómo ha evolucionado su forma de gestionarla con los años?
+
+**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
+
+- Si pudiera resumir su filosofía o enfoque sobre la gestión ganadera en una frase, ¿cuál sería?
+- ¿Qué cualidades personales cree que le ayudan más a mantener el orden y control sobre sus animales y su información diaria?
+- ¿Qué emociones experimenta cuando necesita consultar información de sus animales y no la encuentra rápido? (frustración, estrés, calma, motivación, etc.)
+- ¿Cómo se siente cuando una aplicación o herramienta digital no confirma si su registro fue completado correctamente?
+- ¿Considera que tiene experiencia manejando aplicaciones móviles? ¿Alguna vez tuvo complicaciones al usar nuevas tecnologías para la gestión de su granja?
+
+**3. Evaluación del Problema**
+
+- Cuando intentó registrarse en Moobile, ¿qué tan conveniente le pareció poder usar Google o Apple en lugar de crear una contraseña nueva?
+- ¿Este tipo de registro rápido le genera más confianza o preferiría un método tradicional? ¿Por qué?
+- ¿Ha experimentado alguna vez incertidumbre al no saber si un bovino, establo o dato fue registrado correctamente?
+- ¿Qué tan útil encuentra recibir mensajes o señales visuales para confirmar que su acción fue exitosa?
+- Cuando maneja varios animales o registros, ¿qué tanto le ayuda poder buscar y filtrar rápidamente?
+- ¿Qué filtros considera indispensables para encontrar información de forma eficiente?
+- ¿Le gustaría poder usar comandos de voz para navegar por Moobile sin depender tanto del teclado o pantalla?
+- ¿En qué situaciones cree que esta función sería más útil (manos ocupadas, campo abierto, tareas rápidas, etc.)?
+- ¿Qué mejoras o funciones nuevas le gustaría que se agreguen para facilitar aún más su trabajo diario?
+
+**LISTADO DE PREGUNTAS SEGMENTO OBJETIVO – EMPRESAS GANADERAS**
+
+**1. Información Personal**
+
+- ¿Cuál es su nombre, cargo y principal responsabilidad dentro de la empresa ganadera?
+- ¿Cuál es la línea principal de trabajo de su empresa y cuántos animales manejan aproximadamente?
+- ¿En qué departamento o región del Perú operan actualmente?
+- ¿De cuántas personas se compone el equipo administrativo, veterinario o técnico que gestiona la información del ganado?
+
+**2. Personalidad, Aspecto Emocional y Habilidades del Usuario**
+
+- ¿Podría definir un lema que represente el compromiso de su empresa con la gestión moderna, eficiente y responsable del ganado?
+- ¿Qué fortalezas considera que caracterizan a su empresa en cuanto a organización, precisión técnica y registro de datos?
+- ¿Qué emociones genera en la gerencia cuando la información del ganado no está bien organizada o no se encuentra rápido?
+- ¿Cómo afecta internamente que su equipo no reciba confirmaciones claras al registrar información o cuando se generan duplicados?
+- ¿Consideran que su empresa está preparada o abierta a adoptar herramientas tecnológicas avanzadas como comandos de voz o integraciones digitales? ¿Por qué?
+
+**3. Evaluación del Problema**
+
+- ¿Qué tan útil es para su equipo poder registrarse o acceder mediante Google/Apple, especialmente cuando trabajan varios usuarios en distintas sedes?
+- ¿Qué impacto tendría recibir confirmaciones visuales claras en la reducción de errores administrativos?
+- ¿Qué tan crítico es para la empresa tener herramientas rápidas de búsqueda y filtrado para manejar grandes volúmenes de información animal?
+- ¿Qué filtros considera indispensables para mejorar la eficiencia operativa?
+- ¿Cree que la navegación mediante comandos de voz podría ser útil para el personal?
+- ¿En qué áreas de la operación sería más provechoso este tipo de funcionalidad?
+- ¿Hay alguna función clave que la empresa considera indispensable agregar para una adopción completa?
+
+#### 8.3.4.2. Registro de Entrevistas
+
+Las entrevistas están agrupadas en el siguiente link subido a Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO)
+
+**SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
+
+Entrevistada: Karla Ramírez
+
+Sexo: Femenino
+
+Edad: 28
+
+Domicilio: Cajamarca, Perú (Distrito de Namora)
+
+Tiempo de experiencia en la ganadería: Más de 20 años  (Negocio familiar)
+
+Duración de entrevista: 07:11
+
+![Karla Ramirez](assets/RegistroEntrevistas/entrevista_chapter8.png)
+
+*Resumen de la Entrevista:*
+
+Karla Ramírez es propietaria y encargada de la gestión de una pequeña ganadería en el distrito de Namora, Cajamarca. Maneja un rebaño de aproximadamente 38 animales, compuesto principalmente por ganado bovino de doble propósito (leche y carne) y algunas ovejas. Su filosofía de trabajo se resume en la frase: "Cuidar bien a mis animales es asegurar el futuro de mi familia", priorizando el orden, la disciplina y la constancia.
+
+En el ámbito tecnológico, Karla tiene una experiencia básica (uso de celular para fotos y redes), pero se siente frustrada y estresada cuando la tecnología es compleja o la búsqueda de información es lenta, ya que valora mucho el tiempo en el campo. Respecto a la aplicación "Moobile", valoró positivamente el inicio de sesión con cuentas externas (Google/Apple) por su rapidez y conveniencia. Considera indispensables las confirmaciones visuales de guardado para evitar inseguridad sobre sus datos, el uso de filtros (por tipo de animal, edad y estado) y ve gran utilidad en los comandos de voz para operar con las manos ocupadas. Sugiere la incorporación de recordatorios automáticos para vacunas y resúmenes diarios de actividades.
+
+---
+
+Entrevistado: Oscar Aranda
+
+Sexo: Masculino
+
+Edad: 21
+
+Domicilio: Lima, Perú (Distrito de Cañete)
+
+Tiempo de experiencia en la ganadería: Más de 2 años (Negocio familiar)
+
+Duración de entrevista: 04:33
+
+[![image.png](https://i.postimg.cc/h4LgnPXp/image.png)](https://postimg.cc/gr21qpqZ)
+
+*Resumen de la Entrevista:*
+
+Oscar Aranda es un productor ganadero independiente con dos años de experiencia en la actividad. Reside en Lima y administra una granja ubicada también en la región, donde maneja un hato de aproximadamente 35 bovinos de carne. Su responsabilidad principal incluye la gestión operativa y sanitaria de los animales, apoyándose recientemente en herramientas digitales para mejorar el control diario.
+
+Su enfoque de trabajo se basa en el orden y la constancia, cualidades que complementa con organización y disciplina para mantener un manejo adecuado del hato. Oscar reconoce que experimenta frustración cuando no encuentra información con rapidez y que la falta de confirmación en los registros digitales le genera incertidumbre. Aunque tiene experiencia básica con aplicaciones móviles, admite enfrentar algunas dificultades cuando incorpora nuevas tecnologías.
+
+Durante la entrevista, consideró conveniente y confiable el registro mediante Google o Apple en la plataforma Moobile, valorando su rapidez y seguridad. Afirmó haber experimentado dudas en ocasiones al no saber si un animal o dato quedó registrado correctamente, por lo que considera esencial recibir confirmaciones visuales o mensajes que aseguren el éxito de las acciones. Asimismo, destaca la importancia de contar con sistemas de búsqueda y filtros eficientes, especialmente por ID del animal, estado sanitario y ubicación.
+
+Oscar expresó interés en funcionalidades adicionales como comandos de voz, que serían particularmente útiles cuando trabaja con las manos ocupadas o en campo abierto. Finalmente, sugirió mejoras como alertas automáticas de vacunación, recordatorios sanitarios y reportes más completos en tiempo real para optimizar su labor diaria.
+
+**SEGMENTO OBJETIVO – EMPRESAS GANADERAS**
+
+Entrevistado: José Miguel Custodio
+
+Sexo: Masculino
+
+Edad: 29 años
+
+Domicilio: Hualgayoc - Cajamarca
+
+Tiempo de experiencia en la ganadería: 7 años
+
+Duración de entrevista: 07:32
+
+[![image.png](https://i.postimg.cc/T1dG3P27/image.png)](https://postimg.cc/1njbWsqw)
+
+*Resumen de la Entrevista:*
+
+José Miguel, Gerente de Operaciones , gestiona 450 cabezas de ganado en Cajamarca y La Libertad bajo un enfoque de estandarización, aunque enfrenta ansiedad operativa debido a la desorganización de datos y la generación de registros duplicados. Su equipo está tecnológicamente preparado y busca soluciones que ofrezcan acceso simplificado, filtros rápidos y confirmaciones visuales para reducir errores, considerando indispensables la funcionalidad offline y los comandos de voz para optimizar las labores sanitarias en campo.
+
+## 8.4. Experiment Aftermath & Analysis
+
+### 8.4.1. Analysis and Interpretation of Results
+Durante la investigación, las preguntas iniciales de las entrevistas fueron rediseñadas y organizadas para obtener respuestas más específicas y útiles en el análisis de la experiencia del usuario con la plataforma Moobile. Esta metodología facilitó una identificación más precisa de las opiniones, necesidades y desafíos de los ganaderos en relación con las herramientas de gestión operativa y sostenibilidad que ofrece la aplicación.
+
+## Preguntas Desarrolladas
+Para evaluar la experiencia de los productores ganaderos con la solución tecnológica, se formularon las siguientes preguntas en el estudio:
+
+- ¿Qué te pareció la experiencia de digitalizar la gestión de tu ganado a través de una aplicación móvil? ¿La encontraste accesible para utilizarla durante tus labores en el campo?
+- Al interactuar con los módulos de salud y nutrición, ¿consideras que las alertas y registros te permitieron mejorar la atención y el cuidado de tus animales? ¿Por qué?
+- ¿Cómo valorarías la experiencia de uso de las herramientas de seguimiento reproductivo? ¿Te resultó sencillo registrar los ciclos y visualizar el estado de tu ganado?
+- ¿Qué opinión te merece la sección dedicada a la evaluación del impacto ambiental y social? ¿Consideras que esta información aporta valor agregado a la gestión de tu empresa ganadera?
+- ¿Qué opinas del panel de control general mostrado en la aplicación? ¿Te resultó intuitivo para visualizar el estado general de tus operaciones y productividad?
+- ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables?
+- ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno?
+
+Estas preguntas fueron aplicadas a un grupo de 12 usuarios potenciales (entre ganaderos independientes y gestores de empresas ganaderas). Los participantes brindaron sus respuestas fundamentándose en su interacción con las diferentes funcionalidades del producto orientadas a la productividad y sostenibilidad. Los hallazgos obtenidos se detallan a continuación.
+
+![Pregunta1](assets/AnalysisAndInterpretationOfResults/Pregunta1.png)
+
+![Pregunta2](assets/AnalysisAndInterpretationOfResults/Pregunta2.png)
+
+![Pregunta3](assets/AnalysisAndInterpretationOfResults/Pregunta3.png)
+
+![Pregunta4](assets/AnalysisAndInterpretationOfResults/Pregunta4.png)
+
+![Pregunta5](assets/AnalysisAndInterpretationOfResults/Pregunta5.png)
+
+![Pregunta6](assets/AnalysisAndInterpretationOfResults/Pregunta6.png)
+
+![Pregunta7](assets/AnalysisAndInterpretationOfResults/Pregunta7.png)
+
+### 8.4.2. Re-scored and Re-prioritized Question Backlog
+
+En esta sección se presenta la versión re-evaluada y priorizada del backlog de preguntas utilizado para analizar la experiencia de los usuarios con la aplicación de gestión ganadera. El proceso de reasignación de prioridades se llevó a cabo considerando el impacto de cada pregunta en la comprensión del uso real de la plataforma, su relevancia para la toma de decisiones y su contribución a la mejora continua del producto. De este modo, se organiza un conjunto de interrogantes que orientan de manera estratégica la validación del sistema, permitiendo identificar con mayor precisión las necesidades, percepciones y desafíos enfrentados por los productores ganaderos durante su interacción con la aplicación.
+
+| Prioridad (1, 2, 3, 5, 8) | Pregunta |
+|---------------------------|----------|
+| Prioridad: 8 | ¿Qué te pareció la experiencia de digitalizar la gestión de tu ganado a través de una aplicación móvil? ¿La encontraste accesible para utilizarla durante tus labores en el campo? |
+| Prioridad: 5 | Al interactuar con los módulos de salud y nutrición, ¿consideras que las alertas y registros te permitieron mejorar la atención y el cuidado de tus animales? ¿Por qué? |
+| Prioridad: 5 | ¿Cómo valorarías la experiencia de uso de las herramientas de seguimiento reproductivo? ¿Te resultó sencillo registrar los ciclos y visualizar el estado de tu ganado? |
+| Prioridad: 3 | ¿Qué opinión te merece la sección dedicada a la evaluación del impacto ambiental y social? ¿Consideras que esta información aporta valor agregado a la gestión de tu empresa ganadera? |
+| Prioridad: 5 | ¿Qué opinas del panel de control general mostrado en la aplicación? ¿Te resultó intuitivo para visualizar el estado general de tus operaciones y productividad? |
+| Prioridad: 3 | ¿Qué tan útil encontraste la funcionalidad para generar reportes sobre el bienestar animal? ¿Crees que estos datos facilitan la toma de decisiones éticas y responsables? |
+| Prioridad: 3 | ¿Cómo fue tu experiencia navegando entre los diferentes perfiles de animales (individuales vs. lote)? ¿Te resultó claro acceder a la historia clínica y nutricional de cada uno? |
+
+## 8.5. Continuous Learning 
+
+### 8.5.1. Shareback Session Artifacts: Learning Workflow
+
+Se aplicó una encuesta a través de Google Forms con el propósito de recoger las percepciones de los usuarios y validar las hipótesis planteadas durante la etapa de diseño. Esta herramienta permitió analizar la experiencia de uso y obtener datos clave que sustentaron las mejoras incorporadas en la aplicación.
+
+**Link de la entrevista:**  
+
+[https://forms.gle/ETBCp6fgChQTyZ2t9](https://forms.gle/ETBCp6fgChQTyZ2t9)
   
+### 8.6. To-Be Software Platform Pre-launch
+
+#### 8.6.1. About-the-Product Intro Video
+
+![Video About](assets/chapter-8/Img-video-about.png)
+
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK)
+
+# Conclusiones
+
 ## Conclusiones Y Recomendaciones
 
 1. **Moobile resuelve una necesidad real y prioritaria del sector ganadero peruano.**  
@@ -6173,7 +6515,23 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 4. **La arquitectura y el backlog posibilitan iteración rápida guiada por datos.**
     Con un dominio modelado en DDD, API versionada y módulos desacoplados (bovinos, establos, vacunas, campañas y staff), el equipo puede liberar un MVP, instrumentar métricas (activación, tiempo ahorrado, cobertura sanitaria) y ejecutar experimentos controlados para validar hipótesis y priorizar mejoras con evidencia.
 
-----
+---
+
+## Video App Validation
+
+![Video Validation](assets/chapter-8/Img-validation.png)
+
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCnQ2XkLl5RTre5VWuQbSElAROyd9OhxSOZkX01ujs61BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7U24Q0](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCnQ2XkLl5RTre5VWuQbSElAROyd9OhxSOZkX01ujs61BA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=7U24Q0)
+
+---
+
+## Video About-The-Team
+
+[![image.png](https://i.postimg.cc/Fs5g8Q6z/image.png)](https://postimg.cc/bdgtS4pf)
+
+Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN)
+
+---
 
 # Bibliografía
 - Cohn, M. (2004). User Stories Applied: For Agile Software Development. Addison-Wesley.
@@ -6213,6 +6571,8 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
   - Video de Exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDWcLyMTeakRLVawOpme42mAeT7hE3SCwRWdX2H5VSIIfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=njbwlC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDWcLyMTeakRLVawOpme42mAeT7hE3SCwRWdX2H5VSIIfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=njbwlC)
 
+  - Video de Exposición TF1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQB3UKOInl9uRa2G4OAuvJ9AAdcJ_NX9CLdWgzCr8FjeCDo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ryW8qL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQB3UKOInl9uRa2G4OAuvJ9AAdcJ_NX9CLdWgzCr8FjeCDo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ryW8qL)
+
 - **Despliegues:**
 
   - Landing Page: [upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)
@@ -6227,8 +6587,18 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
   
   - Validation Interviews: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQACi555PL4XQZJweVdRuxnmAVGVpbwFIPhpXbyoXytFCik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uHlg3O](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQACi555PL4XQZJweVdRuxnmAVGVpbwFIPhpXbyoXytFCik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uHlg3O)
 
+  - To-Be Validation Interviews: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO)
+
 - **About-the-Product:** 
 
   - Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/Eekw13tWv7FIqGV9iAdzeqcB29U4hkBeUu80jbD8TVKBvg?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=h3ZmLl)
 
-  - Link de Youtube: [https://youtu.be/UvyjXTcFnHk](https://youtu.be/UvyjXTcFnHk)
+  - Youtube: [https://youtu.be/UvyjXTcFnHk](https://youtu.be/UvyjXTcFnHk)
+
+- **About-the-Product Intro Video:**
+
+  - Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202020230_upc_edu_pe/IQCCmL17DffASrZ2eD73cRZ2AYrgbLHqn99WntIBxHcG4h4?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=WCBmtK)
+
+- **About-the-Team:**
+
+  - Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDgWkLScEbARaQPnpzXG67zAeAQtUev2t9pQNi7wDLdK3c?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=BJKiVN)
