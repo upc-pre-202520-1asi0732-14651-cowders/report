@@ -127,19 +127,19 @@ Para el desarrollo del informe perteneciente a la entrega TB1, se dividió la im
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jorge Bravo</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jorge Rafael Bravo Gavilano</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Diseño de mockups y wireframes. Descripción de user flows. Capítulo V, Software Development Environment Configuration, Source Code Management, Style Guide & Conventions. User Stories. Product Backlog</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Gonzales</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Alberto Gonzalez Custodio</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Impact Mapping, registro y análisis de entrevistas. User Task Matrix. As-Is To-be Scenarios. Empathy Mapping. Technical User Stories. User Stories. Product Backlog. Bibliografía.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Roque</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Eddie Roque Tello</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Antecedentes y problemática 5W y 2H. Lean UX Process, Problem Statement, Assumptions e Hypothesis statements. Lean UX Canvas. Segmentos Objetivos. Análisis de competidores. Diseño de entrevistas. Conclusiones y recomendaciones.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Silva</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Cesar Silva Morales</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">General Style Guidelines. Landing Page, Services & Applications implementation. Software Deployment Configuration.</td>
     </tr>
   </tbody>
@@ -160,19 +160,19 @@ Para el desarrollo del informe perteneciente a la entrega TP1, se dividió la im
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Rafael Bravo</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jorge Rafael Bravo Gavilano</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">General Style Guidelines, Web Applications Prototyping y Mockups.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Gonzales</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Alberto Gonzalez Custodio</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Resumen de entrevistas, Análisis de entrevistas, User Personas y Development Evidence for Sprint Review.</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Roque</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Eddie Roque Tello</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Problem Statement y Lean UX Assumptions</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Silva</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Cesar Silva Morales</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Collaboration Insights, Impact Mapping, Sprint Backlog, Execution Evidence for Sprint Review.</td>
     </tr>
   </tbody>
@@ -193,19 +193,19 @@ Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la im
   </thead>
   <tbody>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Rafael Bravo</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jorge Rafael Bravo Gavilano</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Static testing & Verification, Static Code Analysis, Reviews, Validation Interviews, Continuous Monitoring</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Gonzalez</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Alberto Gonzalez Custodio</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">As-Is Summary, Raw Material, Experiment-Ready Questions, Question Backlog, Experiment Cards</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Roque</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jack Eddie Roque Tello</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Hypotheses, Domain Business Metrics, Measures, Conditions, Scale Calculations and Decisions, Methods Selection, Data Analytics, Web and Mobile Tracking Plan</td>
     </tr>
     <tr>
-      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Silva</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Cesar Silva Morales</strong></td>
       <td style="border: 1px solid #cccccc; padding: 10px;">Auditoría de Experiencias de Usuario, Auditoría realizada, Auditoría recibida, To-Be User Stories, To-Be Product Backlog, To-Be Sprint Backlog</td>
     </tr>
   </tbody>
@@ -213,16 +213,45 @@ Para el desarrollo del informe perteneciente a la entrega TB2, se dividió la im
 
 [![image.png](https://i.postimg.cc/FRCRDnpR/image.png)](https://postimg.cc/cgY0JhVy)
 
+**TF1:**
+
+Para el desarrollo del informe perteneciente a la entrega TF1, se dividió la implementación de secciones de la siguiente forma para cada integrante del equipo:
+
+<table style="border-collapse: collapse; width: 100%;">
+  <thead style="background-color: #f2f2f2;">
+    <tr>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="25%">Integrante</th>
+      <th style="border: 1px solid #cccccc; padding: 10px;" align="left" width="75%">Tareas Asignadas</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Jorge Rafael Bravo Gavilano</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">To-Be Validation Interviews, Diseño de Entrevistas, Registro de Entrevistas, Analysis and Interpretation of Results, Re-scored and Re-prioritized Question Backlog, Shareback Session Artifacts: Learning Workflow</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Carlos Alberto Gonzalez Custodio</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">To-Be Software Platform Pre-launch, About-the-Product Intro Video, Video App Validation, Conclusiones y recomendaciones</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid #cccccc; padding: 10px;"><strong>Renzo Cesar Silva Morales</strong></td>
+      <td style="border: 1px solid #cccccc; padding: 10px;">To-Be User Stories, To-Be Product Backlog, To-Be Sprint Backlog, Implemented To-Be Landing Page Evidence, Implemented To-Be Frontend-Web Application Evidence, Implemented To-Be Native-Mobile Application Evidence, Implemented To-Be RESTful API and/or Serverless Backend Evidence, Team Collaboration Insights</td>
+    </tr>
+  </tbody>
+</table>
+
+[![image.png](https://i.postimg.cc/HxWkv3GP/image.png)](https://postimg.cc/CZt0zGxj)
+
 **Github Collaboration Insights:**
 
 Github también presenta un timeline de las ramas principales y los procesos de merge a los que se han sometido. Todas las ramas se crearon tomando en cuenta el diseño de GitFlow para una buena organización cuando se usa un software de control de versiones.
 
 Los integrantes son:
 
-- Rafael Bravo (Rafooo6)
-- Carlos Gonzalez (CarlosGC-LP)
-- Jack Roque (UPC-Skylar)
-- Renzo Silva (rrenzosilva)
+- Jorge Rafael Bravo Gavilano (Rafooo6)
+- Carlos Alberto Gonzalez Custodio (CarlosGC-LP)
+- Jack Eddie Roque Tello (UPC-Skylar)
+- Renzo Cesar Silva Morales (rrenzosilva)
 
 Se explican las ramas más prominentes:
 
@@ -250,6 +279,12 @@ Los siguientes gráficos representan analíticos de commits en el repositorio de
 [![image.png](https://i.postimg.cc/YqG54ymz/image.png)](https://postimg.cc/7f4sd995)
 
 [![image.png](https://i.postimg.cc/nzh5ndJS/image.png)](https://postimg.cc/94s1pYzy)
+
+**TF1:**
+
+[![image.png](https://i.postimg.cc/3Nv5tDRK/image.png)](https://postimg.cc/n9pPzrB5)
+
+[![image.png](https://i.postimg.cc/NfRLMKxC/image.png)](https://postimg.cc/9rFcgFKy)
 
 <div style="page-break-after: always;"></div>
 
