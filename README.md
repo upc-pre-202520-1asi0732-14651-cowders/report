@@ -1032,54 +1032,6 @@ Sexo: Masculino
 
 Edad: 28
 
-## 8.1. Experiment Planning
-Esta sección establece las bases para la experimentación sistemática dentro del desarrollo de productos y servicios. Su objetivo es definir el estado actual del problema, formular preguntas clave, identificar lagunas de conocimiento y establecer un marco estructurado para diseñar pruebas de software.
-
-### 8.1.1. As-Is Summary
-El modelo AS-IS describe el flujo de trabajo actual de los productores (Segmento #1) y las empresas (Segmento #2) al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
-
-#### Segmento #1: Productores Ganaderos Independientes
-
-| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
-| :--- | :--- | :--- | :--- |
-| **1. Registro y Sanidad** | Anotar pesajes, vacunas y partos en un cuaderno o Excel básico. | ¿Es este registro el más actualizado? ¿Qué bovinos necesitan revacunarse el mes que viene? | Incertidumbre por la calidad del dato. Presión por la gestión de tiempo. |
-| **2. Localización de Ganado** | Recorrer físicamente el rancho o el establo para verificar un animal específico por su código. | ¿En qué establo dejé al animal? Necesito ir rápido, no tengo tiempo para buscar. | Frustración ante la lentitud. Dependencia de la memoria del personal. |
-| **3. Evaluación del Desempeño** | Cálculo manual del rendimiento por animal al final del mes. | ¿Está dando el rendimiento esperado? ¿Podría estar perdiendo dinero con este animal? | Duda sobre la rentabilidad. Cansancio por el esfuerzo manual. |
-
-El modelo AS-IS describe el flujo de trabajo actual del productor ganadero al gestionar sus operaciones sin la plataforma Moobile, mostrando sus fases, acciones y sentimientos asociados.
-
-#### Segmento #2: Empresas Ganaderas
-
-| Fases | Doing (Acción) | Thinking (Pensamiento) | Feeling (Emoción) |
-| :--- | :--- | :--- | :--- |
-| **1. Trazabilidad y Reporte** | Consolidar datos de múltiples fuentes para generar informes de cumplimiento. | ¿Tenemos todos los datos que pide la certificadora? ¿Qué tan bien estamos cumpliendo con los estándares ambientales? | Estrés por la auditoría y los plazos. Burocracia interna. |
-| **2. Coordinación de Personal** | Asignar personal a campañas o establos por medio de llamadas, radios o listas impresas. | ¿Mi personal sabe a qué establo ir? ¿Cómo verifico que la tarea se hizo correctamente en campo? | Ansiedad por la falta de visibilidad en tiempo real. Desconfianza en la ejecución. |
-| **3. Propuesta de Valor al Cliente** | Intentar comunicar el manejo ético o ambiental del ganado sin datos concretos o digitales. | ¿Cómo les demuestro a los clientes que somos sostenibles? Necesito algo más que palabras para ganar este contrato. | Desconexión con el mercado premium. Pérdida de Oportunidad. |
-
-El flujo de trabajo AS-IS, tanto para productores independientes como para empresas, se caracteriza por la fragmentación de la información y la alta dependencia de procesos manuales. La meta de Moobile es reducir el tiempo de la entrada de datos para transformar la ineficiencia en valor.
-
-### 8.1.2. Raw Material: Assumptions, Knowledge Gaps, Ideas, Claims
-A continuación, se presentan las premisas, lagunas de conocimiento y afirmaciones que hemos formulado e identificado de acuerdo al core business.
-
-#### Premisas y Suposiciones (Assumptions)
-
-| Premisa | Justificación | Enfoque Tecnológico | Tipo |
-| :--- | :--- | :--- | :--- |
-| **Comando de Voz como herramienta de entrada preferida.** | El ambiente de trabajo ganadero a menudo requiere manos libres, ya que la manipulación de dispositivos táctiles es inconveniente o imposible. | Priorizar la optimización del comando de voz en el frontend y la baja latencia del backend para asegurar una precisión en la interpretación de comandos clave. | Assumption |
-| **Sistema de Alertas generará acción correctiva.** | La salud de los bovinos se puede cuidar si la información es oportuna y accionable, lo cual es esencial para reducir pérdidas por enfermedad. | Implementación de un servicio de notificación en la aplicación (Staff Administration BC). | Assumption |
-
-#### Lagunas de Conocimiento (Knowledge Gaps)
-
-| Laguna | Justificación | Enfoque Tecnológico | Tipo |
-| :--- | :--- | :--- | :--- |
-| **Tasa máxima de latencia aceptable.** | Una latencia alta frustrará la adopción en campo, especialmente en zonas con conectividad limitada. | Se requiere diseñar Pruebas de Carga/Estrés para medir la latencia bajo simulación de usuarios concurrentes. | Knowledge Gap |
-
-#### Afirmaciones y Decisiones de Diseño (Claims)
-
-| Afirmación | Justificación | Enfoque Tecnológico | Tipo |
-| :--- | :--- | :--- | :--- |
-| **Arquitectura basada en DDD.** | La separación por Bounded Contexts aísla fallos, facilita la escalabilidad de equipos y permite la evolución independiente de módulos críticos. | Mantener la cohesión de los Agregados dentro de cada Bounded Context y usar el Shared Context solo para primitivas y Value Objects universales. | Claim |
-| **Asignación de Personal a Campañas.** | La centralización digital elimina la ambigüedad de los métodos manuales y proporciona trazabilidad instantánea sobre quién, dónde y qué tarea debe realizarse. | Implementar la funcionalidades que aseguren validaciones de disponibilidad y carga de trabajo. | Claim |
 Domicilio: Ancash, Peru
 
 Tiempo de experiencia en la ganadería: 5 años
@@ -6307,6 +6259,47 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 [![image.png](https://i.postimg.cc/FHTKvWdB/image.png)](https://postimg.cc/dhTFm992)
 
 #### 8.3.3.6. Team Collaboration Insights
+
+Durante el transcurso del proyecto, el equipo trabajó de manera conjunta en el repositorio del Informe, empleando herramientas como GitHub, Trello y Google Meet para organizar tareas, compartir avances y aclarar dudas de forma constante.
+
+A continuación, gracias a la sección de Insights de GitHub, se incluyen gráficos que reflejan el nivel de participación de cada miembro del equipo en el repositorio del Informe.
+
+**Tabla de identificación del equipo**
+
+<table style="width: 100%; border-collapse: collapse; margin: 20px 0; font-family: Arial, sans-serif; font-size: 14px;">
+  <thead>
+    <tr style="background-color: #f2f2f2; color: #333333;">
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Username (GitHub)</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 40%;">Nombre completo</th>
+      <th style="padding: 10px; border: 1px solid #ddd; text-align: left; width: 30%;">Código de estudiante</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@rrenzosilva</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Renzo Silva Morales</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u20221c362</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@Rafooo6</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Jorge Bravo Gavilano</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u202212535</td>
+    </tr>
+    <tr>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">@CarlosGC-LP</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">Carlos Gonzalez Custodio</td>
+      <td style="padding: 10px; border: 1px solid #ddd; vertical-align: top;">u202020230</td>
+    </tr>
+  </tbody>
+</table>
+
+#### Analíticos de GitHub
+
+##### Informe
+
+[![image.png](https://i.postimg.cc/R0vWtjmB/image.png)](https://postimg.cc/9DNX5gz8)
+
+##### Repositorios
 
 [![image.png](https://i.postimg.cc/hjsn8hL5/image.png)](https://postimg.cc/FdYwNrny)
 
