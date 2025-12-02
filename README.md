@@ -6372,6 +6372,8 @@ Esta sección reúne una serie de elementos funcionales o técnicos que podrían
 
 #### 8.3.4.2. Registro de Entrevistas
 
+Las entrevistas están agrupadas en el siguiente link subido a Microsoft Stream: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO)
+
 **SEGMENTO OBJETIVO – PRODUCTORES GANADEROS INDEPENDIENTES**
 
 Entrevistada: Karla Ramírez
@@ -6394,7 +6396,7 @@ Karla Ramírez es propietaria y encargada de la gestión de una pequeña ganader
 
 En el ámbito tecnológico, Karla tiene una experiencia básica (uso de celular para fotos y redes), pero se siente frustrada y estresada cuando la tecnología es compleja o la búsqueda de información es lenta, ya que valora mucho el tiempo en el campo. Respecto a la aplicación "Moobile", valoró positivamente el inicio de sesión con cuentas externas (Google/Apple) por su rapidez y conveniencia. Considera indispensables las confirmaciones visuales de guardado para evitar inseguridad sobre sus datos, el uso de filtros (por tipo de animal, edad y estado) y ve gran utilidad en los comandos de voz para operar con las manos ocupadas. Sugiere la incorporación de recordatorios automáticos para vacunas y resúmenes diarios de actividades.
 
---
+---
 
 Entrevistado: Oscar Aranda
 
@@ -6419,6 +6421,26 @@ Su enfoque de trabajo se basa en el orden y la constancia, cualidades que comple
 Durante la entrevista, consideró conveniente y confiable el registro mediante Google o Apple en la plataforma Moobile, valorando su rapidez y seguridad. Afirmó haber experimentado dudas en ocasiones al no saber si un animal o dato quedó registrado correctamente, por lo que considera esencial recibir confirmaciones visuales o mensajes que aseguren el éxito de las acciones. Asimismo, destaca la importancia de contar con sistemas de búsqueda y filtros eficientes, especialmente por ID del animal, estado sanitario y ubicación.
 
 Oscar expresó interés en funcionalidades adicionales como comandos de voz, que serían particularmente útiles cuando trabaja con las manos ocupadas o en campo abierto. Finalmente, sugirió mejoras como alertas automáticas de vacunación, recordatorios sanitarios y reportes más completos en tiempo real para optimizar su labor diaria.
+
+**SEGMENTO OBJETIVO – EMPRESAS GANADERAS**
+
+Entrevistado: José Miguel Custodio
+
+Sexo: Masculino
+
+Edad: 29 años
+
+Domicilio: Hualgayoc - Cajamarca
+
+Tiempo de experiencia en la ganadería: 7 años
+
+Duración de entrevista: 07:32
+
+[![image.png](https://i.postimg.cc/T1dG3P27/image.png)](https://postimg.cc/1njbWsqw)
+
+*Resumen de la Entrevista:*
+
+José Miguel, Gerente de Operaciones , gestiona 450 cabezas de ganado en Cajamarca y La Libertad bajo un enfoque de estandarización, aunque enfrenta ansiedad operativa debido a la desorganización de datos y la generación de registros duplicados. Su equipo está tecnológicamente preparado y busca soluciones que ofrezcan acceso simplificado, filtros rápidos y confirmaciones visuales para reducir errores, considerando indispensables la funcionalidad offline y los comandos de voz para optimizar las labores sanitarias en campo.
 
 ## 8.4. Experiment Aftermath & Analysis
 
@@ -6556,6 +6578,8 @@ Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_up
 
   - Video de Exposición TB2: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDWcLyMTeakRLVawOpme42mAeT7hE3SCwRWdX2H5VSIIfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=njbwlC](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQDWcLyMTeakRLVawOpme42mAeT7hE3SCwRWdX2H5VSIIfw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=njbwlC)
 
+  - Video de Exposición TF1: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQB3UKOInl9uRa2G4OAuvJ9AAdcJ_NX9CLdWgzCr8FjeCDo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ryW8qL](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQB3UKOInl9uRa2G4OAuvJ9AAdcJ_NX9CLdWgzCr8FjeCDo?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=ryW8qL)
+
 - **Despliegues:**
 
   - Landing Page: [upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page](https://upc-pre-202520-1asi0732-14651-cowders.github.io/landing-page/)
@@ -6569,6 +6593,8 @@ Link del video: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_up
   - Interviews: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/EVZ158upKN9GjlYptAmvVJUBBpr0CBGC4qVE6GsKenCLuA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=7esbD1)
   
   - Validation Interviews: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQACi555PL4XQZJweVdRuxnmAVGVpbwFIPhpXbyoXytFCik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uHlg3O](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQACi555PL4XQZJweVdRuxnmAVGVpbwFIPhpXbyoXytFCik?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=uHlg3O)
+
+  - To-Be Validation Interviews: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20221c362_upc_edu_pe/IQD0SMBylf6WTLXc49be_RcqAaHZOPOtL2jjBMvsqO1haRY?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=XVYufO)
 
 - **About-the-Product:** 
 
